@@ -1,11 +1,34 @@
-divisionless computation of square roots through continued squaring
+divisionless
+computation
+of
+square
+roots
+through
+continued
+squaring
 
-cacm may 1960
+cacm
+may
+1960
 
-sarafyan d.
+sarafyan
+d.
 
-ca600503 jb march 22 1978  1:32 pm
+ca600503
+jb
+march
+22
+1978
 
-194	5	194
-194	5	194
-194	5	194 
+1:32
+pm
+
+194
+5
+194
+194
+5
+194
+194
+5
+194

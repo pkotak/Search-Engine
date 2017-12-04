@@ -1,11 +1,31 @@
-chebyshev curvefit algorithm 91
+chebyshev
+curvefit
+algorithm
+91
 
-cacm april 1963
+cacm
+april
+1963
 
-hale r p.
+hale
+r
+p.
 
-ca630417 jb march 14 1978  11:56 am
+ca630417
+jb
+march
+14
+1978
 
-874	5	874
-874	5	874
-874	5	874 
+11:56
+am
+
+874
+5
+874
+874
+5
+874
+874
+5
+874

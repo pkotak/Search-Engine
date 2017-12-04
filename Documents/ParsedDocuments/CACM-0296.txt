@@ -1,16 +1,48 @@
-a note on multiple precision arithmetic
+a
+note
+on
+multiple
+precision
+arithmetic
 
-cacm august 1961
+cacm
+august
+1961
 
-cox a g
-luther h a.
+cox
+a
+g
+luther
+h
+a.
 
-ca610808 jb march 16 1978  10:04 pm
+ca610808
+jb
+march
+16
+1978
 
-1393	5	296
-296	5	296
-296	5	296
-296	5	296
-106	6	296
-296	6	296
-731	6	296 
+10:04
+pm
+
+1393
+5
+296
+296
+5
+296
+296
+5
+296
+296
+5
+296
+106
+6
+296
+296
+6
+296
+731
+6
+296

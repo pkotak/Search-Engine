@@ -1,11 +1,34 @@
-stochastic evaluation of a static storage allocation
+stochastic
+evaluation
+of
+a
+static
+storage
+allocation
 
-cacm october 1961
+cacm
+october
+1961
 
-cohen l j.
+cohen
+l
+j.
 
-ca611013 jb march 16 1978  12:48 pm
+ca611013
+jb
+march
+16
+1978
 
-268	5	268
-268	5	268
-268	5	268 
+12:48
+pm
+
+268
+5
+268
+268
+5
+268
+268
+5
+268

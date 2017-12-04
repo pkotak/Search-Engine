@@ -1,11 +1,31 @@
-permute algorithm 130
+permute
+algorithm
+130
 
-cacm november 1962
+cacm
+november
+1962
 
-eaves lt b c.
+eaves
+lt
+b
+c.
 
-ca621102 jb march 17 1978  6:57 pm
+ca621102
+jb
+march
+17
+1978
 
-459	5	459
-459	5	459
-459	5	459 
+6:57
+pm
+
+459
+5
+459
+459
+5
+459
+459
+5
+459

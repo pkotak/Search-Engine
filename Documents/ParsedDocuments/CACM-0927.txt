@@ -1,13 +1,39 @@
-linear programming applied to ultraviolet absorption spectroscopy
+linear
+programming
+applied
+to
+ultraviolet
+absorption
+spectroscopy
 
-cacm february 1963
+cacm
+february
+1963
 
-white w c
-shapiro b
-pratt a w.
+white
+w
+c
+shapiro
+b
+pratt
+a
+w.
 
-ca630206 jb march 14 1978  2:19 pm
+ca630206
+jb
+march
+14
+1978
 
-927	5	927
-927	5	927
-927	5	927 
+2:19
+pm
+
+927
+5
+927
+927
+5
+927
+927
+5
+927

@@ -1,20 +1,71 @@
-integrating square roots
+integrating
+square
+roots
 
-differential equation of the y2 = fy are difficult to integrate 
-numerically because of the singularity at points where fy vanishes  a 
-simple trick removes the singularity
+differential
+equation
+of
+the
+y2
+=
+fy
+are
+difficult
+to
+integrate
 
-cacm september 1970
+numerically
+because
+of
+the
+singularity
+at
+points
+where
+fy
+vanishes
 
-moler c b
-solomon l p
+a
 
-quadrature differential equations
+simple
+trick
+removes
+the
+singularity
 
-5.16 5.17
+cacm
+september
+1970
 
-ca700904 jb february 10 1978  1:42 pm
+moler
+c
+b
+solomon
+l
+p
 
-2001	5	2001
-2001	5	2001
-2001	5	2001 
+quadrature
+differential
+equations
+
+5.16
+5.17
+
+ca700904
+jb
+february
+10
+1978
+
+1:42
+pm
+
+2001
+5
+2001
+2001
+5
+2001
+2001
+5
+2001

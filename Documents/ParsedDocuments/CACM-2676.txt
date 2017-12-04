@@ -1,11 +1,35 @@
-zeros of a complex polynomial algorithm r419
+zeros
+of
+a
+complex
+polynomial
+algorithm
+r419
 
-cacm march 1973
+cacm
+march
+1973
 
-withers d h.
+withers
+d
+h.
 
-ca740307 jb january 18 1978  11:11 am 
+ca740307
+jb
+january
+18
+1978
 
-2676	5	2676
-2676	5	2676
-2676	5	2676 
+11:11
+am
+
+
+2676
+5
+2676
+2676
+5
+2676
+2676
+5
+2676

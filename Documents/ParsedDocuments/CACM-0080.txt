@@ -1,12 +1,41 @@
-a technique for computing critical rotational
-speeds of flexible shafts on an automatic computer
+a
+technique
+for
+computing
+critical
+rotational
+speeds
+of
+flexible
+shafts
+on
+an
+automatic
+computer
 
-cacm june 1959
+cacm
+june
+1959
 
-schwartz b l.
+schwartz
+b
+l.
 
-ca590604 jb march 22 1978  6:35 pm
+ca590604
+jb
+march
+22
+1978
 
-80	5	80
-80	5	80
-80	5	80 
+6:35
+pm
+
+80
+5
+80
+80
+5
+80
+80
+5
+80

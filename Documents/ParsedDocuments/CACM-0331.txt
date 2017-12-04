@@ -1,12 +1,36 @@
-successive approximations and computer storage
-problems in ordinary differential equations
+successive
+approximations
+and
+computer
+storage
+problems
+in
+ordinary
+differential
+equations
 
-cacm may 1961
+cacm
+may
+1961
 
-bellman r.
+bellman
+r.
 
-ca610503 jb march 16 1978  11:10 pm
+ca610503
+jb
+march
+16
+1978
 
-331	5	331
-331	5	331
-331	5	331 
+11:10
+pm
+
+331
+5
+331
+331
+5
+331
+331
+5
+331

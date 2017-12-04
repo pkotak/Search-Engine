@@ -1,15 +1,41 @@
-decision table translation algorithm r394
+decision
+table
+translation
+algorithm
+r394
 
-cacm december 1972
+cacm
+december
+1972
 
-marshall d r t
+marshall
+d
+r
+t
 
-decision table decision table translation
+decision
+table
+decision
+table
+translation
 
 4.19
 
-ca721220 jb january 27 1978  8:53 am
+ca721220
+jb
+january
+27
+1978
 
-2235	5	2235
-2235	5	2235
-2235	5	2235 
+8:53
+am
+
+2235
+5
+2235
+2235
+5
+2235
+2235
+5
+2235

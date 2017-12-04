@@ -1,16 +1,52 @@
-a machine program for theorem-proving
+a
+machine
+program
+for
+theorem-proving
 
-the program of a proof procedure is discussed in
-connection with trial runs and possible improvements
+the
+program
+of
+a
+proof
+procedure
+is
+discussed
+in
+connection
+with
+trial
+runs
+and
+possible
+improvements
 
-cacm july 1962
+cacm
+july
+1962
 
-davis m
-logemann g
-loveland d.
+davis
+m
+logemann
+g
+loveland
+d.
 
-ca620724 jb march 17 1978  8:11 pm
+ca620724
+jb
+march
+17
+1978
 
-537	5	537
-537	5	537
-537	5	537 
+8:11
+pm
+
+537
+5
+537
+537
+5
+537
+537
+5
+537

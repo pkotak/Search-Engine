@@ -1,9 +1,33 @@
-description of systems used for data transmission* an asa tutorial
+description
+of
+systems
+used
+for
+data
+transmission*
+an
+asa
+tutorial
 
-cacm october 1966
+cacm
+october
+1966
 
-ca661007 jb march 2 1978  3:54 pm
+ca661007
+jb
+march
+2
+1978
 
-1360	5	1360
-1360	5	1360
-1360	5	1360 
+3:54
+pm
+
+1360
+5
+1360
+1360
+5
+1360
+1360
+5
+1360

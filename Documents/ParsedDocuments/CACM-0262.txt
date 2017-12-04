@@ -1,12 +1,31 @@
 map
 
-cacm november 1961
+cacm
+november
+1961
 
-moore c l
-ruwe m l.
+moore
+c
+l
+ruwe
+m
+l.
 
-ca611106 jb march 15 1978  10:54 pm
+ca611106
+jb
+march
+15
+1978
 
-262	5	262
-262	5	262
-262	5	262 
+10:54
+pm
+
+262
+5
+262
+262
+5
+262
+262
+5
+262

@@ -1,11 +1,31 @@
-ibm 709 tape matrix compiler
+ibm
+709
+tape
+matrix
+compiler
 
-cacm september 1959
+cacm
+september
+1959
 
-hornick s d.
+hornick
+s
+d.
 
-ca590908jb march 22 1978  4:43 pm
+ca590908jb
+march
+22
+1978
 
-61	5	61
-61	5	61
-61	5	61 
+4:43
+pm
+
+61
+5
+61
+61
+5
+61
+61
+5
+61

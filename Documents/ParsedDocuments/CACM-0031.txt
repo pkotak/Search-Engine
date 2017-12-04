@@ -1,11 +1,29 @@
-ibm 704 code-nundrums
+ibm
+704
+code-nundrums
 
-cacm march 1958
+cacm
+march
+1958
 
-grumette m.
+grumette
+m.
 
-ca580301 jb march 22 1978  9:21 pm
+ca580301
+jb
+march
+22
+1978
 
-31	5	31
-31	5	31
-31	5	31 
+9:21
+pm
+
+31
+5
+31
+31
+5
+31
+31
+5
+31

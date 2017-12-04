@@ -1,11 +1,28 @@
-syminv2 algorithm 150
+syminv2
+algorithm
+150
 
-cacm july 1963
+cacm
+july
+1963
 
-rutishauser h.
+rutishauser
+h.
 
-ca630722jb march 14 1978  8:15 am
+ca630722jb
+march
+14
+1978
 
-802	5	802
-802	5	802
-802	5	802 
+8:15
+am
+
+802
+5
+802
+802
+5
+802
+802
+5
+802

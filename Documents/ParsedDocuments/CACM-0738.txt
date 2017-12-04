@@ -1,11 +1,31 @@
-fourier series approximation algorithm 157
+fourier
+series
+approximation
+algorithm
+157
 
-cacm september 1963
+cacm
+september
+1963
 
-george r.
+george
+r.
 
-ca630920 jb march 13 1978  7:20 pm
+ca630920
+jb
+march
+13
+1978
 
-738	5	738
-738	5	738
-738	5	738 
+7:20
+pm
+
+738
+5
+738
+738
+5
+738
+738
+5
+738

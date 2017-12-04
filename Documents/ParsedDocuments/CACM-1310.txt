@@ -1,12 +1,39 @@
-a rapid braille transliteration technique for certain ibm machines
+a
+rapid
+braille
+transliteration
+technique
+for
+certain
+ibm
+machines
 
-cacm february 1965
+cacm
+february
+1965
 
-weiler w j
-klema v c.
+weiler
+w
+j
+klema
+v
+c.
 
-ca650214 jb march 7 1978  10:55 pm
+ca650214
+jb
+march
+7
+1978
 
-1310	5	1310
-1310	5	1310
-1310	5	1310 
+10:55
+pm
+
+1310
+5
+1310
+1310
+5
+1310
+1310
+5
+1310

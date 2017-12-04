@@ -1,14 +1,46 @@
-a numerical method for the determination of moving
-field isodose curves for treatment planning 
-in radiotherapy
+a
+numerical
+method
+for
+the
+determination
+of
+moving
+field
+isodose
+curves
+for
+treatment
+planning
 
-cacm october 1963
+in
+radiotherapy
 
-dalrymple g v
-perez-tamayo r.
+cacm
+october
+1963
 
-ca631028 jb march 13 1978  5:19 pm
+dalrymple
+g
+v
+perez-tamayo
+r.
 
-697	5	697
-697	5	697
-697	5	697 
+ca631028
+jb
+march
+13
+1978
+
+5:19
+pm
+
+697
+5
+697
+697
+5
+697
+697
+5
+697

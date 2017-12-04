@@ -1,11 +1,33 @@
-q-bessel functions intalgorithm 214
+q-bessel
+functions
+intalgorithm
+214
 
-cacm november 1963
+cacm
+november
+1963
 
-simoes pereira j m s.
+simoes
+pereira
+j
+m
+s.
 
-ca631104 jb march 13 1978  3:49 pm
+ca631104
+jb
+march
+13
+1978
 
-688	5	688
-688	5	688
-688	5	688 
+3:49
+pm
+
+688
+5
+688
+688
+5
+688
+688
+5
+688

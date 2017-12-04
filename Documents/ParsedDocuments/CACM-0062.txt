@@ -1,11 +1,32 @@
-multi-dimensional least-squares polynomial curve fitting
+multi-dimensional
+least-squares
+polynomial
+curve
+fitting
 
-cacm september 1959
+cacm
+september
+1959
 
-lesh f h.
+lesh
+f
+h.
 
-ca590907 jb march 22 1978  4:44 pm
+ca590907
+jb
+march
+22
+1978
 
-62	5	62
-62	5	62
-62	5	62 
+4:44
+pm
+
+62
+5
+62
+62
+5
+62
+62
+5
+62

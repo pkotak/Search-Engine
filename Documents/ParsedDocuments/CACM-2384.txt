@@ -1,15 +1,41 @@
-hidden-line plotting program j6 algorithm a420
+hidden-line
+plotting
+program
+j6
+algorithm
+a420
 
-cacm february 1972
+cacm
+february
+1972
 
-williamson h 
+williamson
+h
 
-hidden-line plot surface plot 
+
+hidden-line
+plot
+surface
+plot
+
 
 4.9
 
-ca720207 jb january 31 1978  4:12 pm
+ca720207
+jb
+january
+31
+1978
 
-2384	5	2384
-2384	5	2384
-2384	5	2384 
+4:12
+pm
+
+2384
+5
+2384
+2384
+5
+2384
+2384
+5
+2384

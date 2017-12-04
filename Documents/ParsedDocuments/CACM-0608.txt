@@ -1,12 +1,34 @@
-permutation algorithm 71
+permutation
+algorithm
+71
 
-cacm april 1962
+cacm
+april
+1962
 
-peck j e l
-schrack g f.
+peck
+j
+e
+l
+schrack
+g
+f.
 
-ca620409 jb march 20 1978  2:18 pm
+ca620409
+jb
+march
+20
+1978
 
-608	5	608
-608	5	608
-608	5	608 
+2:18
+pm
+
+608
+5
+608
+608
+5
+608
+608
+5
+608

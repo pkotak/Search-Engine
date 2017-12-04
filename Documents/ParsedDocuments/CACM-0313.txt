@@ -1,11 +1,35 @@
-an iterative method for inversion of power series
+an
+iterative
+method
+for
+inversion
+of
+power
+series
 
-cacm july 1961
+cacm
+july
+1961
 
-bramhall j n.
+bramhall
+j
+n.
 
-ca610704 jb march 16 1978  10:26 pm
+ca610704
+jb
+march
+16
+1978
 
-313	5	313
-313	5	313
-313	5	313 
+10:26
+pm
+
+313
+5
+313
+313
+5
+313
+313
+5
+313

@@ -1,11 +1,33 @@
-computer preparation of a poetry concordance
+computer
+preparation
+of
+a
+poetry
+concordance
 
-cacm february 1960
+cacm
+february
+1960
 
-painter j a.
+painter
+j
+a.
 
-ca600214 jb march 22 1978  2:05 pm
+ca600214
+jb
+march
+22
+1978
 
-218	5	218
-218	5	218
-218	5	218 
+2:05
+pm
+
+218
+5
+218
+218
+5
+218
+218
+5
+218

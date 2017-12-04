@@ -1,22 +1,77 @@
-least squares piecewise cubic curve fitting
+least
+squares
+piecewise
+cubic
+curve
+fitting
 
-the matrices involved in a linear least squares
-formulation are determined for the problem 
-of fitting piecewise cubic functions those possessing
-a continuous derivative to arrays of planar data
+the
+matrices
+involved
+in
+a
+linear
+least
+squares
+formulation
+are
+determined
+for
+the
+problem
 
-cacm june 1973
+of
+fitting
+piecewise
+cubic
+functions
+those
+possessing
+a
+continuous
+derivative
+to
+arrays
+of
+planar
+data
 
-ferguson j
-staley p a
+cacm
+june
+1973
 
-curve fitting data reduction function
-approximation approximation splines
+ferguson
+j
+staley
+p
+a
+
+curve
+fitting
+data
+reduction
+function
+approximation
+approximation
+splines
 
 5.13
 
-ca730612 jb january 23 1978  1:47 pm
+ca730612
+jb
+january
+23
+1978
 
-2488	5	2488
-2488	5	2488
-2488	5	2488 
+1:47
+pm
+
+2488
+5
+2488
+2488
+5
+2488
+2488
+5
+2488

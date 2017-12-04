@@ -1,19 +1,77 @@
-an automatic loader for subroutine nests
+an
+automatic
+loader
+for
+subroutine
+nests
 
-a method for automatic loading of library subroutines
-which can be adapted to operate in conjunction 
-with any conventional two-pass assembler is described
- the method is specifically designed to cope with 
-a nested library structure
+a
+method
+for
+automatic
+loading
+of
+library
+subroutines
+which
+can
+be
+adapted
+to
+operate
+in
+conjunction
 
-cacm july 1964
+with
+any
+conventional
+two-pass
+assembler
+is
+described
 
-kanner h.
+the
+method
+is
+specifically
+designed
+to
+cope
+with
 
-ca640703 jb march 9 1978  8:27 pm
+a
+nested
+library
+structure
 
-1044	5	1044
-1044	5	1044
-1044	5	1044
-1332	5	1044
-1044	6	1044 
+cacm
+july
+1964
+
+kanner
+h.
+
+ca640703
+jb
+march
+9
+1978
+
+8:27
+pm
+
+1044
+5
+1044
+1044
+5
+1044
+1044
+5
+1044
+1332
+5
+1044
+1044
+6
+1044

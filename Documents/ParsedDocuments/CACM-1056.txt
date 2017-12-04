@@ -1,11 +1,30 @@
-shellsort algorithm 201
+shellsort
+algorithm
+201
 
-cacm june 1964
+cacm
+june
+1964
 
-batty m a.
+batty
+m
+a.
 
-ca640611 jb march 9 1978  9:30 pm
+ca640611
+jb
+march
+9
+1978
 
-1056	5	1056
-1056	5	1056
-1056	5	1056 
+9:30
+pm
+
+1056
+5
+1056
+1056
+5
+1056
+1056
+5
+1056

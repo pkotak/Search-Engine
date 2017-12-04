@@ -1,11 +1,33 @@
-interpolation in a table algorithm 264 e1
+interpolation
+in
+a
+table
+algorithm
+264
+e1
 
-cacm october 1965
+cacm
+october
+1965
 
-stafford j.
+stafford
+j.
 
-ca651003 jb march 6 1978  6:52 pm
+ca651003
+jb
+march
+6
+1978
 
-1192	5	1192
-1192	5	1192
-1192	5	1192 
+6:52
+pm
+
+1192
+5
+1192
+1192
+5
+1192
+1192
+5
+1192

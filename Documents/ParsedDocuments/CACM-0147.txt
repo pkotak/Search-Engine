@@ -1,9 +1,32 @@
-report on a conference of university computing center directors
+report
+on
+a
+conference
+of
+university
+computing
+center
+directors
 
-cacm october 1960
+cacm
+october
+1960
 
-ca601001 jb march 20 1978  8:38 pm
+ca601001
+jb
+march
+20
+1978
 
-147	5	147
-147	5	147
-147	5	147 
+8:38
+pm
+
+147
+5
+147
+147
+5
+147
+147
+5
+147

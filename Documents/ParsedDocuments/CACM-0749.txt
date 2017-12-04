@@ -1,11 +1,30 @@
-note onstochastic matrices
+note
+onstochastic
+matrices
 
-cacm september 1963
+cacm
+september
+1963
 
-dumey a i.
+dumey
+a
+i.
 
-ca630909 jb march 13 1978  7:35 pm
+ca630909
+jb
+march
+13
+1978
 
-749	5	749
-749	5	749
-749	5	749 
+7:35
+pm
+
+749
+5
+749
+749
+5
+749
+749
+5
+749

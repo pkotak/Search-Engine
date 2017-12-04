@@ -1,11 +1,30 @@
-assign algorithm 173
+assign
+algorithm
+173
 
-cacm october 1963
+cacm
+october
+1963
 
-scowen r s.
+scowen
+r
+s.
 
-ca631022 jb march 13 1978  5:32 pm
+ca631022
+jb
+march
+13
+1978
 
-703	5	703
-703	5	703
-703	5	703 
+5:32
+pm
+
+703
+5
+703
+703
+5
+703
+703
+5
+703

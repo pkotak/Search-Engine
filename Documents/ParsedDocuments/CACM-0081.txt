@@ -1,11 +1,30 @@
-norc high-speed printer
+norc
+high-speed
+printer
 
-cacm june 1959
+cacm
+june
+1959
 
-gleissner g h.
+gleissner
+g
+h.
 
-ca590603 jb march 22 1978  6:36 pm
+ca590603
+jb
+march
+22
+1978
 
-81	5	81
-81	5	81
-81	5	81 
+6:36
+pm
+
+81
+5
+81
+81
+5
+81
+81
+5
+81

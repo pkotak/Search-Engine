@@ -1,11 +1,35 @@
-complex number to a real power algorithm 106
+complex
+number
+to
+a
+real
+power
+algorithm
+106
 
-cacm december 1962
+cacm
+december
+1962
 
-erwin jrg w.
+erwin
+jrg
+w.
 
-ca621118 jb march 17 1978  6:01 pm
+ca621118
+jb
+march
+17
+1978
 
-443	5	443
-443	5	443
-443	5	443 
+6:01
+pm
+
+443
+5
+443
+443
+5
+443
+443
+5
+443

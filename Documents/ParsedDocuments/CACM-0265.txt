@@ -1,24 +1,95 @@
-low level language subroutines for use within fortran
+low
+level
+language
+subroutines
+for
+use
+within
+fortran
 
-this paper describes some subroutines coded
-in symbolic languages and for use within fortran 
-coded programs to deal with special arithmetic eg
-multi-precision arithmetic symbol manipulation 
-bit manipulation and expanded character set input-output and visual display
+this
+paper
+describes
+some
+subroutines
+coded
+in
+symbolic
+languages
+and
+for
+use
+within
+fortran
 
-cacm november 1961
+coded
+programs
+to
+deal
+with
+special
+arithmetic
+eg
+multi-precision
+arithmetic
+symbol
+manipulation
 
-barnett m p.
+bit
+manipulation
+and
+expanded
+character
+set
+input-output
+and
+visual
+display
 
-ca611103 jb march 15 1978  10:59 pm
+cacm
+november
+1961
 
-265	5	265
-265	5	265
-265	5	265
-464	5	265
-720	5	265
-265	6	265
-265	6	265
-404	6	265
-464	6	265
-474	6	265 
+barnett
+m
+p.
+
+ca611103
+jb
+march
+15
+1978
+
+10:59
+pm
+
+265
+5
+265
+265
+5
+265
+265
+5
+265
+464
+5
+265
+720
+5
+265
+265
+6
+265
+265
+6
+265
+404
+6
+265
+464
+6
+265
+474
+6
+265

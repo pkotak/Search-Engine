@@ -1,11 +1,30 @@
-chebyshev curve-fit algorithm 91
+chebyshev
+curve-fit
+algorithm
+91
 
-cacm may 1962
+cacm
+may
+1962
 
-newhouse a.
+newhouse
+a.
 
-ca620517 jb march 20 1978  1:34 pm
+ca620517
+jb
+march
+20
+1978
 
-588	5	588
-588	5	588
-588	5	588 
+1:34
+pm
+
+588
+5
+588
+588
+5
+588
+588
+5
+588

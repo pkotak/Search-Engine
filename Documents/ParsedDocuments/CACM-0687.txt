@@ -1,11 +1,31 @@
-shanks algorithm 215
+shanks
+algorithm
+215
 
-cacm november 1963
+cacm
+november
+1963
 
-thacher jr h c.
+thacher
+jr
+h
+c.
 
-ca631105 jb march 13 1978  3:48 pm
+ca631105
+jb
+march
+13
+1978
 
-687	5	687
-687	5	687
-687	5	687 
+3:48
+pm
+
+687
+5
+687
+687
+5
+687
+687
+5
+687

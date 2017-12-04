@@ -1,11 +1,30 @@
-ratfact algorithm 78
+ratfact
+algorithm
+78
 
-cacm march 1962
+cacm
+march
+1962
 
-halstead m h.
+halstead
+m
+h.
 
-ca620312 jb march 20 1978  3:00 pm
+ca620312
+jb
+march
+20
+1978
 
-620	5	620
-620	5	620
-620	5	620 
+3:00
+pm
+
+620
+5
+620
+620
+5
+620
+620
+5
+620

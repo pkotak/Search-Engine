@@ -1,11 +1,30 @@
-binomial coefficients algorithm 19
+binomial
+coefficients
+algorithm
+19
 
-cacm june 1962
+cacm
+june
+1962
 
-steck b.
+steck
+b.
 
-ca620616 jb march 17 1978  9:22 pm
+ca620616
+jb
+march
+17
+1978
 
-569	5	569
-569	5	569
-569	5	569 
+9:22
+pm
+
+569
+5
+569
+569
+5
+569
+569
+5
+569

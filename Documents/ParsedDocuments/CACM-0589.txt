@@ -1,11 +1,35 @@
-evaluation of the fresnel cosine integral algorithm 90
+evaluation
+of
+the
+fresnel
+cosine
+integral
+algorithm
+90
 
-cacm may 1962
+cacm
+may
+1962
 
-cundiff j l.
+cundiff
+j
+l.
 
-ca620516 jb march 20 1978  1:35 pm
+ca620516
+jb
+march
+20
+1978
 
-589	5	589
-589	5	589
-589	5	589 
+1:35
+pm
+
+589
+5
+589
+589
+5
+589
+589
+5
+589

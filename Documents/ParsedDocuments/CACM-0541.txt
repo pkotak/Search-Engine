@@ -1,11 +1,31 @@
-simpsons integration algorithm 84
+simpsons
+integration
+algorithm
+84
 
-cacm july 1962
+cacm
+july
+1962
 
-relph a p.
+relph
+a
+p.
 
-ca620720 jb march 17 1978  8:17 pm
+ca620720
+jb
+march
+17
+1978
 
-541	5	541
-541	5	541
-541	5	541 
+8:17
+pm
+
+541
+5
+541
+541
+5
+541
+541
+5
+541

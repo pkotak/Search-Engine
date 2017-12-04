@@ -1,9 +1,29 @@
-report on subset algol 60 ifip
+report
+on
+subset
+algol
+60
+ifip
 
-cacm october 1964
+cacm
+october
+1964
 
-ca641017 jb march 9 1978  4:33 pm
+ca641017
+jb
+march
+9
+1978
 
-985	5	985
-985	5	985
-985	5	985 
+4:33
+pm
+
+985
+5
+985
+985
+5
+985
+985
+5
+985

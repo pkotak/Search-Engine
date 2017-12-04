@@ -1,11 +1,34 @@
-term of magic square algorithm 148
+term
+of
+magic
+square
+algorithm
+148
 
-cacm april 1963
+cacm
+april
+1963
 
-barnecut j n r.
+barnecut
+j
+n
+r.
 
-ca630421 jb march 14 1978  11:47 am
+ca630421
+jb
+march
+14
+1978
 
-870	5	870
-870	5	870
-870	5	870 
+11:47
+am
+
+870
+5
+870
+870
+5
+870
+870
+5
+870

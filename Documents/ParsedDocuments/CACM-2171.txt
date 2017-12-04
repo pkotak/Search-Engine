@@ -1,15 +1,37 @@
-solution of simultaneous nonlinear equations
+solution
+of
+simultaneous
+nonlinear
+equations
 
-cacm july 1971
+cacm
+july
+1971
 
-raduchel w j
+raduchel
+w
+j
 
-nonlinear equations
+nonlinear
+equations
 
 5.15
 
-ca710711 jb february 2 1978  4:31 pm
+ca710711
+jb
+february
+2
+1978
 
-2171	5	2171
-2171	5	2171
-2171	5	2171 
+4:31
+pm
+
+2171
+5
+2171
+2171
+5
+2171
+2171
+5
+2171

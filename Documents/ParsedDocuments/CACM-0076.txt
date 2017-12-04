@@ -1,11 +1,36 @@
-binary conversion with fixed decimal precision of a decimal fraction
+binary
+conversion
+with
+fixed
+decimal
+precision
+of
+a
+decimal
+fraction
 
-cacm july 1959
+cacm
+july
+1959
 
-taranto d.
+taranto
+d.
 
-ca590702 jb march 22 1978  6:23 pm
+ca590702
+jb
+march
+22
+1978
 
-76	5	76
-76	5	76
-76	5	76 
+6:23
+pm
+
+76
+5
+76
+76
+5
+76
+76
+5
+76

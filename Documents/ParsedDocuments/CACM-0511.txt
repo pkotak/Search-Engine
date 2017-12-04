@@ -1,14 +1,43 @@
-a set of test matrices algorithm 52
+a
+set
+of
+test
+matrices
+algorithm
+52
 
-cacm august 1962
+cacm
+august
+1962
 
-hillmore j s.
+hillmore
+j
+s.
 
-ca620817 jb march 17 1978  9:35 pm
+ca620817
+jb
+march
+17
+1978
 
-1707	5	511
-511	5	511
-511	5	511
-511	5	511
-1047	6	511
-511	6	511 
+9:35
+pm
+
+1707
+5
+511
+511
+5
+511
+511
+5
+511
+511
+5
+511
+1047
+6
+511
+511
+6
+511

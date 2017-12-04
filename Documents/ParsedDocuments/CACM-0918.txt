@@ -1,11 +1,28 @@
 cobol
 
-cacm march 1963
+cacm
+march
+1963
 
-cunningham j f.
+cunningham
+j
+f.
 
-ca630303 jb march 27 1978  9:22 pm
+ca630303
+jb
+march
+27
+1978
 
-918	5	918
-918	5	918
-918	5	918 
+9:22
+pm
+
+918
+5
+918
+918
+5
+918
+918
+5
+918

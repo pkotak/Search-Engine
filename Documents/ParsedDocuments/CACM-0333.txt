@@ -1,15 +1,48 @@
-design of an improved* transmissiondata processing code
+design
+of
+an
+improved*
+transmissiondata
+processing
+code
 
-cacm may 1961
+cacm
+may
+1961
 
-bemer r w
-smith jr h j
-williams jr f a.
+bemer
+r
+w
+smith
+jr
+h
+j
+williams
+jr
+f
+a.
 
-ca610501 jb march 16 1978  11:14 pm
+ca610501
+jb
+march
+16
+1978
 
-333	4	333
-230	5	333
-333	5	333
-333	5	333
-333	5	333 
+11:14
+pm
+
+333
+4
+333
+230
+5
+333
+333
+5
+333
+333
+5
+333
+333
+5
+333

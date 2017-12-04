@@ -1,15 +1,44 @@
-tape splitting in an iterative program
+tape
+splitting
+in
+an
+iterative
+program
 
-cacm february 1962
+cacm
+february
+1962
 
-weisert c.
+weisert
+c.
 
-ca620207 jb march 20 1978  3:46 pm
+ca620207
+jb
+march
+20
+1978
 
-1117	5	636
-636	5	636
-636	5	636
-636	5	636
-861	6	636
-862	6	636
-636	6	636 
+3:46
+pm
+
+1117
+5
+636
+636
+5
+636
+636
+5
+636
+636
+5
+636
+861
+6
+636
+862
+6
+636
+636
+6
+636

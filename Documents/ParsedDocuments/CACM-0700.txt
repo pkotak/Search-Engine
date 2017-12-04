@@ -1,11 +1,31 @@
-hermite interpolation algorithm 210
+hermite
+interpolation
+algorithm
+210
 
-cacm october 1963
+cacm
+october
+1963
 
-dwyer t a.
+dwyer
+t
+a.
 
-ca631025 jb march 13 1978  5:27 pm
+ca631025
+jb
+march
+13
+1978
 
-700	5	700
-700	5	700
-700	5	700 
+5:27
+pm
+
+700
+5
+700
+700
+5
+700
+700
+5
+700

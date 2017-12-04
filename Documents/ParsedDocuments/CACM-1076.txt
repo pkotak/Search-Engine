@@ -1,11 +1,30 @@
-multiple integration algorithm 146
+multiple
+integration
+algorithm
+146
 
-cacm may 1964
+cacm
+may
+1964
 
-wirth n.
+wirth
+n.
 
-ca640513 jb march 9 1978  11:53 pm
+ca640513
+jb
+march
+9
+1978
 
-1076	5	1076
-1076	5	1076
-1076	5	1076 
+11:53
+pm
+
+1076
+5
+1076
+1076
+5
+1076
+1076
+5
+1076

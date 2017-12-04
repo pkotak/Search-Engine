@@ -1,15 +1,58 @@
-gamma function gamma function for range 1 to
-2 reciprocal gamma function to real argument 
-gamma function logarithm of gamma function algorithms
-34s14 54s14 80s14 221s14 291s14
+gamma
+function
+gamma
+function
+for
+range
+1
+to
+2
+reciprocal
+gamma
+function
+to
+real
+argument
 
-cacm september 1966
+gamma
+function
+logarithm
+of
+gamma
+function
+algorithms
+34s14
+54s14
+80s14
+221s14
+291s14
 
-pike m c
-hill i d.
+cacm
+september
+1966
 
-ca660909d jb march 23 1978  4:28 pm
+pike
+m
+c
+hill
+i
+d.
 
-1373	5	1373
-1373	5	1373
-1373	5	1373 
+ca660909d
+jb
+march
+23
+1978
+
+4:28
+pm
+
+1373
+5
+1373
+1373
+5
+1373
+1373
+5
+1373

@@ -1,11 +1,29 @@
-determinant algorithm 159
+determinant
+algorithm
+159
 
-cacm december 1963
+cacm
+december
+1963
 
-lapidus a.
+lapidus
+a.
 
-ca631211 jb march 13 1978  2:53 pm
+ca631211
+jb
+march
+13
+1978
 
-663	5	663
-663	5	663
-663	5	663 
+2:53
+pm
+
+663
+5
+663
+663
+5
+663
+663
+5
+663

@@ -1,11 +1,30 @@
-syminv2 algorithm 150
+syminv2
+algorithm
+150
 
-cacm july 1963
+cacm
+july
+1963
 
-evans jr a.
+evans
+jr
+a.
 
-ca630721 jb march 14 1978  8:16 am
+ca630721
+jb
+march
+14
+1978
 
-803	5	803
-803	5	803
-803	5	803 
+8:16
+am
+
+803
+5
+803
+803
+5
+803
+803
+5
+803

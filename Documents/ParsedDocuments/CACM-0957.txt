@@ -1,11 +1,34 @@
-method for partial rewriting of magnetic tape
+method
+for
+partial
+rewriting
+of
+magnetic
+tape
 
-cacm december 1964
+cacm
+december
+1964
 
-miller j a.
+miller
+j
+a.
 
-ca641214 jb march 9 1978  3:18 pm
+ca641214
+jb
+march
+9
+1978
 
-957	5	957
-957	5	957
-957	5	957 
+3:18
+pm
+
+957
+5
+957
+957
+5
+957
+957
+5
+957

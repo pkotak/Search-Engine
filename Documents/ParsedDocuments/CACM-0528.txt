@@ -1,14 +1,42 @@
-fortran for business data processing
+fortran
+for
+business
+data
+processing
 
-cacm july 1962
+cacm
+july
+1962
 
-robbins d k.
+robbins
+d
+k.
 
-ca620733 jb march 17 1978  7:41 pm 
+ca620733
+jb
+march
+17
+1978
 
-1330	5	528
-528	5	528
-528	5	528
-528	5	528
-528	6	528
-728	6	528 
+7:41
+pm
+
+
+1330
+5
+528
+528
+5
+528
+528
+5
+528
+528
+5
+528
+528
+6
+528
+728
+6
+528

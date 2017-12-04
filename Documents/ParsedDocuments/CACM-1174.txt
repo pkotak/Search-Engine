@@ -1,11 +1,32 @@
-inverse permutation algorithm 250 g6
+inverse
+permutation
+algorithm
+250
+g6
 
-cacm november 1965
+cacm
+november
+1965
 
-medlock c w.
+medlock
+c
+w.
 
-ca651107 jb march 6 1978  5:01 pm
+ca651107
+jb
+march
+6
+1978
 
-1174	5	1174
-1174	5	1174
-1174	5	1174 
+5:01
+pm
+
+1174
+5
+1174
+1174
+5
+1174
+1174
+5
+1174

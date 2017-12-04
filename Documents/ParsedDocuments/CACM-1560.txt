@@ -1,11 +1,34 @@
-transport transportation problem algorithm 258h algorithm 293h
+transport
+transportation
+problem
+algorithm
+258h
+algorithm
+293h
 
-cacm july 1967
+cacm
+july
+1967
 
-sims l s.
+sims
+l
+s.
 
-ca670711f jb march 23 1978  3:20 pm
+ca670711f
+jb
+march
+23
+1978
 
-1560	5	1560
-1560	5	1560
-1560	5	1560 
+3:20
+pm
+
+1560
+5
+1560
+1560
+5
+1560
+1560
+5
+1560

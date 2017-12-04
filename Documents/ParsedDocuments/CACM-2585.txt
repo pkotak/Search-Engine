@@ -1,13 +1,41 @@
-efficient implementation of a variable projection
-algorithm for nonlinear least squares problems 
+efficient
+implementation
+of
+a
+variable
+projection
+algorithm
+for
+nonlinear
+least
+squares
+problems
+
 errata
 
-cacm october 1974
+cacm
+october
+1974
 
-krogh f t.
+krogh
+f
+t.
 
-ca741013 jb january 16 1978  11:02 am
+ca741013
+jb
+january
+16
+1978
 
-2585	5	2585
-2585	5	2585
-2585	5	2585 
+11:02
+am
+
+2585
+5
+2585
+2585
+5
+2585
+2585
+5
+2585

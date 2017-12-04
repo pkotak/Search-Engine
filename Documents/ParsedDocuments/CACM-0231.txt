@@ -1,11 +1,40 @@
-a proposal for a set of publication standards for use by the acm
+a
+proposal
+for
+a
+set
+of
+publication
+standards
+for
+use
+by
+the
+acm
 
-cacm february 1960
+cacm
+february
+1960
 
-kent e r.
+kent
+e
+r.
 
-ca600201 jb march 22 1978  2:26 pm
+ca600201
+jb
+march
+22
+1978
 
-231	5	231
-231	5	231
-231	5	231 
+2:26
+pm
+
+231
+5
+231
+231
+5
+231
+231
+5
+231

@@ -1,11 +1,34 @@
-quantum mechanical integrals over all slater-type integrals
+quantum
+mechanical
+integrals
+over
+all
+slater-type
+integrals
 
-cacm november 1962
+cacm
+november
+1962
 
-browne j c.
+browne
+j
+c.
 
-ca621104 jb march 17 1978  6:54 pm
+ca621104
+jb
+march
+17
+1978
 
-457	5	457
-457	5	457
-457	5	457 
+6:54
+pm
+
+457
+5
+457
+457
+5
+457
+457
+5
+457

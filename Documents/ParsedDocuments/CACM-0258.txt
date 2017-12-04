@@ -1,12 +1,32 @@
-composition generator algorithm 72
+composition
+generator
+algorithm
+72
 
-cacm november 1961
+cacm
+november
+1961
 
-hellerman o
-ogden s.
+hellerman
+o
+ogden
+s.
 
-ca611110 jb march 15 1978  10:48 pm
+ca611110
+jb
+march
+15
+1978
 
-258	5	258
-258	5	258
-258	5	258 
+10:48
+pm
+
+258
+5
+258
+258
+5
+258
+258
+5
+258

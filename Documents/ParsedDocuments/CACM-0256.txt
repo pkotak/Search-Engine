@@ -1,11 +1,34 @@
-a set of test matrices algorithm 52
+a
+set
+of
+test
+matrices
+algorithm
+52
 
-cacm november 1961
+cacm
+november
+1961
 
-dubay g h.
+dubay
+g
+h.
 
-ca611112 jb march 15 1978  10:46 pm
+ca611112
+jb
+march
+15
+1978
 
-256	5	256
-256	5	256
-256	5	256 
+10:46
+pm
+
+256
+5
+256
+256
+5
+256
+256
+5
+256

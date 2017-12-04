@@ -1,11 +1,30 @@
-arctangent algorithm b1
+arctangent
+algorithm
+b1
 
-cacm september 1964
+cacm
+september
+1964
 
-mills k w.
+mills
+k
+w.
 
-ca640907 jb march 9 1978  6:08 pm
+ca640907
+jb
+march
+9
+1978
 
-1004	5	1004
-1004	5	1004
-1004	5	1004 
+6:08
+pm
+
+1004
+5
+1004
+1004
+5
+1004
+1004
+5
+1004

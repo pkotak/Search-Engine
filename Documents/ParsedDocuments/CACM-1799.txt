@@ -1,15 +1,42 @@
-elementary functions by continued fractions algorithm 229 b1
+elementary
+functions
+by
+continued
+fractions
+algorithm
+229
+b1
 
-cacm december 1969
+cacm
+december
+1969
 
-bray t a
+bray
+t
+a
 
-continued factions pade table
+continued
+factions
+pade
+table
 
 5.19
 
-ca691213 jb february 15 1978  2:09 pm
+ca691213
+jb
+february
+15
+1978
 
-1799	5	1799
-1799	5	1799
-1799	5	1799 
+2:09
+pm
+
+1799
+5
+1799
+1799
+5
+1799
+1799
+5
+1799

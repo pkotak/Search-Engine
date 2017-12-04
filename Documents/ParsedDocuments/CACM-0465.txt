@@ -1,11 +1,30 @@
-perm algorithm 115
+perm
+algorithm
+115
 
-cacm october 1962
+cacm
+october
+1962
 
-schrack g f.
+schrack
+g
+f.
 
-ca621015 jb march 17 1978  7:12 pm
+ca621015
+jb
+march
+17
+1978
 
-465	5	465
-465	5	465
-465	5	465 
+7:12
+pm
+
+465
+5
+465
+465
+5
+465
+465
+5
+465

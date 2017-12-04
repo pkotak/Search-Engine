@@ -1,11 +1,29 @@
-invrs algorithm 66
+invrs
+algorithm
+66
 
-cacm june 1962
+cacm
+june
+1962
 
-caffrey j.
+caffrey
+j.
 
-ca620620 jb march 17 1978  9:18 pm
+ca620620
+jb
+march
+17
+1978
 
-565	5	565
-565	5	565
-565	5	565 
+9:18
+pm
+
+565
+5
+565
+565
+5
+565
+565
+5
+565

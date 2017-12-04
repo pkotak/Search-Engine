@@ -1,11 +1,36 @@
-a programming package for some general modes of arithmetic*
+a
+programming
+package
+for
+some
+general
+modes
+of
+arithmetic*
 
-cacm february 1964
+cacm
+february
+1964
 
-brooker r a.
+brooker
+r
+a.
 
-ca640210 jb march 10 1978  3:46 am
+ca640210
+jb
+march
+10
+1978
 
-1133	5	1133
-1133	5	1133
-1133	5	1133 
+3:46
+am
+
+1133
+5
+1133
+1133
+5
+1133
+1133
+5
+1133

@@ -1,11 +1,32 @@
-enlargement of a group algorithm 136
+enlargement
+of
+a
+group
+algorithm
+136
 
-cacm november 1962
+cacm
+november
+1962
 
-wells m.
+wells
+m.
 
-ca621108 jb march 17 1978  6:17 pm
+ca621108
+jb
+march
+17
+1978
 
-453	5	453
-453	5	453
-453	5	453 
+6:17
+pm
+
+453
+5
+453
+453
+5
+453
+453
+5
+453

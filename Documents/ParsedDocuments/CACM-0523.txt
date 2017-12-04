@@ -1,11 +1,29 @@
-treesort algorithm 113
+treesort
+algorithm
+113
 
-cacm august 1962
+cacm
+august
+1962
 
-floyd,r w.
+floyd,r
+w.
 
-ca620805 jb march 17 1978  7:29 pm
+ca620805
+jb
+march
+17
+1978
 
-523	5	523
-523	5	523
-523	5	523 
+7:29
+pm
+
+523
+5
+523
+523
+5
+523
+523
+5
+523

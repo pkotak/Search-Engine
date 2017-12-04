@@ -1,11 +1,30 @@
-prime twins algorithm 223
+prime
+twins
+algorithm
+223
 
-cacm april 1964
+cacm
+april
+1964
 
-shimrat m.
+shimrat
+m.
 
-ca640414 jb march 10 1978  1:13 am
+ca640414
+jb
+march
+10
+1978
 
-1094	5	1094
-1094	5	1094
-1094	5	1094 
+1:13
+am
+
+1094
+5
+1094
+1094
+5
+1094
+1094
+5
+1094

@@ -1,11 +1,31 @@
-graycode algorithm 246 z
+graycode
+algorithm
+246
+z
 
-cacm june 1965
+cacm
+june
+1965
 
-allen w d.
+allen
+w
+d.
 
-ca650616 jb march 6 1978  9:50 pm
+ca650616
+jb
+march
+6
+1978
 
-1239	5	1239
-1239	5	1239
-1239	5	1239 
+9:50
+pm
+
+1239
+5
+1239
+1239
+5
+1239
+1239
+5
+1239

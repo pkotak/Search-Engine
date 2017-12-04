@@ -1,11 +1,30 @@
-bandsolve algorithm 195
+bandsolve
+algorithm
+195
 
-cacm august 1963
+cacm
+august
+1963
 
-thurnau d h.
+thurnau
+d
+h.
 
-ca630809 jb march 13 1978  8:39 pm
+ca630809
+jb
+march
+13
+1978
 
-789	5	789
-789	5	789
-789	5	789 
+8:39
+pm
+
+789
+5
+789
+789
+5
+789
+789
+5
+789

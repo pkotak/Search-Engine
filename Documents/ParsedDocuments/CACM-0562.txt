@@ -1,11 +1,30 @@
-avint algorithm 77
+avint
+algorithm
+77
 
-cacm june 1962
+cacm
+june
+1962
 
-whittier v e.
+whittier
+v
+e.
 
-ca620623 jb march 17 1978  9:14 pm
+ca620623
+jb
+march
+17
+1978
 
-562	5	562
-562	5	562
-562	5	562 
+9:14
+pm
+
+562
+5
+562
+562
+5
+562
+562
+5
+562

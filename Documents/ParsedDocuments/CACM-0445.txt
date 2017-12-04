@@ -1,11 +1,30 @@
-combination algorithm 94
+combination
+algorithm
+94
 
-cacm november 1962
+cacm
+november
+1962
 
-may r w.
+may
+r
+w.
 
-ca621116 jb march 17 1978  6:03 pm
+ca621116
+jb
+march
+17
+1978
 
-445	5	445
-445	5	445
-445	5	445 
+6:03
+pm
+
+445
+5
+445
+445
+5
+445
+445
+5
+445

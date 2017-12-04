@@ -1,11 +1,33 @@
-term of magic square algorithm 148
+term
+of
+magic
+square
+algorithm
+148
 
-cacm december 1962
+cacm
+december
+1962
 
-collison d m.
+collison
+d
+m.
 
-ca621213 jb march 17 1978  5:00 pm
+ca621213
+jb
+march
+17
+1978
 
-426	5	426
-426	5	426
-426	5	426 
+5:00
+pm
+
+426
+5
+426
+426
+5
+426
+426
+5
+426

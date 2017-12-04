@@ -1,15 +1,46 @@
-use of semantic structure in information systems
+use
+of
+semantic
+structure
+in
+information
+systems
 
-cacm january 1962
+cacm
+january
+1962
 
-sable j d.
+sable
+j
+d.
 
-ca620107 jb march 20 1978  4:37 pm
+ca620107
+jb
+march
+20
+1978
 
-1324	5	652
-652	5	652
-652	5	652
-652	5	652
-634	6	652
-652	6	652
-653	6	652 
+4:37
+pm
+
+1324
+5
+652
+652
+5
+652
+652
+5
+652
+652
+5
+652
+634
+6
+652
+652
+6
+652
+653
+6
+652

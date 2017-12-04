@@ -1,17 +1,50 @@
-modified incomplete gamma function s14 algorithm a435
+modified
+incomplete
+gamma
+function
+s14
+algorithm
+a435
 
-cacm november 1972
+cacm
+november
+1972
 
-fullerton w
+fullerton
+w
 
-modified incomplete gamma function incomplete
-gamma function chi-square distribution function 
-poisson distribution function
+modified
+incomplete
+gamma
+function
+incomplete
+gamma
+function
+chi-square
+distribution
+function
+
+poisson
+distribution
+function
 
 5.13
 
-ca721110 jb january 27 1978  1:40 pm
+ca721110
+jb
+january
+27
+1978
 
-2259	5	2259
-2259	5	2259
-2259	5	2259 
+1:40
+pm
+
+2259
+5
+2259
+2259
+5
+2259
+2259
+5
+2259

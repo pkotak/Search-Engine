@@ -1,12 +1,37 @@
-a comparison of simulation event list algorithms corrigendum
+a
+comparison
+of
+simulation
+event
+list
+algorithms
+corrigendum
 
-cacm august 1975
+cacm
+august
+1975
 
-vaucher j c
-duval p.
+vaucher
+j
+c
+duval
+p.
 
-ca750810 jb january 6 1978  3:43 pm
+ca750810
+jb
+january
+6
+1978
 
-2725	5	2725
-2725	5	2725
-2725	5	2725 
+3:43
+pm
+
+2725
+5
+2725
+2725
+5
+2725
+2725
+5
+2725

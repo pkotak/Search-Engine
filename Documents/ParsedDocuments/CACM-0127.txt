@@ -1,11 +1,29 @@
-assignment algorithm 27
+assignment
+algorithm
+27
 
-cacm november 1960
+cacm
+november
+1960
 
-silver r.
+silver
+r.
 
-ca601108 jb march 20 1978  7:09 pm
+ca601108
+jb
+march
+20
+1978
 
-127	5	127
-127	5	127
-127	5	127 
+7:09
+pm
+
+127
+5
+127
+127
+5
+127
+127
+5
+127

@@ -1,12 +1,36 @@
-solution of polynomial equation by
-bairstow-hitchcock method algorithm 3
+solution
+of
+polynomial
+equation
+by
+bairstow-hitchcock
+method
+algorithm
+3
 
-cacm february 1960
+cacm
+february
+1960
 
-grau a a.
+grau
+a
+a.
 
-ca600206 jb march 22 1978  2:20 pm
+ca600206
+jb
+march
+22
+1978
 
-226	5	226
-226	5	226
-226	5	226 
+2:20
+pm
+
+226
+5
+226
+226
+5
+226
+226
+5
+226

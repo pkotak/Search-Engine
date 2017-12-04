@@ -1,11 +1,30 @@
-efficient autocorrelation 
+efficient
+autocorrelation
 
-cacm february 1965
 
-schmid l p.
+cacm
+february
+1965
 
-ca650213 jb march 7 1978  10:56 pm
+schmid
+l
+p.
 
-1311	5	1311
-1311	5	1311
-1311	5	1311 
+ca650213
+jb
+march
+7
+1978
+
+10:56
+pm
+
+1311
+5
+1311
+1311
+5
+1311
+1311
+5
+1311

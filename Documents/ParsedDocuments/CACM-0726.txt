@@ -1,18 +1,79 @@
-a general program for the analysis of
-square and rectangular lattice designs
+a
+general
+program
+for
+the
+analysis
+of
+square
+and
+rectangular
+lattice
+designs
 
-this paper describes a general-purpose program
-that will handle those incomplete block designs 
-known as square and rectangular lattices  flow diagrams
-are given so that the method of calculation 
-may be programmed for any digital computer
+this
+paper
+describes
+a
+general-purpose
+program
+that
+will
+handle
+those
+incomplete
+block
+designs
 
-cacm september 1963
+known
+as
+square
+and
+rectangular
+lattices
 
-smillie k w.
+flow
+diagrams
+are
+given
+so
+that
+the
+method
+of
+calculation
 
-ca630932 jb march 13 1978  6:53 pm
+may
+be
+programmed
+for
+any
+digital
+computer
 
-726	5	726
-726	5	726
-726	5	726 
+cacm
+september
+1963
+
+smillie
+k
+w.
+
+ca630932
+jb
+march
+13
+1978
+
+6:53
+pm
+
+726
+5
+726
+726
+5
+726
+726
+5
+726

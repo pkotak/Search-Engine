@@ -1,9 +1,26 @@
-bendix g-20 system
+bendix
+g-20
+system
 
-cacm may 1960
+cacm
+may
+1960
 
-ca600507 jb march 22 1978  1:28 pm
+ca600507
+jb
+march
+22
+1978
 
-190	5	190
-190	5	190
-190	5	190 
+1:28
+pm
+
+190
+5
+190
+190
+5
+190
+190
+5
+190

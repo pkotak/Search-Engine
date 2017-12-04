@@ -1,11 +1,34 @@
-real zeros of an arbitrary function algorithm 25
+real
+zeros
+of
+an
+arbitrary
+function
+algorithm
+25
 
-cacm november 1960
+cacm
+november
+1960
 
-leavenworth b.
+leavenworth
+b.
 
-ca601105 jb march 20 1978  8:00 pm
+ca601105
+jb
+march
+20
+1978
 
-130	5	130
-130	5	130
-130	5	130 
+8:00
+pm
+
+130
+5
+130
+130
+5
+130
+130
+5
+130

@@ -1,13 +1,41 @@
-a set of matrices for testing computer programs
+a
+set
+of
+matrices
+for
+testing
+computer
+programs
 
-cacm august 1962
+cacm
+august
+1962
 
-brenner j l.
+brenner
+j
+l.
 
-ca620832 jb march 17 1978  9:10 pm
+ca620832
+jb
+march
+17
+1978
 
-1047	5	496
-496	5	496
-496	5	496
-496	5	496
-496	6	496 
+9:10
+pm
+
+1047
+5
+496
+496
+5
+496
+496
+5
+496
+496
+5
+496
+496
+6
+496

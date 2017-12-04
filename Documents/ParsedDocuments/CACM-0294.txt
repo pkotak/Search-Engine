@@ -1,11 +1,30 @@
-an imaginary number system
+an
+imaginary
+number
+system
 
-cacm august 1961
+cacm
+august
+1961
 
-knuth d.
+knuth
+d.
 
-ca610810 jb march 16 1978  10:02 pm
+ca610810
+jb
+march
+16
+1978
 
-294	5	294
-294	5	294
-294	5	294 
+10:02
+pm
+
+294
+5
+294
+294
+5
+294
+294
+5
+294

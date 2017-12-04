@@ -1,12 +1,39 @@
-a method for eliminating ambiguity due
-to signal coincidence in digital design
+a
+method
+for
+eliminating
+ambiguity
+due
+to
+signal
+coincidence
+in
+digital
+design
 
-cacm april 1962
+cacm
+april
+1962
 
-kaiser c j.
+kaiser
+c
+j.
 
-ca620411 jb march 20 1978  2:16 pm
+ca620411
+jb
+march
+20
+1978
 
-606	5	606
-606	5	606
-606	5	606 
+2:16
+pm
+
+606
+5
+606
+606
+5
+606
+606
+5
+606

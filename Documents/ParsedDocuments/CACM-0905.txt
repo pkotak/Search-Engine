@@ -1,11 +1,32 @@
-algebra of sets algorithm 156
+algebra
+of
+sets
+algorithm
+156
 
-cacm march 1963
+cacm
+march
+1963
 
-mifsud c j.
+mifsud
+c
+j.
 
-ca630315 jb march 14 1978  1:32 pm
+ca630315
+jb
+march
+14
+1978
 
-905	5	905
-905	5	905
-905	5	905 
+1:32
+pm
+
+905
+5
+905
+905
+5
+905
+905
+5
+905

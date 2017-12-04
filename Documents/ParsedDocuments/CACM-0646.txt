@@ -1,11 +1,37 @@
-inverse of a finite segment of the hilbert matrix algorithm 50
+inverse
+of
+a
+finite
+segment
+of
+the
+hilbert
+matrix
+algorithm
+50
 
-cacm january 1962
+cacm
+january
+1962
 
-randell b.
+randell
+b.
 
-ca620113 jb march 20 1978  4:31 pm
+ca620113
+jb
+march
+20
+1978
 
-646	5	646
-646	5	646
-646	5	646 
+4:31
+pm
+
+646
+5
+646
+646
+5
+646
+646
+5
+646

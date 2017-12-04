@@ -1,11 +1,31 @@
-ative algorithm 205 e4
+ative
+algorithm
+205
+e4
 
-cacm march 1965
+cacm
+march
+1965
 
-wasscher e j.
+wasscher
+e
+j.
 
-ca650311 jb march 7 1978  6:01 pm
+ca650311
+jb
+march
+7
+1978
 
-1296	5	1296
-1296	5	1296
-1296	5	1296 
+6:01
+pm
+
+1296
+5
+1296
+1296
+5
+1296
+1296
+5
+1296

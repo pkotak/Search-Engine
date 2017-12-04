@@ -1,11 +1,31 @@
-function minimization algorithm 251 e4
+function
+minimization
+algorithm
+251
+e4
 
-cacm september 1966
+cacm
+september
+1966
 
-fletcher r.
+fletcher
+r.
 
-ca660909f jb march 23 1978  4:31 pm
+ca660909f
+jb
+march
+23
+1978
 
-1375	5	1375
-1375	5	1375
-1375	5	1375 
+4:31
+pm
+
+1375
+5
+1375
+1375
+5
+1375
+1375
+5
+1375

@@ -1,11 +1,34 @@
-an introduction to a machine-independent data division
+an
+introduction
+to
+a
+machine-independent
+data
+division
 
-cacm may 1962
+cacm
+may
+1962
 
-mullin j p.
+mullin
+j
+p.
 
-ca620512 jb march 20 1978  1:39 pm
+ca620512
+jb
+march
+20
+1978
 
-593	5	593
-593	5	593
-593	5	593 
+1:39
+pm
+
+593
+5
+593
+593
+5
+593
+593
+5
+593

@@ -1,11 +1,35 @@
-reduction of a symmetric bandmatrix to triple diagonal form
+reduction
+of
+a
+symmetric
+bandmatrix
+to
+triple
+diagonal
+form
 
-cacm june 1963
+cacm
+june
+1963
 
-schwartz h r.
+schwartz
+h
+r.
 
-ca630616jb march 14 1978  10:09 am
+ca630616jb
+march
+14
+1978
 
-833	5	833
-833	5	833
-833	5	833 
+10:09
+am
+
+833
+5
+833
+833
+5
+833
+833
+5
+833

@@ -1,11 +1,30 @@
-ortho algorithm 127
+ortho
+algorithm
+127
 
-cacm october 1962
+cacm
+october
+1962
 
-walsh p j.
+walsh
+p
+j.
 
-ca621009 jb march 17 1978  7:17 pm
+ca621009
+jb
+march
+17
+1978
 
-471	5	471
-471	5	471
-471	5	471 
+7:17
+pm
+
+471
+5
+471
+471
+5
+471
+471
+5
+471

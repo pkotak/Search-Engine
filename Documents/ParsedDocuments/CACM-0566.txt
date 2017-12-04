@@ -1,11 +1,31 @@
-matrix inversion algorithm 58
+matrix
+inversion
+algorithm
+58
 
-cacm june 1962
+cacm
+june
+1962
 
-conger r a.
+conger
+r
+a.
 
-ca620619 jb march 17 1978  9:19 pm
+ca620619
+jb
+march
+17
+1978
 
-566	5	566
-566	5	566
-566	5	566 
+9:19
+pm
+
+566
+5
+566
+566
+5
+566
+566
+5
+566

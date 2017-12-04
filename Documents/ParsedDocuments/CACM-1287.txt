@@ -1,11 +1,35 @@
-vector coupling or clebsch-gordan coefficients algorithm 252 z
+vector
+coupling
+or
+clebsch-gordan
+coefficients
+algorithm
+252
+z
 
-cacm april 1965
+cacm
+april
+1965
 
-gunn j h.
+gunn
+j
+h.
 
-ca650404 jb march 7 1978  3:58 pm
+ca650404
+jb
+march
+7
+1978
 
-1287	5	1287
-1287	5	1287
-1287	5	1287 
+3:58
+pm
+
+1287
+5
+1287
+1287
+5
+1287
+1287
+5
+1287

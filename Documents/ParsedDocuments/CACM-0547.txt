@@ -1,12 +1,33 @@
-gamma function algorithm 34
+gamma
+function
+algorithm
+34
 
-cacm july 1962
+cacm
+july
+1962
 
-johnson m l
-sangren w.
+johnson
+m
+l
+sangren
+w.
 
-ca620714 jb march 17 1978  8:25 pm
+ca620714
+jb
+march
+17
+1978
 
-547	5	547
-547	5	547
-547	5	547 
+8:25
+pm
+
+547
+5
+547
+547
+5
+547
+547
+5
+547

@@ -1,11 +1,34 @@
-language problems posed by heavily structured data
+language
+problems
+posed
+by
+heavily
+structured
+data
 
-cacm january 1962
+cacm
+january
+1962
 
-barnes r f.
+barnes
+r
+f.
 
-ca620105 jb march 20 1978  4:40 pm
+ca620105
+jb
+march
+20
+1978
 
-654	5	654
-654	5	654
-654	5	654 
+4:40
+pm
+
+654
+5
+654
+654
+5
+654
+654
+5
+654

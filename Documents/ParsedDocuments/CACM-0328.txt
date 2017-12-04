@@ -1,11 +1,30 @@
-matrix inversion algorithm 58
+matrix
+inversion
+algorithm
+58
 
-cacm may 1961
+cacm
+may
+1961
 
-cohen d.
+cohen
+d.
 
-ca610506 jb march 16 1978  11:03 pm
+ca610506
+jb
+march
+16
+1978
 
-328	5	328
-328	5	328
-328	5	328 
+11:03
+pm
+
+328
+5
+328
+328
+5
+328
+328
+5
+328

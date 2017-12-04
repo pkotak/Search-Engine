@@ -1,15 +1,57 @@
-incompressible flow network calculations
+incompressible
+flow
+network
+calculations
 
-a general method for the calculation of flows
-and pressures in fluid flow networks is presented 
- the method is applicable to computer use
+a
+general
+method
+for
+the
+calculation
+of
+flows
+and
+pressures
+in
+fluid
+flow
+networks
+is
+presented
 
-cacm june 1963
 
-cantrell h n.
+the
+method
+is
+applicable
+to
+computer
+use
 
-ca630621 jb march 14 1978  10:03 am
+cacm
+june
+1963
 
-828	5	828
-828	5	828
-828	5	828 
+cantrell
+h
+n.
+
+ca630621
+jb
+march
+14
+1978
+
+10:03
+am
+
+828
+5
+828
+828
+5
+828
+828
+5
+828

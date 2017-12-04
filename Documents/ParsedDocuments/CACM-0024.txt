@@ -1,11 +1,32 @@
-an improved decimal redundancy check
+an
+improved
+decimal
+redundancy
+check
 
-cacm may 1958
+cacm
+may
+1958
 
-sisson r l.
+sisson
+r
+l.
 
-ca580504 jb march 22 1978  9:13 pm
+ca580504
+jb
+march
+22
+1978
 
-24	5	24
-24	5	24
-24	5	24 
+9:13
+pm
+
+24
+5
+24
+24
+5
+24
+24
+5
+24

@@ -1,11 +1,33 @@
-differences and derivatives algorithm 187
+differences
+and
+derivatives
+algorithm
+187
 
-cacm july 1963
+cacm
+july
+1963
 
-vande riet r p.
+vande
+riet
+r
+p.
 
-ca630711 jb march 14 1978  8:35 am
+ca630711
+jb
+march
+14
+1978
 
-813	5	813
-813	5	813
-813	5	813 
+8:35
+am
+
+813
+5
+813
+813
+5
+813
+813
+5
+813

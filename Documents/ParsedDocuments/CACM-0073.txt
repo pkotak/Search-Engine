@@ -1,11 +1,32 @@
-a real time data assimilator
+a
+real
+time
+data
+assimilator
 
-cacm july 1959
+cacm
+july
+1959
 
-gschwind h w.
+gschwind
+h
+w.
 
-ca590705 jb march 22 1978  6:19 pm
+ca590705
+jb
+march
+22
+1978
 
-73	5	73
-73	5	73
-73	5	73 
+6:19
+pm
+
+73
+5
+73
+73
+5
+73
+73
+5
+73

@@ -1,17 +1,48 @@
-permanent function of a square matrix i and ii algorithm 361 g6
+permanent
+function
+of
+a
+square
+matrix
+i
+and
+ii
+algorithm
+361
+g6
 
-cacm november 1969
+cacm
+november
+1969
 
-shriver b
-eberlein p j
-dixon r d
+shriver
+b
+eberlein
+p
+j
+dixon
+r
+d
 
-matrix permanent determinant
+matrix
+permanent
+determinant
 
 5.30
 
-ca691109 jb february 15 197812:18 pm
+ca691109
+jb
+february
+15
+197812:18
+pm
 
-1821	5	1821
-1821	5	1821
-1821	5	1821 
+1821
+5
+1821
+1821
+5
+1821
+1821
+5
+1821

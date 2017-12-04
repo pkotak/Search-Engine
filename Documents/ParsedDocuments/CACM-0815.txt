@@ -1,11 +1,33 @@
-normal probability for curve fitting algorithm 185
+normal
+probability
+for
+curve
+fitting
+algorithm
+185
 
-cacm july 1963
+cacm
+july
+1963
 
-colker a.
+colker
+a.
 
-ca630709 jb march 14 1978  8:38 am
+ca630709
+jb
+march
+14
+1978
 
-815	5	815
-815	5	815
-815	5	815 
+8:38
+am
+
+815
+5
+815
+815
+5
+815
+815
+5
+815

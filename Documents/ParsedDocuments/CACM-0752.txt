@@ -1,11 +1,32 @@
-closing out a print tape
+closing
+out
+a
+print
+tape
 
-cacm september 1963
+cacm
+september
+1963
 
-moore d p.
+moore
+d
+p.
 
-ca630906 jb march 13 1978  7:39 pm
+ca630906
+jb
+march
+13
+1978
 
-752	5	752
-752	5	752
-752	5	752 
+7:39
+pm
+
+752
+5
+752
+752
+5
+752
+752
+5
+752

@@ -1,11 +1,30 @@
-random algorithm 133
+random
+algorithm
+133
 
-cacm march 1963
+cacm
+march
+1963
 
-laughlin d l.
+laughlin
+d
+l.
 
-ca630322 jb march 14 1978  1:01 pm
+ca630322
+jb
+march
+14
+1978
 
-898	5	898
-898	5	898
-898	5	898 
+1:01
+pm
+
+898
+5
+898
+898
+5
+898
+898
+5
+898

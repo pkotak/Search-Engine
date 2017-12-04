@@ -1,14 +1,46 @@
-a decision rule for improved efficiency in solving
-linear programming problems with the simplex 
+a
+decision
+rule
+for
+improved
+efficiency
+in
+solving
+linear
+programming
+problems
+with
+the
+simplex
+
 algorithm
 
-cacm september 1960
+cacm
+september
+1960
 
-dickson j c
-frederick f p.
+dickson
+j
+c
+frederick
+f
+p.
 
-ca600908 jb march 20 1978  8:43 pm
+ca600908
+jb
+march
+20
+1978
 
-149	5	149
-149	5	149
-149	5	149 
+8:43
+pm
+
+149
+5
+149
+149
+5
+149
+149
+5
+149

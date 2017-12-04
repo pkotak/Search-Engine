@@ -1,15 +1,54 @@
-a computational extension of the variate difference method
+a
+computational
+extension
+of
+the
+variate
+difference
+method
 
-presented here is a computational extension
-of the variate difference method as developed by 
-g tintner 1.
+presented
+here
+is
+a
+computational
+extension
+of
+the
+variate
+difference
+method
+as
+developed
+by
 
-cacm march 1963
+g
+tintner
+1.
 
-scheinok p a.
+cacm
+march
+1963
 
-ca630325 jb march 14 1978  12:57 pm
+scheinok
+p
+a.
 
-895	5	895
-895	5	895
-895	5	895 
+ca630325
+jb
+march
+14
+1978
+
+12:57
+pm
+
+895
+5
+895
+895
+5
+895
+895
+5
+895

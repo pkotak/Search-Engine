@@ -1,12 +1,36 @@
-nesting of for statement ii algorithm 138
+nesting
+of
+for
+statement
+ii
+algorithm
+138
 
-cacm november 1962
+cacm
+november
+1962
 
-dahm d m
-wells m.
+dahm
+d
+m
+wells
+m.
 
-ca621110 jb march 17 1978  6:14 pm
+ca621110
+jb
+march
+17
+1978
 
-451	5	451
-451	5	451
-451	5	451 
+6:14
+pm
+
+451
+5
+451
+451
+5
+451
+451
+5
+451

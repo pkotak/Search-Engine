@@ -1,11 +1,34 @@
-curve fitting with constraints algorithm 74
+curve
+fitting
+with
+constraints
+algorithm
+74
 
-cacm january 1962
+cacm
+january
+1962
 
-peck j e l.
+peck
+j
+e
+l.
 
-ca620109 jb march 20 1978  4:35 pm
+ca620109
+jb
+march
+20
+1978
 
-650	5	650
-650	5	650
-650	5	650 
+4:35
+pm
+
+650
+5
+650
+650
+5
+650
+650
+5
+650

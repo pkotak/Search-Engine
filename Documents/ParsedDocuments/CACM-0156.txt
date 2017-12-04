@@ -1,11 +1,36 @@
-an introductory problem in symbol manipulation for the student
+an
+introductory
+problem
+in
+symbol
+manipulation
+for
+the
+student
 
-cacm september 1960
+cacm
+september
+1960
 
-rosin r f.
+rosin
+r
+f.
 
-ca600901 jb march 20 1978  8:51 pm
+ca600901
+jb
+march
+20
+1978
 
-156	5	156
-156	5	156
-156	5	156 
+8:51
+pm
+
+156
+5
+156
+156
+5
+156
+156
+5
+156

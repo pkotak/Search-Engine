@@ -1,11 +1,31 @@
-chebyshev curve fit algorithm 91
+chebyshev
+curve
+fit
+algorithm
+91
 
-cacm may 1964
+cacm
+may
+1964
 
-naur p.
+naur
+p.
 
-ca640512 jb march 9 1978  11:53 pm
+ca640512
+jb
+march
+9
+1978
 
-1077	5	1077
-1077	5	1077
-1077	5	1077 
+11:53
+pm
+
+1077
+5
+1077
+1077
+5
+1077
+1077
+5
+1077

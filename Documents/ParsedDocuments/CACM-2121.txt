@@ -1,15 +1,40 @@
-partitions in natural order algorithm 371 $a1
+partitions
+in
+natural
+order
+algorithm
+371
+$a1
 
-cacm january 1970
+cacm
+january
+1970
 
-mckay j k s
+mckay
+j
+k
+s
 
-partitionsnumber theory
+partitionsnumber
+theory
 
 5.39
 
-ca700110 jb february 14 1978  1:48 pm
+ca700110
+jb
+february
+14
+1978
 
-2121	5	2121
-2121	5	2121
-2121	5	2121 
+1:48
+pm
+
+2121
+5
+2121
+2121
+5
+2121
+2121
+5
+2121

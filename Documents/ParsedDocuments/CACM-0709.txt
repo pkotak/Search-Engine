@@ -1,11 +1,29 @@
-assignment algorithm 27
+assignment
+algorithm
+27
 
-cacm october 1963
+cacm
+october
+1963
 
-newhouse a.
+newhouse
+a.
 
-ca631016 jb march 13 1978  5:46 pm
+ca631016
+jb
+march
+13
+1978
 
-709	5	709
-709	5	709
-709	5	709 
+5:46
+pm
+
+709
+5
+709
+709
+5
+709
+709
+5
+709

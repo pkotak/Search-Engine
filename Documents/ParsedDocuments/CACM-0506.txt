@@ -1,11 +1,30 @@
-permutation algorithm 71
+permutation
+algorithm
+71
 
-cacm august 1962
+cacm
+august
+1962
 
-hillmore j s.
+hillmore
+j
+s.
 
-ca620822 jb march 17 1978  9:30 pm
+ca620822
+jb
+march
+17
+1978
 
-506	5	506
-506	5	506
-506	5	506 
+9:30
+pm
+
+506
+5
+506
+506
+5
+506
+506
+5
+506

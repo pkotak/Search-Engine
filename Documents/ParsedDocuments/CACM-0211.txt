@@ -1,11 +1,31 @@
-share standard flow chart symbols
+share
+standard
+flow
+chart
+symbols
 
-cacm march 1960
+cacm
+march
+1960
 
-grems m.
+grems
+m.
 
-ca600307 jb march 22 1978  1:58 pm
+ca600307
+jb
+march
+22
+1978
 
-211	5	211
-211	5	211
-211	5	211 
+1:58
+pm
+
+211
+5
+211
+211
+5
+211
+211
+5
+211

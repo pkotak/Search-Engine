@@ -1,11 +1,37 @@
-evaluation of the chebyshev polynomial tnx by recursion algorithm 
+evaluation
+of
+the
+chebyshev
+polynomial
+tnx
+by
+recursion
+algorithm
 
-cacm june 1960
 
-galler g m.
+cacm
+june
+1960
 
-ca600608 jb march 20 1978  9:38 pm
+galler
+g
+m.
 
-182	5	182
-182	5	182
-182	5	182 
+ca600608
+jb
+march
+20
+1978
+
+9:38
+pm
+
+182
+5
+182
+182
+5
+182
+182
+5
+182

@@ -1,16 +1,50 @@
-the use of digital computers in western germany
+the
+use
+of
+digital
+computers
+in
+western
+germany
 
-cacm december 1962
+cacm
+december
+1962
 
-schuff h k.
+schuff
+h
+k.
 
-ca621224 jb march 17 1978  4:32 pm
+ca621224
+jb
+march
+17
+1978
 
-1349	5	415
-415	5	415
-415	5	415
-415	5	415
-236	6	415
-323	6	415
-83	6	415
-415	6	415 
+4:32
+pm
+
+1349
+5
+415
+415
+5
+415
+415
+5
+415
+415
+5
+415
+236
+6
+415
+323
+6
+415
+83
+6
+415
+415
+6
+415

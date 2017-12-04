@@ -1,11 +1,32 @@
-reversion of series algorithm 193
+reversion
+of
+series
+algorithm
+193
 
-cacm july 1963
+cacm
+july
+1963
 
-fettis h e.
+fettis
+h
+e.
 
-ca630717 jb march 14 1978  8:22 am
+ca630717
+jb
+march
+14
+1978
 
-807	5	807
-807	5	807
-807	5	807 
+8:22
+am
+
+807
+5
+807
+807
+5
+807
+807
+5
+807

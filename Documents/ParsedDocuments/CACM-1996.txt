@@ -1,17 +1,50 @@
-systems of hyperbolic pde $d3 algorithm 392
+systems
+of
+hyperbolic
+pde
+$d3
+algorithm
+392
 
-cacm september 1970
+cacm
+september
+1970
 
-smith r r
-mccall d
+smith
+r
+r
+mccall
+d
 
-hyperbolic pde characteristic extrapolation
-second order pde quasilinear p d e.
+hyperbolic
+pde
+characteristic
+extrapolation
+second
+order
+pde
+quasilinear
+p
+d
+e.
 
 5.17
 
-ca700909 jb february 10 1978  10:08 am
+ca700909
+jb
+february
+10
+1978
 
-1996	5	1996
-1996	5	1996
-1996	5	1996 
+10:08
+am
+
+1996
+5
+1996
+1996
+5
+1996
+1996
+5
+1996

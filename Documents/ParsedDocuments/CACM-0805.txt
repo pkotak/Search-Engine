@@ -1,11 +1,30 @@
-newton maehly algorithm 105
+newton
+maehly
+algorithm
+105
 
-cacm july 1963
+cacm
+july
+1963
 
-kondo j.
+kondo
+j.
 
-ca630719 jb march 14 1978  8:20 am
+ca630719
+jb
+march
+14
+1978
 
-805	5	805
-805	5	805
-805	5	805 
+8:20
+am
+
+805
+5
+805
+805
+5
+805
+805
+5
+805

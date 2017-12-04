@@ -1,11 +1,31 @@
-general purpose programming systems
+general
+purpose
+programming
+systems
 
-cacm may 1958
+cacm
+may
+1958
 
-holt a w.
+holt
+a
+w.
 
-ca580503 jb march 22 1978  9:14 pm
+ca580503
+jb
+march
+22
+1978
 
-25	5	25
-25	5	25
-25	5	25 
+9:14
+pm
+
+25
+5
+25
+25
+5
+25
+25
+5
+25

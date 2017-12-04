@@ -1,11 +1,33 @@
-runge-kutta integration algorithm 9 d2
+runge-kutta
+integration
+algorithm
+9
+d2
 
-cacm april 1966
+cacm
+april
+1966
 
-thacher jr h c.
+thacher
+jr
+h
+c.
 
-ca660403f jb march 23 1978  7:21 pm
+ca660403f
+jb
+march
+23
+1978
 
-1451	5	1451
-1451	5	1451
-1451	5	1451 
+7:21
+pm
+
+1451
+5
+1451
+1451
+5
+1451
+1451
+5
+1451

@@ -1,12 +1,42 @@
-note on the proof of the non-existence
-of a phrase structure grammar for algol 60
+note
+on
+the
+proof
+of
+the
+non-existence
+of
+a
+phrase
+structure
+grammar
+for
+algol
+60
 
-cacm march 1963
+cacm
+march
+1963
 
-brown p j.
+brown
+p
+j.
 
-ca630323 jb march 14 1978  1:00 pm
+ca630323
+jb
+march
+14
+1978
 
-897	5	897
-897	5	897
-897	5	897 
+1:00
+pm
+
+897
+5
+897
+897
+5
+897
+897
+5
+897

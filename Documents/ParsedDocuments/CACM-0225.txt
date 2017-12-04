@@ -1,11 +1,33 @@
-a techniquefor handling macro instructions corrigendum
+a
+techniquefor
+handling
+macro
+instructions
+corrigendum
 
-cacm february 1960
+cacm
+february
+1960
 
-greenwald i d.
+greenwald
+i
+d.
 
-ca600207 jb march 22 1978  2:18 pm
+ca600207
+jb
+march
+22
+1978
 
-225	5	225
-225	5	225
-225	5	225 
+2:18
+pm
+
+225
+5
+225
+225
+5
+225
+225
+5
+225

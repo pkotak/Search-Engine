@@ -1,18 +1,57 @@
-unitary symmetric polynomials z algorithm r391
+unitary
+symmetric
+polynomials
+z
+algorithm
+r391
 
-cacm january 1972
+cacm
+january
+1972
 
-schrack g f
+schrack
+g
+f
 
-symmetric polynomials elementary symmetric polynomials
-unitary symmetric polynomials polynomial 
-synthesis reverse horner scheme reverse
-synthetic division binomial coefficients
+symmetric
+polynomials
+elementary
+symmetric
+polynomials
+unitary
+symmetric
+polynomials
+polynomial
 
-5.11 5.30 5.5
+synthesis
+reverse
+horner
+scheme
+reverse
+synthetic
+division
+binomial
+coefficients
 
-ca720112 jb february 1 1978  8:55 am
+5.11
+5.30
+5.5
 
-2391	5	2391
-2391	5	2391
-2391	5	2391 
+ca720112
+jb
+february
+1
+1978
+
+8:55
+am
+
+2391
+5
+2391
+2391
+5
+2391
+2391
+5
+2391

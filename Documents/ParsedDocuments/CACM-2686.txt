@@ -1,28 +1,117 @@
-an approximate method for generating asymmetric random variables
+an
+approximate
+method
+for
+generating
+asymmetric
+random
+variables
 
-tukeys lambda distribution is generalized
-to provide an algorithm for generating values of 
-unimodal asymmetric random variables  this algorithm
-has the same advantages as the symmetric random 
-variable generator previously given by the authors except
-that the addition of another parameter complicates
-the problem of finding the parameter values to fit a distribution
+tukeys
+lambda
+distribution
+is
+generalized
+to
+provide
+an
+algorithm
+for
+generating
+values
+of
 
-cacm february 1974
+unimodal
+asymmetric
+random
+variables
 
-ramberg j s
-schmeiserb w
+this
+algorithm
+has
+the
+same
+advantages
+as
+the
+symmetric
+random
 
-simulation monte carlo probability statistics
-approximations random variables random numbers 
-moments distribution
+variable
+generator
+previously
+given
+by
+the
+authors
+except
+that
+the
+addition
+of
+another
+parameter
+complicates
+the
+problem
+of
+finding
+the
+parameter
+values
+to
+fit
+a
+distribution
 
-5.5 8.1
+cacm
+february
+1974
 
-ca740203 jb january 18 1978  1:19 pm
+ramberg
+j
+s
+schmeiserb
+w
 
-2686	4	2686
-2261	5	2686
-2686	5	2686
-2686	5	2686
-2686	5	2686 
+simulation
+monte
+carlo
+probability
+statistics
+approximations
+random
+variables
+random
+numbers
+
+moments
+distribution
+
+5.5
+8.1
+
+ca740203
+jb
+january
+18
+1978
+
+1:19
+pm
+
+2686
+4
+2686
+2261
+5
+2686
+2686
+5
+2686
+2686
+5
+2686
+2686
+5
+2686

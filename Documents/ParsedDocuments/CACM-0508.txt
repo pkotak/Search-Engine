@@ -1,11 +1,30 @@
-matrix inversion algorithm 58
+matrix
+inversion
+algorithm
+58
 
-cacm august 1962
+cacm
+august
+1962
 
-george r.
+george
+r.
 
-ca620820 jb march 17 1978  9:32 pm
+ca620820
+jb
+march
+17
+1978
 
-508	5	508
-508	5	508
-508	5	508 
+9:32
+pm
+
+508
+5
+508
+508
+5
+508
+508
+5
+508

@@ -1,11 +1,32 @@
-decimal tables of binary coded tables
+decimal
+tables
+of
+binary
+coded
+tables
 
-cacm april 1964
+cacm
+april
+1964
 
-griebrok m.
+griebrok
+m.
 
-ca640413 jb march 10 1978  1:14 am
+ca640413
+jb
+march
+10
+1978
 
-1095	5	1095
-1095	5	1095
-1095	5	1095 
+1:14
+am
+
+1095
+5
+1095
+1095
+5
+1095
+1095
+5
+1095

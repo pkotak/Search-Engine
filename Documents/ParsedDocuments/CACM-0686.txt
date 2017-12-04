@@ -1,11 +1,29 @@
-smooth algorithm 216
+smooth
+algorithm
+216
 
-cacm november 1963
+cacm
+november
+1963
 
-george r.
+george
+r.
 
-ca631106 jb march 13 1978  3:47 pm
+ca631106
+jb
+march
+13
+1978
 
-686	5	686
-686	5	686
-686	5	686 
+3:47
+pm
+
+686
+5
+686
+686
+5
+686
+686
+5
+686

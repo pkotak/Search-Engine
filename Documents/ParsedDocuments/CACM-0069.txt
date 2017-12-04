@@ -1,15 +1,57 @@
-statistical programs for the ibm 650-part i
+statistical
+programs
+for
+the
+ibm
+650-part
+i
 
-a collection is given of brief descriptions
-of statistical programs now in use in university 
-computing centers which have ibm 650s.
+a
+collection
+is
+given
+of
+brief
+descriptions
+of
+statistical
+programs
+now
+in
+use
+in
+university
 
-cacm august 1959
+computing
+centers
+which
+have
+ibm
+650s.
 
-hamblen j w.
+cacm
+august
+1959
 
-ca590804 jb march 22 1978  6:07 pm
+hamblen
+j
+w.
 
-69	5	69
-69	5	69
-69	5	69 
+ca590804
+jb
+march
+22
+1978
+
+6:07
+pm
+
+69
+5
+69
+69
+5
+69
+69
+5
+69

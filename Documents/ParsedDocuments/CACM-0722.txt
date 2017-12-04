@@ -1,9 +1,29 @@
-alcor group representation of algol symbols
+alcor
+group
+representation
+of
+algol
+symbols
 
-cacm october 1963
+cacm
+october
+1963
 
-ca631003 jb march 13 1978  6:36 pm
+ca631003
+jb
+march
+13
+1978
 
-722	5	722
-722	5	722
-722	5	722 
+6:36
+pm
+
+722
+5
+722
+722
+5
+722
+722
+5
+722

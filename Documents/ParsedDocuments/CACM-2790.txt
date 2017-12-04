@@ -1,11 +1,35 @@
-the elementary circuits of a graph algorithm r459
+the
+elementary
+circuits
+of
+a
+graph
+algorithm
+r459
 
-cacm february 1975
+cacm
+february
+1975
 
-syslo m m.
+syslo
+m
+m.
 
-ca750209 jb january 12 1978  2:54 pm
+ca750209
+jb
+january
+12
+1978
 
-2790	5	2790
-2790	5	2790
-2790	5	2790 
+2:54
+pm
+
+2790
+5
+2790
+2790
+5
+2790
+2790
+5
+2790

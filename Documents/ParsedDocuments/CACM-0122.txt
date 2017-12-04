@@ -1,13 +1,43 @@
-least squares fitting of a great circle through points on a sphere
+least
+squares
+fitting
+of
+a
+great
+circle
+through
+points
+on
+a
+sphere
 
-cacm november,1960
+cacm
+november,1960
 
-dewitte l.
+dewitte
+l.
 
-ca601113 jb march 20 1978  6:59 pm
+ca601113
+jb
+march
+20
+1978
 
-122	5	122
-122	5	122
-122	5	122
-297	5	122
-122	6	122 
+6:59
+pm
+
+122
+5
+122
+122
+5
+122
+122
+5
+122
+297
+5
+122
+122
+6
+122

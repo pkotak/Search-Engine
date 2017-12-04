@@ -1,19 +1,64 @@
-regression using certain direct product matrices algorithm 366 g2
+regression
+using
+certain
+direct
+product
+matrices
+algorithm
+366
+g2
 
-cacm december 1969
+cacm
+december
+1969
 
-claringbold p j
+claringbold
+p
+j
 
-analysis of variance analysis of covariance
-regression analysis experimental design matrix 
-direct product protection operator orthogonal matrix
+analysis
+of
+variance
+analysis
+of
+covariance
+regression
+analysis
+experimental
+design
+matrix
 
-5.14 5.5
+direct
+product
+protection
+operator
+orthogonal
+matrix
 
-ca691210 jb february 15 1978  2:23 pm
+5.14
+5.5
 
-1801	5	1802
-1802	5	1802
-1802	5	1802
-1802	5	1802
-1802	6	1802 
+ca691210
+jb
+february
+15
+1978
+
+2:23
+pm
+
+1801
+5
+1802
+1802
+5
+1802
+1802
+5
+1802
+1802
+5
+1802
+1802
+6
+1802

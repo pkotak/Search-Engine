@@ -1,11 +1,33 @@
-a start at automatic storage assignment
+a
+start
+at
+automatic
+storage
+assignment
 
-cacm may 1960
+cacm
+may
+1960
 
-patrick r l.
+patrick
+r
+l.
 
-ca600504 jb march 22 1978  1:31 pm
+ca600504
+jb
+march
+22
+1978
 
-193	5	193
-193	5	193
-193	5	193 
+1:31
+pm
+
+193
+5
+193
+193
+5
+193
+193
+5
+193

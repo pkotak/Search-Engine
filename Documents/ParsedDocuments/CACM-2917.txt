@@ -1,13 +1,41 @@
-sitar an interactive text processing
-system for small computers corrigendum
+sitar
+an
+interactive
+text
+processing
+system
+for
+small
+computers
+corrigendum
 
-cacm october 1977
+cacm
+october
+1977
 
-schneider b r jr
-watts r m.
+schneider
+b
+r
+jr
+watts
+r
+m.
 
-ca771009 jb december 28 1977  5:58 am
+ca771009
+jb
+december
+28
+1977
 
-2917	5	2917
-2917	5	2917
-2917	5	2917 
+5:58
+am
+
+2917
+5
+2917
+2917
+5
+2917
+2917
+5
+2917

@@ -1,12 +1,38 @@
-interim report on bureau of ships cobol evaluation program
+interim
+report
+on
+bureau
+of
+ships
+cobol
+evaluation
+program
 
-cacm may 1962
+cacm
+may
+1962
 
-siegel m
-smith a e.
+siegel
+m
+smith
+a
+e.
 
-ca620504 jb march 20 1978  1:53 pm
+ca620504
+jb
+march
+20
+1978
 
-601	5	601
-601	5	601
-601	5	601 
+1:53
+pm
+
+601
+5
+601
+601
+5
+601
+601
+5
+601

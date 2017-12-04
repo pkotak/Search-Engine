@@ -1,14 +1,42 @@
-a machine method for square-root computation
+a
+machine
+method
+for
+square-root
+computation
 
-cacm january 1958
+cacm
+january
+1958
 
-bemer r w.
+bemer
+r
+w.
 
-ca580101 jb march 22 1978  9:27 pm
+ca580101
+jb
+march
+22
+1978
 
-35	5	35
-35	5	35
-35	5	35
-848	5	35
-26	6	35
-35	6	35 
+9:27
+pm
+
+35
+5
+35
+35
+5
+35
+35
+5
+35
+848
+5
+35
+26
+6
+35
+35
+6
+35

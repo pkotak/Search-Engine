@@ -1,11 +1,31 @@
-matrix permutation algorithm 230
+matrix
+permutation
+algorithm
+230
 
-cacm june 1964
+cacm
+june
+1964
 
-boothroyd j.
+boothroyd
+j.
 
-ca640606 jb march 9 1978  9:36 pm 
+ca640606
+jb
+march
+9
+1978
 
-1061	5	1061
-1061	5	1061
-1061	5	1061 
+9:36
+pm
+
+
+1061
+5
+1061
+1061
+5
+1061
+1061
+5
+1061

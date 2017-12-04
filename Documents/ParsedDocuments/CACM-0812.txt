@@ -1,11 +1,31 @@
-smoothing 1 algorithm 188 
+smoothing
+1
+algorithm
+188
 
-cacm july 1963
 
-rodriguez-gil f.
+cacm
+july
+1963
 
-ca630712 jb march 14 1978  8:34 am
+rodriguez-gil
+f.
 
-812	5	812
-812	5	812
-812	5	812 
+ca630712
+jb
+march
+14
+1978
+
+8:34
+am
+
+812
+5
+812
+812
+5
+812
+812
+5
+812

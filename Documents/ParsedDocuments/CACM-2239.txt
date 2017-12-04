@@ -1,20 +1,57 @@
-squank algorithm c379
+squank
+algorithm
+c379
 
-cacm december 1972
+cacm
+december
+1972
 
-hallet p
-mund e
+hallet
+p
+mund
+e
 
-numerical integration integration rule adaptive
-integration automatic integration simpsons 
-rule numerical quadrature quadrature rule adaptive
-quadrature automatic quadrature round-off error 
+numerical
+integration
+integration
+rule
+adaptive
+integration
+automatic
+integration
+simpsons
+
+rule
+numerical
+quadrature
+quadrature
+rule
+adaptive
+quadrature
+automatic
+quadrature
+round-off
+error
+
 control
 
 5.16
 
-ca721216 jb january 27 1978  9:01 am
+ca721216
+jb
+january
+27
+1978
 
-2239	5	2239
-2239	5	2239
-2239	5	2239 
+9:01
+am
+
+2239
+5
+2239
+2239
+5
+2239
+2239
+5
+2239

@@ -1,11 +1,33 @@
-magic square even order algorithm 117
+magic
+square
+even
+order
+algorithm
+117
 
-cacm august 1962
+cacm
+august
+1962
 
-collison d m.
+collison
+d
+m.
 
-ca620809 jb march 17 1978  9:46 pm
+ca620809
+jb
+march
+17
+1978
 
-519	5	519
-519	5	519
-519	5	519 
+9:46
+pm
+
+519
+5
+519
+519
+5
+519
+519
+5
+519

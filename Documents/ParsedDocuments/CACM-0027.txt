@@ -1,12 +1,38 @@
-note on empirical bounds for generating bessel functions
+note
+on
+empirical
+bounds
+for
+generating
+bessel
+functions
 
-cacm may 1958
+cacm
+may
+1958
 
-randels j b
-reeves r f.
+randels
+j
+b
+reeves
+r
+f.
 
-ca580501 jb march 22 1978  9:17 pm
+ca580501
+jb
+march
+22
+1978
 
-27	5	27
-27	5	27
-27	5	27 
+9:17
+pm
+
+27
+5
+27
+27
+5
+27
+27
+5
+27

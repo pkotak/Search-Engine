@@ -1,11 +1,33 @@
-multiprocessing compactifying garbage collection corrigendum
+multiprocessing
+compactifying
+garbage
+collection
+corrigendum
 
-cacm june 1976
+cacm
+june
+1976
 
-steele g l jr.
+steele
+g
+l
+jr.
 
-ca760608 jb january 4 1978  1:36 pm
+ca760608
+jb
+january
+4
+1978
 
-2854	5	2854
-2854	5	2854
-2854	5	2854 
+1:36
+pm
+
+2854
+5
+2854
+2854
+5
+2854
+2854
+5
+2854

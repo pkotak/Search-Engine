@@ -1,12 +1,37 @@
-remark on stably updating mean and
-standard deviation of data corrigendum
+remark
+on
+stably
+updating
+mean
+and
+standard
+deviation
+of
+data
+corrigendum
 
-cacm october 1975
+cacm
+october
+1975
 
-cotton i.
+cotton
+i.
 
-ca751006 jb january 6 1978  10:38 am
+ca751006
+jb
+january
+6
+1978
 
-2713	5	2713
-2713	5	2713
-2713	5	2713 
+10:38
+am
+
+2713
+5
+2713
+2713
+5
+2713
+2713
+5
+2713

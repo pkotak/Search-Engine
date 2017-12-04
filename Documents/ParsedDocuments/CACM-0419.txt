@@ -1,11 +1,32 @@
-magic square algorithm 118
+magic
+square
+algorithm
+118
 
-cacm december 1962
+cacm
+december
+1962
 
-thacher jr h c.
+thacher
+jr
+h
+c.
 
-ca621220 jb march 17 1978  4:52 pm
+ca621220
+jb
+march
+17
+1978
 
-419	5	419
-419	5	419
-419	5	419 
+4:52
+pm
+
+419
+5
+419
+419
+5
+419
+419
+5
+419

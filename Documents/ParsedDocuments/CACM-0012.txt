@@ -1,12 +1,35 @@
-error estimation in runge-kutta procedures
+error
+estimation
+in
+runge-kutta
+procedures
 
-cacm september 1958
+cacm
+september
+1958
 
-call d h
-reeves r f.
+call
+d
+h
+reeves
+r
+f.
 
-ca580901 jb march 22 1978  8:56 pm
+ca580901
+jb
+march
+22
+1978
 
-12	5	12
-12	5	12
-12	5	12 
+8:56
+pm
+
+12
+5
+12
+12
+5
+12
+12
+5
+12

@@ -1,11 +1,28 @@
-invert algorithm 42
+invert
+algorithm
+42
 
-cacm january 1963
+cacm
+january
+1963
 
-naur p.
+naur
+p.
 
-ca630110 jb march 14,1978  2:36 pm
+ca630110
+jb
+march
+14,1978
 
-938	5	938
-938	5	938
-938	5	938 
+2:36
+pm
+
+938
+5
+938
+938
+5
+938
+938
+5
+938

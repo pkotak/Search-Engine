@@ -1,11 +1,29 @@
-nexcom algorithm 152
+nexcom
+algorithm
+152
 
-cacm february 1963
+cacm
+february
+1963
 
-hopley j.
+hopley
+j.
 
-ca630209 jb march 14 1978  2:12 pm
+ca630209
+jb
+march
+14
+1978
 
-924	5	924
-924	5	924
-924	5	924 
+2:12
+pm
+
+924
+5
+924
+924
+5
+924
+924
+5
+924

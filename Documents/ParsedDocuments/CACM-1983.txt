@@ -1,15 +1,39 @@
-spanning tree $h algorithm 399
+spanning
+tree
+$h
+algorithm
+399
 
-cacm october 1970
+cacm
+october
+1970
 
-seppanen j j
+seppanen
+j
+j
 
-graph tree spanning tree
+graph
+tree
+spanning
+tree
 
 5.32
 
-ca701007 jb february 10 1978  9:24 am
+ca701007
+jb
+february
+10
+1978
 
-1983	5	1983
-1983	5	1983
-1983	5	1983 
+9:24
+am
+
+1983
+5
+1983
+1983
+5
+1983
+1983
+5
+1983

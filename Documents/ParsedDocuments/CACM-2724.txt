@@ -1,11 +1,30 @@
-the lemniscate constants corrigendum
+the
+lemniscate
+constants
+corrigendum
 
-cacm august 1975
+cacm
+august
+1975
 
-todd j.
+todd
+j.
 
-ca750811 jb january 6 1978  3:44 pm
+ca750811
+jb
+january
+6
+1978
 
-2724	5	2724
-2724	5	2724
-2724	5	2724 
+3:44
+pm
+
+2724
+5
+2724
+2724
+5
+2724
+2724
+5
+2724

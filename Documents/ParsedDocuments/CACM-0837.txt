@@ -1,11 +1,32 @@
-incomplete beta ratio algorithm 179
+incomplete
+beta
+ratio
+algorithm
+179
 
-cacm june 1963
+cacm
+june
+1963
 
-ludwig o g.
+ludwig
+o
+g.
 
-ca630612 jb march 14 1978  10:15 am
+ca630612
+jb
+march
+14
+1978
 
-837	5	837
-837	5	837
-837	5	837 
+10:15
+am
+
+837
+5
+837
+837
+5
+837
+837
+5
+837

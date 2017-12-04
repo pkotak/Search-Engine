@@ -1,11 +1,30 @@
-1410 fortran edit feature
+1410
+fortran
+edit
+feature
 
-cacm june 1963
+cacm
+june
+1963
 
-fedako,j e.
+fedako,j
+e.
 
-ca630605 jb march 14 1978  10:23 am
+ca630605
+jb
+march
+14
+1978
 
-844	5	844
-844	5	844
-844	5	844 
+10:23
+am
+
+844
+5
+844
+844
+5
+844
+844
+5
+844

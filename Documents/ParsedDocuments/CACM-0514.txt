@@ -1,11 +1,30 @@
-binomial coefficients algorithm 19
+binomial
+coefficients
+algorithm
+19
 
-cacm august 1962
+cacm
+august
+1962
 
-george r.
+george
+r.
 
-ca620814 jb march 17 1978  9:40 pm
+ca620814
+jb
+march
+17
+1978
 
-514	5	514
-514	5	514
-514	5	514 
+9:40
+pm
+
+514
+5
+514
+514
+5
+514
+514
+5
+514

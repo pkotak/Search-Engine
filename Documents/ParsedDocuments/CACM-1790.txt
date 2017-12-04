@@ -1,16 +1,48 @@
-mullers method for finding roots of an
-arbitrary function  algorithm 196 c5
+mullers
+method
+for
+finding
+roots
+of
+an
+arbitrary
+function
 
-cacm january 1968
+algorithm
+196
+c5
 
-whitley v w
+cacm
+january
+1968
 
-equation roots function zeros 
+whitley
+v
+w
+
+equation
+roots
+function
+zeros
+
 
 5.15
 
-ca680103 jb february 23 1978  2:47 pm
+ca680103
+jb
+february
+23
+1978
 
-1790	5	1790
-1790	5	1790
-1790	5	1790 
+2:47
+pm
+
+1790
+5
+1790
+1790
+5
+1790
+1790
+5
+1790

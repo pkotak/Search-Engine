@@ -1,11 +1,37 @@
-complete elliptic integral of the first kind algorithm 55
+complete
+elliptic
+integral
+of
+the
+first
+kind
+algorithm
+55
 
-cacm april 1963
+cacm
+april
+1963
 
-thacher jr h c.
+thacher
+jr
+h
+c.
 
-ca630414 jb march 14 1978  12:15 pm
+ca630414
+jb
+march
+14
+1978
 
-877	5	877
-877	5	877
-877	5	877 
+12:15
+pm
+
+877
+5
+877
+877
+5
+877
+877
+5
+877

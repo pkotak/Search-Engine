@@ -1,12 +1,41 @@
-thunks -- a way of compiling procedure statements
-with some comments on procedure declarations
+thunks
+--
+a
+way
+of
+compiling
+procedure
+statements
+with
+some
+comments
+on
+procedure
+declarations
 
-cacm january 1961
+cacm
+january
+1961
 
-ingerman p z.
+ingerman
+p
+z.
 
-ca610111 jb march 17 1978  1:16 am
+ca610111
+jb
+march
+17
+1978
 
-403	5	403
-403	5	403
-403	5	403 
+1:16
+am
+
+403
+5
+403
+403
+5
+403
+403
+5
+403

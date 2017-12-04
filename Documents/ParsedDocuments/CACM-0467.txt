@@ -1,12 +1,33 @@
-permutation generator algorithm 87
+permutation
+generator
+algorithm
+87
 
-cacm october 1962
+cacm
+october
+1962
 
-schrack g f
-shimrat m.
+schrack
+g
+f
+shimrat
+m.
 
-ca621013 jb march 17 1978  7:14 pm
+ca621013
+jb
+march
+17
+1978
 
-467	5	467
-467	5	467
-467	5	467 
+7:14
+pm
+
+467
+5
+467
+467
+5
+467
+467
+5
+467

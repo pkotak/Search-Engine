@@ -1,11 +1,33 @@
-on multiprogramming machine coding and computer organization
+on
+multiprogramming
+machine
+coding
+and
+computer
+organization
 
-cacm april 1970
+cacm
+april
+1970
 
-wirth n.
+wirth
+n.
 
-ca700405 jb february 13 1978  3:05 pm
+ca700405
+jb
+february
+13
+1978
 
-2079	5	2079
-2079	5	2079
-2079	5	2079 
+3:05
+pm
+
+2079
+5
+2079
+2079
+5
+2079
+2079
+5
+2079

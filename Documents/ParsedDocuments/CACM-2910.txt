@@ -1,21 +1,64 @@
-equivalence of hough curve detection to template matching
+equivalence
+of
+hough
+curve
+detection
+to
+template
+matching
 
-cacm november 1977
+cacm
+november
+1977
 
-stockman g c
+stockman
+g
+c
 
-picture processing pattern recognition curve
-detection hough transformation template matching
+picture
+processing
+pattern
+recognition
+curve
+detection
+hough
+transformation
+template
+matching
 
-3.63 6.9
+3.63
+6.9
 
-ca771106 jb december 27 1977  7:23 am
+ca771106
+jb
+december
+27
+1977
 
-2788	4	2910
-2910	4	2910
-2910	4	2910
-2400	5	2910
-2788	5	2910
-2910	5	2910
-2910	5	2910
-2910	5	2910 
+7:23
+am
+
+2788
+4
+2910
+2910
+4
+2910
+2910
+4
+2910
+2400
+5
+2910
+2788
+5
+2910
+2910
+5
+2910
+2910
+5
+2910
+2910
+5
+2910

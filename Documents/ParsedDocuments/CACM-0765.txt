@@ -1,11 +1,35 @@
-orthogonal polynomial least squares surface fit algorithm 164
+orthogonal
+polynomial
+least
+squares
+surface
+fit
+algorithm
+164
 
-cacm august 1963
+cacm
+august
+1963
 
-bitterli c v.
+bitterli
+c
+v.
 
-ca630833 jb march 13 1978  8:10 pm
+ca630833
+jb
+march
+13
+1978
 
-765	5	765
-765	5	765
-765	5	765 
+8:10
+pm
+
+765
+5
+765
+765
+5
+765
+765
+5
+765

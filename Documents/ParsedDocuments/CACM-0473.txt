@@ -1,11 +1,29 @@
-weightcoeff algorithm 125
+weightcoeff
+algorithm
+125
 
-cacm october 1962
+cacm
+october
+1962
 
-rutishauser h.
+rutishauser
+h.
 
-ca621007 jb march 17 1978  7:19 pm
+ca621007
+jb
+march
+17
+1978
 
-473	5	473
-473	5	473
-473	5	473 
+7:19
+pm
+
+473
+5
+473
+473
+5
+473
+473
+5
+473

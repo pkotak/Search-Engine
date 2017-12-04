@@ -1,11 +1,34 @@
-solution of eigenvalue problems with approximately known eigenvectors
+solution
+of
+eigenvalue
+problems
+with
+approximately
+known
+eigenvectors
 
-cacm july 1962
+cacm
+july
+1962
 
-appel k.
+appel
+k.
 
-ca620702 jb march 17 1978  9:10 pm
+ca620702
+jb
+march
+17
+1978
 
-559	5	559
-559	5	559
-559	5	559 
+9:10
+pm
+
+559
+5
+559
+559
+5
+559
+559
+5
+559

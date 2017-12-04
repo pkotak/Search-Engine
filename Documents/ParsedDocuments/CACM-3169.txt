@@ -1,20 +1,63 @@
-note on an optimal evaluation of boolean expressions 
-in an online query system
+note
+on
+an
+optimal
+evaluation
+of
+boolean
+expressions
 
-cacm october 1979
+in
+an
+online
+query
+system
 
-gudes e
-hoffman a
+cacm
+october
+1979
 
-query boolean expression optimal evaluation information retrieval
+gudes
+e
+hoffman
+a
 
-3.50 3.70 3.74
+query
+boolean
+expression
+optimal
+evaluation
+information
+retrieval
 
-ca791002 db january 16 1980  4:52 pm
+3.50
+3.70
+3.74
 
-3168	4	3169
-3169	4	3169
-2965	5	3169
-3169	5	3169
-3169	5	3169
-3169	5	3169 
+ca791002
+db
+january
+16
+1980
+
+4:52
+pm
+
+3168
+4
+3169
+3169
+4
+3169
+2965
+5
+3169
+3169
+5
+3169
+3169
+5
+3169
+3169
+5
+3169

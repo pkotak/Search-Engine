@@ -1,11 +1,32 @@
-incomplete elliptic integrals algorithm 73
+incomplete
+elliptic
+integrals
+algorithm
+73
 
-cacm february 1963
+cacm
+february
+1963
 
-meyer n a.
+meyer
+n
+a.
 
-ca630212 jb march 14 1978  2:03 pm
+ca630212
+jb
+march
+14
+1978
 
-921	5	921
-921	5	921
-921	5	921 
+2:03
+pm
+
+921
+5
+921
+921
+5
+921
+921
+5
+921

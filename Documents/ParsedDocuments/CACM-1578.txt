@@ -1,12 +1,37 @@
-generalized least squares fit by orthogonal
-polynomials algorithm 296 e2
+generalized
+least
+squares
+fit
+by
+orthogonal
+polynomials
+algorithm
+296
+e2
 
-cacm june 1967
+cacm
+june
+1967
 
-makinson g j.
+makinson
+g
+j.
 
-ca670607f jb march 23 1978  3:33 pm
+ca670607f
+jb
+march
+23
+1978
 
-1578	5	1578
-1578	5	1578
-1578	5	1578 
+3:33
+pm
+
+1578
+5
+1578
+1578
+5
+1578
+1578
+5
+1578

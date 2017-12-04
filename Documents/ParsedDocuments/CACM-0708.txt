@@ -1,11 +1,35 @@
-evaluation of the fresnel integrals algorithm 88 89 90
+evaluation
+of
+the
+fresnel
+integrals
+algorithm
+88
+89
+90
 
-cacm october 1963
+cacm
+october
+1963
 
-gray m d.
+gray
+m
+d.
 
-ca631017jb march 13 1978  5:45 pm
+ca631017jb
+march
+13
+1978
 
-708	5	708
-708	5	708
-708	5	708 
+5:45
+pm
+
+708
+5
+708
+708
+5
+708
+708
+5
+708

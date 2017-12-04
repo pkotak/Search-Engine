@@ -1,16 +1,63 @@
-implementing phrase-structure productions in pli
+implementing
+phrase-structure
+productions
+in
+pli
 
-a method is described for implementing the productions
-of a context-free phrase structure grammar 
-in a pli procedure whose structure and statements parallel
-the structure and notation of the grammar
+a
+method
+is
+described
+for
+implementing
+the
+productions
+of
+a
+context-free
+phrase
+structure
+grammar
 
-cacm july 1967
+in
+a
+pli
+procedure
+whose
+structure
+and
+statements
+parallel
+the
+structure
+and
+notation
+of
+the
+grammar
 
-irwin l.
+cacm
+july
+1967
 
-ca670704 jb february 28 1978  9:01 am
+irwin
+l.
 
-1569	5	1569
-1569	5	1569
-1569	5	1569 
+ca670704
+jb
+february
+28
+1978
+
+9:01
+am
+
+1569
+5
+1569
+1569
+5
+1569
+1569
+5
+1569

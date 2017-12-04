@@ -1,11 +1,30 @@
-hypergeometric algorithm 191
+hypergeometric
+algorithm
+191
 
-cacm july 1963
+cacm
+july
+1963
 
-relph a p.
+relph
+a
+p.
 
-ca630715 jb march 14 1978  8:30 am
+ca630715
+jb
+march
+14
+1978
 
-809	5	809
-809	5	809
-809	5	809 
+8:30
+am
+
+809
+5
+809
+809
+5
+809
+809
+5
+809

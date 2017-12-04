@@ -1,17 +1,63 @@
-american standard and ifipicc vocabularies compared
+american
+standard
+and
+ifipicc
+vocabularies
+compared
 
-the proposed american standard vocabulary of
-information processing and the ifipicc vocabulary 
-of terms used in information processing are analyzed and compared
+the
+proposed
+american
+standard
+vocabulary
+of
+information
+processing
+and
+the
+ifipicc
+vocabulary
 
-cacm june 1965
+of
+terms
+used
+in
+information
+processing
+are
+analyzed
+and
+compared
 
-traub j f.
+cacm
+june
+1965
 
-ca650604 jb march 7 1978  12:38 pm
+traub
+j
+f.
 
-1251	4	1251
-975	5	1251
-1251	5	1251
-1251	5	1251
-1251	5	1251 
+ca650604
+jb
+march
+7
+1978
+
+12:38
+pm
+
+1251
+4
+1251
+975
+5
+1251
+1251
+5
+1251
+1251
+5
+1251
+1251
+5
+1251

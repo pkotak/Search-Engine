@@ -1,10 +1,35 @@
-recorded magnetic tape for information interchange
-200 cpi nrzi proposed usa standard
+recorded
+magnetic
+tape
+for
+information
+interchange
+200
+cpi
+nrzi
+proposed
+usa
+standard
 
-cacm november 1967
+cacm
+november
+1967
 
-ca671108 jb february 26 1978  2:52 pm
+ca671108
+jb
+february
+26
+1978
 
-1509	5	1509
-1509	5	1509
-1509	5	1509 
+2:52
+pm
+
+1509
+5
+1509
+1509
+5
+1509
+1509
+5
+1509

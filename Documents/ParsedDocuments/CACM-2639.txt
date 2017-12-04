@@ -1,11 +1,32 @@
-calculation of fourier integrals algorithm r418
+calculation
+of
+fourier
+integrals
+algorithm
+r418
 
-cacm june 1974
+cacm
+june
+1974
 
-piessens r.
+piessens
+r.
 
-ca740607 jb january 17 1978  3:01 pm
+ca740607
+jb
+january
+17
+1978
 
-2639	5	2639
-2639	5	2639
-2639	5	2639 
+3:01
+pm
+
+2639
+5
+2639
+2639
+5
+2639
+2639
+5
+2639

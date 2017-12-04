@@ -1,18 +1,57 @@
-remarks on characteristic values and associated
-solutions of mathieus differential equation 
-exponential integral and systems of hyperbolic
-p algorithms r352 r385 r392
+remarks
+on
+characteristic
+values
+and
+associated
+solutions
+of
+mathieus
+differential
+equation
 
-cacm december 1972
+exponential
+integral
+and
+systems
+of
+hyperbolic
+p
+algorithms
+r352
+r385
+r392
 
-frisch m j
+cacm
+december
+1972
 
-ansi fortran standard
+frisch
+m
+j
 
-4.0 4.22
+ansi
+fortran
+standard
 
-ca721219 jb january 27 1978  8:56 am
+4.0
+4.22
 
-2236	5	2236
-2236	5	2236
-2236	5	2236 
+ca721219
+jb
+january
+27
+1978
+
+8:56
+am
+
+2236
+5
+2236
+2236
+5
+2236
+2236
+5
+2236

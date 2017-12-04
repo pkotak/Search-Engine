@@ -1,11 +1,31 @@
-xy-move plotting algorithm 162
+xy-move
+plotting
+algorithm
+162
 
-cacm august 1963
+cacm
+august
+1963
 
-fletcher w e.
+fletcher
+w
+e.
 
-ca630832 jb march 13 1978  8:12 pm
+ca630832
+jb
+march
+13
+1978
 
-766	5	766
-766	5	766
-766	5	766 
+8:12
+pm
+
+766
+5
+766
+766
+5
+766
+766
+5
+766

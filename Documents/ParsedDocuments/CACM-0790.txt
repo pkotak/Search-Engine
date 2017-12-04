@@ -1,11 +1,29 @@
-zersol algorithm 194
+zersol
+algorithm
+194
 
-cacm august 1963
+cacm
+august
+1963
 
-domingo c.
+domingo
+c.
 
-ca630808 jb march 13 1978  8:40 pm
+ca630808
+jb
+march
+13
+1978
 
-790	5	790
-790	5	790
-790	5	790 
+8:40
+pm
+
+790
+5
+790
+790
+5
+790
+790
+5
+790

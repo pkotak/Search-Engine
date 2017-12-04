@@ -1,11 +1,31 @@
-path matrix algorithm 141
+path
+matrix
+algorithm
+141
 
-cacm november 1962
+cacm
+november
+1962
 
-ingerman p z.
+ingerman
+p
+z.
 
-ca621113 jb march 17 1978  6:06 pm
+ca621113
+jb
+march
+17
+1978
 
-448	5	448
-448	5	448
-448	5	448 
+6:06
+pm
+
+448
+5
+448
+448
+5
+448
+448
+5
+448

@@ -1,17 +1,72 @@
-accelerating convergence of iterative processes
+accelerating
+convergence
+of
+iterative
+processes
 
-a technique is discussed which when applied
-to an iterative procedure for the solution of
-an equation accelerates the rate of convergence if
-the iteration converges and induces convergence if
-the iteration diverges  an illustrative example is given
+a
+technique
+is
+discussed
+which
+when
+applied
+to
+an
+iterative
+procedure
+for
+the
+solution
+of
+an
+equation
+accelerates
+the
+rate
+of
+convergence
+if
+the
+iteration
+converges
+and
+induces
+convergence
+if
+the
+iteration
+diverges
 
-cacm june 1958
+an
+illustrative
+example
+is
+given
 
-wegstein j h.
+cacm
+june
+1958
 
-ca580602 jb march 22 1978  9:09 pm
+wegstein
+j
+h.
 
-20	5	20
-20	5	20
-20	5	20 
+ca580602
+jb
+march
+22
+1978
+
+9:09
+pm
+
+20
+5
+20
+20
+5
+20
+20
+5
+20

@@ -1,11 +1,31 @@
-kutta merson algorithm 218
+kutta
+merson
+algorithm
+218
 
-cacm december 1963
+cacm
+december
+1963
 
-lukehart p m.
+lukehart
+p
+m.
 
-ca631207 jb march 13 1978  2:57 pm
+ca631207
+jb
+march
+13
+1978
 
-667	5	667
-667	5	667
-667	5	667 
+2:57
+pm
+
+667
+5
+667
+667
+5
+667
+667
+5
+667

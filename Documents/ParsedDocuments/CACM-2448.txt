@@ -1,15 +1,38 @@
-reversible execution
+reversible
+execution
 
-cacm september 1973
+cacm
+september
+1973
 
-zelkowitz m v
+zelkowitz
+m
+v
 
-debugging pli reversible execution backtracking
+debugging
+pli
+reversible
+execution
+backtracking
 
-4.22 4.42
+4.22
+4.42
 
-ca730907 jb january 23 1978  8:54 am
+ca730907
+jb
+january
+23
+1978
 
-2448	5	2448
-2448	5	2448
-2448	5	2448 
+8:54
+am
+
+2448
+5
+2448
+2448
+5
+2448
+2448
+5
+2448

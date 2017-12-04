@@ -1,11 +1,33 @@
-evaluation of jacobi symbol algorithm 99
+evaluation
+of
+jacobi
+symbol
+algorithm
+99
 
-cacm november 1962
+cacm
+november
+1962
 
-may r w.
+may
+r
+w.
 
-ca621117 jb march 17 1978  6:02 pm
+ca621117
+jb
+march
+17
+1978
 
-444	5	444
-444	5	444
-444	5	444 
+6:02
+pm
+
+444
+5
+444
+444
+5
+444
+444
+5
+444

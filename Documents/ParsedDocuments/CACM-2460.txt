@@ -1,11 +1,31 @@
-clenshaw-curtis quadrature algorithm r424
+clenshaw-curtis
+quadrature
+algorithm
+r424
 
-cacm august 1973
+cacm
+august
+1973
 
-good a j.
+good
+a
+j.
 
-ca730814 jb january 23 1978  10:29 am
+ca730814
+jb
+january
+23
+1978
 
-2460	5	2460
-2460	5	2460
-2460	5	2460 
+10:29
+am
+
+2460
+5
+2460
+2460
+5
+2460
+2460
+5
+2460

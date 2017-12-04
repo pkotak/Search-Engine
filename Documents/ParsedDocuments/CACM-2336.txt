@@ -1,16 +1,46 @@
-complex error function algorithm c363
+complex
+error
+function
+algorithm
+c363
 
-cacm june 1972
+cacm
+june
+1972
 
-kolbig k s
+kolbig
+k
+s
 
-error function for complex argument voigt function
-special functions function evaluation
+error
+function
+for
+complex
+argument
+voigt
+function
+special
+functions
+function
+evaluation
 
 5.12
 
-ca720609 jb january 30 1978  4:12 pm
+ca720609
+jb
+january
+30
+1978
 
-2336	5	2336
-2336	5	2336
-2336	5	2336 
+4:12
+pm
+
+2336
+5
+2336
+2336
+5
+2336
+2336
+5
+2336

@@ -1,11 +1,37 @@
-an algorithm for the blocks and cutnodes of a graph corrigendum
+an
+algorithm
+for
+the
+blocks
+and
+cutnodes
+of
+a
+graph
+corrigendum
 
-cacm september 1971
+cacm
+september
+1971
 
-paton k.
+paton
+k.
 
-ca710903 jb february 2 1978  2:24 pm
+ca710903
+jb
+february
+2
+1978
 
-2161	5	2161
-2161	5	2161
-2161	5	2161 
+2:24
+pm
+
+2161
+5
+2161
+2161
+5
+2161
+2161
+5
+2161

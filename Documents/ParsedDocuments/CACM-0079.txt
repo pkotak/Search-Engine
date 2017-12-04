@@ -1,14 +1,42 @@
-programming for a machine with an extended
-address calculational mechanism
+programming
+for
+a
+machine
+with
+an
+extended
+address
+calculational
+mechanism
 
-cacm june 1959
+cacm
+june
+1959
 
-schecher h.
+schecher
+h.
 
-ca590605 jb march 22 1978  6:31 pm
+ca590605
+jb
+march
+22
+1978
 
-67	5	79
-79	5	79
-79	5	79
-79	5	79
-79	6	79 
+6:31
+pm
+
+67
+5
+79
+79
+5
+79
+79
+5
+79
+79
+5
+79
+79
+6
+79

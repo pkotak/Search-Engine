@@ -1,14 +1,41 @@
-a one-day look at computing
+a
+one-day
+look
+at
+computing
 
-cacm september 1962
+cacm
+september
+1962
 
-armerding g w
-gruenberger f j
-marks s l
-parkin t r.
+armerding
+g
+w
+gruenberger
+f
+j
+marks
+s
+l
+parkin
+t
+r.
 
-ca620911 jb march 17 1978  7:30 pm
+ca620911
+jb
+march
+17
+1978
 
-481	5	481
-481	5	481
-481	5	481 
+7:30
+pm
+
+481
+5
+481
+481
+5
+481
+481
+5
+481

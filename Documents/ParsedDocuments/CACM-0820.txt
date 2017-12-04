@@ -1,11 +1,32 @@
-checking for loops in networks
+checking
+for
+loops
+in
+networks
 
-cacm july 1963
+cacm
+july
+1963
 
-gordon r m.
+gordon
+r
+m.
 
-ca630704 jb march 14 1978  8:47 am
+ca630704
+jb
+march
+14
+1978
 
-820	5	820
-820	5	820
-820	5	820 
+8:47
+am
+
+820
+5
+820
+820
+5
+820
+820
+5
+820

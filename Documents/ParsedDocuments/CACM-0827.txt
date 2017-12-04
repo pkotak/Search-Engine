@@ -1,14 +1,44 @@
-disk file sorting
+disk
+file
+sorting
 
-sorting techniques using an ibm 1401 with
-a random access storage device are evaluated
+sorting
+techniques
+using
+an
+ibm
+1401
+with
+a
+random
+access
+storage
+device
+are
+evaluated
 
-cacm june 1963
+cacm
+june
+1963
 
-schick t.
+schick
+t.
 
-ca630622 jb march 14 1978  10:02 am
+ca630622
+jb
+march
+14
+1978
 
-827	5	827
-827	5	827
-827	5	827 
+10:02
+am
+
+827
+5
+827
+827
+5
+827
+827
+5
+827

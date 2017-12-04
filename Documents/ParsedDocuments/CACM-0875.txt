@@ -1,11 +1,34 @@
-incomplete elliptic integrals algorithm 73
+incomplete
+elliptic
+integrals
+algorithm
+73
 
-cacm april 1963
+cacm
+april
+1963
 
-van de riet r p.
+van
+de
+riet
+r
+p.
 
-ca630416 jb march 14 1978  12:06 pm
+ca630416
+jb
+march
+14
+1978
 
-875	5	875
-875	5	875
-875	5	875 
+12:06
+pm
+
+875
+5
+875
+875
+5
+875
+875
+5
+875

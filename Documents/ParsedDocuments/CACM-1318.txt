@@ -1,11 +1,31 @@
-arccossin algorithm 206 b1
+arccossin
+algorithm
+206
+b1
 
-cacm february 1965
+cacm
+february
+1965
 
-bowlden h j.
+bowlden
+h
+j.
 
-ca650206 jb march 7 1978  11:14 pm
+ca650206
+jb
+march
+7
+1978
 
-1318	5	1318
-1318	5	1318
-1318	5	1318 
+11:14
+pm
+
+1318
+5
+1318
+1318
+5
+1318
+1318
+5
+1318

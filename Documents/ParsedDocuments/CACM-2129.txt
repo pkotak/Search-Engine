@@ -1,28 +1,99 @@
-recursive computation of certain derivatives-a
-study of error propagation
+recursive
+computation
+of
+certain
+derivatives-a
+study
+of
+error
+propagation
 
-a brief study is made of the propagation of errors
-in linear first-order difference equations  the
-recursive computation of successive derivatives of exx
-and cos xx is considered as an illustration
+a
+brief
+study
+is
+made
+of
+the
+propagation
+of
+errors
+in
+linear
+first-order
+difference
+equations
 
-cacm january 1970
+the
+recursive
+computation
+of
+successive
+derivatives
+of
+exx
+and
+cos
+xx
+is
+considered
+as
+an
+illustration
 
-gautschi w
+cacm
+january
+1970
 
-recursive computation successive derivatives error propagation
+gautschi
+w
 
-5.11 5.12
+recursive
+computation
+successive
+derivatives
+error
+propagation
 
-ca700102 jb february 14 1978  2:18 pm
+5.11
+5.12
 
-2129	4	2129
-1449	5	2129
-2119	5	2129
-2129	5	2129
-2129	5	2129
-2129	5	2129
-2149	5	2129
-1023	6	2129
-2129	6	2129
-2129	6	2129 
+ca700102
+jb
+february
+14
+1978
+
+2:18
+pm
+
+2129
+4
+2129
+1449
+5
+2129
+2119
+5
+2129
+2129
+5
+2129
+2129
+5
+2129
+2129
+5
+2129
+2149
+5
+2129
+1023
+6
+2129
+2129
+6
+2129
+2129
+6
+2129

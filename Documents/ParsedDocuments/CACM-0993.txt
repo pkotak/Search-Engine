@@ -1,11 +1,32 @@
-kutta merson algorithm 218 d2
+kutta
+merson
+algorithm
+218
+d2
 
-cacm october 1964
+cacm
+october
+1964
 
-priebe k b.
+priebe
+k
+b.
 
-ca641009 jb march 9 1978  4:46 pm
+ca641009
+jb
+march
+9
+1978
 
-993	5	993
-993	5	993
-993	5	993 
+4:46
+pm
+
+993
+5
+993
+993
+5
+993
+993
+5
+993

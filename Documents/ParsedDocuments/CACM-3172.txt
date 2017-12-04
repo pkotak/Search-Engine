@@ -1,29 +1,147 @@
-an algorithm for planning collision-free
-paths among polyhedral obstacles
+an
+algorithm
+for
+planning
+collision-free
+paths
+among
+polyhedral
+obstacles
 
-this paper describes a collision avoidance algorithm
-for planning a safe path for a polyhedral object moving among
-known polyhedral objects  the algorithm transforms the obstacles
-so that they represent the locus of forbidden positions for an arbitrary
-reference point on the moving object  a trajectory of this
-reference point which avoids all forbidden regions is free of collisions
-trajectories are found by searching a network which indicates for each vertex 
-in the transformed obstacles which other vertices can be reached safely
+this
+paper
+describes
+a
+collision
+avoidance
+algorithm
+for
+planning
+a
+safe
+path
+for
+a
+polyhedral
+object
+moving
+among
+known
+polyhedral
+objects
 
-cacm october 1979
+the
+algorithm
+transforms
+the
+obstacles
+so
+that
+they
+represent
+the
+locus
+of
+forbidden
+positions
+for
+an
+arbitrary
+reference
+point
+on
+the
+moving
+object
 
-lozano-perez t
-wesley m
+a
+trajectory
+of
+this
+reference
+point
+which
+avoids
+all
+forbidden
+regions
+is
+free
+of
+collisions
+trajectories
+are
+found
+by
+searching
+a
+network
+which
+indicates
+for
+each
+vertex
 
-path finding collision-free paths polyhedral objects
-polyhedral obstacles graph searching growing objects
+in
+the
+transformed
+obstacles
+which
+other
+vertices
+can
+be
+reached
+safely
 
-3.15 3.64 3.66 8.1
+cacm
+october
+1979
 
-ca791005 db january 17 1980  10:13 am
+lozano-perez
+t
+wesley
+m
 
-3172	4	3172
-3116	5	3172
-3172	5	3172
-3172	5	3172
-3172	5	3172 
+path
+finding
+collision-free
+paths
+polyhedral
+objects
+polyhedral
+obstacles
+graph
+searching
+growing
+objects
+
+3.15
+3.64
+3.66
+8.1
+
+ca791005
+db
+january
+17
+1980
+
+10:13
+am
+
+3172
+4
+3172
+3116
+5
+3172
+3172
+5
+3172
+3172
+5
+3172
+3172
+5
+3172

@@ -1,16 +1,42 @@
-routing problem algorithm a456
+routing
+problem
+algorithm
+a456
 
-cacm september 1973
+cacm
+september
+1973
 
-fencl z
+fencl
+z
 
-routing problem shortest path traveling
-salesman problem hamiltonian circuit
+routing
+problem
+shortest
+path
+traveling
+salesman
+problem
+hamiltonian
+circuit
 
 5.40
 
-ca730910 jb january 23 1978  8:47 am
+ca730910
+jb
+january
+23
+1978
 
-2445	5	2445
-2445	5	2445
-2445	5	2445 
+8:47
+am
+
+2445
+5
+2445
+2445
+5
+2445
+2445
+5
+2445

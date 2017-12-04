@@ -1,11 +1,33 @@
-mark sense and port-a-punch programming inputs
+mark
+sense
+and
+port-a-punch
+programming
+inputs
 
-cacm december 1964
+cacm
+december
+1964
 
-lubbert w f.
+lubbert
+w
+f.
 
-ca641212 jb march 9 1978  3:24 pm
+ca641212
+jb
+march
+9
+1978
 
-959	5	959
-959	5	959
-959	5	959 
+3:24
+pm
+
+959
+5
+959
+959
+5
+959
+959
+5
+959

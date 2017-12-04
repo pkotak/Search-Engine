@@ -1,11 +1,31 @@
-havie integrator algorithm 257 d1
+havie
+integrator
+algorithm
+257
+d1
 
-cacm december 1966
+cacm
+december
+1966
 
-farkas i.
+farkas
+i.
 
-ca661207b jb march 23 1978  4:16 pm
+ca661207b
+jb
+march
+23
+1978
 
-1343	5	1343
-1343	5	1343
-1343	5	1343 
+4:16
+pm
+
+1343
+5
+1343
+1343
+5
+1343
+1343
+5
+1343

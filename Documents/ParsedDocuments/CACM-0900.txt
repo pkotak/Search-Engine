@@ -1,11 +1,31 @@
-ancestor algorithm 79
+ancestor
+algorithm
+79
 
-cacm march 1963
+cacm
+march
+1963
 
-thacher jr h c.
+thacher
+jr
+h
+c.
 
-ca630320 jb march 14 1978  1:23 pm
+ca630320
+jb
+march
+14
+1978
 
-900	5	900
-900	5	900
-900	5	900 
+1:23
+pm
+
+900
+5
+900
+900
+5
+900
+900
+5
+900

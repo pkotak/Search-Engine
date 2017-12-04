@@ -1,12 +1,38 @@
-coding of medical case history data for computer analysis
+coding
+of
+medical
+case
+history
+data
+for
+computer
+analysis
 
-cacm october 1962
+cacm
+october
+1962
 
-lipkin m
-woodbury m a.
+lipkin
+m
+woodbury
+m
+a.
 
-ca621019 jb march 17 1978  6:59 pm
+ca621019
+jb
+march
+17
+1978
 
-461	5	461
-461	5	461
-461	5	461 
+6:59
+pm
+
+461
+5
+461
+461
+5
+461
+461
+5
+461

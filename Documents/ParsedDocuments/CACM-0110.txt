@@ -1,11 +1,29 @@
-fibonaccian searching
+fibonaccian
+searching
 
-cacm december 1960
+cacm
+december
+1960
 
-ferguson d e.
+ferguson
+d
+e.
 
-ca601206 jb march 20 1978  6:38 pm
+ca601206
+jb
+march
+20
+1978
 
-110	5	110
-110	5	110
-110	5	110 
+6:38
+pm
+
+110
+5
+110
+110
+5
+110
+110
+5
+110

@@ -1,11 +1,36 @@
-numerical solution of the polynomial equation algorithm 300 c2
+numerical
+solution
+of
+the
+polynomial
+equation
+algorithm
+300
+c2
 
-cacm may 1967
+cacm
+may
+1967
 
-kohfeld j j.
+kohfeld
+j
+j.
 
-ca670506d jb march 23 1978  4:03 pm
+ca670506d
+jb
+march
+23
+1978
 
-1599	5	1599
-1599	5	1599
-1599	5	1599 
+4:03
+pm
+
+1599
+5
+1599
+1599
+5
+1599
+1599
+5
+1599

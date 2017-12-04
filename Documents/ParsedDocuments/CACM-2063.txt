@@ -1,11 +1,29 @@
-translation equations errata
+translation
+equations
+errata
 
-cacm may 1970
+cacm
+may
+1970
 
-vere s.
+vere
+s.
 
-ca700503 jb february 13 1978  2:12 pm
+ca700503
+jb
+february
+13
+1978
 
-2063	5	2063
-2063	5	2063
-2063	5	2063 
+2:12
+pm
+
+2063
+5
+2063
+2063
+5
+2063
+2063
+5
+2063

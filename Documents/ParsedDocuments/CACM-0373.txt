@@ -1,11 +1,33 @@
-correlation coefficients with matrix multiplication algorithm 39
+correlation
+coefficients
+with
+matrix
+multiplication
+algorithm
+39
 
-cacm march 1961
+cacm
+march
+1961
 
-sassouni p.
+sassouni
+p.
 
-ca610309 jb march 17 1978  12:37 am
+ca610309
+jb
+march
+17
+1978
 
-373	5	373
-373	5	373
-373	5	373 
+12:37
+am
+
+373
+5
+373
+373
+5
+373
+373
+5
+373

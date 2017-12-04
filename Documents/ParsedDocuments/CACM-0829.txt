@@ -1,14 +1,43 @@
-the external language klipa for the ural-2 digital computer
+the
+external
+language
+klipa
+for
+the
+ural-2
+digital
+computer
 
-cacm june 1963
+cacm
+june
+1963
 
-greniewski m
-turski w.
+greniewski
+m
+turski
+w.
 
-ca630620 jb march 14 1978  10:04 am
+ca630620
+jb
+march
+14
+1978
 
-2905	5	829
-829	5	829
-829	5	829
-829	5	829
-829	6	829 
+10:04
+am
+
+2905
+5
+829
+829
+5
+829
+829
+5
+829
+829
+5
+829
+829
+6
+829

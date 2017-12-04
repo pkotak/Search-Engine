@@ -1,15 +1,65 @@
-a method for locating zeros of complex functions
+a
+method
+for
+locating
+zeros
+of
+complex
+functions
 
-a method for computing the index or winding
-number is developed and applied to the problem 
-of finding zeros of functions from the plane into the plane
+a
+method
+for
+computing
+the
+index
+or
+winding
+number
+is
+developed
+and
+applied
+to
+the
+problem
 
-cacm april 1966
+of
+finding
+zeros
+of
+functions
+from
+the
+plane
+into
+the
+plane
 
-cain jr g l.
+cacm
+april
+1966
 
-ca660411 jb march 3 1978  10:23 am
+cain
+jr
+g
+l.
 
-1438	5	1438
-1438	5	1438
-1438	5	1438 
+ca660411
+jb
+march
+3
+1978
+
+10:23
+am
+
+1438
+5
+1438
+1438
+5
+1438
+1438
+5
+1438

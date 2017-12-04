@@ -1,11 +1,31 @@
-chebyschev curve-fit algorithm 91 e2
+chebyschev
+curve-fit
+algorithm
+91
+e2
 
-cacm december 1967
+cacm
+december
+1967
 
-boothroyd j.
+boothroyd
+j.
 
-ca671208b jb march 23 1978  2:11 pm
+ca671208b
+jb
+march
+23
+1978
 
-1500	5	1500
-1500	5	1500
-1500	5	1500 
+2:11
+pm
+
+1500
+5
+1500
+1500
+5
+1500
+1500
+5
+1500

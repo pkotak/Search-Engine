@@ -1,11 +1,31 @@
-fresnel integrals algorithm 213 s20
+fresnel
+integrals
+algorithm
+213
+s20
 
-cacm november 1964
+cacm
+november
+1964
 
-gray m.
+gray
+m.
 
-ca641107 jb march 9 1978  4:06 pm
+ca641107
+jb
+march
+9
+1978
 
-976	5	976
-976	5	976
-976	5	976 
+4:06
+pm
+
+976
+5
+976
+976
+5
+976
+976
+5
+976

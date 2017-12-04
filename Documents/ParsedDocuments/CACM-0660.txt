@@ -1,11 +1,35 @@
-more test matrices for determinants and inverses pracnique
+more
+test
+matrices
+for
+determinants
+and
+inverses
+pracnique
 
-cacm december 1963
+cacm
+december
+1963
 
-englar t s.
+englar
+t
+s.
 
-ca631214 jb march 13 1978  2:46 pm
+ca631214
+jb
+march
+13
+1978
 
-660	5	660
-660	5	660
-660	5	660 
+2:46
+pm
+
+660
+5
+660
+660
+5
+660
+660
+5
+660

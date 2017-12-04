@@ -1,11 +1,35 @@
-a survey of languages and systems for information retrieval
+a
+survey
+of
+languages
+and
+systems
+for
+information
+retrieval
 
-cacm january 1962
+cacm
+january
+1962
 
-grems m.
+grems
+m.
 
-ca620108 jb march 20 1978  4:36 pm
+ca620108
+jb
+march
+20
+1978
 
-651	5	651
-651	5	651
-651	5	651 
+4:36
+pm
+
+651
+5
+651
+651
+5
+651
+651
+5
+651

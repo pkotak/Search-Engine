@@ -1,11 +1,30 @@
-fresnel integrals algorithm 244 s20
+fresnel
+integrals
+algorithm
+244
+s20
 
-cacm november 1964
+cacm
+november
+1964
 
-lotsch h.
+lotsch
+h.
 
-ca641105 jb march 9,1978  4:09 pm
+ca641105
+jb
+march
+9,1978
 
-978	5	978
-978	5	978
-978	5	978 
+4:09
+pm
+
+978
+5
+978
+978
+5
+978
+978
+5
+978

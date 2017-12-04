@@ -1,11 +1,33 @@
-perturbations of eigenvalues of non-normal matrices corrigendum
+perturbations
+of
+eigenvalues
+of
+non-normal
+matrices
+corrigendum
 
-cacm march 1975
+cacm
+march
+1975
 
-sluis a.
+sluis
+a.
 
-ca750310 jb january 9 1978  4:26 pm
+ca750310
+jb
+january
+9
+1978
 
-2778	5	2778
-2778	5	2778
-2778	5	2778 
+4:26
+pm
+
+2778
+5
+2778
+2778
+5
+2778
+2778
+5
+2778

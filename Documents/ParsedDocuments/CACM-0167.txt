@@ -1,11 +1,33 @@
-combining algol statement analysis with validity checking
+combining
+algol
+statement
+analysis
+with
+validity
+checking
 
-cacm july 1960
+cacm
+july
+1960
 
-mcisaac p.
+mcisaac
+p.
 
-ca600706 jb march 20 1978  9:15 pm
+ca600706
+jb
+march
+20
+1978
 
-167	5	167
-167	5	167
-167	5	167 
+9:15
+pm
+
+167
+5
+167
+167
+5
+167
+167
+5
+167

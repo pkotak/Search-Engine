@@ -1,12 +1,36 @@
-definite exponential integrals a algorithm 108
+definite
+exponential
+integrals
+a
+algorithm
+108
 
-cacm july 1962
+cacm
+july
+1962
 
-kruglyak y a
-whitman d r.
+kruglyak
+y
+a
+whitman
+d
+r.
 
-ca620710 jb march 17 1978  8:31 pm
+ca620710
+jb
+march
+17
+1978
 
-551	5	551
-551	5	551
-551	5	551 
+8:31
+pm
+
+551
+5
+551
+551
+5
+551
+551
+5
+551

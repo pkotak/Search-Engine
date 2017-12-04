@@ -1,11 +1,29 @@
-shanks algorithm 215
+shanks
+algorithm
+215
 
-cacm may 1964
+cacm
+may
+1964
 
-schumaker l.
+schumaker
+l.
 
-ca640515 jb march 9 1978  11:51 pm
+ca640515
+jb
+march
+9
+1978
 
-1074	5	1074
-1074	5	1074
-1074	5	1074 
+11:51
+pm
+
+1074
+5
+1074
+1074
+5
+1074
+1074
+5
+1074

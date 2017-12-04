@@ -1,11 +1,29 @@
-why cobol
+why
+cobol
 
-cacm may 1962
+cacm
+may
+1962
 
-cunningham j f.
+cunningham
+j
+f.
 
-ca620501 jb march 20 1978  1:55 pm
+ca620501
+jb
+march
+20
+1978
 
-604	5	604
-604	5	604
-604	5	604 
+1:55
+pm
+
+604
+5
+604
+604
+5
+604
+604
+5
+604

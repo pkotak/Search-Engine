@@ -1,11 +1,35 @@
-fitting spheres by the method of least squares
+fitting
+spheres
+by
+the
+method
+of
+least
+squares
 
-cacm november 1961
+cacm
+november
+1961
 
-robinson s m.
+robinson
+s
+m.
 
-ca611102 jb march 15 1978  11:00 pm
+ca611102
+jb
+march
+15
+1978
 
-266	5	266
-266	5	266
-266	5	266 
+11:00
+pm
+
+266
+5
+266
+266
+5
+266
+266
+5
+266

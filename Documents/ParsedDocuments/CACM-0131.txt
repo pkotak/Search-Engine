@@ -1,11 +1,33 @@
-solution of tri-diagonal linear equations algorithm 24
+solution
+of
+tri-diagonal
+linear
+equations
+algorithm
+24
 
-cacm november 1960
+cacm
+november
+1960
 
-leavenworth b.
+leavenworth
+b.
 
-ca601104 jb march 20 1978  8:01 pm
+ca601104
+jb
+march
+20
+1978
 
-131	5	131
-131	5	131
-131	5	131 
+8:01
+pm
+
+131
+5
+131
+131
+5
+131
+131
+5
+131

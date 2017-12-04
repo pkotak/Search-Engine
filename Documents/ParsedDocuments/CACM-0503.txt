@@ -1,11 +1,36 @@
-rational roots of polynomials with integer coefficients algorithm 78
+rational
+roots
+of
+polynomials
+with
+integer
+coefficients
+algorithm
+78
 
-cacm august 1962
+cacm
+august
+1962
 
-collison d m.
+collison
+d
+m.
 
-ca620825 jb march 17 1978  9:27 pm
+ca620825
+jb
+march
+17
+1978
 
-503	5	503
-503	5	503
-503	5	503 
+9:27
+pm
+
+503
+5
+503
+503
+5
+503
+503
+5
+503

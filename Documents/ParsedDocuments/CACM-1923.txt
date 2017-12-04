@@ -1,23 +1,87 @@
 pseudofiles
 
-an approach to system interfaces for high
-level languages using basic inputoutput support 
-facilities is described  it is shown that this technique
-can provide potentially inexpensive methods 
-for programs to communicate with deeply embedded
-facilities such as command language processors
+an
+approach
+to
+system
+interfaces
+for
+high
+level
+languages
+using
+basic
+inputoutput
+support
 
-cacm march 1969
+facilities
+is
+described
 
-rosin r f
+it
+is
+shown
+that
+this
+technique
+can
+provide
+potentially
+inexpensive
+methods
 
-operating systems interfaces input-output
-high level languages command language
+for
+programs
+to
+communicate
+with
+deeply
+embedded
+facilities
+such
+as
+command
+language
+processors
 
-4.22 4.30 4.31 4.41
+cacm
+march
+1969
 
-ca690304 jb february 20 1978  9:12 am
+rosin
+r
+f
 
-1923	5	1923
-1923	5	1923
-1923	5	1923 
+operating
+systems
+interfaces
+input-output
+high
+level
+languages
+command
+language
+
+4.22
+4.30
+4.31
+4.41
+
+ca690304
+jb
+february
+20
+1978
+
+9:12
+am
+
+1923
+5
+1923
+1923
+5
+1923
+1923
+5
+1923

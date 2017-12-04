@@ -1,11 +1,31 @@
-confluent hypergeometric algorithm 192
+confluent
+hypergeometric
+algorithm
+192
 
-cacm july 1963
+cacm
+july
+1963
 
-relph a p.
+relph
+a
+p.
 
-ca630716 jb march 14 1978  8:29 am
+ca630716
+jb
+march
+14
+1978
 
-808	5	808
-808	5	808
-808	5	808 
+8:29
+am
+
+808
+5
+808
+808
+5
+808
+808
+5
+808

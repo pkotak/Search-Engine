@@ -1,11 +1,33 @@
-simpsons rule for multiple integration algorithm 233
+simpsons
+rule
+for
+multiple
+integration
+algorithm
+233
 
-cacm june 1964
+cacm
+june
+1964
 
-olynyk f.
+olynyk
+f.
 
-ca640609 jb march 9 1978  9:33 pm
+ca640609
+jb
+march
+9
+1978
 
-1058	5	1058
-1058	5	1058
-1058	5	1058 
+9:33
+pm
+
+1058
+5
+1058
+1058
+5
+1058
+1058
+5
+1058

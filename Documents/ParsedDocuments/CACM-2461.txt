@@ -1,11 +1,31 @@
-graph plotter algorithm r412
+graph
+plotter
+algorithm
+r412
 
-cacm august 1973
+cacm
+august
+1973
 
-watkins r p.
+watkins
+r
+p.
 
-ca730813 jb january 23 1978  10:30 am
+ca730813
+jb
+january
+23
+1978
 
-2461	5	2461
-2461	5	2461
-2461	5	2461 
+10:30
+am
+
+2461
+5
+2461
+2461
+5
+2461
+2461
+5
+2461

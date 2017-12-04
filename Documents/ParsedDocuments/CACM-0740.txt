@@ -1,11 +1,30 @@
-interest algorithm 45
+interest
+algorithm
+45
 
-cacm september 1963
+cacm
+september
+1963
 
-wright c b.
+wright
+c
+b.
 
-ca630918 jb march 13 1978  7:23 pm
+ca630918
+jb
+march
+13
+1978
 
-740	5	740
-740	5	740
-740	5	740 
+7:23
+pm
+
+740
+5
+740
+740
+5
+740
+740
+5
+740

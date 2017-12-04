@@ -1,11 +1,31 @@
-examination scheduling algorithm 286 h
+examination
+scheduling
+algorithm
+286
+h
 
-cacm november 1966
+cacm
+november
+1966
 
-williams r.
+williams
+r.
 
-ca661103c jb march 23 1978  4:20 pm
+ca661103c
+jb
+march
+23
+1978
 
-1357	5	1357
-1357	5	1357
-1357	5	1357 
+4:20
+pm
+
+1357
+5
+1357
+1357
+5
+1357
+1357
+5
+1357

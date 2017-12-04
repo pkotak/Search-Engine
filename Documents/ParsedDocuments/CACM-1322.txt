@@ -1,13 +1,37 @@
-netflow algorithm 248 h
+netflow
+algorithm
+248
+h
 
-cacm february 1965
+cacm
+february
+1965
 
-briggs w a.
+briggs
+w
+a.
 
-ca650202 jb march 7 1978  11:18 pm
+ca650202
+jb
+march
+7
+1978
 
-1322	5	1322
-1322	5	1322
-1322	5	1322
-1690	5	1322
-1322	6	1322 
+11:18
+pm
+
+1322
+5
+1322
+1322
+5
+1322
+1322
+5
+1322
+1690
+5
+1322
+1322
+6
+1322

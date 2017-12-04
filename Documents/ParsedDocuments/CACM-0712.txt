@@ -1,11 +1,31 @@
-hermite interpolation algorithm 211
+hermite
+interpolation
+algorithm
+211
 
-cacm october 1963
+cacm
+october
+1963
 
-schubert g r.
+schubert
+g
+r.
 
-ca631013 jb march 13 1978  5:51 pm
+ca631013
+jb
+march
+13
+1978
 
-712	5	712
-712	5	712
-712	5	712 
+5:51
+pm
+
+712
+5
+712
+712
+5
+712
+712
+5
+712

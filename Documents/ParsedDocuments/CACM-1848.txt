@@ -1,17 +1,62 @@
-the damped taylors series method for minimizing
-a sum of squares and for solving systems of 
-nonlinear equations algorithm 315 e4 c5
+the
+damped
+taylors
+series
+method
+for
+minimizing
+a
+sum
+of
+squares
+and
+for
+solving
+systems
+of
 
-cacm september 1969
+nonlinear
+equations
+algorithm
+315
+e4
+c5
 
-silverman g
+cacm
+september
+1969
 
-solution of equations least squares approximation newtons method
+silverman
+g
 
-5.13 5.14 5.15
+solution
+of
+equations
+least
+squares
+approximation
+newtons
+method
 
-ca690907 jb february 15 1978  4:32 pm
+5.13
+5.14
+5.15
 
-1848	5	1848
-1848	5	1848
-1848	5	1848 
+ca690907
+jb
+february
+15
+1978
+
+4:32
+pm
+
+1848
+5
+1848
+1848
+5
+1848
+1848
+5
+1848

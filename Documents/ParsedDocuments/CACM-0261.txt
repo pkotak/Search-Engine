@@ -1,11 +1,29 @@
-tape splitting
+tape
+splitting
 
-cacm november 1961
+cacm
+november
+1961
 
-moore d p.
+moore
+d
+p.
 
-ca611107 jb march 15 1978  10:54 pm
+ca611107
+jb
+march
+15
+1978
 
-261	5	261
-261	5	261
-261	5	261 
+10:54
+pm
+
+261
+5
+261
+261
+5
+261
+261
+5
+261

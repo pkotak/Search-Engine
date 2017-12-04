@@ -1,11 +1,32 @@
-numerical inversion of laplace transforms
+numerical
+inversion
+of
+laplace
+transforms
 
-cacm march 1960
+cacm
+march
+1960
 
-schmittroth l a.
+schmittroth
+l
+a.
 
-ca600305 jb march 22 1978  2:00 pm
+ca600305
+jb
+march
+22
+1978
 
-213	5	213
-213	5	213
-213	5	213 
+2:00
+pm
+
+213
+5
+213
+213
+5
+213
+213
+5
+213

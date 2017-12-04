@@ -1,16 +1,44 @@
-an integer programming problem $h algorithm 397
+an
+integer
+programming
+problem
+$h
+algorithm
+397
 
-cacm october 1970
+cacm
+october
+1970
 
-chang s k
-gill a
+chang
+s
+k
+gill
+a
 
-integer programming change making problem
+integer
+programming
+change
+making
+problem
 
 5.41
 
-ca701005 jb february 10 1978  9:28 am
+ca701005
+jb
+february
+10
+1978
 
-1985	5	1985
-1985	5	1985
-1985	5	1985 
+9:28
+am
+
+1985
+5
+1985
+1985
+5
+1985
+1985
+5
+1985

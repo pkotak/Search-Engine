@@ -1,11 +1,32 @@
-complete elliptic integral algorithm 149
+complete
+elliptic
+integral
+algorithm
+149
 
-cacm april 1963
+cacm
+april
+1963
 
-thacher h c.
+thacher
+h
+c.
 
-ca630415 jb march 14 1978  12:14 pm
+ca630415
+jb
+march
+14
+1978
 
-876	5	876
-876	5	876
-876	5	876 
+12:14
+pm
+
+876
+5
+876
+876
+5
+876
+876
+5
+876

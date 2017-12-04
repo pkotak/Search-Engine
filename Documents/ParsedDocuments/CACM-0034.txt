@@ -1,11 +1,31 @@
-tables for automatic computation
+tables
+for
+automatic
+computation
 
-cacm january 1958
+cacm
+january
+1958
 
-wilf h s.
+wilf
+h
+s.
 
-ca580102 jb march 22 1978  9:26 pm
+ca580102
+jb
+march
+22
+1978
 
-34	5	34
-34	5	34
-34	5	34 
+9:26
+pm
+
+34
+5
+34
+34
+5
+34
+34
+5
+34

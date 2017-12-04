@@ -1,11 +1,33 @@
-techniques department on matrix program schemes
+techniques
+department
+on
+matrix
+program
+schemes
 
-cacm december 1958
+cacm
+december
+1958
 
-friedman m d.
+friedman
+m
+d.
 
-ca581201 jb march 22 1978  8:30 pm
+ca581201
+jb
+march
+22
+1978
 
-3	5	3
-3	5	3
-3	5	3 
+8:30
+pm
+
+3
+5
+3
+3
+5
+3
+3
+5
+3

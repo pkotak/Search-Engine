@@ -1,11 +1,30 @@
-factors algorithm 75
+factors
+algorithm
+75
 
-cacm august 1962
+cacm
+august
+1962
 
-hillmore j s.
+hillmore
+j
+s.
 
-ca620824 jb march 17 1978  9:28 pm
+ca620824
+jb
+march
+17
+1978
 
-504	5	504
-504	5	504
-504	5	504 
+9:28
+pm
+
+504
+5
+504
+504
+5
+504
+504
+5
+504

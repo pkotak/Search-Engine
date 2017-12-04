@@ -1,22 +1,89 @@
-economical encoding of commas between strings
+economical
+encoding
+of
+commas
+between
+strings
 
-a method for insertion of delimiters between
-strings without using new symbols is presented 
- as the lengths of the strings increase the extra cost
-in terms of prolongation becomes vanishingly 
-small compared to the lengths of the strings
+a
+method
+for
+insertion
+of
+delimiters
+between
+strings
+without
+using
+new
+symbols
+is
+presented
 
-cacm april 1978
 
-even s
-rodeh m
+as
+the
+lengths
+of
+the
+strings
+increase
+the
+extra
+cost
+in
+terms
+of
+prolongation
+becomes
+vanishingly
 
-string transmission delimiters commas encoding of the integers
+small
+compared
+to
+the
+lengths
+of
+the
+strings
 
-3.57 3.81 5.6
+cacm
+april
+1978
 
-ca780408 dh february 26 1979  3:36 pm
+even
+s
+rodeh
+m
 
-3108	5	3108
-3108	5	3108
-3108	5	3108 
+string
+transmission
+delimiters
+commas
+encoding
+of
+the
+integers
+
+3.57
+3.81
+5.6
+
+ca780408
+dh
+february
+26
+1979
+
+3:36
+pm
+
+3108
+5
+3108
+3108
+5
+3108
+3108
+5
+3108

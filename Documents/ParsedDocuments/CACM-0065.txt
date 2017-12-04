@@ -1,14 +1,39 @@
-algol sub-committee report - extensions
+algol
+sub-committee
+report
+-
+extensions
 
-cacm september 1959
+cacm
+september
+1959
 
-dijkstra e w
-heise w
-perlis j a
-samelson k.
+dijkstra
+e
+w
+heise
+w
+perlis
+j
+a
+samelson
+k.
 
-ca590904 jb march 22 1978  4:49 pm
+ca590904
+jb
+march
+22
+1978
 
-65	5	65
-65	5	65
-65	5	65 
+4:49
+pm
+
+65
+5
+65
+65
+5
+65
+65
+5
+65

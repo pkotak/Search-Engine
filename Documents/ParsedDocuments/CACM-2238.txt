@@ -1,11 +1,32 @@
-least squares surface fit algorithm r176
+least
+squares
+surface
+fit
+algorithm
+r176
 
-cacm december 1972
+cacm
+december
+1972
 
-schuegraf e.
+schuegraf
+e.
 
-ca721217 jb january 27 1978  8:59 am
+ca721217
+jb
+january
+27
+1978
 
-2238	5	2238
-2238	5	2238
-2238	5	2238 
+8:59
+am
+
+2238
+5
+2238
+2238
+5
+2238
+2238
+5
+2238

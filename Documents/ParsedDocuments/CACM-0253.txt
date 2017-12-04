@@ -1,12 +1,41 @@
-on a program for ray-chaudhuris algorithm
-for a minimum cover of an abstract complex
+on
+a
+program
+for
+ray-chaudhuris
+algorithm
+for
+a
+minimum
+cover
+of
+an
+abstract
+complex
 
-cacm november 1961
+cacm
+november
+1961
 
-foata d c.
+foata
+d
+c.
 
-ca611115 jb march 15 1978  10:41 pm
+ca611115
+jb
+march
+15
+1978
 
-253	5	253
-253	5	253
-253	5	253 
+10:41
+pm
+
+253
+5
+253
+253
+5
+253
+253
+5
+253

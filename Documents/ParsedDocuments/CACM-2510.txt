@@ -1,13 +1,37 @@
-minit algorithm for linear programming algorithm r333
+minit
+algorithm
+for
+linear
+programming
+algorithm
+r333
 
-cacm may 1973
+cacm
+may
+1973
 
-holmgren b
-obradovic d
-kolm a.
+holmgren
+b
+obradovic
+d
+kolm
+a.
 
-ca730510 jb january 23 1978  4:38 pm
+ca730510
+jb
+january
+23
+1978
 
-2510	5	2510
-2510	5	2510
-2510	5	2510 
+4:38
+pm
+
+2510
+5
+2510
+2510
+5
+2510
+2510
+5
+2510

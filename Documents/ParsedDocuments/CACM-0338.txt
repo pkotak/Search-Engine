@@ -1,11 +1,31 @@
-grout ii algorithm 43
+grout
+ii
+algorithm
+43
 
-cacm april 1961
+cacm
+april
+1961
 
-thacher jr h.
+thacher
+jr
+h.
 
-ca610430 jb march 16 1978  11:35 pm
+ca610430
+jb
+march
+16
+1978
 
-338	5	338
-338	5	338
-338	5	338 
+11:35
+pm
+
+338
+5
+338
+338
+5
+338
+338
+5
+338

@@ -1,14 +1,44 @@
-an information retrieval language for legal studies
+an
+information
+retrieval
+language
+for
+legal
+studies
 
-cacm september 1961
+cacm
+september
+1961
 
-kehl w b
-horty j f
-bacon c r t
-mitchell d s.
+kehl
+w
+b
+horty
+j
+f
+bacon
+c
+r
+t
+mitchell
+d
+s.
 
-ca610902 jb march 16 1978  9:51 pm
+ca610902
+jb
+march
+16
+1978
 
-292	5	292
-292	5	292
-292	5	292 
+9:51
+pm
+
+292
+5
+292
+292
+5
+292
+292
+5
+292

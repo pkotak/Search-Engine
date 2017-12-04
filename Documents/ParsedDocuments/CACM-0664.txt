@@ -1,11 +1,30 @@
-assignment algorithm 27
+assignment
+algorithm
+27
 
-cacm december 1963
+cacm
+december
+1963
 
-witty r d.
+witty
+r
+d.
 
-ca631210 jb march 13 1978  2:54 pm
+ca631210
+jb
+march
+13
+1978
 
-664	5	664
-664	5	664
-664	5	664 
+2:54
+pm
+
+664
+5
+664
+664
+5
+664
+664
+5
+664

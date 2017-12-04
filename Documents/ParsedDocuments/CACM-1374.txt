@@ -1,12 +1,34 @@
-evaluation of determinant determinant
-evaluation algorithms 41f3 269f3
+evaluation
+of
+determinant
+determinant
+evaluation
+algorithms
+41f3
+269f3
 
-cacm september 1966
+cacm
+september
+1966
 
-bergson a.
+bergson
+a.
 
-ca660909e jb march 23 1978  4:29 pm
+ca660909e
+jb
+march
+23
+1978
 
-1374	5	1374
-1374	5	1374
-1374	5	1374 
+4:29
+pm
+
+1374
+5
+1374
+1374
+5
+1374
+1374
+5
+1374

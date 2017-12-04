@@ -1,12 +1,34 @@
-gauss algorithm 209 s15
+gauss
+algorithm
+209
+s15
 
-cacm june 1967
+cacm
+june
+1967
 
-hill i d
-joyce s a.
+hill
+i
+d
+joyce
+s
+a.
 
-ca670607j jb march 23 1978  3:38 pm
+ca670607j
+jb
+march
+23
+1978
 
-1582	5	1582
-1582	5	1582
-1582	5	1582 
+3:38
+pm
+
+1582
+5
+1582
+1582
+5
+1582
+1582
+5
+1582

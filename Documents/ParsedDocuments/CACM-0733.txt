@@ -1,11 +1,36 @@
-newton interpolation with forward divided differences algorithm 169
+newton
+interpolation
+with
+forward
+divided
+differences
+algorithm
+169
 
-cacm september 1963
+cacm
+september
+1963
 
-thacher jr h c.
+thacher
+jr
+h
+c.
 
-ca630925 jb march 13 1978  7:13 pm
+ca630925
+jb
+march
+13
+1978
 
-733	5	733
-733	5	733
-733	5	733 
+7:13
+pm
+
+733
+5
+733
+733
+5
+733
+733
+5
+733

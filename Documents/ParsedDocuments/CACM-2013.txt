@@ -1,17 +1,43 @@
-rademacher function $s22 algorithm 388
+rademacher
+function
+$s22
+algorithm
+388
 
-cacm august 1970
+cacm
+august
+1970
 
-hubner h
+hubner
+h
 
-rademacher function
+rademacher
+function
 
-5.12 5.13
+5.12
+5.13
 
-ca700808 jb february 10 1978  3:23 pm
+ca700808
+jb
+february
+10
+1978
 
-2012	5	2013
-2013	5	2013
-2013	5	2013
-2013	5	2013
-2013	6	2013 
+3:23
+pm
+
+2012
+5
+2013
+2013
+5
+2013
+2013
+5
+2013
+2013
+5
+2013
+2013
+6
+2013

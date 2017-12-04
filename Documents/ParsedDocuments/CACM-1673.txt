@@ -1,22 +1,87 @@
-approximate solution of initial boundary wave
-equation problems by boundary-value techniques
+approximate
+solution
+of
+initial
+boundary
+wave
+equation
+problems
+by
+boundary-value
+techniques
 
-a new boundary-value technique is proposed for
-the treatment of initial-boundary-value problems 
-for linear and mildly nonlinear wave equations   several
-illustrative examples are offered to demonstrate 
-the ease with which the method can be applied
+a
+new
+boundary-value
+technique
+is
+proposed
+for
+the
+treatment
+of
+initial-boundary-value
+problems
 
-cacm november 1968
+for
+linear
+and
+mildly
+nonlinear
+wave
+equations
 
-greenspan d
 
-initial-boundary-value problem wave equation boundary-value technique
+several
+illustrative
+examples
+are
+offered
+to
+demonstrate
 
-5.15 5.17
+the
+ease
+with
+which
+the
+method
+can
+be
+applied
 
-ca681106 jb february 21 1978  2:48 pm
+cacm
+november
+1968
 
-1673	5	1673
-1673	5	1673
-1673	5	1673 
+greenspan
+d
+
+initial-boundary-value
+problem
+wave
+equation
+boundary-value
+technique
+
+5.15
+5.17
+
+ca681106
+jb
+february
+21
+1978
+
+2:48
+pm
+
+1673
+5
+1673
+1673
+5
+1673
+1673
+5
+1673

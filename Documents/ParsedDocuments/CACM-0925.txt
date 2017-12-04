@@ -1,11 +1,37 @@
-location of a vector in a lexicographically ordered listalgorithm 151
+location
+of
+a
+vector
+in
+a
+lexicographically
+ordered
+listalgorithm
+151
 
-cacm february 1963
+cacm
+february
+1963
 
-walter h f.
+walter
+h
+f.
 
-ca630208 jb march 14 1978  2:17 pm
+ca630208
+jb
+march
+14
+1978
 
-925	5	925
-925	5	925
-925	5	925 
+2:17
+pm
+
+925
+5
+925
+925
+5
+925
+925
+5
+925

@@ -1,11 +1,30 @@
-dialects of fortran
+dialects
+of
+fortran
 
-cacm august 1963
+cacm
+august
+1963
 
-pyle i c.
+pyle
+i
+c.
 
-ca630838 jb march 13 1978  8:03 pm
+ca630838
+jb
+march
+13
+1978
 
-760	5	760
-760	5	760
-760	5	760 
+8:03
+pm
+
+760
+5
+760
+760
+5
+760
+760
+5
+760

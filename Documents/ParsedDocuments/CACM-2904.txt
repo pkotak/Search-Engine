@@ -1,24 +1,102 @@
-an algorithm for reduction of operator strength
+an
+algorithm
+for
+reduction
+of
+operator
+strength
 
-a simple algorithm which uses an indexed temporary
-table to perform reduction of operator strength 
-in strongly connected regions is presented  several extensions
-including linear function test replacement 
-are discussed  these algorithms should fit well into an
-integrated package of local optimization algorithms
+a
+simple
+algorithm
+which
+uses
+an
+indexed
+temporary
+table
+to
+perform
+reduction
+of
+operator
+strength
 
-cacm november 1977
+in
+strongly
+connected
+regions
+is
+presented
 
-cocke j
+several
+extensions
+including
+linear
+function
+test
+replacement
 
-compilers optimization of compiled code program analysis
-operator strength reduction test replacement 
-strongly connected region
+are
+discussed
 
-4.12 5.24 5.32
+these
+algorithms
+should
+fit
+well
+into
+an
+integrated
+package
+of
+local
+optimization
+algorithms
 
-ca771112 jb december 27 1977  6:34 am
+cacm
+november
+1977
 
-2904	5	2904
-2904	5	2904
-2904	5	2904 
+cocke
+j
+
+compilers
+optimization
+of
+compiled
+code
+program
+analysis
+operator
+strength
+reduction
+test
+replacement
+
+strongly
+connected
+region
+
+4.12
+5.24
+5.32
+
+ca771112
+jb
+december
+27
+1977
+
+6:34
+am
+
+2904
+5
+2904
+2904
+5
+2904
+2904
+5
+2904

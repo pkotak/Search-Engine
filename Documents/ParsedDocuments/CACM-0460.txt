@@ -1,11 +1,30 @@
-minifun algorithm 129
+minifun
+algorithm
+129
 
-cacm november 1962
+cacm
+november
+1962
 
-whitley v w.
+whitley
+v
+w.
 
-ca621101 jb march 17 1978  6:58 pm
+ca621101
+jb
+march
+17
+1978
 
-460	5	460
-460	5	460
-460	5	460 
+6:58
+pm
+
+460
+5
+460
+460
+5
+460
+460
+5
+460

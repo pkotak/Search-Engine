@@ -1,39 +1,162 @@
-comparison of several adaptive newton-cotes quadrature routines
-in evaluating definite integrals with peaked integrands
+comparison
+of
+several
+adaptive
+newton-cotes
+quadrature
+routines
+in
+evaluating
+definite
+integrals
+with
+peaked
+integrands
 
-this report compares the performance of five different adaptive quadrature 
-schemes based on newton-cotes 2n + 1 point rules n = 1 2 3 4 5 in
-approximating the set of definite integrals integral$1/x2 + p2 dx with 
-relative accuracy e
+this
+report
+compares
+the
+performance
+of
+five
+different
+adaptive
+quadrature
 
-cacm june 1970
+schemes
+based
+on
+newton-cotes
+2n
++
+1
+point
+rules
+n
+=
+1
+2
+3
+4
+5
+in
+approximating
+the
+set
+of
+definite
+integrals
+integral$1/x2
++
+p2
+dx
+with
 
-hillstrom k e
+relative
+accuracy
+e
 
-adaptive newton-cotes quadrature quadrature scheme comparison
-definite integral evaluation adaptive numerical in tegration newton-cotes 
-integration peaked integrand integration quadrature efficiently
-plot new-cotes rules applications newton-cotes rules modifications
+cacm
+june
+1970
 
-5.10 5.16
+hillstrom
+k
+e
 
-ca700607 jb february 13 1978  11:08 am
+adaptive
+newton-cotes
+quadrature
+quadrature
+scheme
+comparison
+definite
+integral
+evaluation
+adaptive
+numerical
+in
+tegration
+newton-cotes
 
-1352	4	2048
-1352	4	2048
-1352	4	2048
-2048	4	2048
-2048	4	2048
-2048	4	2048
-2074	4	2048
-2074	4	2048
-2074	4	2048
-2093	4	2048
-2093	4	2048
-2550	4	2048
-2048	5	2048
-2048	5	2048
-2048	5	2048
-429	5	2048
-786	5	2048
-834	5	2048 
+integration
+peaked
+integrand
+integration
+quadrature
+efficiently
+plot
+new-cotes
+rules
+applications
+newton-cotes
+rules
+modifications
+
+5.10
+5.16
+
+ca700607
+jb
+february
+13
+1978
+
+11:08
+am
+
+1352
+4
+2048
+1352
+4
+2048
+1352
+4
+2048
+2048
+4
+2048
+2048
+4
+2048
+2048
+4
+2048
+2074
+4
+2048
+2074
+4
+2048
+2074
+4
+2048
+2093
+4
+2048
+2093
+4
+2048
+2550
+4
+2048
+2048
+5
+2048
+2048
+5
+2048
+2048
+5
+2048
+429
+5
+2048
+786
+5
+2048
+834
+5
+2048

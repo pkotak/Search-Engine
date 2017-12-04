@@ -1,11 +1,32 @@
-account classification at automating banks
+account
+classification
+at
+automating
+banks
 
-cacm december 1963
+cacm
+december
+1963
 
-eckert j b.
+eckert
+j
+b.
 
-ca631201 jb march 13 1978  3:15 pm
+ca631201
+jb
+march
+13
+1978
 
-673	5	673
-673	5	673
-673	5	673 
+3:15
+pm
+
+673
+5
+673
+673
+5
+673
+673
+5
+673

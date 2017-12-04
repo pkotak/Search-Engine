@@ -1,21 +1,74 @@
-complex gamma function with error control s14 algorithm a421
+complex
+gamma
+function
+with
+error
+control
+s14
+algorithm
+a421
 
-cacm april 1972
+cacm
+april
+1972
 
-kuki h
+kuki
+h
 
-complex gamma function gamma function complex
-log gamma function loggamma function round-off 
-error control inherent error control run-time error
-estimates error estimates special functions
+complex
+gamma
+function
+gamma
+function
+complex
+log
+gamma
+function
+loggamma
+function
+round-off
 
-4.9 5.11 5.12
+error
+control
+inherent
+error
+control
+run-time
+error
+estimates
+error
+estimates
+special
+functions
 
-ca720409 jb january 31 1978  12:50 pm
+4.9
+5.11
+5.12
 
-2364	4	2364
-2364	5	2364
-2364	5	2364
-2364	5	2364
-2366	5	2364
-2364	6	2364 
+ca720409
+jb
+january
+31
+1978
+
+12:50
+pm
+
+2364
+4
+2364
+2364
+5
+2364
+2364
+5
+2364
+2364
+5
+2364
+2366
+5
+2364
+2364
+6
+2364

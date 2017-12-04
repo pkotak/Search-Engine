@@ -1,11 +1,31 @@
-conversion between floating point representations
+conversion
+between
+floating
+point
+representations
 
-cacm june 1960
+cacm
+june
+1960
 
-perry c.
+perry
+c.
 
-ca600607 jb march 20 1978  9:40 pm
+ca600607
+jb
+march
+20
+1978
 
-183	5	183
-183	5	183
-183	5	183 
+9:40
+pm
+
+183
+5
+183
+183
+5
+183
+183
+5
+183

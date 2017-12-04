@@ -1,11 +1,33 @@
-economising a sequence 2 algorithm 82
+economising
+a
+sequence
+2
+algorithm
+82
 
-cacm march 1962
+cacm
+march
+1962
 
-mayoh b h.
+mayoh
+b
+h.
 
-ca620309 jb march 20 1978  3:03 pm
+ca620309
+jb
+march
+20
+1978
 
-623	5	623
-623	5	623
-623	5	623 
+3:03
+pm
+
+623
+5
+623
+623
+5
+623
+623
+5
+623

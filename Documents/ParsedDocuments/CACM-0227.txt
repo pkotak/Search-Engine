@@ -1,11 +1,29 @@
-rootfinder algorithm 2
+rootfinder
+algorithm
+2
 
-cacm february 1960
+cacm
+february
+1960
 
-wegstein j.
+wegstein
+j.
 
-ca600205 jb march 22 1978  2:20 pm
+ca600205
+jb
+march
+22
+1978
 
-227	5	227
-227	5	227
-227	5	227 
+2:20
+pm
+
+227
+5
+227
+227
+5
+227
+227
+5
+227

@@ -1,20 +1,84 @@
-error-free methods for statistical computations
+error-free
+methods
+for
+statistical
+computations
 
-neely has discussed computational error generated
-by some algorithms used to compute various 
-statistics  in the present paper methods are described
-which are error-free simple in concept and 
-usually less costly in machine time than those mentioned by neely
+neely
+has
+discussed
+computational
+error
+generated
+by
+some
+algorithms
+used
+to
+compute
+various
 
-cacm march 1967
+statistics
 
-rodden b e.
+in
+the
+present
+paper
+methods
+are
+described
+which
+are
+error-free
+simple
+in
+concept
+and
 
-ca670310 jb february 28 1978  1:02 pm
+usually
+less
+costly
+in
+machine
+time
+than
+those
+mentioned
+by
+neely
 
-1619	4	1619
-3166	4	1619
-1411	5	1619
-1619	5	1619
-1619	5	1619
-1619	5	1619 
+cacm
+march
+1967
+
+rodden
+b
+e.
+
+ca670310
+jb
+february
+28
+1978
+
+1:02
+pm
+
+1619
+4
+1619
+3166
+4
+1619
+1411
+5
+1619
+1619
+5
+1619
+1619
+5
+1619
+1619
+5
+1619

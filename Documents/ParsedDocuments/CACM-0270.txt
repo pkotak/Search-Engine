@@ -1,13 +1,40 @@
-techniques for storage allocation algorithms 
+techniques
+for
+storage
+allocation
+algorithms
 
-cacm october 1961
 
-kelley jr j e.
+cacm
+october
+1961
 
-ca611011 jb march 16 1978  12:50 pm
+kelley
+jr
+j
+e.
 
-270	5	270
-270	5	270
-270	5	270
-678	5	270
-270	6	270 
+ca611011
+jb
+march
+16
+1978
+
+12:50
+pm
+
+270
+5
+270
+270
+5
+270
+270
+5
+270
+678
+5
+270
+270
+6
+270

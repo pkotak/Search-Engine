@@ -1,11 +1,31 @@
-shuttle sort algorithm 175
+shuttle
+sort
+algorithm
+175
 
-cacm october 1963
+cacm
+october
+1963
 
-schubert g r.
+schubert
+g
+r.
 
-ca631024 jb march 13 1978  5:29 pm
+ca631024
+jb
+march
+13
+1978
 
-701	5	701
-701	5	701
-701	5	701 
+5:29
+pm
+
+701
+5
+701
+701
+5
+701
+701
+5
+701

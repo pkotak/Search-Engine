@@ -1,23 +1,93 @@
-determining a computing center environment
+determining
+a
+computing
+center
+environment
 
-an investigation is described in which several
-generally unavailable parameters descriptive 
-of a computing center environment are obtained  the
-actual data collection and reduction is described 
-and the results of one month of this collection are tabulated and summarized
+an
+investigation
+is
+described
+in
+which
+several
+generally
+unavailable
+parameters
+descriptive
 
-cacm july 1965
+of
+a
+computing
+center
+environment
+are
+obtained
 
-rosin r f.
+the
+actual
+data
+collection
+and
+reduction
+is
+described
 
-ca650711 jb march 6 1978  8:48 pm
+and
+the
+results
+of
+one
+month
+of
+this
+collection
+are
+tabulated
+and
+summarized
 
-1224	5	1224
-1224	5	1224
-1224	5	1224
-1533	5	1224
-1604	5	1224
-1224	6	1224
-1224	6	1224
-1410	6	1224
-1604	6	1224 
+cacm
+july
+1965
+
+rosin
+r
+f.
+
+ca650711
+jb
+march
+6
+1978
+
+8:48
+pm
+
+1224
+5
+1224
+1224
+5
+1224
+1224
+5
+1224
+1533
+5
+1224
+1604
+5
+1224
+1224
+6
+1224
+1224
+6
+1224
+1410
+6
+1224
+1604
+6
+1224

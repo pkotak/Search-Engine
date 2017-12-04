@@ -1,15 +1,51 @@
-character structure and character parity sense
-for parallel-by-bit data communication in ascii* 
-proposed american standard
+character
+structure
+and
+character
+parity
+sense
+for
+parallel-by-bit
+data
+communication
+in
+ascii*
 
-cacm september 1966
+proposed
+american
+standard
 
-ca660912 jb march 2 1978  4:26 pm
+cacm
+september
+1966
 
-1367	4	1367
-2772	4	1367
-2787	4	1367
-1116	5	1367
-1367	5	1367
-1367	5	1367
-1367	5	1367 
+ca660912
+jb
+march
+2
+1978
+
+4:26
+pm
+
+1367
+4
+1367
+2772
+4
+1367
+2787
+4
+1367
+1116
+5
+1367
+1367
+5
+1367
+1367
+5
+1367
+1367
+5
+1367

@@ -1,11 +1,31 @@
-a note on approximating ex
+a
+note
+on
+approximating
+ex
 
-cacm december 1960
+cacm
+december
+1960
 
-lubkin s.
+lubkin
+s.
 
-ca601207 jb march 20 1978  6:37 pm
+ca601207
+jb
+march
+20
+1978
 
-109	5	109
-109	5	109
-109	5	109 
+6:37
+pm
+
+109
+5
+109
+109
+5
+109
+109
+5
+109

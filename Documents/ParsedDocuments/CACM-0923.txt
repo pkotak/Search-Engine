@@ -1,11 +1,30 @@
-gomory algorithm 153
+gomory
+algorithm
+153
 
-cacm february 1963
+cacm
+february
+1963
 
-bauer f l.
+bauer
+f
+l.
 
-ca630210 jb march 14 1978  2:12 pm
+ca630210
+jb
+march
+14
+1978
 
-923	5	923
-923	5	923
-923	5	923 
+2:12
+pm
+
+923
+5
+923
+923
+5
+923
+923
+5
+923

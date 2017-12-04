@@ -1,11 +1,32 @@
-curve fitting with format fortran
+curve
+fitting
+with
+format
+fortran
 
-cacm december 1964
+cacm
+december
+1964
 
-garber m j.
+garber
+m
+j.
 
-ca641211 jb march 9 1978  3:25 pm
+ca641211
+jb
+march
+9
+1978
 
-960	5	960
-960	5	960
-960	5	960 
+3:25
+pm
+
+960
+5
+960
+960
+5
+960
+960
+5
+960

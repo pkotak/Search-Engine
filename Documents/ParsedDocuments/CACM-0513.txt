@@ -1,11 +1,30 @@
-sieve algorithm 35
+sieve
+algorithm
+35
 
-cacm august 1962
+cacm
+august
+1962
 
-hillmore j s.
+hillmore
+j
+s.
 
-ca620815 jb march 17 1978  9:37 pm
+ca620815
+jb
+march
+17
+1978
 
-513	5	513
-513	5	513
-513	5	513 
+9:37
+pm
+
+513
+5
+513
+513
+5
+513
+513
+5
+513

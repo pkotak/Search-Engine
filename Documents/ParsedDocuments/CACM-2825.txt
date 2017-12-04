@@ -1,19 +1,68 @@
-the bmd and bmdp series of statistical computer programs
+the
+bmd
+and
+bmdp
+series
+of
+statistical
+computer
+programs
 
-cacm october 1976
+cacm
+october
+1976
 
-frane j w
+frane
+j
+w
 
-analysis of variance cluster analysis contingency
-tables data analysis discriminant analysis 
-factor analysis graphics outliers regression time series transformations
+analysis
+of
+variance
+cluster
+analysis
+contingency
+tables
+data
+analysis
+discriminant
+analysis
 
-1.3 3.3 4.0 5.5
+factor
+analysis
+graphics
+outliers
+regression
+time
+series
+transformations
 
-ca761006 jb january 3 1978  4:18 pm
+1.3
+3.3
+4.0
+5.5
 
-2825	4	2825
-2419	5	2825
-2825	5	2825
-2825	5	2825
-2825	5	2825 
+ca761006
+jb
+january
+3
+1978
+
+4:18
+pm
+
+2825
+4
+2825
+2419
+5
+2825
+2825
+5
+2825
+2825
+5
+2825
+2825
+5
+2825

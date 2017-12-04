@@ -1,15 +1,47 @@
-multiple shooting method for two-point boundary value problems
+multiple
+shooting
+method
+for
+two-point
+boundary
+value
+problems
 
-cacm december 1962
+cacm
+december
+1962
 
-morrison d d
-riley j d
-zancanaro j f.
+morrison
+d
+d
+riley
+j
+d
+zancanaro
+j
+f.
 
-ca621223 jb march 17 1978  4:33 pm
+ca621223
+jb
+march
+17
+1978
 
-1049	5	416
-416	5	416
-416	5	416
-416	5	416
-416	6	416 
+4:33
+pm
+
+1049
+5
+416
+416
+5
+416
+416
+5
+416
+416
+5
+416
+416
+6
+416

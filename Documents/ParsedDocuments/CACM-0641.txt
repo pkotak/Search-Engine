@@ -1,11 +1,33 @@
-interpolation differentiation and integration algorithm 77
+interpolation
+differentiation
+and
+integration
+algorithm
+77
 
-cacm february 1962
+cacm
+february
+1962
 
-hennion p e.
+hennion
+p
+e.
 
-ca620202 jb march 20 1978  3:56 pm
+ca620202
+jb
+march
+20
+1978
 
-641	5	641
-641	5	641
-641	5	641 
+3:56
+pm
+
+641
+5
+641
+641
+5
+641
+641
+5
+641

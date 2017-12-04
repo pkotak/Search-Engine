@@ -1,11 +1,32 @@
-exponentiation of series algorithm 134
+exponentiation
+of
+series
+algorithm
+134
 
-cacm november 1962
+cacm
+november
+1962
 
-fettis h e.
+fettis
+h
+e.
 
-ca621106 jb march 17 1978  6:52 pm
+ca621106
+jb
+march
+17
+1978
 
-455	5	455
-455	5	455
-455	5	455 
+6:52
+pm
+
+455
+5
+455
+455
+5
+455
+455
+5
+455

@@ -1,11 +1,31 @@
-character manipulation in fortran
+character
+manipulation
+in
+fortran
 
-cacm february 1963
+cacm
+february
+1963
 
-lewis t s.
+lewis
+t
+s.
 
-ca630205 jb march 14 1978  2:20 pm
+ca630205
+jb
+march
+14
+1978
 
-928	5	928
-928	5	928
-928	5	928 
+2:20
+pm
+
+928
+5
+928
+928
+5
+928
+928
+5
+928

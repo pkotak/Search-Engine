@@ -1,13 +1,37 @@
-unusual applications department--automatic
-implementation of computer logic
+unusual
+applications
+department--automatic
+implementation
+of
+computer
+logic
 
-cacm may 1958
+cacm
+may
+1958
 
-morris e f
-wohr t e.
+morris
+e
+f
+wohr
+t
+e.
 
-ca580506 jb march 22 1978  9:11 pm
+ca580506
+jb
+march
+22
+1978
 
-22	5	22
-22	5	22
-22	5	22 
+9:11
+pm
+
+22
+5
+22
+22
+5
+22
+22
+5
+22

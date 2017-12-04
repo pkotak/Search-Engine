@@ -1,11 +1,29 @@
-compiling connectives
+compiling
+connectives
 
-cacm june 1960
+cacm
+june
+1960
 
-swift c j.
+swift
+c
+j.
 
-ca600603 jb march 20 1978  9:54 pm
+ca600603
+jb
+march
+20
+1978
 
-187	5	187
-187	5	187
-187	5	187 
+9:54
+pm
+
+187
+5
+187
+187
+5
+187
+187
+5
+187

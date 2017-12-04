@@ -1,11 +1,30 @@
-matrix division algorithm 197
+matrix
+division
+algorithm
+197
 
-cacm august 1963
+cacm
+august
+1963
 
-wells m.
+wells
+m.
 
-ca630811 jb march 13 1978  8:37 pm
+ca630811
+jb
+march
+13
+1978
 
-787	5	787
-787	5	787
-787	5	787 
+8:37
+pm
+
+787
+5
+787
+787
+5
+787
+787
+5
+787

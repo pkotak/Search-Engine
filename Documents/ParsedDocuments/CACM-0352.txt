@@ -1,11 +1,32 @@
-spherical neumant function algorithm 49
+spherical
+neumant
+function
+algorithm
+49
 
-cacm april 1961
+cacm
+april
+1961
 
-herndon j r.
+herndon
+j
+r.
 
-ca610416 jb march 16 1978  11:51 pm
+ca610416
+jb
+march
+16
+1978
 
-352	5	352
-352	5	352
-352	5	352 
+11:51
+pm
+
+352
+5
+352
+352
+5
+352
+352
+5
+352

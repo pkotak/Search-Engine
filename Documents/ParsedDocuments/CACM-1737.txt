@@ -1,11 +1,35 @@
-a global parser for context-free phrase structure grammars
+a
+global
+parser
+for
+context-free
+phrase
+structure
+grammars
 
-cacm june 1968
+cacm
+june
+1968
 
-unger s h.
+unger
+s
+h.
 
-ca680608 jb february 22 1978  4:08 pm
+ca680608
+jb
+february
+22
+1978
 
-1737	5	1737
-1737	5	1737
-1737	5	1737 
+4:08
+pm
+
+1737
+5
+1737
+1737
+5
+1737
+1737
+5
+1737

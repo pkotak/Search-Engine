@@ -1,11 +1,32 @@
-exponentiation of series algorithm 158
+exponentiation
+of
+series
+algorithm
+158
 
-cacm september 1963
+cacm
+september
+1963
 
-lawrence j d.
+lawrence
+j
+d.
 
-ca630921 jb march 13 1978  7:19 pm
+ca630921
+jb
+march
+13
+1978
 
-737	5	737
-737	5	737
-737	5	737 
+7:19
+pm
+
+737
+5
+737
+737
+5
+737
+737
+5
+737

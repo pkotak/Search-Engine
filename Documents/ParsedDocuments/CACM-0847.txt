@@ -1,15 +1,45 @@
-a penny-matching program
+a
+penny-matching
+program
 
-the logic of a penny-matching program
-written for the csx-1 is described
+the
+logic
+of
+a
+penny-matching
+program
+written
+for
+the
+csx-1
+is
+described
 
-cacm june 1963
+cacm
+june
+1963
 
-wall e
-brown r m.
+wall
+e
+brown
+r
+m.
 
-ca630602 jb march 14 1978  10:27 am
+ca630602
+jb
+march
+14
+1978
 
-847	5	847
-847	5	847
-847	5	847 
+10:27
+am
+
+847
+5
+847
+847
+5
+847
+847
+5
+847

@@ -1,11 +1,34 @@
-least-squares fit by orthogonal polynomials algorithm 28
+least-squares
+fit
+by
+orthogonal
+polynomials
+algorithm
+28
 
-cacm december 1961
+cacm
+december
+1961
 
-macmillan d b.
+macmillan
+d
+b.
 
-ca611204 jb march 15 1978  10:27 pm
+ca611204
+jb
+march
+15
+1978
 
-246	5	246
-246	5	246
-246	5	246 
+10:27
+pm
+
+246
+5
+246
+246
+5
+246
+246
+5
+246

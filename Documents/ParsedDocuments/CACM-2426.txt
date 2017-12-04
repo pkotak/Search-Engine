@@ -1,17 +1,51 @@
-algorithms scale1 scale2 and scale3 for determination
-of scales on computer generated plots 
-j6 algorithm a463
+algorithms
+scale1
+scale2
+and
+scale3
+for
+determination
+of
+scales
+on
+computer
+generated
+plots
 
-cacm october 1973
+j6
+algorithm
+a463
 
-lewart c r
+cacm
+october
+1973
 
-plotting scaling for plotting
+lewart
+c
+r
+
+plotting
+scaling
+for
+plotting
 
 4.41
 
-ca731014 jb january 20 1978  11:01 am
+ca731014
+jb
+january
+20
+1978
 
-2426	5	2426
-2426	5	2426
-2426	5	2426 
+11:01
+am
+
+2426
+5
+2426
+2426
+5
+2426
+2426
+5
+2426

@@ -1,20 +1,89 @@
-techniques for automatic tolerance control in linear programming
+techniques
+for
+automatic
+tolerance
+control
+in
+linear
+programming
 
-in this technical note the numerical steps
-for the simplex method of linear programming are 
-reviewed and the tolerances needed in the numerical procedure
-are defined  objective criteria are given 
-for accomplishing the numerical steps of the method
-and the calculation of necessary tolerances
+in
+this
+technical
+note
+the
+numerical
+steps
+for
+the
+simplex
+method
+of
+linear
+programming
+are
 
-cacm november 1966
+reviewed
+and
+the
+tolerances
+needed
+in
+the
+numerical
+procedure
+are
+defined
 
-clasen r j.
+objective
+criteria
+are
+given
 
-ca661105 jb march 2 1978  3:37 pm
+for
+accomplishing
+the
+numerical
+steps
+of
+the
+method
+and
+the
+calculation
+of
+necessary
+tolerances
 
-1353	5	1353
-1353	5	1353
-1353	5	1353
-2589	5	1353
-1353	6	1353 
+cacm
+november
+1966
+
+clasen
+r
+j.
+
+ca661105
+jb
+march
+2
+1978
+
+3:37
+pm
+
+1353
+5
+1353
+1353
+5
+1353
+1353
+5
+1353
+2589
+5
+1353
+1353
+6
+1353

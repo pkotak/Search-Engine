@@ -1,11 +1,31 @@
-complex exponential integral algorithm 13
+complex
+exponential
+integral
+algorithm
+13
 
-cacm july 1960
+cacm
+july
+1960
 
-beam a.
+beam
+a.
 
-ca600701 jb march 20 1978  9:21 pm
+ca600701
+jb
+march
+20
+1978
 
-172	5	172
-172	5	172
-172	5	172 
+9:21
+pm
+
+172
+5
+172
+172
+5
+172
+172
+5
+172

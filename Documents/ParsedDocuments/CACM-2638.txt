@@ -1,11 +1,31 @@
-hidden-line plotting program algorithm r420
+hidden-line
+plotting
+program
+algorithm
+r420
 
-cacm june 1974
+cacm
+june
+1974
 
-gaither b.
+gaither
+b.
 
-ca740608 jb january 17 1978  3:00 pm
+ca740608
+jb
+january
+17
+1978
 
-2638	5	2638
-2638	5	2638
-2638	5	2638 
+3:00
+pm
+
+2638
+5
+2638
+2638
+5
+2638
+2638
+5
+2638

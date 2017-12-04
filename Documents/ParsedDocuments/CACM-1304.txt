@@ -1,18 +1,64 @@
-a rapid turnaround multi-programming system
+a
+rapid
+turnaround
+multi-programming
+system
 
-in this paper basic features system characteristics
-and the control algorithm for a multi-programming 
-system with rapid turnaround time are described
+in
+this
+paper
+basic
+features
+system
+characteristics
+and
+the
+control
+algorithm
+for
+a
+multi-programming
 
-cacm march 1965
+system
+with
+rapid
+turnaround
+time
+are
+described
 
-irons e t.
+cacm
+march
+1965
 
-ca650303 jb march 7 1978  6:19 pm
+irons
+e
+t.
 
-1304	5	1304
-1304	5	1304
-1304	5	1304
-1550	5	1304
-1304	6	1304
-1472	6	1304 
+ca650303
+jb
+march
+7
+1978
+
+6:19
+pm
+
+1304
+5
+1304
+1304
+5
+1304
+1304
+5
+1304
+1550
+5
+1304
+1304
+6
+1304
+1472
+6
+1304

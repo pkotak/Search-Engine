@@ -1,11 +1,33 @@
-erlang probability for curve fitting algorithm 184
+erlang
+probability
+for
+curve
+fitting
+algorithm
+184
 
-cacm july 1963
+cacm
+july
+1963
 
-colker a.
+colker
+a.
 
-ca630708 jb march 14 1978  8:39 am
+ca630708
+jb
+march
+14
+1978
 
-816	5	816
-816	5	816
-816	5	816 
+8:39
+am
+
+816
+5
+816
+816
+5
+816
+816
+5
+816

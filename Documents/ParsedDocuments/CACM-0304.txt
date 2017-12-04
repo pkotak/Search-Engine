@@ -1,11 +1,36 @@
-nth roots of a complex number algorithm 53
+nth
+roots
+of
+a
+complex
+number
+algorithm
+53
 
-cacm july 1961
+cacm
+july
+1961
 
-nestor jr c w.
+nestor
+jr
+c
+w.
 
-ca610713 jb march 16 1978  10:17 pm
+ca610713
+jb
+march
+16
+1978
 
-304	5	304
-304	5	304
-304	5	304 
+10:17
+pm
+
+304
+5
+304
+304
+5
+304
+304
+5
+304

@@ -1,11 +1,33 @@
-further remarks on sampling a tape file-ii
+further
+remarks
+on
+sampling
+a
+tape
+file-ii
 
-cacm october 1962
+cacm
+october
+1962
 
-nadler m.
+nadler
+m.
 
-ca621004 jb march 17 1978  7:22 pm
+ca621004
+jb
+march
+17
+1978
 
-476	5	476
-476	5	476
-476	5	476 
+7:22
+pm
+
+476
+5
+476
+476
+5
+476
+476
+5
+476

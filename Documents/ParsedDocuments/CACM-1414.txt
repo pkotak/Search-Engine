@@ -1,10 +1,32 @@
-twelve-row punched-card code for information
-interchange* proposed american standard
+twelve-row
+punched-card
+code
+for
+information
+interchange*
+proposed
+american
+standard
 
-cacm june 1966
+cacm
+june
+1966
 
-ca660607 jb march 3 1978  8:39 am
+ca660607
+jb
+march
+3
+1978
 
-1414	5	1414
-1414	5	1414
-1414	5	1414 
+8:39
+am
+
+1414
+5
+1414
+1414
+5
+1414
+1414
+5
+1414

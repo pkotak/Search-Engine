@@ -1,11 +1,31 @@
-complex power algorithm 190
+complex
+power
+algorithm
+190
 
-cacm july 1963
+cacm
+july
+1963
 
-relph a p.
+relph
+a
+p.
 
-ca630714 jb march 14 1978  8:32 am
+ca630714
+jb
+march
+14
+1978
 
-810	5	810
-810	5	810
-810	5	810 
+8:32
+am
+
+810
+5
+810
+810
+5
+810
+810
+5
+810

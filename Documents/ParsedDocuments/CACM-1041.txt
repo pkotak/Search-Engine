@@ -1,11 +1,31 @@
-random permutation algorithm 235 g6
+random
+permutation
+algorithm
+235
+g6
 
-cacm july 1964
+cacm
+july
+1964
 
-durstenfeld r.
+durstenfeld
+r.
 
-ca640706 jb march 9 1978  8:18 pm
+ca640706
+jb
+march
+9
+1978
 
-1041	5	1041
-1041	5	1041
-1041	5	1041 
+8:18
+pm
+
+1041
+5
+1041
+1041
+5
+1041
+1041
+5
+1041

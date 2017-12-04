@@ -1,11 +1,33 @@
-another test matrix for determinants and inverses
+another
+test
+matrix
+for
+determinants
+and
+inverses
 
-cacm june 1963
+cacm
+june
+1963
 
-caffrey j.
+caffrey
+j.
 
-ca630604 jb march 14 1978  10:24 am
+ca630604
+jb
+march
+14
+1978
 
-845	5	845
-845	5	845
-845	5	845 
+10:24
+am
+
+845
+5
+845
+845
+5
+845
+845
+5
+845

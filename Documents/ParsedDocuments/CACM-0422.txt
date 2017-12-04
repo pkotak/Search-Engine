@@ -1,11 +1,30 @@
-combination algorithm 94
+combination
+algorithm
+94
 
-cacm december 1962
+cacm
+december
+1962
 
-grench r e.
+grench
+r
+e.
 
-ca621217 jb march 17 1978  4:56 pm
+ca621217
+jb
+march
+17
+1978
 
-422	5	422
-422	5	422
-422	5	422 
+4:56
+pm
+
+422
+5
+422
+422
+5
+422
+422
+5
+422

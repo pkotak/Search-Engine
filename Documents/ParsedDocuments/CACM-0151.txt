@@ -1,11 +1,31 @@
-trdiag algorithm 17
+trdiag
+algorithm
+17
 
-cacm september 1960
+cacm
+september
+1960
 
-sprague iii c d.
+sprague
+iii
+c
+d.
 
-ca600906 jb march 20 1978  8:45 pm
+ca600906
+jb
+march
+20
+1978
 
-151	5	151
-151	5	151
-151	5	151 
+8:45
+pm
+
+151
+5
+151
+151
+5
+151
+151
+5
+151

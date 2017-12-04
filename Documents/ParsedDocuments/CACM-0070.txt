@@ -1,17 +1,71 @@
-construction of a set of test matrices
+construction
+of
+a
+set
+of
+test
+matrices
 
-this paper develops the equations and properties
-of a set of test matrices which are useful 
-in the determination of the accuracy of routines for
-finding the inverse determinant andor eigenvalues 
-of a matrix
+this
+paper
+develops
+the
+equations
+and
+properties
+of
+a
+set
+of
+test
+matrices
+which
+are
+useful
 
-cacm august 1959
+in
+the
+determination
+of
+the
+accuracy
+of
+routines
+for
+finding
+the
+inverse
+determinant
+andor
+eigenvalues
 
-aegerter m j.
+of
+a
+matrix
 
-ca590803 jb march 22 1978  6:09 pm
+cacm
+august
+1959
 
-70	5	70
-70	5	70
-70	5	70 
+aegerter
+m
+j.
+
+ca590803
+jb
+march
+22
+1978
+
+6:09
+pm
+
+70
+5
+70
+70
+5
+70
+70
+5
+70

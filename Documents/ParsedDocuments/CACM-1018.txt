@@ -1,11 +1,31 @@
-gauss algorithm 209 s15
+gauss
+algorithm
+209
+s15
 
-cacm august 1964
+cacm
+august
+1964
 
-pike m c.
+pike
+m
+c.
 
-ca640812 jb march 9 1978  6:54 pm
+ca640812
+jb
+march
+9
+1978
 
-1018	5	1018
-1018	5	1018
-1018	5	1018 
+6:54
+pm
+
+1018
+5
+1018
+1018
+5
+1018
+1018
+5
+1018

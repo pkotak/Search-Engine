@@ -1,11 +1,30 @@
-self-inverse conversion table
+self-inverse
+conversion
+table
 
-cacm june 1963
+cacm
+june
+1963
 
-sanborn t g.
+sanborn
+t
+g.
 
-ca630603 jb march 14 1978  10:25 am
+ca630603
+jb
+march
+14
+1978
 
-846	5	846
-846	5	846
-846	5	846 
+10:25
+am
+
+846
+5
+846
+846
+5
+846
+846
+5
+846

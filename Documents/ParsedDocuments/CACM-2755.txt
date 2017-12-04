@@ -1,11 +1,34 @@
-the new math of computer programming corrigendum
+the
+new
+math
+of
+computer
+programming
+corrigendum
 
-cacm may 1975
+cacm
+may
+1975
 
-mills h d.
+mills
+h
+d.
 
-ca750512 jb january 9 1978  2:20 pm
+ca750512
+jb
+january
+9
+1978
 
-2755	5	2755
-2755	5	2755
-2755	5	2755 
+2:20
+pm
+
+2755
+5
+2755
+2755
+5
+2755
+2755
+5
+2755

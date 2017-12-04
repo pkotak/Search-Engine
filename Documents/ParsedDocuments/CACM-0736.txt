@@ -1,11 +1,32 @@
-modified hankel functions algorithm 163
+modified
+hankel
+functions
+algorithm
+163
 
-cacm september 1963
+cacm
+september
+1963
 
-thacher jrh c.
+thacher
+jrh
+c.
 
-ca630922 jb march 13 1978  7:18 pm
+ca630922
+jb
+march
+13
+1978
 
-736	5	736
-736	5	736
-736	5	736 
+7:18
+pm
+
+736
+5
+736
+736
+5
+736
+736
+5
+736

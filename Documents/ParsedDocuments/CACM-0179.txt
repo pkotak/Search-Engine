@@ -1,11 +1,36 @@
-evaluation of the legendre polynomial pnx by recursion algorithm
+evaluation
+of
+the
+legendre
+polynomial
+pnx
+by
+recursion
+algorithm
 
-cacm june 1960
+cacm
+june
+1960
 
-galler g m.
+galler
+g
+m.
 
-ca600611 jb march 20 1978  9:35 pm
+ca600611
+jb
+march
+20
+1978
 
-179	5	179
-179	5	179
-179	5	179 
+9:35
+pm
+
+179
+5
+179
+179
+5
+179
+179
+5
+179

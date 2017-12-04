@@ -1,17 +1,50 @@
-construction of nonlinear programming test problems
+construction
+of
+nonlinear
+programming
+test
+problems
 
-cacm february 1965
+cacm
+february
+1965
 
-rosen j b
-suzuki s.
+rosen
+j
+b
+suzuki
+s.
 
-ca650211 jb march 7 1978  10:58 pm
+ca650211
+jb
+march
+7
+1978
 
-1313	5	1313
-1313	5	1313
-1313	5	1313
-3099	5	1313
-3138	5	1313
-1313	6	1313
-1313	6	1313
-2031	6	1313 
+10:58
+pm
+
+1313
+5
+1313
+1313
+5
+1313
+1313
+5
+1313
+3099
+5
+1313
+3138
+5
+1313
+1313
+6
+1313
+1313
+6
+1313
+2031
+6
+1313

@@ -1,11 +1,31 @@
-permutation generator algorithm 87
+permutation
+generator
+algorithm
+87
 
-cacm april 1962
+cacm
+april
+1962
 
-howell j r.
+howell
+j
+r.
 
-ca620406 jb march 20 1978  2:20 pm
+ca620406
+jb
+march
+20
+1978
 
-611	5	611
-611	5	611
-611	5	611 
+2:20
+pm
+
+611
+5
+611
+611
+5
+611
+611
+5
+611

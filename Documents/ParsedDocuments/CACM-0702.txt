@@ -1,12 +1,31 @@
-assign algorithm 173
+assign
+algorithm
+173
 
-cacm october 1963
+cacm
+october
+1963
 
-filsak z
-vrchovecka l.
+filsak
+z
+vrchovecka
+l.
 
-ca631023 jb march 13 1978  5:31 pm
+ca631023
+jb
+march
+13
+1978
 
-702	5	702
-702	5	702
-702	5	702 
+5:31
+pm
+
+702
+5
+702
+702
+5
+702
+702
+5
+702

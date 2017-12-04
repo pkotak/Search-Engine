@@ -1,20 +1,91 @@
-an algorithm for generating root locus diagrams
-
-a technique for using a digital computer to
-draw both ordinary and time-lag root locus diagrams 
-is described  ordinary diagrams are drawn much faster
-and more accurately than ever before  time-lag 
-diagrams which had been impossible to obtain are drawn
-with the same speed and accuracy as ordinary 
+an
+algorithm
+for
+generating
+root
+locus
 diagrams
 
-cacm march 1967
+a
+technique
+for
+using
+a
+digital
+computer
+to
+draw
+both
+ordinary
+and
+time-lag
+root
+locus
+diagrams
 
-krall a m
-fornaro r.
+is
+described
 
-ca670313 jb february 28 1978  12:57 pm
+ordinary
+diagrams
+are
+drawn
+much
+faster
+and
+more
+accurately
+than
+ever
+before
 
-1615	5	1615
-1615	5	1615
-1615	5	1615 
+time-lag
+
+diagrams
+which
+had
+been
+impossible
+to
+obtain
+are
+drawn
+with
+the
+same
+speed
+and
+accuracy
+as
+ordinary
+
+diagrams
+
+cacm
+march
+1967
+
+krall
+a
+m
+fornaro
+r.
+
+ca670313
+jb
+february
+28
+1978
+
+12:57
+pm
+
+1615
+5
+1615
+1615
+5
+1615
+1615
+5
+1615

@@ -1,16 +1,48 @@
-remark on certification of matrix inversion procedures
+remark
+on
+certification
+of
+matrix
+inversion
+procedures
 
-cacm july 1963
+cacm
+july
+1963
 
-moler c.
+moler
+c.
 
-ca630718 jb march 14 1978  8:21 am
+ca630718
+jb
+march
+14
+1978
 
-1177	4	806
-806	4	806
-806	4	806
-932	5	806
-454	5	806
-806	5	806
-806	5	806
-806	5	806 
+8:21
+am
+
+1177
+4
+806
+806
+4
+806
+806
+4
+806
+932
+5
+806
+454
+5
+806
+806
+5
+806
+806
+5
+806
+806
+5
+806

@@ -1,12 +1,36 @@
-nesting of for statement i algorithm 137
+nesting
+of
+for
+statement
+i
+algorithm
+137
 
-cacm november 1962
+cacm
+november
+1962
 
-dahm d m
-wells m.
+dahm
+d
+m
+wells
+m.
 
-ca621109 jb march 17 1978  6:15 pm
+ca621109
+jb
+march
+17
+1978
 
-452	5	452
-452	5	452
-452	5	452 
+6:15
+pm
+
+452
+5
+452
+452
+5
+452
+452
+5
+452

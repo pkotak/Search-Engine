@@ -1,24 +1,99 @@
-a recurrence scheme for converting from
-one orthogonal expansion into another
+a
+recurrence
+scheme
+for
+converting
+from
+one
+orthogonal
+expansion
+into
+another
 
-a generalization of a scheme of hamming for
-converting a polynomial pnx into a chebyshev 
-series is combined with a recurrence scheme of clenshaw
-for summing any finite series whose terms satisfy 
-a three-term recurrence formula  
+a
+generalization
+of
+a
+scheme
+of
+hamming
+for
+converting
+a
+polynomial
+pnx
+into
+a
+chebyshev
 
-cacm november 1973
+series
+is
+combined
+with
+a
+recurrence
+scheme
+of
+clenshaw
+for
+summing
+any
+finite
+series
+whose
+terms
+satisfy
 
-salzer h e
+a
+three-term
+recurrence
+formula
 
-orthogonal expansions series interconversion
-recurrence schemes hamming recurrence clenshaw 
-recurrence three-term recurrence five-term recurrence chebyshev series
+
+
+cacm
+november
+1973
+
+salzer
+h
+e
+
+orthogonal
+expansions
+series
+interconversion
+recurrence
+schemes
+hamming
+recurrence
+clenshaw
+
+recurrence
+three-term
+recurrence
+five-term
+recurrence
+chebyshev
+series
 
 5.12
 
-ca731116 jb january 19 1978  4:16 pm
+ca731116
+jb
+january
+19
+1978
 
-2410	5	2410
-2410	5	2410
-2410	5	2410 
+4:16
+pm
+
+2410
+5
+2410
+2410
+5
+2410
+2410
+5
+2410

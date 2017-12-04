@@ -1,11 +1,32 @@
-programmed methods for printer graphical output
+programmed
+methods
+for
+printer
+graphical
+output
 
-cacm september 1962
+cacm
+september
+1962
 
-garfinkel d.
+garfinkel
+d.
 
-ca620902 jb march 17 1978  8:56 pm
+ca620902
+jb
+march
+17
+1978
 
-490	5	490
-490	5	490
-490	5	490 
+8:56
+pm
+
+490
+5
+490
+490
+5
+490
+490
+5
+490

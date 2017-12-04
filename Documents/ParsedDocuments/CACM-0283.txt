@@ -1,11 +1,31 @@
-inversion of a complex matrix
+inversion
+of
+a
+complex
+matrix
 
-cacm september 1961
+cacm
+september
+1961
 
-tornheim l.
+tornheim
+l.
 
-ca610911 jb march 16 1978  1:44 pm
+ca610911
+jb
+march
+16
+1978
 
-283	5	283
-283	5	283
-283	5	283 
+1:44
+pm
+
+283
+5
+283
+283
+5
+283
+283
+5
+283

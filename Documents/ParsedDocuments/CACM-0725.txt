@@ -1,11 +1,31 @@
-group participation computer demonstration
+group
+participation
+computer
+demonstration
 
-cacm october 1963
+cacm
+october
+1963
 
-mccormick e m.
+mccormick
+e
+m.
 
-ca630933 jb march 13 1978  6:50 pm
+ca630933
+jb
+march
+13
+1978
 
-725	5	725
-725	5	725
-725	5	725 
+6:50
+pm
+
+725
+5
+725
+725
+5
+725
+725
+5
+725

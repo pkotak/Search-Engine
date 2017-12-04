@@ -1,18 +1,53 @@
-an algorithm for generating ising configurations algorithm 355 z
+an
+algorithm
+for
+generating
+ising
+configurations
+algorithm
+355
+z
 
-cacm october 1969
+cacm
+october
+1969
 
-simoes j m s
+simoes
+j
+m
+s
 
-ising problem zero-one sequences
+ising
+problem
+zero-one
+sequences
 
 5.39
 
-ca691004 jb february 15 1978  3:27 pm
+ca691004
+jb
+february
+15
+1978
 
-1842	5	1842
-1842	5	1842
-1842	5	1842
-2066	5	1842
-1833	6	1842
-1842	6	1842 
+3:27
+pm
+
+1842
+5
+1842
+1842
+5
+1842
+1842
+5
+1842
+2066
+5
+1842
+1833
+6
+1842
+1842
+6
+1842

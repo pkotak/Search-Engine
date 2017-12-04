@@ -1,11 +1,37 @@
-the alpha vector transformation of a system of linear constraints
+the
+alpha
+vector
+transformation
+of
+a
+system
+of
+linear
+constraints
 
-cacm september 1959
+cacm
+september
+1959
 
-wersan s j.
+wersan
+s
+j.
 
-ca590909 jb march 22 1978  4:42 pm
+ca590909
+jb
+march
+22
+1978
 
-60	5	60
-60	5	60
-60	5	60 
+4:42
+pm
+
+60
+5
+60
+60
+5
+60
+60
+5
+60

@@ -1,19 +1,55 @@
-characteristic values and associated solutions
-of mathieus differential equation algorithm 
-352 s22
+characteristic
+values
+and
+associated
+solutions
+of
+mathieus
+differential
+equation
+algorithm
 
-cacm july 1969
+352
+s22
 
-clemm d s
+cacm
+july
+1969
 
-mathieus differential equation mathieu function
-characteristic value periodic solution radial 
+clemm
+d
+s
+
+mathieus
+differential
+equation
+mathieu
+function
+characteristic
+value
+periodic
+solution
+radial
+
 solution
 
 5.12
 
-ca690714 jb february 15 1978  6:30 pm
+ca690714
+jb
+february
+15
+1978
 
-1866	5	1866
-1866	5	1866
-1866	5	1866 
+6:30
+pm
+
+1866
+5
+1866
+1866
+5
+1866
+1866
+5
+1866

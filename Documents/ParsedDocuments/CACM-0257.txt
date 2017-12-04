@@ -1,12 +1,32 @@
-invert algorithm 42
+invert
+algorithm
+42
 
-cacm november 1961
+cacm
+november
+1961
 
-knapp a w
-shaman p.
+knapp
+a
+w
+shaman
+p.
 
-ca611111 jb march 15 1978  10:47 pm
+ca611111
+jb
+march
+15
+1978
 
-257	5	257
-257	5	257
-257	5	257 
+10:47
+pm
+
+257
+5
+257
+257
+5
+257
+257
+5
+257

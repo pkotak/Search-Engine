@@ -1,13 +1,41 @@
-the execute operations-a fourth mode of instruction sequencing
+the
+execute
+operations-a
+fourth
+mode
+of
+instruction
+sequencing
 
-cacm march 1960
+cacm
+march
+1960
 
-brooks f p.
+brooks
+f
+p.
 
-ca600303 jb march 22 1978  2:02 pm
+ca600303
+jb
+march
+22
+1978
 
-215	4	215
-215	5	215
-215	5	215
-215	5	215
-58	5	215 
+2:02
+pm
+
+215
+4
+215
+215
+5
+215
+215
+5
+215
+215
+5
+215
+58
+5
+215

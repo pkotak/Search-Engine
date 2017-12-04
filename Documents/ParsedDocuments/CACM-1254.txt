@@ -1,17 +1,66 @@
-the iteration element
+the
+iteration
+element
 
-a recent addition to the mad language has made
-the iteration structure of the mad through statement 
-corresponding to the algol for statement and the fortran
-do statement available within expressions
+a
+recent
+addition
+to
+the
+mad
+language
+has
+made
+the
+iteration
+structure
+of
+the
+mad
+through
+statement
 
-cacm june 1965
+corresponding
+to
+the
+algol
+for
+statement
+and
+the
+fortran
+do
+statement
+available
+within
+expressions
 
-galler b a
-fischer m j.
+cacm
+june
+1965
 
-ca650601 jb march 7 1978  12:49 pm
+galler
+b
+a
+fischer
+m
+j.
 
-1254	5	1254
-1254	5	1254
-1254	5	1254 
+ca650601
+jb
+march
+7
+1978
+
+12:49
+pm
+
+1254
+5
+1254
+1254
+5
+1254
+1254
+5
+1254

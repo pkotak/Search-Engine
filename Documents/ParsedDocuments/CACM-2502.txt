@@ -1,16 +1,49 @@
-a comment on the practical aspects of computer science education
+a
+comment
+on
+the
+practical
+aspects
+of
+computer
+science
+education
 
-cacm may 1973
+cacm
+may
+1973
 
-estell r g
+estell
+r
+g
 
-education computer engineering computer
-sciences curriculum systems design
+education
+computer
+engineering
+computer
+sciences
+curriculum
+systems
+design
 
-1.52 6.0
+1.52
+6.0
 
-ca730518 jb january 23 1978  4:23 pm
+ca730518
+jb
+january
+23
+1978
 
-2502	5	2502
-2502	5	2502
-2502	5	2502 
+4:23
+pm
+
+2502
+5
+2502
+2502
+5
+2502
+2502
+5
+2502

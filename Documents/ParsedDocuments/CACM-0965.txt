@@ -1,11 +1,33 @@
-greatest common divisor algorithm 237 a1
+greatest
+common
+divisor
+algorithm
+237
+a1
 
-cacm december 1964
+cacm
+december
+1964
 
-bray t a.
+bray
+t
+a.
 
-ca641206 jb march 9 1978  3:40 pm
+ca641206
+jb
+march
+9
+1978
 
-965	5	965
-965	5	965
-965	5	965 
+3:40
+pm
+
+965
+5
+965
+965
+5
+965
+965
+5
+965

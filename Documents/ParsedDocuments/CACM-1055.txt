@@ -1,11 +1,33 @@
-q-bessel functions int algorithm 214
+q-bessel
+functions
+int
+algorithm
+214
 
-cacm june,1964
+cacm
+june,1964
 
-simoes pereira j m s.
+simoes
+pereira
+j
+m
+s.
 
-ca640612 jb march 9 1978  9:29 pm
+ca640612
+jb
+march
+9
+1978
 
-1055	5	1055
-1055	5	1055
-1055	5	1055 
+9:29
+pm
+
+1055
+5
+1055
+1055
+5
+1055
+1055
+5
+1055

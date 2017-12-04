@@ -1,11 +1,33 @@
-library loading with alternate routine selection
+library
+loading
+with
+alternate
+routine
+selection
 
-cacm november 1961
+cacm
+november
+1961
 
-moore d p.
+moore
+d
+p.
 
-ca611105 jb march 15 1978  10:55 pm
+ca611105
+jb
+march
+15
+1978
 
-263	5	263
-263	5	263
-263	5	263 
+10:55
+pm
+
+263
+5
+263
+263
+5
+263
+263
+5
+263

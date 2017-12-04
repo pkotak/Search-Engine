@@ -1,11 +1,30 @@
-treesort2 algorithm 144
+treesort2
+algorithm
+144
 
-cacm december 1962
+cacm
+december
+1962
 
-kaupe jra f.
+kaupe
+jra
+f.
 
-ca621209 jb march 17 1978  5:07 pm
+ca621209
+jb
+march
+17
+1978
 
-430	5	430
-430	5	430
-430	5	430 
+5:07
+pm
+
+430
+5
+430
+430
+5
+430
+430
+5
+430

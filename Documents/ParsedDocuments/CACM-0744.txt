@@ -1,11 +1,31 @@
-ative algorithm 205
+ative
+algorithm
+205
 
-cacm september 1963
+cacm
+september
+1963
 
-haubrich j g a.
+haubrich
+j
+g
+a.
 
-ca630914 jb march 13 1978  7:28 pm
+ca630914
+jb
+march
+13
+1978
 
-744	5	744
-744	5	744
-744	5	744 
+7:28
+pm
+
+744
+5
+744
+744
+5
+744
+744
+5
+744

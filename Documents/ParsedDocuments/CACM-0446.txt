@@ -1,11 +1,31 @@
-simpsons integration algorithm 84
+simpsons
+integration
+algorithm
+84
 
-cacm november 1962
+cacm
+november
+1962
 
-behrenz p g.
+behrenz
+p
+g.
 
-ca621115 jb march 17 1978  6:04 pm
+ca621115
+jb
+march
+17
+1978
 
-446	5	446
-446	5	446
-446	5	446 
+6:04
+pm
+
+446
+5
+446
+446
+5
+446
+446
+5
+446

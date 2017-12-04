@@ -1,17 +1,46 @@
-netflow algorithm 336 $h
+netflow
+algorithm
+336
+$h
 
-cacm march 1970
+cacm
+march
+1970
 
-bray t a
-witzgall c
+bray
+t
+a
+witzgall
+c
 
-capacitated network linear programming minimum-cost
-flow network flow out-of-kilter
+capacitated
+network
+linear
+programming
+minimum-cost
+flow
+network
+flow
+out-of-kilter
 
-5.32 5.41
+5.32
+5.41
 
-ca700310 jb february 13 1978  3:44 pm
+ca700310
+jb
+february
+13
+1978
 
-2088	5	2088
-2088	5	2088
-2088	5	2088 
+3:44
+pm
+
+2088
+5
+2088
+2088
+5
+2088
+2088
+5
+2088

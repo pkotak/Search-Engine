@@ -1,15 +1,37 @@
-maxflow algorithm 324 h
+maxflow
+algorithm
+324
+h
 
-cacm february 1968
+cacm
+february
+1968
 
-bayer g
+bayer
+g
 
-networkliner programming maximum flow
+networkliner
+programming
+maximum
+flow
 
 5.41
 
-ca680206 jb february 23 1978  12:02 pm
+ca680206
+jb
+february
+23
+1978
 
-1776	5	1776
-1776	5	1776
-1776	5	1776 
+12:02
+pm
+
+1776
+5
+1776
+1776
+5
+1776
+1776
+5
+1776

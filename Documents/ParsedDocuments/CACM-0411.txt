@@ -1,11 +1,37 @@
-use of magnetic tape for data storage in the oracle-algol translator
+use
+of
+magnetic
+tape
+for
+data
+storage
+in
+the
+oracle-algol
+translator
 
-cacm january 1961
+cacm
+january
+1961
 
-bottenbruch h.
+bottenbruch
+h.
 
-ca610103 jb march 17 1978  1:28 am
+ca610103
+jb
+march
+17
+1978
 
-411	5	411
-411	5	411
-411	5	411 
+1:28
+am
+
+411
+5
+411
+411
+5
+411
+411
+5
+411

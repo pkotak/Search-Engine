@@ -1,11 +1,29 @@
-syminv2 algorithm 150
+syminv2
+algorithm
+150
 
-cacm march 1964
+cacm
+march
+1964
 
-naur p.
+naur
+p.
 
-ca640306 jb march 10 1978  3:36 am
+ca640306
+jb
+march
+10
+1978
 
-1125	5	1125
-1125	5	1125
-1125	5	1125 
+3:36
+am
+
+1125
+5
+1125
+1125
+5
+1125
+1125
+5
+1125

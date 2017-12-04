@@ -1,11 +1,31 @@
-frequency distribution algorithm 212
+frequency
+distribution
+algorithm
+212
 
-cacm october 1963
+cacm
+october
+1963
 
-gray m d.
+gray
+m
+d.
 
-ca631014 jb march 13 1978  5:50 pm
+ca631014
+jb
+march
+13
+1978
 
-711	5	711
-711	5	711
-711	5	711 
+5:50
+pm
+
+711
+5
+711
+711
+5
+711
+711
+5
+711

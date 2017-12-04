@@ -1,9 +1,33 @@
-official actions and responses to algol as a programming language
+official
+actions
+and
+responses
+to
+algol
+as
+a
+programming
+language
 
-cacm april 1963
+cacm
+april
+1963
 
-ca630402 jb march 14 1978  12:30 pm
+ca630402
+jb
+march
+14
+1978
 
-889	5	889
-889	5	889
-889	5	889 
+12:30
+pm
+
+889
+5
+889
+889
+5
+889
+889
+5
+889

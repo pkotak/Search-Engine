@@ -1,11 +1,29 @@
-bandsolve algorithm r195
+bandsolve
+algorithm
+r195
 
-cacm december 1972
+cacm
+december
+1972
 
-schuegraf e.
+schuegraf
+e.
 
-ca721218 dmm february 2 1978  1:39 pm
+ca721218
+dmm
+february
+2
+1978
 
-2237	5	2237
-2237	5	2237
-2237	5	2237 
+1:39
+pm
+
+2237
+5
+2237
+2237
+5
+2237
+2237
+5
+2237

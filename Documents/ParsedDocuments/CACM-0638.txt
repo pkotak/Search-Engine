@@ -1,13 +1,41 @@
-surge a recoding of the cobol merchandise control algorithm
+surge
+a
+recoding
+of
+the
+cobol
+merchandise
+control
+algorithm
 
-cacm february 1962
+cacm
+february
+1962
 
-longo l f.
+longo
+l
+f.
 
-ca620205 jb march 20 1978 3:53 pm
+ca620205
+jb
+march
+20
+1978
+3:53
+pm
 
-638	4	638
-300	5	638
-638	5	638
-638	5	638
-638	5	638 
+638
+4
+638
+300
+5
+638
+638
+5
+638
+638
+5
+638
+638
+5
+638

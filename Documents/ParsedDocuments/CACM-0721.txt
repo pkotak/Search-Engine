@@ -1,20 +1,86 @@
-report on proposed american standard flowchart
-symbols for information processing
+report
+on
+proposed
+american
+standard
+flowchart
+symbols
+for
+information
+processing
 
-this paper presents the essential contents of
-the proposed american standard flowchart symbols 
-for information processing  this is the first proposed
-standard prepared by subcommittee x3.6 on problem 
-description and analysis of the american standards association asa
+this
+paper
+presents
+the
+essential
+contents
+of
+the
+proposed
+american
+standard
+flowchart
+symbols
 
-cacm october 1963 
+for
+information
+processing
 
- rossheim r j.
+this
+is
+the
+first
+proposed
+standard
+prepared
+by
+subcommittee
+x3.6
+on
+problem
 
-ca631004 jb march 13 1978  6:33 pm
+description
+and
+analysis
+of
+the
+american
+standards
+association
+asa
 
-2961	5	721
-721	5	721
-721	5	721
-721	5	721
-721	6	721 
+cacm
+october
+1963
+
+
+
+rossheim
+r
+j.
+
+ca631004
+jb
+march
+13
+1978
+
+6:33
+pm
+
+2961
+5
+721
+721
+5
+721
+721
+5
+721
+721
+5
+721
+721
+6
+721

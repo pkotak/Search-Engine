@@ -1,19 +1,78 @@
-shock iii a computer system as an aid
-in the management of critically iii patients
+shock
+iii
+a
+computer
+system
+as
+an
+aid
+in
+the
+management
+of
+critically
+iii
+patients
 
-shock iii an online digital computer system
-to assist the physician nurse and paramedical 
-personnel in monitoring and reporting on critically ill patients is described
+shock
+iii
+an
+online
+digital
+computer
+system
+to
+assist
+the
+physician
+nurse
+and
+paramedical
 
-cacm may 1966
+personnel
+in
+monitoring
+and
+reporting
+on
+critically
+ill
+patients
+is
+described
 
-rockwell jr m a
-shubin h
-weil m h
-meagher p f.
+cacm
+may
+1966
 
-ca660509 jb march 3 1978  9:49 am
+rockwell
+jr
+m
+a
+shubin
+h
+weil
+m
+h
+meagher
+p
+f.
 
-1428	5	1428
-1428	5	1428
-1428	5	1428 
+ca660509
+jb
+march
+3
+1978
+
+9:49
+am
+
+1428
+5
+1428
+1428
+5
+1428
+1428
+5
+1428

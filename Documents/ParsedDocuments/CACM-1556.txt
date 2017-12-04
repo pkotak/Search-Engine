@@ -1,11 +1,32 @@
-permutations with repetitions algorithm 306 g6
+permutations
+with
+repetitions
+algorithm
+306
+g6
 
-cacm july 1967
+cacm
+july
+1967
 
-bratley p.
+bratley
+p.
 
-ca670711b jb march 23 1978  3:14 pm
+ca670711b
+jb
+march
+23
+1978
 
-1556	5	1556
-1556	5	1556
-1556	5	1556 
+3:14
+pm
+
+1556
+5
+1556
+1556
+5
+1556
+1556
+5
+1556

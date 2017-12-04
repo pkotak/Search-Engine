@@ -1,11 +1,33 @@
-magic square algorithm 117 & 118
+magic
+square
+algorithm
+117
+&
+118
 
-cacm march 1963
+cacm
+march
+1963
 
-bosworth k m.
+bosworth
+k
+m.
 
-ca630321 jb march 14 1978  1:02 pm
+ca630321
+jb
+march
+14
+1978
 
-899	5	899
-899	5	899
-899	5	899 
+1:02
+pm
+
+899
+5
+899
+899
+5
+899
+899
+5
+899

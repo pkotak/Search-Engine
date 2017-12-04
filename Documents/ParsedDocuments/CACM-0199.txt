@@ -1,11 +1,30 @@
-euclidian algorithm algorithm 7
+euclidian
+algorithm
+algorithm
+7
 
-cacm april 1960
+cacm
+april
+1960
 
-claussen r.
+claussen
+r.
 
-ca600412 jb march 22 1978  1:37 pm
+ca600412
+jb
+march
+22
+1978
 
-199	5	199
-199	5	199
-199	5	199 
+1:37
+pm
+
+199
+5
+199
+199
+5
+199
+199
+5
+199

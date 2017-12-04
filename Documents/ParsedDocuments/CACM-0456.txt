@@ -1,13 +1,36 @@
-random algorithm 133
+random
+algorithm
+133
 
-cacm november 1962
+cacm
+november
+1962
 
-behrenz p g.
+behrenz
+p
+g.
 
-ca621105 jb march 17 1978  6:53 pm
+ca621105
+jb
+march
+17
+1978
 
-1190	5	456
-456	5	456
-456	5	456
-456	5	456
-456	6	456 
+6:53
+pm
+
+1190
+5
+456
+456
+5
+456
+456
+5
+456
+456
+5
+456
+456
+6
+456

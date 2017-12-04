@@ -1,11 +1,36 @@
-evaluation of the laguerre polynomial lnx by recursion algorithm
+evaluation
+of
+the
+laguerre
+polynomial
+lnx
+by
+recursion
+algorithm
 
-cacm june 1960
+cacm
+june
+1960
 
-galler g m.
+galler
+g
+m.
 
-ca600610 jb march 20 1978  9:36 pm
+ca600610
+jb
+march
+20
+1978
 
-180	5	180
-180	5	180
-180	5	180 
+9:36
+pm
+
+180
+5
+180
+180
+5
+180
+180
+5
+180

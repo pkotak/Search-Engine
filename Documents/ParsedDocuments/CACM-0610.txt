@@ -1,11 +1,30 @@
-sieve algorithm 35
+sieve
+algorithm
+35
 
-cacm april 1962
+cacm
+april
+1962
 
-brown p j.
+brown
+p
+j.
 
-ca620407 jb march 20 1978  2:20 pm
+ca620407
+jb
+march
+20
+1978
 
-610	5	610
-610	5	610
-610	5	610 
+2:20
+pm
+
+610
+5
+610
+610
+5
+610
+610
+5
+610

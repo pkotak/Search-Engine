@@ -1,14 +1,43 @@
-the case for dynamic storage allocation 
+the
+case
+for
+dynamic
+storage
+allocation
 
-cacm october 1961
 
-sams b h.
+cacm
+october
+1961
 
-ca611002 jb march 16 1978  1:23 pm
+sams
+b
+h.
 
-279	5	279
-279	5	279
-279	5	279
-657	5	279
-279	6	279
-409	6	279 
+ca611002
+jb
+march
+16
+1978
+
+1:23
+pm
+
+279
+5
+279
+279
+5
+279
+279
+5
+279
+657
+5
+279
+279
+6
+279
+409
+6
+279

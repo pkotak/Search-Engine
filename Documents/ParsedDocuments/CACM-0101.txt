@@ -1,12 +1,31 @@
-nuclear reactor codes
+nuclear
+reactor
+codes
 
-cacm january 1959
+cacm
+january
+1959
 
-nather v
-sangren w.
+nather
+v
+sangren
+w.
 
-ca590101 jb march 22 1978  8:24 pm
+ca590101
+jb
+march
+22
+1978
 
-101	5	101
-101	5	101
-101	5	101 
+8:24
+pm
+
+101
+5
+101
+101
+5
+101
+101
+5
+101

@@ -1,11 +1,33 @@
-coordinates on an ellipsoid algorithm 240 z
+coordinates
+on
+an
+ellipsoid
+algorithm
+240
+z
 
-cacm september 1964
+cacm
+september
+1964
 
-dorrer e.
+dorrer
+e.
 
-ca640906 jb march 9 1978  6:09 pm
+ca640906
+jb
+march
+9
+1978
 
-1005	5	1005
-1005	5	1005
-1005	5	1005 
+6:09
+pm
+
+1005
+5
+1005
+1005
+5
+1005
+1005
+5
+1005

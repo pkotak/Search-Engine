@@ -1,11 +1,32 @@
-incomplete elliptic integrals algorithm 73
+incomplete
+elliptic
+integrals
+algorithm
+73
 
-cacm december 1961
+cacm
+december
+1961
 
-jefferson d k.
+jefferson
+d
+k.
 
-ca611203 jb march 15 1978  10:27 pm
+ca611203
+jb
+march
+15
+1978
 
-247	5	247
-247	5	247
-247	5	247 
+10:27
+pm
+
+247
+5
+247
+247
+5
+247
+247
+5
+247

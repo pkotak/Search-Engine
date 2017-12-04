@@ -1,11 +1,35 @@
-evaluation of the fresnel sine integral algorithm 89
+evaluation
+of
+the
+fresnel
+sine
+integral
+algorithm
+89
 
-cacm may 1962
+cacm
+may
+1962
 
-cundiff j l.
+cundiff
+j
+l.
 
-ca620515 jb march 20 1978  1:36 pm
+ca620515
+jb
+march
+20
+1978
 
-590	5	590
-590	5	590
-590	5	590 
+1:36
+pm
+
+590
+5
+590
+590
+5
+590
+590
+5
+590

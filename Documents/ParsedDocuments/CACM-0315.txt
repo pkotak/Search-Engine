@@ -1,11 +1,31 @@
-solution of tridiagonal matrices
+solution
+of
+tridiagonal
+matrices
 
-cacm july 1961
+cacm
+july
+1961
 
-wenrick r c.
+wenrick
+r
+c.
 
-ca610702 jb march 16 1978  10:28 pm
+ca610702
+jb
+march
+16
+1978
 
-315	5	315
-315	5	315
-315	5	315 
+10:28
+pm
+
+315
+5
+315
+315
+5
+315
+315
+5
+315

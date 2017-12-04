@@ -1,11 +1,34 @@
-logarithm of gamma function algorithm 291 s14
+logarithm
+of
+gamma
+function
+algorithm
+291
+s14
 
-cacm january 1968
+cacm
+january
+1968
 
-hoare m r.
+hoare
+m
+r.
 
-ca680104 jb february 23 1978  2:45 pm
+ca680104
+jb
+february
+23
+1978
 
-1789	5	1789
-1789	5	1789
-1789	5	1789 
+2:45
+pm
+
+1789
+5
+1789
+1789
+5
+1789
+1789
+5
+1789

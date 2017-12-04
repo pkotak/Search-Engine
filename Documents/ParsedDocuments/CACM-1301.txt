@@ -1,11 +1,31 @@
-on algol io conventions
+on
+algol
+io
+conventions
 
-cacm march 1965
+cacm
+march
+1965
 
-zaremba w a.
+zaremba
+w
+a.
 
-ca650306 jb march 7 1978  6:06 pm
+ca650306
+jb
+march
+7
+1978
 
-1301	5	1301
-1301	5	1301
-1301	5	1301 
+6:06
+pm
+
+1301
+5
+1301
+1301
+5
+1301
+1301
+5
+1301

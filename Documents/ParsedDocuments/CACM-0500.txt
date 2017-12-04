@@ -1,11 +1,30 @@
-permute algorithm 86
+permute
+algorithm
+86
 
-cacm august 1962
+cacm
+august
+1962
 
-collison d m.
+collison
+d
+m.
 
-ca620828 jb march 17 1978  9:23 pm
+ca620828
+jb
+march
+17
+1978
 
-500	5	500
-500	5	500
-500	5	500 
+9:23
+pm
+
+500
+5
+500
+500
+5
+500
+500
+5
+500

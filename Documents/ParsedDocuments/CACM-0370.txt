@@ -1,11 +1,31 @@
-bisection routine algorithm 4
+bisection
+routine
+algorithm
+4
 
-cacm march 1961
+cacm
+march
+1961
 
-rader p j.
+rader
+p
+j.
 
-ca610312 jb march 17 1978  12:33 am
+ca610312
+jb
+march
+17
+1978
 
-370	5	370
-370	5	370
-370	5	370 
+12:33
+am
+
+370
+5
+370
+370
+5
+370
+370
+5
+370

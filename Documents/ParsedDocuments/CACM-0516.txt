@@ -1,11 +1,31 @@
-matrix inversion ii algorithm 120
+matrix
+inversion
+ii
+algorithm
+120
 
-cacm august 1962
+cacm
+august
+1962
 
-george r.
+george
+r.
 
-ca620812 jb march 17 1978  9:42 pm
+ca620812
+jb
+march
+17
+1978
 
-516	5	516
-516	5	516
-516	5	516 
+9:42
+pm
+
+516
+5
+516
+516
+5
+516
+516
+5
+516

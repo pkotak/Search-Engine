@@ -1,11 +1,33 @@
-magic square algorithm 117 & 118
+magic
+square
+algorithm
+117
+&
+118
 
-cacm august 1962
+cacm
+august
+1962
 
-collison d m.
+collison
+d
+m.
 
-ca620830 jb march 17 1978  9:20 pm
+ca620830
+jb
+march
+17
+1978
 
-498	5	498
-498	5	498
-498	5	498 
+9:20
+pm
+
+498
+5
+498
+498
+5
+498
+498
+5
+498

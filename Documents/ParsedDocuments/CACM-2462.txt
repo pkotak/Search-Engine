@@ -1,11 +1,34 @@
-an efficient prime number generator algorithm r357
+an
+efficient
+prime
+number
+generator
+algorithm
+r357
 
-cacm august 1973
+cacm
+august
+1973
 
-demorgan r m.
+demorgan
+r
+m.
 
-ca730812 jb january 23 1978  10:31 am
+ca730812
+jb
+january
+23
+1978
 
-2462	5	2462
-2462	5	2462
-2462	5	2462 
+10:31
+am
+
+2462
+5
+2462
+2462
+5
+2462
+2462
+5
+2462
