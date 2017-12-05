@@ -1,10 +1,11 @@
 public interface Result {
 
 
-    public void setDocId(String doc_id);
+    public String DocId();
 
-    public void setScore(int score);
+    public double Score();
 
+    public void changeScore(double sc);
 
 }
 
