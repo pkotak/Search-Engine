@@ -1,3 +1,4 @@
+import java.util.stream.Stream;
 
 /**
  * @author Gaurav Gandhi
@@ -12,4 +13,5 @@ public interface RelevanceInfo {
 	String documentID();
 	
 	int systemName();
+	
 }

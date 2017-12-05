@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import utilities.Constants;
+
 /**
  * @author Gaurav Gandhi
  *
@@ -39,7 +41,7 @@ public class BM25Models {
 			
 		}
 		
-		return null;
+		return results;
 	}
 	
 	/*
@@ -131,6 +133,10 @@ public class BM25Models {
 	}
 	
 	public static void main(String[] args) {
+		
+		Query q = new Query1();
+		
+		q.readQueryFile(Constants.query_dir);
 		
 		
 	}

@@ -10,7 +10,4 @@ public interface Query {
 	
 	String query();
 	
-	void readQueryFile(String filePath);
-	
-	Stream<Query> stream();
 }

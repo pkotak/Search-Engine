@@ -1,3 +1,9 @@
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+import utilities.FileHandler;
 
 /**
  * @author Gaurav Gandhi
@@ -9,6 +15,7 @@ public class RelevanceInfo1 implements RelevanceInfo {
 	private String literal;
 	private String documentID;
 	private int systemName;
+	
 	
 	public RelevanceInfo1(int queryID, String documentID) {
 		
@@ -42,5 +49,9 @@ public class RelevanceInfo1 implements RelevanceInfo {
 		
 		return this.systemName;
 	}
+
+
+
+
 
 }
