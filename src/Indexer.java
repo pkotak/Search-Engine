@@ -62,6 +62,8 @@ public class Indexer {
 				String doc = path.toString().substring(path.toString().lastIndexOf("\\") + 1);
 				//System.out.println(file.substring(0, file.indexOf(".")));
 				doc = doc.substring(0, doc.indexOf('.'));
+				if(doc.equals("CACM-0231"))
+					System.out.println("asd");
 				this.documentWordTotal.put(doc, currentLine.split(" ").length);
 				System.out.println(doc);
 				
@@ -153,7 +155,12 @@ public class Indexer {
 			st = null;
 			e.printStackTrace();
 		}
-		return st.toString();
+		try {
+			return st.toString();
+		}catch(NullPointerException ne) {
+			return "";
+		}
+		
 	}
 	
 	/*
