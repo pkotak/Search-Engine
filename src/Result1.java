@@ -32,9 +32,9 @@ public class Result1 implements Result {
 	}
 
 	@Override
-	public int literal() {
+	public String literal() {
 		
-		return this.literal();
+		return this.literal;
 	}
 
 	@Override
@@ -47,5 +47,11 @@ public class Result1 implements Result {
 	public int systemName() {
 		
 		return this.systemName;
+	}
+	
+	@Override
+	public String toString() {
+		
+		return (this.queryID() + " " + this.literal() + " " + this.docID() + " " + this.Score() + " " + this.systemName());
 	}
 }

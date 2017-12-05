@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import utilities.FileHandler;
 
@@ -25,6 +26,11 @@ public class RelevanceInfos {
 		}
 		
 		return relInfo;
+	}
+	
+	public static List<RelevanceInfo> getRelevanceInfoByQueryID(int queryID, List<RelevanceInfo> relevanceList) {
+		
+		return relevanceList.stream().filter(x -> x.queryId() == queryID).collect(Collectors.toCollection(ArrayList<RelevanceInfo>::new));
 	}
 	
 	public static void main(String[] args) throws IOException {
