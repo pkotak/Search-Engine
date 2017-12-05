@@ -1,0 +1,9 @@
+<DOC>
+<DOCNO> 1 </DOCNO>
+
+
+ What articles exist which deal with TSS (Time Sharing System), an
+operating system for IBM computers?
+
+ 
+</DOC>
