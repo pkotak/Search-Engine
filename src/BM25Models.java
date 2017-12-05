@@ -1,8 +1,12 @@
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 
 import utilities.Constants;
+import utilities.FileHandler;
 
 /**
  * @author Gaurav Gandhi
@@ -13,7 +17,7 @@ public class BM25Models {
 	private static HashMap<String, Integer> documentWordTotal;
 	private static HashMap<String, List<Posting>> invertedIndex;
 	private static List<RelevanceInfo> relevantDocuments;
-	private static List<Result> results;
+	private static List<Result> resultList;
 	private static Query queryObj;
 
 	public static List<Result> getResult(Query query1, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
@@ -23,25 +27,31 @@ public class BM25Models {
 		invertedIndex = invertedIndex1;
 		relevantDocuments = relevantDocuments1;
 		queryObj = query1;
-		results = new ArrayList<Result>();
+		resultList = new ArrayList<Result>();
 		int ri, qfi;
 		List<Posting> docsOfTerm;
 		List<Result> result;
+		System.out.println(queryObj.query());
 		for(String term : queryObj.query().split(" ")) {
-			
-			ri = calculateri(term,invertedIndex.get(term));
-			qfi = calculateqfi(term);
-			docsOfTerm = new ArrayList<Posting>(invertedIndex.get(term));
-			for(Posting currPosting : docsOfTerm) {
+			try {
+				System.out.println(invertedIndex.get(term).toString());
+				ri = calculateri(term,invertedIndex.get(term));
+				qfi = calculateqfi(term);
+				docsOfTerm = new ArrayList<Posting>(invertedIndex.get(term));
+				for(Posting currPosting : docsOfTerm) {
+					
+					double currentScore = BM25ScoreOfDoc(currPosting.docID(), currPosting.termFrequency(), 
+							invertedIndex.get(term).size(), qfi, ri);
+					storeScoreOfDocForQuery(currPosting.docID(), currentScore);
+				}
+			}catch(NullPointerException ne) {
 				
-				double currentScore = BM25ScoreOfDoc(currPosting.docID(), currPosting.termFrequency(), 
-						invertedIndex.get(term).size(), qfi, ri);
-				storeScoreOfDocForQuery(currPosting.docID(), currentScore);
+				ne.printStackTrace();
 			}
 			
 		}
 		
-		return results;
+		return Results.sortResult(resultList);
 	}
 	
 	/*
@@ -52,13 +62,13 @@ public class BM25Models {
 	private static void storeScoreOfDocForQuery(String docID, double newScore) {
 		
 		double oldScore = 0.00;
-		if(results.stream().anyMatch(x -> x.docID().equals(docID))) {
-			Result r = results.stream().filter(x -> x.docID().equals(docID)).findFirst().get();
+		if(resultList.stream().anyMatch(x -> x.docID().equals(docID))) {
+			Result r = resultList.stream().filter(x -> x.docID().equals(docID)).findFirst().get();
 			oldScore = r.Score();
 			r.changeScore(newScore + oldScore);
 		}
 		else {
-			results.add(new Result1(docID, newScore, queryObj.queryID()));
+			resultList.add(new Result1(docID, newScore, queryObj.queryID()));
 		}
 	}
 	
@@ -132,12 +142,29 @@ public class BM25Models {
 		return count;
 	}
 	
-	public static void main(String[] args) {
-		
-		Query q = new Query1();
-		
-		q.readQueryFile(Constants.query_dir);
+	public static void main(String[] args) throws IOException {
 		
 		
+		List<Query> q = Queries.readQueriesFromFile(Constants.query_dir);
+		
+		/*q.stream().forEach(x -> {
+			System.out.println(x.query());
+		});*/
+		
+		Indexer i = new Indexer(1, Constants.PARSED_CORPUS);
+		List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
+		relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
+		List<Result> r = BM25Models.getResult(q.stream().findFirst().get()
+				, i.generateIndex(), relList
+				, i.getWordCountOfDocuments());
+		
+		r.stream().forEach(Result::toString);
+		
+		FileHandler tr = new FileHandler("Query.txt", 0);
+		for(Result ro : r) {
+			
+			tr.addText(ro.toString() + "\n");
+		}
+		tr.closeConnection();
 	}
 }

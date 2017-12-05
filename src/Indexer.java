@@ -62,8 +62,6 @@ public class Indexer {
 				String doc = path.toString().substring(path.toString().lastIndexOf("\\") + 1);
 				//System.out.println(file.substring(0, file.indexOf(".")));
 				doc = doc.substring(0, doc.indexOf('.'));
-				if(doc.equals("CACM-0231"))
-					System.out.println("asd");
 				this.documentWordTotal.put(doc, currentLine.split(" ").length);
 				System.out.println(doc);
 				
@@ -101,14 +99,7 @@ public class Indexer {
 	private String removeText(String currentLine) {
 		
 		try {
-			/*int len = 0;
-			while(len < this.nGram) {
-				
-				while(currentLine.charAt(0) == ' ')
-					currentLine = currentLine.substring(1);
-				currentLine = currentLine.substring(currentLine.indexOf(" ") + 1);
-				len++;
-			}*/
+
 			while(currentLine.charAt(0) == ' ')
 				currentLine = currentLine.substring(1);
 			if(!currentLine.contains(" "))
@@ -203,5 +194,6 @@ public class Indexer {
 			}
 			tr.addText("\n");
 		}
+		tr.closeConnection();
 	}
 }
