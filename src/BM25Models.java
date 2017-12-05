@@ -11,24 +11,24 @@ public class BM25Models {
 	private static HashMap<String, Integer> documentWordTotal;
 	private static HashMap<String, List<Posting>> invertedIndex;
 	private static List<RelevanceInfo> relevantDocuments;
-	private static String query;
 	private static List<Result> results;
+	private static Query queryObj;
 
-	public static List<Result> getResult(String query1, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
+	public static List<Result> getResult(Query query1, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
 			,HashMap<String, Integer> documentWordTotal1) { 
 		
 		documentWordTotal = documentWordTotal1;
 		invertedIndex = invertedIndex1;
 		relevantDocuments = relevantDocuments1;
-		query = query1;
+		queryObj = query1;
 		results = new ArrayList<Result>();
 		int ri, qfi;
 		List<Posting> docsOfTerm;
 		List<Result> result;
-		for(String term : query.split(" ")) {
+		for(String term : queryObj.query().split(" ")) {
 			
 			ri = calculateri(term,invertedIndex.get(term));
-			qfi = calculateqfi(term, query);
+			qfi = calculateqfi(term);
 			docsOfTerm = new ArrayList<Posting>(invertedIndex.get(term));
 			for(Posting currPosting : docsOfTerm) {
 				
@@ -56,7 +56,7 @@ public class BM25Models {
 			r.changeScore(newScore + oldScore);
 		}
 		else {
-			results.add(new Result1(docID, newScore, ))
+			results.add(new Result1(docID, newScore, queryObj.queryID()));
 		}
 	}
 	
@@ -120,10 +120,10 @@ public class BM25Models {
 	/*
 	 * Calculates the frequency of the given term in the query
 	 */
-	private static int calculateqfi(String term, String query) {
+	private static int calculateqfi(String term) {
 		
 		int count = 0;
-		for(String word: query.split(" ")) {
+		for(String word: queryObj.query().split(" ")) {
 			if(word.equals(term))
 				count++;
 		}

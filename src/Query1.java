@@ -15,12 +15,18 @@ public class Query1 implements Query {
 	private String query;
 	private List<Query> queryList;
 	
+	public Query1() {
+		
+		//do nothing
+	}
+	
 	public Query1(int queryID, String query) {
 		
 		this.queryID = queryID;
 		this.query = query;
 		queryList = new ArrayList<Query>();
 	}
+	
 	
 	@Override
 	public int queryID() {
