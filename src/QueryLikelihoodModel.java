@@ -67,13 +67,13 @@ public class QueryLikelihoodModel {
                         int flag=0;
                         while(rlist.hasNext()){
                             Result r1=rlist.next();
-                            if(r1.DocId().equals(p1.docID())){
+                            if(r1.docID().equals(p1.docID())){
                                 r1.changeScore(score);
                                 flag=1;
                             }
                         }
                         if(flag==1){
-                            scoremap.add(new Result1(p1.docID(),score));
+                            scoremap.add(new Result1(p1.docID(),score, qno));
                         }
                     }
                     else{
@@ -82,13 +82,13 @@ public class QueryLikelihoodModel {
                         int flag=0;
                         while(rlist.hasNext()){
                             Result r1=rlist.next();
-                            if(r1.DocId().equals(p1.docID())){
+                            if(r1.docID().equals(p1.docID())){
                                 r1.changeScore(score);
                                 flag=1;
                             }
                         }
                         if(flag==1){
-                            scoremap.add(new Result1(p1.docID(),score));
+                            scoremap.add(new Result1(p1.docID(),score, qno));
                         }
 
                     }
@@ -120,11 +120,11 @@ public class QueryLikelihoodModel {
     }
 
     public static void main(String[] args) throws IOException {
-        Indexer i=new Indexer(1,"/Users/hardikshah/CS6200-Project/Documents/ParsedDocuments");
+        Indexer i=new Indexer(1,"../Documents/ParsedDocuments");
         HashMap<String, List<Posting>> index = i.generateIndex();
 
         System.out.println(index);
-        List<RelevanceInfo> qmap = RelevanceInfos.readRelevanceInfoFromFile("/Users/hardikshah/CS6200-Project/ProblemStatement/cacm.rel.txt");
+        List<RelevanceInfo> qmap = RelevanceInfos.readRelevanceInfoFromFile("../ProblemStatement/cacm.rel.txt");
 
         System.out.println(qmap);
         //QueryLikelihoodModel.QueryLikelihood("What articles exist which deal with TSS (Time Sharing System), an\n" +

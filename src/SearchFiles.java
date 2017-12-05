@@ -36,7 +36,6 @@ import java.util.List;
 /** Simple command-line based search demo. */
 public class SearchFiles {
 
-     SearchFiles() {}
 
     /** Simple command-line based search demo. */
     public static void main(String[] args) throws Exception {

@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
@@ -13,7 +12,7 @@ public class BM25Models {
 	private static HashMap<String, List<Posting>> invertedIndex;
 	private static List<RelevanceInfo> relevantDocuments;
 	private static String query;
-	private static List<Result> result;
+	private static List<Result> results;
 
 	public static List<Result> getResult(String query1, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
 			,HashMap<String, Integer> documentWordTotal1) { 
@@ -22,7 +21,7 @@ public class BM25Models {
 		invertedIndex = invertedIndex1;
 		relevantDocuments = relevantDocuments1;
 		query = query1;
-		result = new ArrayList<Result>();
+		results = new ArrayList<Result>();
 		int ri, qfi;
 		List<Posting> docsOfTerm;
 		List<Result> result;
@@ -35,7 +34,7 @@ public class BM25Models {
 				
 				double currentScore = BM25ScoreOfDoc(currPosting.docID(), currPosting.termFrequency(), 
 						invertedIndex.get(term).size(), qfi, ri);
-				//storeScoreOfDocForQuery(currPosting.docID(), currentScore);
+				storeScoreOfDocForQuery(currPosting.docID(), currentScore);
 			}
 			
 		}
@@ -48,11 +47,17 @@ public class BM25Models {
 	 * 1. If the document is not presents in the data structure then new field is inserted
 	 * else the old score of the document is added to the new score
 	 */
-	private static void storeScoreOfDocForQuery(int docID, double newScore) {
+	private static void storeScoreOfDocForQuery(String docID, double newScore) {
 		
 		double oldScore = 0.00;
-		
-		
+		if(results.stream().anyMatch(x -> x.docID().equals(docID))) {
+			Result r = results.stream().filter(x -> x.docID().equals(docID)).findFirst().get();
+			oldScore = r.Score();
+			r.changeScore(newScore + oldScore);
+		}
+		else {
+			results.add(new Result1(docID, newScore, ))
+		}
 	}
 	
 	/*
@@ -123,5 +128,10 @@ public class BM25Models {
 				count++;
 		}
 		return count;
+	}
+	
+	public static void main(String[] args) {
+		
+		
 	}
 }

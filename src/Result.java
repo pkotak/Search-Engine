@@ -1,11 +1,17 @@
 public interface Result {
 
-
-    public String DocId();
-
-    public double Score();
-
-    public void changeScore(double sc);
+	int queryID();
+	
+	int literal();
+	
+    String docID();
+    
+    double Score();
+    
+    int systemName();
+    
+    void changeScore(double sc);
+    
 
 }
 
