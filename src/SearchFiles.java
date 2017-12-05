@@ -36,7 +36,7 @@ import java.util.List;
 /** Simple command-line based search demo. */
 public class SearchFiles {
 
-    private SearchFiles() {}
+     SearchFiles() {}
 
     /** Simple command-line based search demo. */
     public static void main(String[] args) throws Exception {
@@ -59,7 +59,7 @@ public class SearchFiles {
         }
     }
 
-    private String generateFileContent() throws IOException {
+     String generateFileContent() throws IOException {
         FileHandler file_reader = new FileHandler(Constants.query_dir,1);
         StringBuilder content = new StringBuilder();
         String currentLine;
@@ -68,7 +68,7 @@ public class SearchFiles {
         }
         return content.toString();
     }
-    private List<String> getProcessedQueryList(String file_content){
+     List<String> getProcessedQueryList(String file_content){
         List<String> query_list = new ArrayList<>();
         String[] splitByDoc = file_content.split("</DOC>");
 

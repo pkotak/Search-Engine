@@ -16,15 +16,15 @@
  */
 
 
-import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.core.SimpleAnalyzer;
-import org.apache.lucene.document.*;
-import org.apache.lucene.index.IndexWriter;
-import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.index.IndexWriterConfig.OpenMode;
-import org.apache.lucene.index.Term;
-import org.apache.lucene.store.Directory;
-import org.apache.lucene.store.FSDirectory;
+//import org.apache.lucene.analysis.Analyzer;
+//import org.apache.lucene.analysis.core.SimpleAnalyzer;
+//import org.apache.lucene.document.*;
+//import org.apache.lucene.index.IndexWriter;
+//import org.apache.lucene.index.IndexWriterConfig;
+//import org.apache.lucene.index.IndexWriterConfig.OpenMode;
+//import org.apache.lucene.index.Term;
+//import org.apache.lucene.store.Directory;
+//import org.apache.lucene.store.FSDirectory;
 import utilities.Constants;
 
 import java.io.BufferedReader;

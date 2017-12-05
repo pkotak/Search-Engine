@@ -9,14 +9,25 @@ public class QueryLikelihoodModel {
 
 
 
-    public static List<Result> QueryLikelihood(String query,List<RelevanceInfo> qmap, HashMap<String,List<Posting>> index)
-    {
+    public static List<Result> QueryLikelihood(String query,List<RelevanceInfo> qmap, HashMap<String,List<Posting>> index) throws IOException {
 
         /*
          from a function get get query number by counting where query appears
          return qno;
          */
-        //
+        SearchFiles sf=new SearchFiles();
+        String file_content = sf.generateFileContent();
+        List<String> processed_query = sf.getProcessedQueryList(file_content);
+        Iterator<String> qitr=processed_query.iterator();
+        int qno=0;
+        int count=0;
+        while (qitr.hasNext()){
+            ++count;
+            String x=qitr.next();
+            if(x.equals(query))
+                qno=count;
+            break;
+        }
 
         double lambda=0.35;
         List<String> reldocs=new ArrayList<>();
@@ -27,7 +38,7 @@ public class QueryLikelihoodModel {
         Iterator<RelevanceInfo> itr=qmap.iterator();
         while (itr.hasNext()){
             RelevanceInfo ri=itr.next();
-            if(ri.queryId()==0){
+            if(ri.queryId()==qno){
                 reldocs.add(ri.documentID());
             }
         }
