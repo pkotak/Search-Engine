@@ -26,7 +26,7 @@ public class Parser {
         /*
         open the file from the documents obtained during crawling
         */
-        System.out.println(s);
+        //System.out.println(s);
         String uc=readFile(s+".html");
         //System.out.println(uc);
         File input=new File(s+".html");
@@ -59,6 +59,15 @@ public class Parser {
         consider only the ascii characters; ignore other languages.
         */
         txt=txt.replaceAll("[^\\p{ASCII}]", "");
+        char parsed_text_arr[]=txt.toCharArray();
+        txt="";
+        for(char a:parsed_text_arr){
+            if((int)a!=9)
+                txt=txt+a;
+            else{
+                txt=txt+" ";
+            }
+        }
         String []split_corpus=txt.split(" ");
 
         /*
@@ -184,11 +193,16 @@ public class Parser {
                 parsed_text=parsed_text+ss+" ";
             }
         }
-
+        parsed_text=parsed_text.replaceAll(" ","\n");
         /*
         finding the doc_id
         */
+
+
         //System.out.println(parsed_text);
+        parsed_text=parsed_text.replaceAll("\\s{2,}", " ").replaceAll("[^\\p{ASCII}]", "")
+                .replaceAll("(?<![0-9a-zA-Z])[\\p{Punct}]", "").replaceAll("[\\p{Punct}](?![0-9a-zA-Z])", "")
+                .replaceAll("http.*?\\s", "");
 
         String link_split[]=s.split("\\/");
 

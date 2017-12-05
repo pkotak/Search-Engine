@@ -25,7 +25,7 @@ public class RelevanceInfos {
 	
 	public static void main(String[] args) throws IOException {
 		
-		List<RelevanceInfo> a = readRelevanceInfoFromFile("C:\\Study\\IR-Project\\ProblemStatement\\cacm.rel.txt");
+		List<RelevanceInfo> a = readRelevanceInfoFromFile("/Users/hardikshah/CS6200-Project/ProblemStatement/cacm.rel.txt");
 		a.stream().forEach(x -> {
 			System.out.println(x.queryId() + " "  + x.documentID());
 		});
