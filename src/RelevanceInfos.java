@@ -4,6 +4,10 @@ import java.util.List;
 
 import utilities.FileHandler;
 
+/**
+ * @author Gaurav Gandhi
+ *
+ */
 public class RelevanceInfos {
 
 	

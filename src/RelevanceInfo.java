@@ -1,4 +1,8 @@
 
+/**
+ * @author Gaurav Gandhi
+ *
+ */
 public interface RelevanceInfo {
 
 	int queryId();

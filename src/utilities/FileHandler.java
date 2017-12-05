@@ -41,8 +41,15 @@ public class FileHandler {
 	}
 	
 	public void closeConnection() throws IOException {
-		B_WRITER.close();
-		F_WRITER.close();
+		try {
+			B_WRITER.close();
+			F_WRITER.close();
+		}catch(NullPointerException ne) {
+			
+			B_READER.close();
+			F_READER.close();
+		}
+			
 	}
 	
 	

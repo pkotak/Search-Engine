@@ -1,4 +1,8 @@
 
+/**
+ * @author Gaurav Gandhi
+ *
+ */
 public class RelevanceInfo1 implements RelevanceInfo {
 
 	private int queryID;

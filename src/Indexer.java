@@ -13,14 +13,17 @@ import utilities.FileHandler;
 public class Indexer {
 	
 	private HashMap<String, List<Posting>> invertedIndex;
-	private  int ngram;
+	private int ngram;
 	private String directoryPath;
+	private HashMap<String, Integer> documentWordTotal;
+	
 	
 	public Indexer(int nGram, String directoryPath) {
 		
 		this.ngram = nGram;
 		this.directoryPath = directoryPath;
 		this.invertedIndex = new HashMap<String, List<Posting>>();
+		this.documentWordTotal = new HashMap<String, Integer>();
 	}
 
 	public HashMap<String, List<Posting>> generateIndex() {
@@ -39,6 +42,11 @@ public class Indexer {
 		return this.invertedIndex;
 	}
 	
+	public HashMap<String, Integer> getWordCountOfDocuments() {
+		
+		return this.documentWordTotal;
+	}
+	
 	/*
 	 * Reads each file and adds/updates the inverted index
 	 */
@@ -54,7 +62,7 @@ public class Indexer {
 				String doc = path.toString().substring(path.toString().lastIndexOf("\\") + 1);
 				//System.out.println(file.substring(0, file.indexOf(".")));
 				doc = doc.substring(0, doc.indexOf('.'));
-				//this.documentWordTotal.put(Integer.parseInt(doc), currentLine.split(" ").length);
+				this.documentWordTotal.put(doc, currentLine.split(" ").length);
 				System.out.println(doc);
 				
 				String docID = doc;
