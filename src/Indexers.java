@@ -23,7 +23,7 @@ public class Indexers {
 	 * @throws IOException 
 	 * 
 	 */
-	public static HashMap<String, List<Posting>> getInvertedIndex(int nGram, String directoryPath, boolean removeStopWords, boolean stemTerms) throws IOException {
+	public static HashMap<String, List<Posting>> getInvertedIndex(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
 		
 		HashMap<String, List<Posting>> invertedIndex = new Indexer(nGram, directoryPath).generateIndex();
 		if(removeStopWords)
@@ -73,37 +73,20 @@ public class Indexers {
 		invertedIndex.keySet().removeAll(getStopWordListFromFile());
 	}
 	
-	/**
-	 * @param invertedIndex 
-	 * @throws IOException 
-	 */
-	public static List<HashMap> getStemmedInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
-		
-		//TODO code for parsing the stemmed document
-		List<HashMap> indexerData = new ArrayList<HashMap>();
-		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath, removeStopWords, false);
-		Indexer i = new Indexer(nGram, directoryPath);
-		indexerData.add(invertedIndex);
-		indexerData.add(i.getWordCountOfDocuments());
-		
-		return indexerData;
-		
-	}
 	
 	
 	/**
 	 * @param nGram (unigram, bigram etc) a word gram
 	 * @param directoryPath path where the documents to be indexed are stored
 	 * @param removeStopWords indicating whether the indexer should remove stop words
-	 * @param stemTerms indicating whetehr the indexer should step the terms
 	 * @return A list of an inverted index and the length of each document in the given corpus
 	 * @throws IOException 
 	 */
-	public static List<HashMap> getInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords, boolean stemTerms) throws IOException {
+	public static List<HashMap> getInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
 		
 		List<HashMap> indexerData = new ArrayList<HashMap>();
 		Indexer i = new Indexer(nGram, directoryPath);
-		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath, removeStopWords, stemTerms);
+		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath, removeStopWords);
 		indexerData.add(invertedIndex);
 		indexerData.add(i.getWordCountOfDocuments());
 		

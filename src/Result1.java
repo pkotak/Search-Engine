@@ -8,6 +8,7 @@ public class Result1 implements Result {
     private double precision;
     private double recall;
     private int rank;
+    private String snippet;
 
     /**
      * @param doc_id
@@ -109,5 +110,18 @@ public class Result1 implements Result {
 	@Override
 	public void ApplyLog() {
 		this.score= Math.log(this.score);
+	}
+
+	@Override
+	public String snippet() {
+		
+		return this.snippet;
+	}
+
+
+	@Override
+	public void addSnippet(String newSnippet) {
+		
+		this.snippet = newSnippet;
 	}
 }

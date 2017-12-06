@@ -5,6 +5,8 @@ import java.util.List;
 import utilities.Constants;
 import utilities.FileHandler;
 
+//TODO implementation to add new queries by the user
+
 public class Queries {
 
 	public static List<Query> readQueriesFromFile(String filePath) throws IOException {

@@ -15,4 +15,8 @@ public interface Query {
 	String query();
 	
 	List<RelevanceInfo> listOfRelevantDocuments();
+	
+	List<Result> resultList();
+	
+	void putResultList(List<Result> resultList);
 }

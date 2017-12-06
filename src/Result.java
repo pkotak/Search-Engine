@@ -20,6 +20,8 @@ public interface Result {
     
     double recall();
     
+    String snippet();
+    
     void changeScore(double sc);
     
     void changePrecision(double newPrecision);
@@ -29,6 +31,8 @@ public interface Result {
     void changeRank(int newRank);
 
     void ApplyLog();
+    
+    void addSnippet(String newSnippet);
      
 
 }

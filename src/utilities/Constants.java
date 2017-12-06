@@ -15,4 +15,5 @@ public class Constants {
     public static final String COMMON_WORDS_FILE = "ProblemStatement" + File.separator + "common_words";
     public static final String STEMMED_CORPUS_FILE = "ProblemStatement" + File.separator + "cacm_stem.txt";
     public static final String STEM_DOCS_DIR = "Documents" + File.separator + "StemmedDocs";
+
 }
