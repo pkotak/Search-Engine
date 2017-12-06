@@ -10,7 +10,6 @@ public class TfIdf {
     private static HashMap<String, List<Posting>> invertedIndex;
     private static Query queryObj;
     private static List<Result> results;
-
     /**
      * @param query1 Query object
      * @param invertedIndex1 inverted index
@@ -26,14 +25,16 @@ public class TfIdf {
 
         for(String term : queryObj.query().split(" ")){
             List<Posting> postings = invertedIndex.get(term);
-            for(Posting p: postings) {
-                double tf = calculateTf(p.docID(), p.termFrequency());
-                double idf = calculateIdf(postings.size());
-                double score = tf*idf;
-                results.add(new Result1(p.docID(),score,query1.queryID()));
+            if(postings != null) {
+                for (Posting p : postings) {
+                    double tf = calculateTf(p.docID(), p.termFrequency());
+                    double idf = calculateIdf(postings.size());
+                    double score = tf * idf;
+                    results.add(new Result1(p.docID(), score, query1.queryID()));
+                }
             }
         }
-
+//        System.out.println("Results: "+results.get(0).docID()+" "+results.get(0).Score());
         return results;
     }
 
@@ -55,5 +56,14 @@ public class TfIdf {
         double totalDocuments = documentWordTotal.size();
         return Math.log(totalDocuments/(double) docsWithTerm);
     }
+    //TODO: Testing using Indexers new methods.
+//    public static void main(String args[]) throws IOException {
+//        Indexer r = new Indexers(1, Constants.PARSED_CORPUS);
+//        Query q = new Query1(1,"What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?");
+//        List<Result> res = getResult(q,r.generateIndex(),r.getWordCountOfDocuments());
+//        for(int i=0; i<100; i++){
+//            System.out.println(res.get(i).docID()+" "+res.get(i).Score());
+//        }
+//    }
 
 }
