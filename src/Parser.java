@@ -26,14 +26,15 @@ import java.io.File;
  */
 public class Parser {
 
-    
+    private static String outputDirectoryPath = null;
     /**
      * @param parseType
      * @param directoryPath
      * @throws IOException
      */
-    public static void parseAllFiles(int parseType, String directoryPath) throws IOException {
+    public static void parseAllFiles(int parseType, String directoryPath, String outputDirectoryPath1) throws IOException {
     	
+    	outputDirectoryPath = outputDirectoryPath1;
     	Files.list(Paths.get(directoryPath))
     	.filter(pa -> pa.toString().endsWith(".html"))
     	.forEach(p -> {
@@ -79,7 +80,7 @@ public class Parser {
     	
     	String docName = filePath.substring(filePath.lastIndexOf("\\") + 1);
 		docName = docName.substring(0, docName.indexOf('.'));
-    	FileHandler textWriter = new FileHandler(Constants.PARSED_CORPUS + docName + ".txt", 0);
+    	FileHandler textWriter = new FileHandler(outputDirectoryPath + docName + ".txt", 0);
     	textWriter.addText(parsedText.toString());
     	textWriter.closeConnection();
     }
@@ -160,7 +161,7 @@ public class Parser {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-        Parser.parseAllFiles(3, Constants.raw_corpus_dir);
+        Parser.parseAllFiles(3, Constants.raw_corpus_dir, Constants.PARSED_CORPUS);
 
     }
 
