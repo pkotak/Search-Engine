@@ -105,4 +105,9 @@ public class Result1 implements Result {
 		
 		this.rank = newRank;
 	}
+
+	@Override
+	public void ApplyLog() {
+		this.score= Math.log(this.score);
+	}
 }

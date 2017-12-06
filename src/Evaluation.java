@@ -62,6 +62,6 @@ public class Evaluation {
 		Result r1 = new Result1("1", 0.00, 1);
 		Result r2 = new Result1("2", 0.00, 1);
 		List<Result> rList = new ArrayList<>(Arrays.asList(r1, r2));
-		System.out.println(getMAP(rList));
+		//System.out.println(getMAP(rList));
 	}
 }

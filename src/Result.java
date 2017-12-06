@@ -27,6 +27,8 @@ public interface Result {
     void changeRecall(double newRecall);
     
     void changeRank(int newRank);
+
+    void ApplyLog();
      
 
 }

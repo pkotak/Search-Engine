@@ -110,7 +110,9 @@ public class QueryLikelihoodModel {
             }
         }
 
-
+        for(Result r:scoremap){
+            r.ApplyLog();
+        }
         return scoremap;
 
     }
