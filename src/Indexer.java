@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -79,7 +80,7 @@ public class Indexer {
 			while((currentLine = reader.readLine()) != null) {
 				
 				//System.out.println(file);
-				String doc = path.toString().substring(path.toString().lastIndexOf("\\") + 1);
+				String doc = path.toString().substring(path.toString().lastIndexOf(File.separator) + 1);
 				//System.out.println(file.substring(0, file.indexOf(".")));
 				doc = doc.substring(0, doc.indexOf('.'));
 				generateDocumentLength(doc, currentLine.split(" ").length);
