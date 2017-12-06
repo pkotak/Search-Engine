@@ -1,8 +1,6 @@
 package utilities;
 
 import java.io.File;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class Constants {
 	
@@ -15,4 +13,6 @@ public class Constants {
     public static final String INDEX_FILE = "Documents" + File.separator + "Index" + File.separator + "Index.txt";
     public static final String DOCUMENT_LENGTH_FILE = "Documents"+ File.separator + "DocumentLength" + File.separator + "DocumentLength.txt";
     public static final String COMMON_WORDS_FILE = "ProblemStatement" + File.separator + "common_words";
+    public static final String STEMMED_CORPUS_FILE = "ProblemStatement" + File.separator + "cacm_stem.txt";
+    public static final String STEM_DOCS_DIR = "Documents" + File.separator + "StemmedDocs";
 }
