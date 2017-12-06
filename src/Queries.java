@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utilities.Constants;
 import utilities.FileHandler;
 
 public class Queries {
@@ -16,6 +17,7 @@ public class Queries {
 			
 			fileContent.append(currentLine);
 		}
+		List<RelevanceInfo> relevanceList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
 		String[] splitByDoc = fileContent.toString().split("</DOC>");
 		for(String s : splitByDoc) {
 			int queryID = Integer.parseInt(s.split("</DOCNO>")[0].replace("<DOC>","")
@@ -26,7 +28,7 @@ public class Queries {
 			//TODO removing special characters
 			relInfo.add(new Query1(queryID, query
 					.replaceAll("(?=[]\\[+&|!(){}^\"~*?:\\\\-])", "\\\\")
-					.replaceAll("/", "\\\\/")));
+					.replaceAll("/", "\\\\/"), RelevanceInfos.getRelevanceInfoByQueryID(queryID, relevanceList)));
 		}	
 		return relInfo;
 	}

@@ -31,8 +31,8 @@ public class BM25Models {
 		int ri, qfi;
 		List<Posting> docsOfTerm;
 		List<Result> result;
-		System.out.println(queryObj.query());
-		for(String term : queryObj.query().split(" ")) {
+		//System.out.println(queryObj.query());
+		for(String term : queryObj.query().toLowerCase().split(" ")) {
 			try {
 				System.out.println(invertedIndex.get(term).toString());
 				ri = calculateri(term,invertedIndex.get(term));
@@ -51,7 +51,7 @@ public class BM25Models {
 			
 		}
 		
-		return Results.sortResult(resultList);
+		return Results.sortResultAndRank(resultList);
 	}
 	
 	/*
@@ -96,6 +96,7 @@ public class BM25Models {
 		//System.out.println("second" + secondParameter);
 		double thirdParameter = ((k2 + 1) * qfi) / (k2 + qfi);
 		//System.out.println("third" + thirdParameter);
+		//System.out.println((firstParameterNumerator / firstParameterDenominator) * secondParameter * thirdParameter);
 		//System.out.println((Math.log((firstParameterNumerator / firstParameterDenominator) * secondParameter * thirdParameter)));
 		return (Math.log((firstParameterNumerator / firstParameterDenominator) * secondParameter * thirdParameter));
 	}
@@ -135,7 +136,7 @@ public class BM25Models {
 	private static int calculateqfi(String term) {
 		
 		int count = 0;
-		for(String word: queryObj.query().split(" ")) {
+		for(String word: queryObj.query().toLowerCase().split(" ")) {
 			if(word.equals(term))
 				count++;
 		}

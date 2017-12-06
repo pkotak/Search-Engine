@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
 
+import utilities.Constants;
 import utilities.FileHandler;
 
 public class Indexer {
@@ -62,7 +63,8 @@ public class Indexer {
 				String doc = path.toString().substring(path.toString().lastIndexOf("\\") + 1);
 				//System.out.println(file.substring(0, file.indexOf(".")));
 				doc = doc.substring(0, doc.indexOf('.'));
-				this.documentWordTotal.put(doc, currentLine.split(" ").length);
+				generateDocumentLength(doc, currentLine.split(" ").length);
+				//this.documentWordTotal.put(doc, currentLine.split(" ").length);
 				System.out.println(doc);
 				
 				String docID = doc;
@@ -72,6 +74,16 @@ public class Indexer {
 			
 			e.printStackTrace();
 		}
+	}
+	
+	private void generateDocumentLength(String doc, int lineLength) {
+		
+		if(this.documentWordTotal.containsKey(doc)) {
+			int length = this.documentWordTotal.get(doc);
+			this.documentWordTotal.put(doc, length + lineLength);
+		}
+		else
+			this.documentWordTotal.put(doc, lineLength);	
 	}
 	
 	/*
@@ -181,9 +193,9 @@ public class Indexer {
 	
 	public static void main(String[] args) throws IOException {
 		
-		Indexer r = new Indexer(1, "C:\\Study\\IR-Project\\Documents\\ParsedDocuments");
+		Indexer r = new Indexer(1, Constants.PARSED_CORPUS);
 		HashMap<String, List<Posting>> a = r.generateIndex();
-		FileHandler tr = new FileHandler("index.txt", 0);
+		FileHandler tr = new FileHandler(Constants.INDEX_FILE, 0);
 		for(Entry<String, List<Posting>> record: a.entrySet()) {
 			
 			tr.addText(record.getKey() + " => ");
@@ -192,6 +204,14 @@ public class Indexer {
 				
 				tr.addText("[" + p.docID() + ", " + p.termFrequency() + "], " );
 			}
+			tr.addText("\n");
+		}
+		tr.closeConnection();
+		tr = new FileHandler(Constants.DOCUMENT_LENGTH_FILE, 0);
+		for(Entry<String, Integer> record : r.getWordCountOfDocuments().entrySet()) {
+			
+			tr.addText(record.getKey() + " => " + record.getValue());
+
 			tr.addText("\n");
 		}
 		tr.closeConnection();

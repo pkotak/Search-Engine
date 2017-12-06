@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -13,257 +15,152 @@ import java.util.regex.Pattern;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import utilities.Constants;
+import utilities.FileHandler;
+
+import java.io.File;
+
 /**
  *
- * @author hardikshah
+ * @author Gaurav Gandhi
  */
 public class Parser {
 
-    static String doc_id="";
-
-    public void parser(String s) throws IOException {
-
-        /*
-        open the file from the documents obtained during crawling
-        */
-        //System.out.println(s);
-        String uc=readFile(s+".html");
-        //System.out.println(uc);
-        File input=new File(s+".html");
-        Document doc;
-
-        /*
-        Convert it into document type
-        Remove all table tags and data
-        */
-        try {
-            doc = Jsoup.parse(input,"UTF-8","");
-            doc.getElementsByTag("table").remove();
-
-        } catch (IOException ex) {
-            return;
-        }
-
-        /*
-        parse the document just to retain the text
-        */
-        String txt=doc.text();
-        //System.out.println(txt);
-
-        /*
-        convert the txt to lower case
-        */
-        txt=txt.toLowerCase();
-
-        /*
-        consider only the ascii characters; ignore other languages.
-        */
-        txt=txt.replaceAll("[^\\p{ASCII}]", "");
-        char parsed_text_arr[]=txt.toCharArray();
-        txt="";
-        for(char a:parsed_text_arr){
-            if((int)a!=9)
-                txt=txt+a;
-            else{
-                txt=txt+" ";
-            }
-        }
-        String []split_corpus=txt.split(" ");
-
-        /*
-        remove all the urls from the text.
-        */
-        for(int i=0;i<split_corpus.length;i++){
-            if(split_corpus[i].contains("https://")||split_corpus[i].contains("http://")
-                    ||split_corpus[i].contains("www"))
-                split_corpus[i]="";
-        }
-        String parsed_text="";
-
-        /*
-        Do separete parsing on numbers and other text.
-        */
-        for(int i=0;i<split_corpus.length;i++){
-
-            /*
-            Regex to find numbers in a string
-            */
-            Pattern p=Pattern.compile("\\d[0-9]*");
-            Matcher m=p.matcher(split_corpus[i]);
-
-            if(m.find()){
-                /*
-                if string contains numbers
-                */
-
-                char temp[]=split_corpus[i].toCharArray();
-
-                /*
-                RIdentifying punctuation at start of number
-                */
-                if(temp[0]==':'||temp[0]==','||temp[0]==')'||
-                        temp[0]=='('||temp[0]=='^'||temp[0]=='"'||temp[0]==';'||temp[0]=='?'||
-                        temp[0]=='/'||temp[0]=='\\'||temp[0]=='\''||temp[0]=='!'||temp[0]=='#')
-                    temp[0]='.';
-                int l=temp.length-1;
-
-                /*
-                Identifying punctuation at the end of number.
-                */
-                if(temp[l]==':'||temp[l]==','||temp[l]==')'||
-                        temp[l]=='('||temp[l]=='^'||temp[l]=='"'||temp[l]==';'||temp[l]=='?'||
-                        temp[l]=='/'||temp[l]=='\\'||temp[0]=='\''||temp[l]=='!'||temp[l]=='#')
-                    temp[l]='.';
-
-                /*
-                removing trailing and precedding punctuation from number
-                */
-                String ss="";
-                int flag1=0,flag2=0;
-
-                if(temp[0]=='.')
-                    flag1=1;
-
-                if(temp[l]=='.')
-                    flag2=1;
-
-                if(flag1==1&&flag2==1)
-                    for(int j=1;j<temp.length-1;j++)
-                        ss=ss+temp[j];
-
-                else if(flag1==1&&flag2==0)
-                    for(int j=1;j<temp.length;j++)
-                        ss=ss+temp[j];
-
-                else  if(flag1==0&&flag2==1)
-                    for(int j=0;j<temp.length-1;j++)
-                        ss=ss+temp[j];
-
-                else{
-                    for(int j=0;j<temp.length;j++)
-                        ss=ss+temp[j];
-                }
-
-                /*
-                removing punctuation that may preceed the full stop
-                eg: ). or ".
-                */
-                if(ss.charAt(ss.length()-1)==')'||ss.charAt(ss.length()-1)=='"'
-                        ||ss.charAt(ss.length()-1)=='%')
-                    ss=ss.substring(0, ss.length()-1);
-
-                if(ss.charAt(0)=='('||ss.charAt(0)=='"'||ss.charAt(0)=='#')
-                    ss=ss.substring(1, ss.length());
-
-                char temp1[]=ss.toCharArray();
-                String s2="";
-                for(int j=0;j<temp1.length;j++){
-
-                    if(temp1[j]=='^'||temp1[j]=='('||temp1[j]==')'||temp1[j]=='?'||temp1[j]=='['
-                            ||temp1[j]==']'||temp1[j]=='{'||temp1[j]=='}'||temp1[j]=='\''
-                            ||temp1[j]=='!'||temp1[j]=='#')
-                        temp1[j]='#';
-
-                }
-                for(int j=0;j<temp1.length;j++){
-                    if(temp1[j]!='#')
-                        s2=s2+temp1[j];
-                }
-                parsed_text=parsed_text+s2+" ";
-            }
-            else{
-                /*
-                removing all punctuation from string which doesnt have numbers
-                */
-                char temp[]=split_corpus[i].toCharArray();
-                for(int j=0;j<temp.length;j++){
-                    if(temp[j]==':'||temp[j]==','||temp[j]=='"'||temp[j]=='^'||temp[j]=='('||
-                            temp[j]==')'||temp[j]==';'||temp[j]=='\\'||temp[j]=='/'||temp[j]=='?'
-                            ||temp[j]=='['||temp[j]==']'||temp[j]=='{' ||temp[j]=='}'||temp[j]=='\''
-                            ||temp[j]=='!'||temp[j]=='#')
-                        temp[j]='.';
-
-                }
-                String ss="";
-
-                for(int j=0;j<temp.length;j++){
-                    if(temp[j]!='.')
-                        ss=ss+temp[j];
-                }
-                parsed_text=parsed_text+ss+" ";
-            }
-        }
-        parsed_text=parsed_text.replaceAll(" ","\n");
-        /*
-        finding the doc_id
-        */
-
-
-        //System.out.println(parsed_text);
-        parsed_text=parsed_text.replaceAll("\\s{2,}", " ").replaceAll("[^\\p{ASCII}]", "")
-                .replaceAll("(?<![0-9a-zA-Z])[\\p{Punct}]", "").replaceAll("[\\p{Punct}](?![0-9a-zA-Z])", "")
-                .replaceAll("http.*?\\s", "");
-
-        String link_split[]=s.split("\\/");
-
-        writeFile(parsed_text,link_split[link_split.length-1]);
-        //doc_id=doc_id+link_split[link_split.length-1]+"\n";
+    
+    /**
+     * @param parseType
+     * @param directoryPath
+     * @throws IOException
+     */
+    public static void parseAllFiles(int parseType, String directoryPath) throws IOException {
+    	
+    	Files.list(Paths.get(directoryPath))
+    	.filter(pa -> pa.toString().endsWith(".html"))
+    	.forEach(p -> {
+    		try {
+    			parsing(parseType, p.toString());
+    		}catch(IOException e) {
+    			e.printStackTrace();
+    		}
+    	});
     }
+    
+    /**
+     * @param parseType
+     * @param filePath
+     * @throws IOException
+     */
+    private static void parsing(int parseType, String filePath) throws IOException {
+    	
+    	FileHandler textReader = new FileHandler(filePath, 1);
+    	StringBuilder content = new StringBuilder();
+    	String currentLine;
+    	while((currentLine = textReader.readLine()) != null) {
+    		content.append(currentLine);    	
+    	}
+    	//Remove the tags which are not required
+    	Document doc = getRefinedDocument(Jsoup.parse(content.toString()));
+    	
+    	// Parse the text remove irrelevant text
+		StringBuilder parsedText = getRefinedText(parseType, new StringBuilder(doc.text()));
+		
+		// create the parsed file
+		createParsedFile(filePath, parsedText.toString());
+    	
+    	textReader.closeConnection();
+    }
+    
+    /**
+     * @param filePath
+     * @param parsedText
+     * @throws IOException
+     */
+    private static void createParsedFile(String filePath, String parsedText) throws IOException {
+    	
+    	String docName = filePath.substring(filePath.lastIndexOf("\\") + 1);
+		docName = docName.substring(0, docName.indexOf('.'));
+    	FileHandler textWriter = new FileHandler(Constants.PARSED_CORPUS + docName + ".txt", 0);
+    	textWriter.addText(parsedText.toString());
+    	textWriter.closeConnection();
+    }
+    
+    /**
+     * @param doc
+     * @return
+     */
+    private static Document getRefinedDocument(Document doc) {
+    	
+    	doc.getElementsByTag("table").remove();
+		doc.getElementsByTag("img").remove();
+		doc.getElementsByTag("input").remove();
+		doc.getElementsByAttributeValueStarting("href", "#").remove();
+		
+		return doc;
+    }
+    
+    /**
+     * @param parseType
+     * @param text
+     * @return
+     */
+    private static StringBuilder getRefinedText(int parseType, StringBuilder text) {
+    	
+    	// Following steps are to remove hidden value(looks like extra space) ASCII value 9
+    	char[] parsedTextArr = text.toString().toCharArray();
+    	text = new StringBuilder("");
+    	for(char a : parsedTextArr) {
+
+    		if((int) a != 9)
+    			text.append(a);
+    		else
+    			text.append(" ");
+    	}
+    	
+    	//Case folding and removing irrelevant text
+    	if(parseType == 1 || parseType == 3)
+			text = new StringBuilder(performCaseFolding(text));
+		if(parseType == 2 || parseType == 3)
+			text = new StringBuilder(handlePunctuation(text));
+		
+		
+    	
+		return text;
+    }
+    
     /*
-    function to read to a file
-    */
-    public String readFile(String name) throws FileNotFoundException{
-        String s="";
-        File file=new File(name);
-        Scanner scanner = new Scanner(file);
-        while (scanner.hasNextLine()) {
-            // System.out.println(scanner.nextLine());
-            s=s+scanner.nextLine()+"\n";
-        }
-        scanner.close();
-        return s;
-    }
-    /*
-    function to write to a file
-    */
-    public void writeFile(String s,String title) throws IOException{
-        File dir=new File("ParsedDocuments");
-        dir.mkdir();
-        File file=new File(dir,title+".txt");
-        file.createNewFile();
-        FileWriter fw = new FileWriter(file);
-        BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(s);
-        bw.close();
-    }
+	 * Return a text by transforming to input to lower case
+	 */
+	/**
+	 * @param parsedText
+	 * @return
+	 */
+	private static String performCaseFolding(StringBuilder parsedText) {
+		
+		return parsedText.toString().toLowerCase();
+		
+	}
+	
+	/*
+	 * Method to handlerPunctuation of the given text
+	 * Returns a text after removing extra spaces, non ASCII characters, all irrelevant special characters,
+	 * and the urls
+	 */
+	/**
+	 * @param parsedText
+	 * @return
+	 */
+	private static String handlePunctuation(StringBuilder parsedText) {
+		
+		return parsedText.toString().replaceAll("\\s{2,}", " ").replaceAll("[^\\p{ASCII}]", "")
+				.replaceAll("(?<![0-9a-zA-Z])[\\p{Punct}]", "").replaceAll("[\\p{Punct}](?![0-9a-zA-Z])", "")
+				.replaceAll("http.*?\\s", "");
+	}
+
+
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-        Parser p=new Parser();
-        /*
-        taking all urls and title from file created during crawling
-        */
-
-        //String ut[]=uc.split("\n");
-
-        for(int i=1;i<3205;i++){
-            /*
-            parser accepts two parameters, title and url of that title
-            */
-            //String uc=p.readFile("/Users/hardikshah/NetBeansProjects/Parser/cacm");
-            if(i<10)
-            p.parser("/Users/hardikshah/NetBeansProjects/Parser/cacm/CACM-000"+i);
-            else if(i>9 && i< 100)
-                p.parser("/Users/hardikshah/NetBeansProjects/Parser/cacm/CACM-00"+i);
-            else if(i>99 && i<1000)
-                p.parser("/Users/hardikshah/NetBeansProjects/Parser/cacm/CACM-0"+i);
-            else
-                p.parser("/Users/hardikshah/NetBeansProjects/Parser/cacm/CACM-"+i);
-        }
-        /*
-        generating doc_id in file
-        */
-        //p.writeFile(doc_id,"doc_id");
+        Parser.parseAllFiles(3, Constants.raw_corpus_dir);
 
     }
 

@@ -17,7 +17,7 @@ public class RelevanceInfos {
 		List<RelevanceInfo> relInfo = new ArrayList<RelevanceInfo>();
 		FileHandler f = new FileHandler(filePath, 1);
 		String currentLine;
-		System.out.println(f.readLine());
+		//System.out.println(f.readLine());
 		while((currentLine = f.readLine()) != null) {
 			
 			System.out.println(currentLine);

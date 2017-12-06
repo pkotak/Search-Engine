@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.stream.Stream;
 
 /**
@@ -10,4 +11,5 @@ public interface Query {
 	
 	String query();
 	
+	List<RelevanceInfo> listOfRelevantDocuments();
 }
