@@ -35,6 +35,15 @@ public class Indexers {
 	}
 	
 	/**
+	 * <b>Do nothing for now (Use if you have to manually stem the document before indexing</b>
+	 * @param invertedIndex
+	 */
+	private static void stemInvertedIndex(HashMap<String, List<Posting>> invertedIndex) {
+		// TODO Auto-generated method stub
+		//Do nothing for now (Use if you have to manually stem the document before indexing
+	}
+
+	/**
 	 * @return list of stop words from the file
 	 * @throws IOException
 	 */
@@ -66,10 +75,21 @@ public class Indexers {
 	
 	/**
 	 * @param invertedIndex 
+	 * @throws IOException 
 	 */
-	private static void stemInvertedIndex(HashMap<String, List<Posting>> invertedIndex) {
+	public static List<HashMap> getStemmedInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
+		
+		//TODO code for parsing the stemmed document
+		List<HashMap> indexerData = new ArrayList<HashMap>();
+		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath, removeStopWords, false);
+		Indexer i = new Indexer(nGram, directoryPath);
+		indexerData.add(invertedIndex);
+		indexerData.add(i.getWordCountOfDocuments());
+		
+		return indexerData;
 		
 	}
+	
 	
 	/**
 	 * @param nGram (unigram, bigram etc) a word gram

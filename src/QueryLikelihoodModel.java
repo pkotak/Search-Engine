@@ -1,4 +1,4 @@
-import javafx.geometry.Pos;
+import utilities.Constants;
 
 import javax.swing.text.Position;
 import java.io.IOException;
@@ -9,7 +9,8 @@ public class QueryLikelihoodModel {
 
 
 
-    public static List<Result> QueryLikelihood(String query,List<RelevanceInfo> qmap, HashMap<String,List<Posting>> index) throws IOException {
+    public static List<Result> QueryLikelihood(String query,List<RelevanceInfo> qmap, HashMap<String,List<Posting>> index
+    		,HashMap<String, Integer> documentWordTotal) throws IOException {
 
         /*
          from a function get get query number by counting where query appears
@@ -47,54 +48,61 @@ public class QueryLikelihoodModel {
         String Query_unigram[]=ParseQuery(query);
         for(String query_term:Query_unigram){
 
-                List<Posting> plist=index.get(query_term);
-                int cqi=plist.size();
-                Iterator<Posting> pitr=plist.iterator();
-                int collection_length=0;
-                while (pitr.hasNext()){
-
-                    Posting p=pitr.next();
-                    if(!reldocs.contains(p.docID()))
-                        collection_length=collection_length+40000;//p.docLength;
-                }
-                Iterator<Posting> pitr2=plist.iterator();
-                //int score=0;
-                while (pitr2.hasNext()){
-                    Posting p1=pitr2.next();
-                    if(reldocs.contains(p1.docID())){
-                        score=(1-lambda)*(p1.termFrequency())/(40000);//p1.docLength;
-                        Iterator<Result> rlist=scoremap.iterator();
-                        int flag=0;
-                        while(rlist.hasNext()){
-                            Result r1=rlist.next();
-                            if(r1.docID().equals(p1.docID())){
-                                r1.changeScore(score);
-                                flag=1;
-                            }
-                        }
-                        if(flag==1){
-                            scoremap.add(new Result1(p1.docID(),score, qno));
-                        }
-                    }
-                    else{
-                        score=lambda*cqi/collection_length;
-                        Iterator<Result> rlist=scoremap.iterator();
-                        int flag=0;
-                        while(rlist.hasNext()){
-                            Result r1=rlist.next();
-                            if(r1.docID().equals(p1.docID())){
-                                r1.changeScore(score);
-                                flag=1;
-                            }
-                        }
-                        if(flag==1){
-                            scoremap.add(new Result1(p1.docID(),score, qno));
-                        }
-
-                    }
-                }
-
-            System.out.println(scoremap);
+        	try {
+        		System.out.println(query_term);
+	                List<Posting> plist=index.get(query_term);
+	                int cqi=plist.size();
+	                //System.out.println(cqi);
+	                Iterator<Posting> pitr=plist.iterator();
+	                int collection_length=0;
+	                int docSize = documentWordTotal.get(p.docID());
+	                while (pitr.hasNext()){
+	
+	                    Posting p=pitr.next();
+	                    if(!reldocs.contains(p.docID()))
+	                        collection_length += documentWordTotal.get(p.docID());//p.docLength;
+	                }
+	                Iterator<Posting> pitr2=plist.iterator();
+	                //int score=0;
+	                while (pitr2.hasNext()){
+	                    Posting p1=pitr2.next();
+	                    if(reldocs.contains(p1.docID())){
+	                        score=(1-lambda)*(p1.termFrequency())/(40000);//p1.docLength;
+	                        Iterator<Result> rlist=scoremap.iterator();
+	                        int flag=0;
+	                        while(rlist.hasNext()){
+	                            Result r1=rlist.next();
+	                            if(r1.docID().equals(p1.docID())){
+	                                r1.changeScore(score);
+	                                flag=1;
+	                            }
+	                        }
+	                        if(flag==1){
+	                            scoremap.add(new Result1(p1.docID(),score, qno));
+	                        }
+	                    }
+	                    else{
+	                        score=lambda*cqi/collection_length;
+	                        Iterator<Result> rlist=scoremap.iterator();
+	                        int flag=0;
+	                        while(rlist.hasNext()){
+	                            Result r1=rlist.next();
+	                            if(r1.docID().equals(p1.docID())){
+	                                r1.changeScore(score);
+	                                flag=1;
+	                            }
+	                        }
+	                        if(flag==1){
+	                            scoremap.add(new Result1(p1.docID(),score, qno));
+	                        }
+	
+	                    }
+	                }
+	
+	            System.out.println(scoremap.toString());
+        	}catch(NullPointerException ne) {
+        		ne.printStackTrace();
+        	}
         }
 
         return  scoremap;
@@ -120,15 +128,16 @@ public class QueryLikelihoodModel {
     }
 
     public static void main(String[] args) throws IOException {
-        Indexer i=new Indexer(1,"../Documents/ParsedDocuments");
+        Indexer i=new Indexer(1,Constants.PARSED_CORPUS);
         HashMap<String, List<Posting>> index = i.generateIndex();
 
-        System.out.println(index);
         List<RelevanceInfo> qmap = RelevanceInfos.readRelevanceInfoFromFile("../ProblemStatement/cacm.rel.txt");
 
-        System.out.println(qmap);
-        //QueryLikelihoodModel.QueryLikelihood("What articles exist which deal with TSS (Time Sharing System), an\n" +
-          //      "operating system for IBM computers?",qmap,index);
+       // System.out.println(qmap.toString());
+       List<Result> r = QueryLikelihoodModel.QueryLikelihood("What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?"
+    		   ,qmap,index, i.getWordCountOfDocuments());
+       
+       //System.out.println(r.toString());
     }
 
 }
