@@ -14,6 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.SimpleAnalyzer;
 import org.apache.lucene.document.Document;
@@ -38,7 +39,7 @@ public class SearchFiles {
 
 
     /** Simple command-line based search demo. */
-    public static void main(String[] args) throws Exception {
+    public static void searchQueries() throws Exception {
         SearchFiles sf = new SearchFiles();
         String index = Constants.LUCENE_INDEX_DIR;
         String field = "contents";
