@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Path;
 
 /**
  * @author Gaurav Gandhi
@@ -18,6 +19,7 @@ public class FileHandler {
 	private BufferedReader B_READER;
 	private FileReader F_READER;
 	public FileHandler(String file_name, int type) throws IOException {
+		//System.out.println();
 		if(type == 0) {
 			F_WRITER = new FileWriter(file_name);
 			B_WRITER = new BufferedWriter(F_WRITER);

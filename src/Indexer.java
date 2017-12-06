@@ -227,7 +227,7 @@ public class Indexer {
 	
 	public static void main(String[] args) throws IOException {
 		
-		Indexer r = new Indexer(1, Constants.PARSED_CORPUS);
+		Indexer r = new Indexer(1, Constants.PARSED_CORPUS_DIR);
 		HashMap<String, List<Posting>> a = r.generateIndex();
 		FileHandler tr = new FileHandler(Constants.INDEX_FILE, 0);
 		for(Entry<String, List<Posting>> record: a.entrySet()) {

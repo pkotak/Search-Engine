@@ -65,8 +65,8 @@ public class IndexFiles {
                 + " [-index INDEX_PATH] [-docs DOCS_PATH] [-update]\n\n"
                 + "This indexes the documents in DOCS_PATH, creating a Lucene index"
                 + "in INDEX_PATH that can be searched with SearchFiles";
-        String indexPath = Constants.lucene_index_path;
-        String docsPath = Constants.raw_corpus_dir;
+        String indexPath = Constants.LUCENE_INDEX_DIR;
+        String docsPath = Constants.RAW_CORPUS_DIR;
         boolean create = true;
         for(int i=0;i<args.length;i++) {
             if ("-index".equals(args[i])) {

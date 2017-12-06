@@ -40,7 +40,7 @@ public class SearchFiles {
     /** Simple command-line based search demo. */
     public static void main(String[] args) throws Exception {
         SearchFiles sf = new SearchFiles();
-        String index = Constants.lucene_index_path;
+        String index = Constants.LUCENE_INDEX_DIR;
         String field = "contents";
         String file_content = sf.generateFileContent();
         int query_id = 1;
@@ -59,7 +59,7 @@ public class SearchFiles {
     }
 
      String generateFileContent() throws IOException {
-        FileHandler file_reader = new FileHandler(Constants.query_dir,1);
+        FileHandler file_reader = new FileHandler(Constants.QUERY_FILE,1);
         StringBuilder content = new StringBuilder();
         String currentLine;
         while((currentLine = file_reader.readLine()) != null) {
@@ -102,7 +102,7 @@ public class SearchFiles {
                 content += query_id+" "+"Q0 "+doc_id+" "+(i+1)+" "+hits[i].score+" "+sys_name+"\n";
             }
         }
-        FileHandler file_writer = new FileHandler(Constants.lucene_output_dir+"q"+query_id+".txt",0);
+        FileHandler file_writer = new FileHandler(Constants.LUCENE_OUTPUT_DIR+"q"+query_id+".txt",0);
         file_writer.addText(content);
 
         file_writer.closeConnection();

@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
@@ -78,7 +79,7 @@ public class Parser {
      */
     private static void createParsedFile(String filePath, String parsedText) throws IOException {
     	
-    	String docName = filePath.substring(filePath.lastIndexOf("\\") + 1);
+    	String docName = filePath.substring(filePath.lastIndexOf(File.separator) + 1);
 		docName = docName.substring(0, docName.indexOf('.'));
     	FileHandler textWriter = new FileHandler(outputDirectoryPath + docName + ".txt", 0);
     	textWriter.addText(parsedText.toString());
@@ -161,7 +162,11 @@ public class Parser {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-        Parser.parseAllFiles(3, Constants.raw_corpus_dir, Constants.PARSED_CORPUS);
+    	/*System.out.println(Constants.raw_corpus_dir.toString());
+    	System.out.println("Documents" + File.separator + "CACM" + File.separator);
+    	String path = */
+    	//Path p = Paths.get("Documents\\cacm\\");
+        Parser.parseAllFiles(3, Constants.RAW_CORPUS_DIR, Constants.PARSED_CORPUS_DIR);
 
     }
 

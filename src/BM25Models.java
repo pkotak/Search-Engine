@@ -44,12 +44,12 @@ public class BM25Models {
 		resultList = new ArrayList<Result>();
 		int ri, qfi;
 		List<Posting> docsOfTerm;
-		List<Result> result;
 		//System.out.println(queryObj.query());
 		for(String term : queryObj.query().toLowerCase().split(" ")) {
 			try {
 				System.out.println(invertedIndex.get(term).toString());
-				ri = calculateri(term,invertedIndex.get(term));
+				//ri = calculateri(term,invertedIndex.get(term));
+				ri = 0;
 				qfi = calculateqfi(term);
 				docsOfTerm = new ArrayList<Posting>(invertedIndex.get(term));
 				for(Posting currPosting : docsOfTerm) {
@@ -112,7 +112,8 @@ public class BM25Models {
 		double b = 0.75;
 		double k2 = 100;
 		double ri = (double) riint;
-		double R = (double) relevantDocuments.size();
+		//double R = (double) relevantDocuments.size();
+		double R = 0;
 		double K = calculateK(k1, b, docID);
 		double ni = (double) niint;
 		double fi = (double) fiint;
@@ -185,13 +186,13 @@ public class BM25Models {
 	public static void main(String[] args) throws IOException {
 		
 		
-		List<Query> q = Queries.readQueriesFromFile(Constants.query_dir);
+		List<Query> q = Queries.readQueriesFromFile(Constants.QUERY_FILE);
 		
 		/*q.stream().forEach(x -> {
 			System.out.println(x.query());
 		});*/
 		
-		Indexer i = new Indexer(1, Constants.PARSED_CORPUS);
+		Indexer i = new Indexer(1, Constants.PARSED_CORPUS_DIR);
 		List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
 		relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
 		List<Result> r = BM25Models.getResult(q.stream().findFirst().get()
