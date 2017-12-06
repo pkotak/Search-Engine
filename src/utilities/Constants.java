@@ -9,4 +9,5 @@ public class Constants {
     public static final String RELEVANCE_FILE = "ProblemStatement\\cacm.rel.txt";
     public static final String INDEX_FILE = "Documents\\Index\\Index.txt";
     public static final String DOCUMENT_LENGTH_FILE = "Documents\\DocumentLength\\DocumentLength.txt";
+    public static final String COMMON_WORDS_FILE = "ProblemStatement\\common_words";
 }
