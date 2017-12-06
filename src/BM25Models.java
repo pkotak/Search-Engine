@@ -1,14 +1,16 @@
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map.Entry;
 
 import utilities.Constants;
 import utilities.FileHandler;
 
+//TODO Exclude the relevance info while calculating the BM25 score (confirm first)
 /**
+ * Implementation of BM25 retrieval model
+ * Returns a list of results for the given query by using BM25 model
+ * 
  * @author Gaurav Gandhi
  *
  */
@@ -20,6 +22,18 @@ public class BM25Models {
 	private static List<Result> resultList;
 	private static Query queryObj;
 
+	/**
+	 * @param query1 Query object
+	 * @param invertedIndex1 Inverted Index
+	 * @param relevantDocuments1 list of relevant documents of the given query
+	 * @param documentWordTotal1 length of each document of the corpus used for generating invertedIndex1
+	 * @return a list of Result
+	 * @see
+	 * <b>Query:</b> Refer {@link Query} </br>
+	 * <b>Inverted Index:</b> Refer {@link Indexers} class </br>
+	 * <b>Relevant Documents:</b> Refer {@link RelevanceInfo} </br>
+	 * <b>Document length:</b> Refer {@link Indexers} class </br>
+	 */
 	public static List<Result> getResult(Query query1, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
 			,HashMap<String, Integer> documentWordTotal1) { 
 		
@@ -54,10 +68,12 @@ public class BM25Models {
 		return Results.sortResultAndRank(resultList);
 	}
 	
-	/*
-	 * Stores the score of the document
-	 * 1. If the document is not presents in the data structure then new field is inserted
-	 * else the old score of the document is added to the new score
+	/**
+	 * @param docID document ID
+	 * @param newScore score of the given document
+	 * @Effects Creates or updates the result object and adds it to the list of Result
+	 * @See
+	 * {@link Result}
 	 */
 	private static void storeScoreOfDocForQuery(String docID, double newScore) {
 		
@@ -72,8 +88,23 @@ public class BM25Models {
 		}
 	}
 	
-	/*
-	 * Generates BM25 score of the document
+	/**
+	 * @param docID document ID
+	 * @param fiint frequency of the term in the document
+	 * @param niint number of documents containing the term
+	 * @param qfiint frequency of the term in the query
+	 * @param riint number of relevant document containing the term
+	 * @return BM25 Score of the given document
+	 * @see
+	 * <b> Term:</b> Term is a word of the query and is present in the inverted index </br>
+	 * <b> Query: </b> Refer {@link Query} </br>
+	 * <b> Inverted Index: </b> Refer {@link Indexers} </br></br>
+	 * <b> Other parameters of BM25: </b> </br>
+	 * <p><b>k1:</b> determines the weighting factor of the term frequency component in a document</br>
+	 * <b>b:</b> is used to calculate K</br>
+	 * <b>k2:</b> determines the weighting factor of the term frequency component in a query</br>
+	 * <b>R:</b> is the number of relevant documents for the given Query. Refer {@link Query}</br>
+	 * <b>K:</b> Normalization factor of the term frequency component
 	 */
 	private static double BM25ScoreOfDoc(String docID, int fiint, int niint, int qfiint, int riint) {
 		
@@ -101,9 +132,11 @@ public class BM25Models {
 		return (Math.log((firstParameterNumerator / firstParameterDenominator) * secondParameter * thirdParameter));
 	}
 	
-	/*
-	 * Calculates the nomalization factor of BM25 (K)
-	 * Requires document length (Comes from Document_Word_Total_Count.txt file
+	/**
+	 * @param k1 Refer {@link #BM25ScoreOfDoc() BM25 scoring method}
+	 * @param b Refer {@link #BM25ScoreOfDoc() BM25 scoring method}
+	 * @param docID document ID
+	 * @return normalizing factor of the term frequency component of the given document
 	 */
 	private static double calculateK(double k1, double b, String docID) {
 		
@@ -115,14 +148,19 @@ public class BM25Models {
 		return K;
 	}
 	
-	/*
-	 * Calculates the average of all document lengths
+	/**
+	 * @return average of length of all documents in the corpus
 	 */
 	private static double getAverageLengthOfDocuments() {
 		
 		return documentWordTotal.values().stream().mapToDouble(x -> x).average().getAsDouble();
 	}
 	
+	/**
+	 * @param term a term
+	 * @param docsOfTerm list of {@link Posting} having the given term
+	 * @return count of all the relevant documents ({@link Query} and {@link RelevanceInfo}) containing the given term
+	 */
 	private static int calculateri(String term, List<Posting> docsOfTerm) {
 		
 		return (int) docsOfTerm.stream()
@@ -130,8 +168,9 @@ public class BM25Models {
 				.count();
 	}
 	
-	/*
-	 * Calculates the frequency of the given term in the query
+	/**
+	 * @param term a term
+	 * @return count of the occurrence of the given term in the {@link Query}
 	 */
 	private static int calculateqfi(String term) {
 		

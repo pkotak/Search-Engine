@@ -2,25 +2,91 @@ import utilities.Constants;
 import utilities.FileHandler;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Helper class for Indexer
+ * 
+ * @author Gaurav Gandhi
+ *
+ */
 public class Indexers {
 
-	public static HashMap<String, List<Posting>> getInvertedIndex(int nGram, String directoryPath) {
-
-		return new Indexer(nGram, directoryPath).generateIndex();
+	/**
+	 * @param nGram (unigram, bigram etc) a word gram
+	 * @param directoryPath path where the documents to be indexed are stored
+	 * @param removeStopWords indicating whether the indexer should remove stop words
+	 * @param stemWords indicating whether the indexer should stem the terms
+	 * @return An inverted index
+	 * @throws IOException 
+	 * 
+	 */
+	public static HashMap<String, List<Posting>> getInvertedIndex(int nGram, String directoryPath, boolean removeStopWords, boolean stemTerms) throws IOException {
+		
+		HashMap<String, List<Posting>> invertedIndex = new Indexer(nGram, directoryPath).generateIndex();
+		if(removeStopWords)
+			removeStopWordsFromInvertedIndex(invertedIndex);
+		if(stemTerms)
+			stemInvertedIndex(invertedIndex);
+		return invertedIndex;
+			
 	}
+	
+	/**
+	 * @return list of stop words from the file
+	 * @throws IOException
+	 */
+	private static List<String> getStopWordListFromFile() throws IOException {
 
-	public static HashMap<String, List<Posting>> getStoppedInvertedIndex(int nGram, String directoryPath) throws IOException {
-		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram,directoryPath);
-		FileHandler r = new FileHandler(Constants.COMMON_WORDS_FILE, 1);
+		FileHandler r;
+		List<String> stopWordList = null;
+		r = new FileHandler(Constants.COMMON_WORDS_FILE, 1);
+
+		stopWordList = new ArrayList<String>();
 		String currentLine;
 		while((currentLine = r.readLine()) != null) {
-			if(invertedIndex.get(currentLine) != null){
-				invertedIndex.remove(currentLine);
-			}
+
+			stopWordList.add(currentLine);
 		}
-		return invertedIndex;
+
+		return stopWordList;
+	}
+	
+	/**
+	 * @param invertedIndex
+	 * @Effects Removes stop word from the given invertedIndex
+	 * @throws IOException
+	 */
+	private static void removeStopWordsFromInvertedIndex(HashMap<String, List<Posting>> invertedIndex) throws IOException {
+		
+		invertedIndex.keySet().removeAll(getStopWordListFromFile());
+	}
+	
+	/**
+	 * @param invertedIndex 
+	 */
+	private static void stemInvertedIndex(HashMap<String, List<Posting>> invertedIndex) {
+		
+	}
+	
+	/**
+	 * @param nGram (unigram, bigram etc) a word gram
+	 * @param directoryPath path where the documents to be indexed are stored
+	 * @param removeStopWords indicating whether the indexer should remove stop words
+	 * @param stemTerms indicating whetehr the indexer should step the terms
+	 * @return A list of an inverted index and the length of each document in the given corpus
+	 * @throws IOException 
+	 */
+	public static List<HashMap> getInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords, boolean stemTerms) throws IOException {
+		
+		List<HashMap> indexerData = new ArrayList<HashMap>();
+		Indexer i = new Indexer(nGram, directoryPath);
+		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath, removeStopWords, stemTerms);
+		indexerData.add(invertedIndex);
+		indexerData.add(i.getWordCountOfDocuments());
+		
+		return indexerData;
 	}
 }

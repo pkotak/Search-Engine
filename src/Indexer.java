@@ -11,6 +11,12 @@ import java.util.Map.Entry;
 import utilities.Constants;
 import utilities.FileHandler;
 
+/** 
+ * 
+ * Generates a map of inverted index and document length of the corpus
+ * @author Gaurav Gandhi
+ *
+ */
 public class Indexer {
 	
 	private HashMap<String, List<Posting>> invertedIndex;
@@ -19,6 +25,11 @@ public class Indexer {
 	private HashMap<String, Integer> documentWordTotal;
 	
 	
+	/**
+	 * @param nGram word n-gram 
+	 * @param directoryPath path of the file to index
+	 * @Effects creates an Indexer object
+	 */
 	public Indexer(int nGram, String directoryPath) {
 		
 		this.ngram = nGram;
@@ -27,6 +38,9 @@ public class Indexer {
 		this.documentWordTotal = new HashMap<String, Integer>();
 	}
 
+	/**
+	 * @return inverted Index
+	 */
 	public HashMap<String, List<Posting>> generateIndex() {
 		
 		try {
@@ -43,13 +57,18 @@ public class Indexer {
 		return this.invertedIndex;
 	}
 	
+	/**
+	 * @return Length of each document
+	 */
 	public HashMap<String, Integer> getWordCountOfDocuments() {
 		
 		return this.documentWordTotal;
 	}
 	
-	/*
-	 * Reads each file and adds/updates the inverted index
+	/**
+	 * @param path path of a file
+	 * @Effects reads the file and creates tokens in the form of term and Posting
+	 * for the inverted index
 	 */
 	private void readFile(Path path) {
 		
@@ -76,6 +95,11 @@ public class Indexer {
 		}
 	}
 	
+	/**
+	 * @param doc document ID
+	 * @param lineLength length of a line
+	 * @Effects adds the given length to the map of document length
+	 */
 	private void generateDocumentLength(String doc, int lineLength) {
 		
 		if(this.documentWordTotal.containsKey(doc)) {
@@ -86,8 +110,10 @@ public class Indexer {
 			this.documentWordTotal.put(doc, lineLength);	
 	}
 	
-	/*
-	 * Creates terms based on the word n-gram
+	/**
+	 * @param docID document ID
+	 * @param currentLine a line of the document
+	 * @Effects creates terms for the inverted index (which will act as a key)
 	 */
 	private void generateTerms(String docID, String currentLine) {
 		
@@ -105,8 +131,11 @@ public class Indexer {
 		
 	}
 	
-	/*
-	 * Fetches new text of the current document for next index generation
+	/**
+	 * @param currentLine a string
+	 * @return removes the first word of the given string
+	 * 		if only one word is present in the given String 
+	 * 		then an empty string is returned
 	 */
 	private String removeText(String currentLine) {
 		
@@ -131,9 +160,11 @@ public class Indexer {
 	}
 	
 	
-	
-	/*
-	 * Generates the terms based on n-gram
+	/**
+	 * @param currentLine any String of words
+	 * @return a term for the inverted index in the form of n-gram
+	 * @see
+	 * 	<b>nGram:</b> Refer constructor of the Indexer
 	 */
 	private String nGramText(String currentLine) {
 		
@@ -166,8 +197,11 @@ public class Indexer {
 		
 	}
 	
-	/*
-	 * Adds the terms and the document where it exists in the inverted index
+	/**
+	 * @param term term for the inverted index (key)
+	 * @param docID document id
+	 * @Where the term is present in the given docID
+	 * @Effects adds the Posting corresponding to the given term in the inverted index
 	 */
 	private void addToIndex(String term, String docID) {
 		
