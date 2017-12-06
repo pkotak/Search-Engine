@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class Results {
 	
 
-	public static List<Result> sortResult(List<Result> unsortedResultList) {
+	public static List<Result> sortResultAndRank(List<Result> unsortedResultList) {
 		
 		AtomicInteger counter = new AtomicInteger(1);
 		
