@@ -124,13 +124,26 @@ public class SnippetGeneration {
                 if(!significant.isEmpty())
                 {
                     String span="";
+                    String temp = null;
                     try {
-                    	String temp = sen.substring(sen.indexOf(significant.get(0)));
-                        span = sen.substring(sen.indexOf(significant.get(0)), temp.indexOf(significant.get(significant.size() - 1)));
+                    	// get first word from sen occurring in significant list
+                    	//String[] spaceSplit = sen.split(" ");
+                    	int startIndex = sen.length();
+                    	int endIndex = 0;
+                    	for(String word: significant) {
+                    		
+                    		if(sen.indexOf(word) < startIndex)
+                    			startIndex = sen.indexOf(word);
+                    		if((sen.indexOf(word) + (word.length() - 1)) > endIndex)
+                    			endIndex = sen.indexOf(word) + (word.length() - 1);
+ 
+                    	}
+                        span = sen.substring(startIndex, endIndex);
+                        System.out.println(span);
                     }catch(Exception e){
                     	e.printStackTrace();
                     	System.out.println(sen.indexOf(significant.get(0)));
-                    	System.out.println(sen.indexOf(significant.get(significant.size() - 1)));
+                    	System.out.println(temp.indexOf(significant.get(significant.size() - 1)));
                         System.out.println("debug");
                     }
                     span=span+significant.get(significant.size()-1);
@@ -227,7 +240,7 @@ public class SnippetGeneration {
         //sg.GenerateSnippet("What articles exist which deal with TSS \\(Time Sharing System\\), anoperating system for IBM computers\\?");
         for(Query qq:q){
             if(qq.queryID()==1) {
-                List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq.query(), relList, i.generateIndex(), i.getWordCountOfDocuments());
+                List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq, relList, i.generateIndex(), i.getWordCountOfDocuments());
                 qq.putResultList(r);
                 sg.GenerateSnippet(qq);
             }
