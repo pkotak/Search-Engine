@@ -1,5 +1,7 @@
 import java.util.*;
 import java.io.*;
+
+import com.sun.tools.classfile.Exceptions_attribute;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import utilities.Constants;
@@ -24,9 +26,9 @@ class ValueComparator implements Comparator<String> {
 
 public class SnippetGeneration {
 
-    public void GenerateSnippet(LinkedHashMap<String,Integer> ranked,String query) throws IOException {
+    public void GenerateSnippet(Query q) throws IOException {
 
-        String qsplit[]=query.split(" ");
+        String qsplit[]=q.query().split(" ");
         List<String> qlist=Arrays.asList(qsplit);
 
         String common=readFile(Constants.COMMON_WORDS_FILE);
@@ -34,10 +36,10 @@ public class SnippetGeneration {
         List<String> cwords=Arrays.asList(common_words);
         //System.out.println(cwords);
 
-        Iterator it=ranked.entrySet().iterator();
+        Iterator<Result> it=q.resultList().iterator();
         while (it.hasNext()){
-            Map.Entry pair=(Map.Entry)it.next();
-            String s= (String)pair.getKey();
+            Result r=it.next();
+            String s= r.docID();
 
             String read=scanFile(s);
             read=read.replaceAll("[\\p{Punct}&&[^.-]]+", "");
@@ -122,7 +124,12 @@ public class SnippetGeneration {
                 //break;
                 if(!significant.isEmpty())
                 {
-                    String span=sen.substring(sen.indexOf(significant.get(0)),sen.indexOf(significant.get(significant.size()-1)));
+                    String span="";
+                    try {
+                        span = sen.substring(sen.indexOf(significant.get(0)), sen.indexOf(significant.get(significant.size() - 1)));
+                    }catch(Exception e){
+                        System.out.println("debug");
+                    }
                     span=span+significant.get(significant.size()-1);
                     //System.out.println(span);
                     double senscore=(double)(significant.size()*significant.size())/span.length();
@@ -164,9 +171,12 @@ public class SnippetGeneration {
                 }
             }
             result=result+" </p> </body> </html>";
+            System.out.println(q.queryID());
             System.out.println(result);
             System.out.println();
+
         }
+        System.out.println();
 
     }
 
@@ -179,16 +189,15 @@ public class SnippetGeneration {
     }
 
 
-    public String scanFile(String name) throws IOException {
+    public static String scanFile(String name) throws IOException {
         String s="";
         File file=new File("/Users/hardikshah/SnippetGeneration/cacm/"+name+".html");
         Document d=Jsoup.parse(file,"UTF-8","");
         s=d.text();
-
         return s;
     }
 
-    public String readFile(String name) throws FileNotFoundException{
+    public static String readFile(String name) throws FileNotFoundException{
         String s="";
         File file=new File(name);
         Scanner scanner = new Scanner(file);
@@ -207,7 +216,21 @@ public class SnippetGeneration {
         test.put("CACM-0004",1);
         String query="Extraction Repeated Digital";
         SnippetGeneration sg=new SnippetGeneration();
-        sg.GenerateSnippet(test,query);
+        Indexer i = new Indexer(1, Constants.PARSED_CORPUS_DIR);
+        List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
+        relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
+        List<Query> q=Queries.readQueriesFromFile(Constants.QUERY_FILE);
+        //sg.GenerateSnippet("What articles exist which deal with TSS \\(Time Sharing System\\), anoperating system for IBM computers\\?");
+        for(Query qq:q){
+            if(qq.queryID()==1) {
+                List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq.query(), relList, i.generateIndex(), i.getWordCountOfDocuments());
+                qq.putResultList(r);
+                sg.GenerateSnippet(qq);
+            }
+            break;
+        }
+
+        //sg.GenerateSnippet(test,query);
     }
 
 }
