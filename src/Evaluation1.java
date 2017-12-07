@@ -21,18 +21,24 @@ public class Evaluation1 implements Evaluation {
 	
 	private double map; // represents the mean average precision of the given system
 	private double mrr; // represents the mean reciprocal rank of the given system
-	private List<Query> queryList; // represents the list of list of queries of the given system
+	private final List<Query> queryList; // represents the list of list of queries of the given system
 	
 	/**
+	 * 
+	 */
+	/**
+	 * @param queryList
+	 * @Where The queries with no relevant documents are removed
 	 * @Effects Creates an Evaluation Object
 	 * 			Generates precision, recall for each result in the query
 	 * 			assigns mean average precision(map) and mean reciprocal rank(mrr)
 	 */
-	public Evaluation1() {
+	public Evaluation1(List<Query> queryList) {
 		
 		generatePrecisionAndRecall();
 		calculateMAP();
 		calculateMRR();
+		this.queryList = queryList;
 	}
 	
 	/* (non-Javadoc)

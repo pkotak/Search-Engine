@@ -15,5 +15,10 @@ public class Constants {
     public static final String COMMON_WORDS_FILE = "ProblemStatement" + File.separator + "common_words";
     public static final String STEMMED_CORPUS_FILE = "ProblemStatement" + File.separator + "cacm_stem.txt";
     public static final String STEM_DOCS_DIR = "Documents" + File.separator + "StemmedDocs";
+    public static final String STEM_PARSED_DIR = "Documents" + File.separator + "ParsedDocuments" + File.separator + "StemmedCorpus" + File.separator;
+    public static final String RESULT = "Results" + File.separator;
+    public static final String RESULT_TASK1_BM25 = RESULT +  "Task1" + File.separator + "BM25Run" + File.separator;
+    public static final String RESULT_TASK1_TFIDF = RESULT +  "Task1" + File.separator + "TF-IDFRun" + File.separator;
+    public static final String RESULT_TASK1_SQL = RESULT +  "Task1" + File.separator + "QueryLikelihoodRunRun" + File.separator;
 
 }

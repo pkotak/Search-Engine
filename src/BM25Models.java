@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -21,6 +22,25 @@ public class BM25Models {
 	private static List<RelevanceInfo> relevantDocuments;
 	private static List<Result> resultList;
 	private static Query queryObj;
+	
+	/**
+	 * @param queries
+	 * @param invertedIndex1
+	 * @param relevantDocuments1
+	 * @param documentWordTotal1
+	 * @return a list of queries with results updated after performing BM25 retrieval model
+	 */
+	public static List<Query> executeBM25ModelOnSystem(List<Query> queries, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
+			,HashMap<String, Integer> documentWordTotal1) {
+		
+		queries.stream().forEach(query -> {
+			List<Result> results = getResult(query, invertedIndex1, relevantDocuments1, documentWordTotal1);
+			query.putResultList(results);
+		});
+		System.out.println("Results of BM25 Model will be stored in " + Paths.get(Constants.RESULT_TASK1_BM25).toAbsolutePath());
+		//TODO Store results
+		return queries;
+	}
 
 	/**
 	 * @param query1 Query object

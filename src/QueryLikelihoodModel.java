@@ -2,13 +2,33 @@ import utilities.Constants;
 
 import javax.swing.text.Position;
 import java.io.IOException;
-import java.util.HashMap;
+import java.nio.file.Paths;
 import java.util.*;
 
 public class QueryLikelihoodModel {
+	
+	
+	public static List<Query> executeSQLOnSystem(List<Query> queries, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
+            , HashMap<String, Integer> documentWordTotal) throws IOException {             	
+		
+		queries.stream().forEach(query -> {
+			List<Result> results;
+			try {
+				results = QueryLikelihood(query, qmap, index, documentWordTotal);
+				query.putResultList(results);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		});
+		System.out.println("Results of Query likelihood Model will be stored in " + Paths.get(Constants.RESULT_TASK1_SQL).toAbsolutePath());
+		//TODO Store results
+		return queries;
+	}
 
 
-    public static List<Result> QueryLikelihood(String query, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
+    public static List<Result> QueryLikelihood(Query query, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
             , HashMap<String, Integer> documentWordTotal) throws IOException {
 
         /*
@@ -19,18 +39,18 @@ public class QueryLikelihoodModel {
     	/*
         Get query number
     	 */
-        int qno = getQueryNumber(query);
+        int qno = query.queryID();
 
         /*
         Get list of relevant documents
          */
-        List<String> reldocs;
-        reldocs = getRelevantDocuments(qmap, query);
+        List<RelevanceInfo> reldocs;
+        reldocs = query.listOfRelevantDocuments();
 
         /*
         Parsing the query and generating each word from the query;
          */
-        String Query_unigram[] = ParseQuery(query);
+        String Query_unigram[] = ParseQuery(query.query());
 
         /*
         Generate a list for each term which contains the Result.
@@ -51,7 +71,7 @@ public class QueryLikelihoodModel {
                 /*
                 Get the Total words in collection
                  */
-                int collection_length=getCollectionLength(query,qmap,plist,documentWordTotal);
+                int collection_length=getCollectionLength(query.query(),qmap,plist,documentWordTotal);
                 Iterator<Posting> pitr2 = plist.iterator();
                 while (pitr2.hasNext()) {
                     Posting p1 = pitr2.next();
@@ -106,6 +126,7 @@ public class QueryLikelihoodModel {
 
 
             } catch (NullPointerException ne) {
+            	System.out.println(query_term);
                 ne.printStackTrace();
             }
         }
@@ -219,7 +240,8 @@ public class QueryLikelihoodModel {
         HashMap<String, List<Posting>> index = i.generateIndex();
 
         List<RelevanceInfo> qmap = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
-        List<Result> r = QueryLikelihoodModel.QueryLikelihood("What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?"
+        List<Query> qList = Queries.readQueriesFromFile(Constants.QUERY_FILE);
+        List<Result> r = QueryLikelihoodModel.QueryLikelihood(qList.get(0)
                 , qmap, index, i.getWordCountOfDocuments());
 
         List<Result> output = Results.sortResultAndRank(r);

@@ -1,7 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-import com.sun.tools.classfile.Exceptions_attribute;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import utilities.Constants;
@@ -126,8 +125,12 @@ public class SnippetGeneration {
                 {
                     String span="";
                     try {
-                        span = sen.substring(sen.indexOf(significant.get(0)), sen.indexOf(significant.get(significant.size() - 1)));
+                    	String temp = sen.substring(sen.indexOf(significant.get(0)));
+                        span = sen.substring(sen.indexOf(significant.get(0)), temp.indexOf(significant.get(significant.size() - 1)));
                     }catch(Exception e){
+                    	e.printStackTrace();
+                    	System.out.println(sen.indexOf(significant.get(0)));
+                    	System.out.println(sen.indexOf(significant.get(significant.size() - 1)));
                         System.out.println("debug");
                     }
                     span=span+significant.get(significant.size()-1);
@@ -190,8 +193,9 @@ public class SnippetGeneration {
 
 
     public static String scanFile(String name) throws IOException {
+    	//TODO Use FileHandler
         String s="";
-        File file=new File("/Users/hardikshah/SnippetGeneration/cacm/"+name+".html");
+        File file=new File(Constants.RAW_CORPUS_DIR + name + ".html");
         Document d=Jsoup.parse(file,"UTF-8","");
         s=d.text();
         return s;

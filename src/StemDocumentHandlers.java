@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class StemDocumentHandlers {
 
-    public static void generateStemmedDocuments(String stemmeDocDir, int parseType, String stemOutputDir) throws IOException {
+    public static void generateStemmedDocuments(String stemmeDocDir, String stemOutputDir) throws IOException {
         FileHandler reader = new FileHandler(stemmeDocDir, 1);
         String currentLine;
         StringBuilder content = new StringBuilder();
@@ -56,6 +56,6 @@ public class StemDocumentHandlers {
         writer.closeConnection();
     }
     public static void main(String args[]) throws IOException {
-        generateStemmedDocuments(Constants.STEMMED_CORPUS_FILE,3,Constants.STEM_DOCS_DIR);
+        generateStemmedDocuments(Constants.STEMMED_CORPUS_FILE, Constants.STEM_DOCS_DIR);
     }
 }

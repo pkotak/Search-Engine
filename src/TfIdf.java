@@ -1,6 +1,9 @@
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import utilities.Constants;
 
 /**
  * @author Paarth Kotak
@@ -10,6 +13,24 @@ public class TfIdf {
     private static HashMap<String, List<Posting>> invertedIndex;
     private static Query queryObj;
     private static List<Result> results;
+    
+    /**
+     * @param queries
+     * @param invertedIndex1
+     * @param documentWordTotal1
+     * @return
+     */
+    public static List<Query> executeTfIdfOnSystem(List<Query> queries, HashMap<String, List<Posting>> invertedIndex1,
+                                         HashMap<String, Integer> documentWordTotal1) {
+    	
+    	queries.stream().forEach(query -> {
+    		List<Result> results = getResult(query, invertedIndex1, documentWordTotal1);
+			query.putResultList(results);
+		});
+		System.out.println("Results of TF-IDF Model will be stored in " + Paths.get(Constants.RESULT_TASK1_TFIDF).toAbsolutePath());
+		//TODO Store results
+		return queries;
+    }
     /**
      * @param query1 Query object
      * @param invertedIndex1 inverted index

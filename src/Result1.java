@@ -16,6 +16,7 @@ public class Result1 implements Result {
      * @param queryID
      */
     Result1(String docID,double score, int queryID) {
+    	//TODO take systemName from the user
         this.docID = docID;
         this.score = score;
         this.queryID = queryID;
