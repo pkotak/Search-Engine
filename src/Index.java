@@ -30,10 +30,10 @@ public class Index {
 	public Index(int nGram) throws IOException {
 		
 		in = new Scanner(System.in);
-		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, this.directoryPathBase, false, false);
+		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, this.directoryPathBase, false);
 		this.invertedIndexBase = this.indexAndDocumentLength.get(0);
 		this.documentLengthBase = this.indexAndDocumentLength.get(1);
-		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, this.directoryPathBase, true, false);
+		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, this.directoryPathBase, true);
 		this.invertedIndexStop = this.indexAndDocumentLength.get(0);
 		this.documentLengthStop = this.indexAndDocumentLength.get(1);
 		//TODO inverted index and document length for stemmed corpus

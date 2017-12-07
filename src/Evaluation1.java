@@ -4,65 +4,88 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-/*
- * What if the relevant documents don't make it to top 100 result list of that particular query? for  recall
+/*TODO
+ *What if the relevant documents don't make it to top 100 result list of that particular query? for  recall
  * Divide by what number
  * Sol. FInd the total number of relevant documents in top 100 of results by looking at cacm.rel file, this will be your denominator for recall.
  */
 
 /**
+ * <b> Constructor template for Evaluation1
+ * new Evaluation1()
+ * 
  * @author Gaurav Gandhi
  *
  */
 public class Evaluation1 implements Evaluation {
 	
-	private double map;
-	private double mrr;
-	private List<Query> queryList;
+	private double map; // represents the mean average precision of the given system
+	private double mrr; // represents the mean reciprocal rank of the given system
+	private List<Query> queryList; // represents the list of list of queries of the given system
 	
+	/**
+	 * @Effects Creates an Evaluation Object
+	 * 			Generates precision, recall for each result in the query
+	 * 			assigns mean average precision(map) and mean reciprocal rank(mrr)
+	 */
 	public Evaluation1() {
-		
-		this.map = this.MAP();
-		this.mrr = this.MRR();
-	}
-	
-	@Override
-	public double MAP() {
 		
 		generatePrecisionAndRecall();
 		calculateMAP();
 		calculateMRR();
+	}
+	
+	/* (non-Javadoc)
+	 * @see Evaluation#MAP()
+	 */
+	@Override
+	public double MAP() {
+		
 		return this.map;
 	}
 
+	/* (non-Javadoc)
+	 * @see Evaluation#MRR()
+	 */
 	@Override
 	public double MRR() {
 		
 		return this.mrr;
 	}
 
+	/* (non-Javadoc)
+	 * @see Evaluation#queryListOfSystem()
+	 */
 	@Override
 	public List<Query> queryListOfSystem() {
 		
 		return this.queryList;
 	}
 	
-	@Override
-	public void calculateMAP() {
+	
+	/**
+	 * @Effects calculates mean average precision, assigns it to map
+	 */
+	private void calculateMAP() {
 		
-		calculateAP();
+		this.map = calculateAP().stream().mapToDouble(x -> x).average().getAsDouble();
 		
 	}
 	
 
-	@Override
-	public void calculateMRR() {
-		// TODO Auto-generated method stub
+	/**
+	 * @Effects calculates mean reciprocal rank, assigns it to mrr.
+	 */
+	private void calculateMRR() {
 		
+		this.mrr = calculateRR().stream().mapToDouble(x -> x).average().getAsDouble();
 	}
 	
-	@Override
-	public void generatePrecisionAndRecall() {
+
+	/**
+	 * @Effects generates precision and recall for each result inside each query in the list of queries
+	 */
+	private void generatePrecisionAndRecall() {
 		
 		this.queryList.stream().forEach(query -> {
 			this.calculatePrecisionRecallByQuery(query);
@@ -70,6 +93,9 @@ public class Evaluation1 implements Evaluation {
 		
 	}
 	
+	/**
+	 * @return list of Average precision of each query
+	 */
 	private List<Double> calculateAP() {
 		
 		List<Double> apList = new ArrayList<Double>();
@@ -80,9 +106,29 @@ public class Evaluation1 implements Evaluation {
 		return apList;
 	}
 	
+	/**
+	 * @return list of reciprocal rank of each query
+	 */
+	private List<Double> calculateRR() {
+		
+		List<Double> rrList = new ArrayList<Double>();
+		this.queryList.stream().forEach(query -> {
+			rrList.add((double) 1 / 
+					(query.resultList().stream()
+							.filter(result -> query.listOfRelevantDocuments().stream()
+							.anyMatch(rel -> rel.documentID().contains(result.docID())))
+							.findFirst().get().rank()));
+		});;
+		
+		return rrList;
+	}
+	
 	
 	/**
 	 * @param query
+	 * @Effects Calculates preicision and recall for each result in the given query
+	 * @see
+	 * {@link Query Query class}
 	 */
 	private void calculatePrecisionRecallByQuery(Query query) {
 		
@@ -120,7 +166,7 @@ public class Evaluation1 implements Evaluation {
 		Result r1 = new Result1("1", 0.00, 1);
 		Result r2 = new Result1("2", 0.00, 1);
 		List<Result> rList = new ArrayList<>(Arrays.asList(r1, r2));
-		System.out.println(getMAP(rList));
+		//System.out.println(getMAP(rList));
 	}
 
 	

@@ -17,31 +17,15 @@ public class Indexers {
 	/**
 	 * @param nGram (unigram, bigram etc) a word gram
 	 * @param directoryPath path where the documents to be indexed are stored
-	 * @param removeStopWords indicating whether the indexer should remove stop words
-	 * @param stemWords indicating whether the indexer should stem the terms
 	 * @return An inverted index
 	 * @throws IOException 
 	 * 
 	 */
-	public static HashMap<String, List<Posting>> getInvertedIndex(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
+	public static HashMap<String, List<Posting>> getInvertedIndex(int nGram, String directoryPath) throws IOException {
 		
-		HashMap<String, List<Posting>> invertedIndex = new Indexer(nGram, directoryPath).generateIndex();
-		if(removeStopWords)
-			removeStopWordsFromInvertedIndex(invertedIndex);
-		if(stemTerms)
-			stemInvertedIndex(invertedIndex);
-		return invertedIndex;
-			
+		return new Indexer(nGram, directoryPath).generateIndex();
 	}
 	
-	/**
-	 * <b>Do nothing for now (Use if you have to manually stem the document before indexing</b>
-	 * @param invertedIndex
-	 */
-	private static void stemInvertedIndex(HashMap<String, List<Posting>> invertedIndex) {
-		// TODO Auto-generated method stub
-		//Do nothing for now (Use if you have to manually stem the document before indexing
-	}
 
 	/**
 	 * @return list of stop words from the file
@@ -62,18 +46,7 @@ public class Indexers {
 
 		return stopWordList;
 	}
-	
-	/**
-	 * @param invertedIndex
-	 * @Effects Removes stop word from the given invertedIndex
-	 * @throws IOException
-	 */
-	private static void removeStopWordsFromInvertedIndex(HashMap<String, List<Posting>> invertedIndex) throws IOException {
 		
-		invertedIndex.keySet().removeAll(getStopWordListFromFile());
-	}
-	
-	
 	
 	/**
 	 * @param nGram (unigram, bigram etc) a word gram
@@ -84,12 +57,30 @@ public class Indexers {
 	 */
 	public static List<HashMap> getInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
 		
+		@SuppressWarnings("rawtypes")
 		List<HashMap> indexerData = new ArrayList<HashMap>();
 		Indexer i = new Indexer(nGram, directoryPath);
-		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath, removeStopWords);
+		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath);
+		HashMap<String, Integer> documentLength = i.getWordCountOfDocuments();
+		if(removeStopWords)
+			invertedIndexDocumentLengthWithStopWords(invertedIndex, documentLength);
 		indexerData.add(invertedIndex);
-		indexerData.add(i.getWordCountOfDocuments());
+		indexerData.add(documentLength);
 		
 		return indexerData;
+	}
+	
+	private static void invertedIndexDocumentLengthWithStopWords(HashMap<String, List<Posting>> invertedIndex, HashMap<String, Integer> documentLength) throws IOException {
+		
+		List<String> stopWordList = getStopWordListFromFile();
+		invertedIndex.entrySet().stream().filter(x -> stopWordList.stream().anyMatch(stop -> stop.equals(x.getKey())))
+		.forEach(term -> {
+			List<Posting> postingList = term.getValue();
+			postingList.stream().forEach(posting -> {
+				int length = documentLength.get(posting.docID());
+				documentLength.put(posting.docID(), (length - posting.termFrequency()));
+			});
+		});
+		invertedIndex.keySet().removeAll(stopWordList);
 	}
 }
