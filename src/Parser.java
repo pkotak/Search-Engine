@@ -151,7 +151,7 @@ public class Parser {
 	 * @param parsedText
 	 * @return
 	 */
-	private static String handlePunctuation(StringBuilder parsedText) {
+	public static String handlePunctuation(StringBuilder parsedText) {
 		
 		return parsedText.toString().replaceAll("\\s{2,}", " ").replaceAll("[^\\p{ASCII}]", "")
 				.replaceAll("(?<![0-9a-zA-Z])[\\p{Punct}]", "").replaceAll("[\\p{Punct}](?![0-9a-zA-Z])", "")
@@ -167,6 +167,7 @@ public class Parser {
     	String path = */
     	//Path p = Paths.get("Documents\\cacm\\");
         Parser.parseAllFiles(3, Constants.RAW_CORPUS_DIR, Constants.PARSED_CORPUS_DIR);
+       // System.out.println(Parser.handlePunctuation(new StringBuilder("List all articles on EL1 and ECL (EL1 may be given as EL/1; I don't remember how they did it..")));
 
     }
 
