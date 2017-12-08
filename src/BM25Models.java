@@ -30,11 +30,10 @@ public class BM25Models {
 	 * @param documentWordTotal1
 	 * @return a list of queries with results updated after performing BM25 retrieval model
 	 */
-	public static List<Query> executeBM25ModelOnSystem(List<Query> queries, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
-			,HashMap<String, Integer> documentWordTotal1) {
+	public static List<Query> executeBM25ModelOnSystem(List<Query> queries, HashMap<String, List<Posting>> invertedIndex1, HashMap<String, Integer> documentWordTotal1) {
 		
 		queries.stream().forEach(query -> {
-			List<Result> results = getResult(query, invertedIndex1, relevantDocuments1, documentWordTotal1);
+			List<Result> results = getResult(query, invertedIndex1, documentWordTotal1);
 			query.putResultList(results);
 		});
 		System.out.println("Results of BM25 Model will be stored in " + Paths.get(Constants.RESULT_TASK1_BM25).toAbsolutePath());
@@ -45,7 +44,6 @@ public class BM25Models {
 	/**
 	 * @param query1 Query object
 	 * @param invertedIndex1 Inverted Index
-	 * @param relevantDocuments1 list of relevant documents of the given query
 	 * @param documentWordTotal1 length of each document of the corpus used for generating invertedIndex1
 	 * @return a list of Result
 	 * @see
@@ -54,12 +52,11 @@ public class BM25Models {
 	 * <b>Relevant Documents:</b> Refer {@link RelevanceInfo} </br>
 	 * <b>Document length:</b> Refer {@link Indexers} class </br>
 	 */
-	public static List<Result> getResult(Query query1, HashMap<String, List<Posting>> invertedIndex1, List<RelevanceInfo> relevantDocuments1
-			,HashMap<String, Integer> documentWordTotal1) { 
+	public static List<Result> getResult(Query query1, HashMap<String, List<Posting>> invertedIndex1, HashMap<String, Integer> documentWordTotal1) { 
 		
 		documentWordTotal = documentWordTotal1;
 		invertedIndex = invertedIndex1;
-		relevantDocuments = relevantDocuments1;
+		relevantDocuments = query1.listOfRelevantDocuments();
 		queryObj = query1;
 		resultList = new ArrayList<Result>();
 		int ri, qfi;
@@ -67,7 +64,7 @@ public class BM25Models {
 		//System.out.println(queryObj.query());
 		for(String term : queryObj.query().toLowerCase().split(" ")) {
 			try {
-				System.out.println(invertedIndex.get(term).toString());
+				//System.out.println(invertedIndex.get(term).toString());
 				//ri = calculateri(term,invertedIndex.get(term));
 				ri = 0;
 				qfi = calculateqfi(term);
@@ -216,8 +213,7 @@ public class BM25Models {
 		List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
 		relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
 		List<Result> r = BM25Models.getResult(q.stream().findFirst().get()
-				, i.generateIndex(), relList
-				, i.getWordCountOfDocuments());
+				, i.generateIndex(), i.getWordCountOfDocuments());
 		
 		r.stream().forEach(Result::toString);
 		

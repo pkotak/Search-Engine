@@ -4,8 +4,10 @@ import javax.swing.text.Position;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class QueryLikelihoodModel {
+	
 	
 	
 	public static List<Query> executeSQLOnSystem(List<Query> queries, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
@@ -17,7 +19,7 @@ public class QueryLikelihoodModel {
 				results = QueryLikelihood(query, qmap, index, documentWordTotal);
 				query.putResultList(results);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			
@@ -26,6 +28,7 @@ public class QueryLikelihoodModel {
 		//TODO Store results
 		return queries;
 	}
+	
 
 
     public static List<Result> QueryLikelihood(Query query, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
@@ -44,8 +47,8 @@ public class QueryLikelihoodModel {
         /*
         Get list of relevant documents
          */
-        List<RelevanceInfo> reldocs;
-        reldocs = query.listOfRelevantDocuments();
+        List<String> reldocs;
+        reldocs = query.listOfRelevantDocuments().stream().filter(x -> x.queryId() == qno).map(x -> x.documentID()).collect(Collectors.toList());
 
         /*
         Parsing the query and generating each word from the query;
@@ -78,6 +81,8 @@ public class QueryLikelihoodModel {
                     /*
                     Check if document is Relevant
                      */
+                    //relevant doc ID
+                    
                     if (reldocs.contains(p1.docID())) {
 
                         /*
@@ -126,15 +131,15 @@ public class QueryLikelihoodModel {
 
 
             } catch (NullPointerException ne) {
-            	System.out.println(query_term);
-                ne.printStackTrace();
+            	//System.out.println(quer);
+                //ne.printStackTrace();
             }
         }
 
         for(Result r:scoremap){
             r.ApplyLog();
         }
-        return scoremap;
+        return Results.sortResultAndRank(scoremap);
 
     }
 
