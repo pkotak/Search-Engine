@@ -23,7 +23,7 @@ public class Index {
 	private final String fileRelevanceInfo = Constants.RELEVANCE_FILE; // path of relevance info file
 	private final List<RelevanceInfo> relevanceInfoList = RelevanceInfos.readRelevanceInfoFromFile(fileRelevanceInfo); // list of relevant docs for each query
 	private final String fileQuery = Constants.QUERY_FILE; // path of query file
-	private final List<Query> queryList = Queries.readQueriesFromFile(fileQuery); // list of queries to be executed
+	private List<Query> queryList;  // list of queries to be executed
 	private final String fileStemmedCorpus = Constants.STEMMED_CORPUS_FILE; // file name of the stemmed corpus
 	private final String directoryStemmedCorpus = Constants.STEM_DOCS_DIR; // directory of the stemmed corpus
 	private final String directoryStemmedParsedCorpus = Constants.STEM_PARSED_DIR;
@@ -44,6 +44,8 @@ public class Index {
 		
 		in = new Scanner(System.in);
 		System.out.println("Please wait initializing...");
+		// Read queries from a file and add them to the list
+		queryList = Queries.readQueriesFromFile(fileQuery);
 		//Parse and index raw corpus
 		this.parseAndGenerateIndex(nGram);
 		// Inverted index and document length after removing stop words
@@ -106,6 +108,7 @@ public class Index {
 	private void phase2() {
 		
 		//TODO snippet generation. Choose run
+
 	}
 	
 	private void phase3() {

@@ -4,24 +4,27 @@ public class Result1 implements Result {
     private double score;
     private int queryID;
     private String literal;
-    private int systemName;
+    private String systemName;
     private double precision;
     private double recall;
     private int rank;
     private String snippet;
+    private String model_name;
 
     /**
-     * @param doc_id
+     * @param docID
      * @param score
      * @param queryID
+	 *  @param SystemName
      */
-    Result1(String docID,double score, int queryID) {
+    Result1(String docID,double score, int queryID,String SystemName,String model_name) {
     	//TODO take systemName from the user
         this.docID = docID;
         this.score = score;
         this.queryID = queryID;
         this.literal = "Q0";
-        this.systemName = 1;
+        this.systemName = SystemName;
+        this.model_name=model_name;
     }
 
 
@@ -54,15 +57,20 @@ public class Result1 implements Result {
 	}
 
 	@Override
-	public int systemName() {
+	public String systemName() {
 		
 		return this.systemName;
 	}
-	
-	@Override
+
+    @Override
+    public String modelName() {
+        return this.model_name;
+    }
+
+    @Override
 	public String toString() {
 		
-		return (this.queryID() + " " + this.literal() + " " + this.docID() + " " + this.Score() + " " 
+		return (this.queryID() + " " + this.literal() + " " + this.docID() + " " + this.model_name+"_"+this.Score() + " "
 		+ this.rank() + " " +  this.systemName());
 	}
 

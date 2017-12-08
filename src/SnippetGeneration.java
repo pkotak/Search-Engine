@@ -244,6 +244,7 @@ public class SnippetGeneration {
                 List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq, relList, invertedIndex, documentLength);
                 qq.putResultList(r);
                 sg.GenerateSnippet(qq);
+
         }
 
         //sg.GenerateSnippet(test,query);

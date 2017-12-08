@@ -64,9 +64,9 @@ public class BM25Models {
 		//System.out.println(queryObj.query());
 		for(String term : queryObj.query().toLowerCase().split(" ")) {
 			try {
-				//System.out.println(invertedIndex.get(term).toString());
-				//ri = calculateri(term,invertedIndex.get(term));
-				ri = 0;
+				//System.out.println(term);
+				ri = calculateri(term,invertedIndex.get(term));
+				//ri = 0;
 				qfi = calculateqfi(term);
 				docsOfTerm = new ArrayList<Posting>(invertedIndex.get(term));
 				for(Posting currPosting : docsOfTerm) {
@@ -77,7 +77,7 @@ public class BM25Models {
 				}
 			}catch(NullPointerException ne) {
 				
-				ne.printStackTrace();
+				//ne.printStackTrace();
 			}
 			
 		}
@@ -129,8 +129,8 @@ public class BM25Models {
 		double b = 0.75;
 		double k2 = 100;
 		double ri = (double) riint;
-		//double R = (double) relevantDocuments.size();
-		double R = 0;
+		double R = (double) relevantDocuments.size();
+		//double R = 0;
 		double K = calculateK(k1, b, docID);
 		double ni = (double) niint;
 		double fi = (double) fiint;
@@ -180,10 +180,13 @@ public class BM25Models {
 	 * @return count of all the relevant documents ({@link Query} and {@link RelevanceInfo}) containing the given term
 	 */
 	private static int calculateri(String term, List<Posting> docsOfTerm) {
-		
-		return (int) docsOfTerm.stream()
+		try {
+			return (int) docsOfTerm.stream()
 				.filter(x -> relevantDocuments.stream().anyMatch(y -> y.documentID().equals(x)))
 				.count();
+		}catch(NullPointerException nfe) {
+			return 0;
+		}
 	}
 	
 	/**

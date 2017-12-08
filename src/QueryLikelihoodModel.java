@@ -23,7 +23,7 @@ public class QueryLikelihoodModel {
 			}
 			
 		});
-		System.out.println("Results of Query likelihood Model will be stored in " + Paths.get(Constants.RESULT_TASK1_SQL).toAbsolutePath());
+		System.out.println("Results of Query likelihood Model will be stored in " + Paths.get(Constants.TASK1_PHASE1_SQL).toAbsolutePath());
 		//TODO Store results
 		return queries;
 	}
@@ -104,7 +104,7 @@ public class QueryLikelihoodModel {
                         Add if it is not  present in the list
                          */
                         if (flag == 0) {
-                            scoremap.add(new Result1(p1.docID(), score, qno));
+                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood"));
                         }
                     }
                     /*
@@ -122,7 +122,7 @@ public class QueryLikelihoodModel {
                             }
                         }
                         if (flag == 0) {
-                            scoremap.add(new Result1(p1.docID(), score, qno));
+                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood"));
                         }
 
                     }
