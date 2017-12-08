@@ -51,7 +51,7 @@ public class TfIdf {
                     double tf = calculateTf(p.docID(), p.termFrequency());
                     double idf = calculateIdf(postings.size());
                     double score = tf * idf;
-                    results.add(new Result1(p.docID(), score, query1.queryID()));
+                    results.add(new Result1(p.docID(), score, query1.queryID(),"TfIdf","parsed_punctuated"));
                 }
             }
         }
