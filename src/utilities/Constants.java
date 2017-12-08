@@ -30,4 +30,9 @@ public class Constants {
     public static final  String RESULT_SQL = "QueryLikelihood"+File.separator;
     public static final  String RESULT_Lucene = "Lucene"+File.separator;
 
+    public static final String TASK1_PHASE1_BM25=PHASE1+TASK1+RESULT_BM25;
+    public static final String TASK1_PHASE1_SQL=PHASE1+TASK1+RESULT_SQL;
+    public static final String TASK1_PHASE1_Lucne=PHASE1+TASK1+RESULT_Lucene;
+    public static final String TASK1_PHASE1_TFIDF=PHASE1+TASK1+RESULT_TFIDF;
+
 }
