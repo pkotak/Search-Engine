@@ -108,6 +108,7 @@ public class Index {
 	private void phase2() {
 		
 		//TODO snippet generation. Choose run
+
 	}
 	
 	private void phase3() {
