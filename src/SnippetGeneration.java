@@ -25,7 +25,7 @@ class ValueComparator implements Comparator<String> {
 
 public class SnippetGeneration {
 
-    public void GenerateSnippet(Query q) throws IOException {
+    public static void GenerateSnippet(Query q) throws IOException {
 
         String qsplit[]=q.query().split(" ");
         List<String> qlist=Arrays.asList(qsplit);
@@ -232,7 +232,6 @@ public class SnippetGeneration {
         test.put("CACM-0003",1);
         test.put("CACM-0004",1);
         String query="Extraction Repeated Digital";
-        SnippetGeneration sg=new SnippetGeneration();
         Indexer i = new Indexer(1, Constants.PARSED_CORPUS_DIR);
         List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
         relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
@@ -243,7 +242,7 @@ public class SnippetGeneration {
         for(Query qq:q) {
                 List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq, relList, invertedIndex, documentLength);
                 qq.putResultList(r);
-                sg.GenerateSnippet(qq);
+                GenerateSnippet(qq);
 
         }
 
