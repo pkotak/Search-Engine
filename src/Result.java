@@ -14,7 +14,9 @@ public interface Result {
     
     double Score();
     
-    int systemName();
+    String systemName();
+
+    String modelName();
     
     double precision();
     
