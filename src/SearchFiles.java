@@ -90,7 +90,7 @@ public class SearchFiles {
      * is executed another time and all hits are collected.
      *
      */
-    public static void doPagingSearch(IndexSearcher searcher, Query query, int query_id) throws IOException {
+    private static void doPagingSearch(IndexSearcher searcher, Query query, int query_id) throws IOException {
 
         TopDocs results = searcher.search(query, 100);
         ScoreDoc[] hits = results.scoreDocs;

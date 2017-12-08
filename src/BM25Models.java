@@ -36,8 +36,6 @@ public class BM25Models {
 			List<Result> results = getResult(query, invertedIndex1, documentWordTotal1);
 			query.putResultList(results);
 		});
-		System.out.println("Results of BM25 Model will be stored in " + Paths.get(Constants.RESULT_TASK1_BM25).toAbsolutePath());
-		//TODO Store results
 		return queries;
 	}
 

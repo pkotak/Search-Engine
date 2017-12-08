@@ -4,11 +4,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-/*TODO
- *What if the relevant documents don't make it to top 100 result list of that particular query? for  recall
- * Divide by what number
- * Sol. FInd the total number of relevant documents in top 100 of results by looking at cacm.rel file, this will be your denominator for recall.
- */
+
 
 /**
  * <b> Constructor template for Evaluation1
@@ -169,9 +165,9 @@ public class Evaluation1 implements Evaluation {
 	
 	public static void main(String[] args) {
 		
-		Result r1 = new Result1("1", 0.00, 1);
-		Result r2 = new Result1("2", 0.00, 1);
-		List<Result> rList = new ArrayList<>(Arrays.asList(r1, r2));
+		//Result r1 = new Result1("1", 0.00, 1);
+		//Result r2 = new Result1("2", 0.00, 1);
+		//List<Result> rList = new ArrayList<>(Arrays.asList(r1, r2));
 		//System.out.println(getMAP(rList));
 	}
 

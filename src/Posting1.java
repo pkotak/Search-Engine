@@ -75,7 +75,7 @@ public class Posting1 implements Posting {
 	@Override
 	public String toString() {
 		
-		return (this.docID() + " " + this.termFrequency());
+		return "[" + (this.docID() + ", " + this.termFrequency()) + " ]";
 	}
 	
 	public static void main(String[] args) {

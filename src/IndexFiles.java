@@ -60,7 +60,7 @@ public class IndexFiles {
     private IndexFiles() {}
 
     /** Index all text files under a directory. */
-    public static void main(String[] args) {
+    public static void generateIndexLucene() {
         String usage = "java org.apache.lucene.demo.IndexFiles"
                 + " [-index INDEX_PATH] [-docs DOCS_PATH] [-update]\n\n"
                 + "This indexes the documents in DOCS_PATH, creating a Lucene index"
