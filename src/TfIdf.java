@@ -1,9 +1,9 @@
+import utilities.Constants;
+
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import utilities.Constants;
 
 /**
  * @author Paarth Kotak
@@ -51,12 +51,12 @@ public class TfIdf {
                     double tf = calculateTf(p.docID(), p.termFrequency());
                     double idf = calculateIdf(postings.size());
                     double score = tf * idf;
-                    results.add(new Result1(p.docID(), score, query1.queryID()));
+                    results.add(new Result1(p.docID(), score, query1.queryID(),"TfIdf","parsed_punctuated"));
                 }
             }
         }
 //        System.out.println("Results: "+results.get(0).docID()+" "+results.get(0).Score());
-        return results;
+        return Results.sortResultAndRank(results);
     }
 
     /**
@@ -75,7 +75,7 @@ public class TfIdf {
      */
     private static double calculateIdf(int docsWithTerm){
         double totalDocuments = documentWordTotal.size();
-        return Math.log(totalDocuments/(double) docsWithTerm);
+        return 1 + Math.log(totalDocuments/(double) (docsWithTerm+1));
     }
     //TODO: Testing using Indexers new methods.
 //    public static void main(String args[]) throws IOException {

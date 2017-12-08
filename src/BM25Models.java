@@ -1,11 +1,11 @@
+import utilities.Constants;
+import utilities.FileHandler;
+
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import utilities.Constants;
-import utilities.FileHandler;
 
 //TODO Exclude the relevance info while calculating the BM25 score (confirm first)
 /**
@@ -101,7 +101,7 @@ public class BM25Models {
 			r.changeScore(newScore + oldScore);
 		}
 		else {
-			resultList.add(new Result1(docID, newScore, queryObj.queryID()));
+			resultList.add(new Result1(docID, newScore, queryObj.queryID(),"BM25","Parsed_punctuated"));
 		}
 	}
 	
