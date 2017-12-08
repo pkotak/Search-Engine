@@ -139,12 +139,12 @@ public class SnippetGeneration {
  
                     	}
                         span = sen.substring(startIndex, endIndex);
-                        System.out.println(span);
                     }catch(Exception e){
                     	e.printStackTrace();
-                    	System.out.println(sen.indexOf(significant.get(0)));
-                    	System.out.println(temp.indexOf(significant.get(significant.size() - 1)));
-                        System.out.println("debug");
+                    	System.out.println(span);
+                    	System.out.println(sen);
+                    	System.out.println(significant.toString());
+                    	System.exit(1);
                     }
                     span=span+significant.get(significant.size()-1);
                     //System.out.println(span);
@@ -237,14 +237,13 @@ public class SnippetGeneration {
         List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
         relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
         List<Query> q=Queries.readQueriesFromFile(Constants.QUERY_FILE);
+        HashMap<String, List<Posting>> invertedIndex = i.generateIndex();
+        HashMap<String, Integer> documentLength = i.getWordCountOfDocuments();
         //sg.GenerateSnippet("What articles exist which deal with TSS \\(Time Sharing System\\), anoperating system for IBM computers\\?");
-        for(Query qq:q){
-            if(qq.queryID()==1) {
-                List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq, relList, i.generateIndex(), i.getWordCountOfDocuments());
+        for(Query qq:q) {
+                List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq, relList, invertedIndex, documentLength);
                 qq.putResultList(r);
                 sg.GenerateSnippet(qq);
-            }
-            break;
         }
 
         //sg.GenerateSnippet(test,query);

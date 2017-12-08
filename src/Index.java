@@ -255,7 +255,7 @@ public class Index {
 			
 			case 1:
 				// BM25 retrieval model
-				this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexBase, relevanceInfoList, documentLengthBase);
+				this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexBase, documentLengthBase);
 				break;
 			case 2:
 				// tf-idf retrieval mode

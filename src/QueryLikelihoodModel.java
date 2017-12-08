@@ -19,7 +19,7 @@ public class QueryLikelihoodModel {
 				results = QueryLikelihood(query, qmap, index, documentWordTotal);
 				query.putResultList(results);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			
@@ -131,8 +131,8 @@ public class QueryLikelihoodModel {
 
 
             } catch (NullPointerException ne) {
-            	System.out.println(query_term);
-                ne.printStackTrace();
+            	//System.out.println(quer);
+                //ne.printStackTrace();
             }
         }
 

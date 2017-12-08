@@ -60,8 +60,9 @@ public class Indexers {
 		@SuppressWarnings("rawtypes")
 		List<HashMap> indexerData = new ArrayList<HashMap>();
 		Indexer i = new Indexer(nGram, directoryPath);
-		HashMap<String, List<Posting>> invertedIndex = getInvertedIndex(nGram, directoryPath);
+		HashMap<String, List<Posting>> invertedIndex = i.generateIndex();
 		HashMap<String, Integer> documentLength = i.getWordCountOfDocuments();
+		System.out.println(i.getWordCountOfDocuments().toString());
 		if(removeStopWords)
 			invertedIndexDocumentLengthWithStopWords(invertedIndex, documentLength);
 		indexerData.add(invertedIndex);
@@ -77,10 +78,15 @@ public class Indexers {
 		.forEach(term -> {
 			List<Posting> postingList = term.getValue();
 			postingList.stream().forEach(posting -> {
-				int length = documentLength.get(posting.docID());
-				documentLength.put(posting.docID(), (length - posting.termFrequency()));
+				int length  = documentLength.get(posting.docID());
+					documentLength.put(posting.docID(), (length - posting.termFrequency()));
 			});
 		});
 		invertedIndex.keySet().removeAll(stopWordList);
+	}
+	
+	public static void main(String[] args) {
+		
+		
 	}
 }
