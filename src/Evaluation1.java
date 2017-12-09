@@ -31,10 +31,10 @@ public class Evaluation1 implements Evaluation {
 	 */
 	public Evaluation1(List<Query> queryList) {
 		
+		this.queryList = queryList;
 		generatePrecisionAndRecall();
 		calculateMAP();
 		calculateMRR();
-		this.queryList = queryList;
 	}
 	
 	/* (non-Javadoc)
