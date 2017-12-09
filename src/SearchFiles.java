@@ -39,24 +39,24 @@ public class SearchFiles {
 
 
     /** Simple command-line based search demo. */
-    public static void searchQueries() throws Exception {
+    public static List<Result> searchQueries(String query, int query_id) throws Exception {
         SearchFiles sf = new SearchFiles();
         String index = Constants.LUCENE_INDEX_DIR;
         String field = "contents";
-        String file_content = sf.generateFileContent();
-        int query_id = 1;
-        List<String> processed_query = sf.getProcessedQueryList(file_content);
+//        String file_content = sf.generateFileContent();
+//        int query_id = 1;
+//        List<String> processed_query = sf.getProcessedQueryList(file_content);
         IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
         IndexSearcher searcher = new IndexSearcher(reader);
         Analyzer analyzer = new SimpleAnalyzer();
         QueryParser parser = new QueryParser(field, analyzer);
 
-        for(String q: processed_query){
-            Query query = parser.parse(q);
-            System.out.println("Searching for: " + query.toString(field));
-            doPagingSearch(searcher, query, query_id);
-            query_id++;
-        }
+//        for(String q: processed_query){
+            Query q = parser.parse(query);
+            System.out.println("Searching for: " + q.toString(field));
+            return doPagingSearch(searcher, q, query_id);
+//            query_id++;
+//        }
     }
 
      String generateFileContent() throws IOException {
@@ -90,23 +90,26 @@ public class SearchFiles {
      * is executed another time and all hits are collected.
      *
      */
-    public static void doPagingSearch(IndexSearcher searcher, Query query, int query_id) throws IOException {
+    public static List<Result> doPagingSearch(IndexSearcher searcher, Query query, int query_id) throws IOException {
 
         TopDocs results = searcher.search(query, 100);
         ScoreDoc[] hits = results.scoreDocs;
-        String sys_name = "Lucene";
-        String content = "";
+//        String sys_name = "Lucene";
+//        String content = "";
+        List<Result> resultList = new ArrayList<>();
         for(int i = 0; i < hits.length; i++ ){
             Document doc = searcher.doc(hits[i].doc);
             String doc_id = doc.get("path").substring(doc.get("path").lastIndexOf("\\")+1,doc.get("path").length());
             if (doc_id != null) {
-                content += query_id+" "+"Q0 "+doc_id+" "+(i+1)+" "+hits[i].score+" "+sys_name+"\n";
+                resultList.add(new Result1(doc_id,hits[i].score, query_id, "Lucene", "Parsed_punctuated"));
+//                content += query_id+" "+"Q0 "+doc_id+" "+(i+1)+" "+hits[i].score+" "+sys_name+"\n";
             }
         }
-        FileHandler file_writer = new FileHandler(Constants.LUCENE_OUTPUT_DIR+"q"+query_id+".txt",0);
-        file_writer.addText(content);
-
-        file_writer.closeConnection();
+//        FileHandler file_writer = new FileHandler(Constants.LUCENE_OUTPUT_DIR+"q"+query_id+".txt",0);
+//        file_writer.addText(content);
+//
+//        file_writer.closeConnection();
+        return resultList;
     }
 }
 
