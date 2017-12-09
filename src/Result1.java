@@ -133,4 +133,11 @@ public class Result1 implements Result {
 		
 		this.snippet = newSnippet;
 	}
+
+
+	@Override
+	public void changeModelName(String newModelName) {
+		
+		this.model_name = newModelName;
+	}
 }

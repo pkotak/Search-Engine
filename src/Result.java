@@ -35,6 +35,8 @@ public interface Result {
     void ApplyLog();
     
     void addSnippet(String newSnippet);
+    
+    void changeModelName(String newModelName);
      
 
 }

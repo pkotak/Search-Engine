@@ -36,7 +36,7 @@ public class Results {
 	 */
 	public static Result make(String docID, double score, int queryID) {
 		
-		return new Result1(docID, score, queryID);
+		return new Result1(docID, score, queryID, "sys", "model");
 	}
 	
 	public static void writeResultsToFile(String filePath, List<Query> queryList) {
@@ -51,13 +51,13 @@ public class Results {
 						
 						e.printStackTrace();
 					}
+				});
 				try {
 					writer.closeConnection();
 				} catch (IOException e) {
 					
 					e.printStackTrace();
 				}	
-				});
 			} catch (IOException e) {
 				
 				e.printStackTrace();

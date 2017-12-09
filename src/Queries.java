@@ -37,7 +37,7 @@ public class Queries {
 				relInfo.add(new Query1(queryID, query, RelevanceInfos.getRelevanceInfoByQueryID(queryID, relevanceList)));
 			}catch(NumberFormatException nfe) {
 				
-				nfe.printStackTrace();
+				//nfe.printStackTrace();
 			}
 		}	
 		return relInfo;

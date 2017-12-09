@@ -43,9 +43,10 @@ public class Evaluations {
 	 * @param filePath
 	 * @param queryList
 	 */
-	public static void writeEvaluationToFile(String filePath, List<Query> queryList) {
+	public static void writeEvaluationToFile(String filePath, Evaluation eva) {
 		
-		queryList.stream().forEach(query -> {
+		
+		eva.queryListOfSystem().stream().forEach(query -> {
 			try {
 				writer = new FileHandler(filePath + query + ".txt", 0);
 				writer.addText("P@5: " + getPAtK(query, 5) + "\n");
@@ -54,17 +55,16 @@ public class Evaluations {
 					try {
 						writer.addText(result.docID() + " " + result.precision() + " " + result.recall() + "\n");
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				});
 				writer.closeConnection();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
 		});
+		System.out.println("Evaluations are stored in: "+ filePath);
 	}
 	
 }

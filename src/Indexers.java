@@ -102,7 +102,7 @@ public class Indexers {
 		try {
 			writer = new FileHandler(filePathName , 0);
 		} catch (IOException e2) {
-			// TODO Auto-generated catch block
+
 			e2.printStackTrace();
 		}
 		invertedIndex.entrySet().stream().forEach(term -> {

@@ -122,7 +122,7 @@ public class QueryLikelihoodModel {
                             }
                         }
                         if (flag == 0) {
-                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood"));
+                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood", "ParsedPunctuated"));
                         }
 
                     }

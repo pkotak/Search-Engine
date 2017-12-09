@@ -41,7 +41,7 @@ public class SnippetGeneration {
 					try {
 						writer.addText(snippet);
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
+
 						e.printStackTrace();
 					}
 				});
@@ -49,7 +49,7 @@ public class SnippetGeneration {
 				writer.closeConnection();
 				
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 		});
@@ -68,7 +68,7 @@ public class SnippetGeneration {
 			try {
 				GenerateSnippet(query);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 		});

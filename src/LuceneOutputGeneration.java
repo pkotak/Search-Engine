@@ -3,7 +3,8 @@ import java.util.List;
 
 public class LuceneOutputGeneration {
 
-    public static List<Query> outputGeneration(List<Query> queryList) throws Exception {
+    @SuppressWarnings("static-access")
+	public static List<Query> outputGeneration(List<Query> queryList) throws Exception {
         SearchFiles sf = new SearchFiles();
         List<Query> outputQueryList = new ArrayList<>();
         int query_id = 1;

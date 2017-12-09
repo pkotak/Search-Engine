@@ -37,7 +37,6 @@ public class Parser {
     	
     	outputDirectoryPath = outputDirectoryPath1;
     	Files.list(Paths.get(directoryPath))
-    	.filter(pa -> pa.toString().endsWith(".html"))
     	.forEach(p -> {
     		try {
     			parsing(parseType, p.toString());

@@ -40,6 +40,8 @@ public class SearchFiles {
 
     /** Simple command-line based search demo. */
     public static List<Result> searchQueries(String query, int query_id) throws Exception {
+    	
+    	query = query.replaceAll("(?=[]\\[+&|!(){}^\"~*?:\\\\-])", "\\\\").replaceAll("/", "\\\\/");
         SearchFiles sf = new SearchFiles();
         String index = Constants.LUCENE_INDEX_DIR;
         String field = "contents";
