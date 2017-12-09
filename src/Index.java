@@ -34,13 +34,13 @@ public class Index {
 	private List<Query> stemmedQueryList;
 	
 	// Results storing  Phase 1 Task1
-	private List<Query> ResultTask1BM25 = null; // query with updated results of BM25
-	private List<Query> ResultTask1tfIdf = null; // query with updated results of tf-idf
-	private List<Query> ResultTask1SQL = null; // query with updated results of SQL
-	private List<Query> ResultTask1Lucene = null; // query with updated results of Lucene
+	private List<Query> ResultTask1BM25; // query with updated results of BM25
+	private List<Query> ResultTask1tfIdf; // query with updated results of tf-idf
+	private List<Query> ResultTask1SQL; // query with updated results of SQL
+	private List<Query> ResultTask1Lucene; // query with updated results of Lucene
 	
 	// Results storing Phase 1 Task 2
-	private List<Query> ResulTas2PseudoRelevance = null;
+	private List<Query> ResulTas2PseudoRelevance;
 	
 	
 	Scanner in;

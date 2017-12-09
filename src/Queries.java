@@ -33,7 +33,7 @@ public class Queries {
 				query = Parser.handlePunctuation(new StringBuilder(query)).toString();
 				if(query.charAt(query.length() - 1) == ' ')
 					query = query.substring(0, query.length() - 1);
-				System.out.println(query);
+				//System.out.println(query);
 				relInfo.add(new Query1(queryID, query, RelevanceInfos.getRelevanceInfoByQueryID(queryID, relevanceList)));
 			}catch(NumberFormatException nfe) {
 				
@@ -61,7 +61,7 @@ public class Queries {
 		
 		List<Query> q = readQueriesFromFile(Constants.QUERY_FILE);
 		
-		System.out.println(q.toString());
-		System.out.println(q.size());
+		//System.out.println(q.toString());
+		//System.out.println(q.size());
 	}
 }

@@ -66,7 +66,7 @@ public class Indexers {
 		Indexer i = new Indexer(nGram, directoryPath);
 		HashMap<String, List<Posting>> invertedIndex = i.generateIndex();
 		HashMap<String, Integer> documentLength = i.getWordCountOfDocuments();
-		System.out.println(i.getWordCountOfDocuments().toString());
+		//System.out.println(i.getWordCountOfDocuments().toString());
 		if(removeStopWords)
 			invertedIndexDocumentLengthWithStopWords(invertedIndex, documentLength);
 		indexerData.add(invertedIndex);

@@ -33,6 +33,11 @@ public class Evaluation1 implements Evaluation {
 	public Evaluation1(List<Query> queryList) {
 		
 		this.queryList = queryList;
+		/*queryList.stream().filter(query -> query.queryID() == 1).forEach(q -> {
+			q.resultList().stream().forEach(r -> {
+				System.out.println(r.toString());
+			});
+		});*/
 		generatePrecisionAndRecall();
 		calculateMAP();
 		calculateMRR();

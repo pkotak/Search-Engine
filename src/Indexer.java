@@ -85,7 +85,7 @@ public class Indexer {
 				doc = doc.substring(0, doc.indexOf('.'));
 				generateDocumentLength(doc, currentLine.split(" ").length);
 				//this.documentWordTotal.put(doc, currentLine.split(" ").length);
-				System.out.println(doc);
+				//System.out.println(doc);
 				
 				String docID = doc;
 				this.generateTerms(docID, currentLine);

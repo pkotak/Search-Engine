@@ -59,12 +59,17 @@ public class Evaluations {
 		HSSFWorkbook workbook = new HSSFWorkbook();
 		FileOutputStream out = null;
 		try {
-		out =  new FileOutputStream(filePath + fileName + ".xls");
+		out =  new FileOutputStream(filePath + fileName + "Evaluation.xls");
 			//out = new FileOutputStream(new File(filePath + fileName + ".xlsx"));
 		} catch (FileNotFoundException e1) {
 			
 			e1.printStackTrace();
 		}
+		HSSFSheet mainSheet = workbook.createSheet("MainSheet");
+		mainSheet.createRow(0).createCell(0).setCellValue("Mean Average Precision");
+		mainSheet.createRow(1).createCell(0).setCellValue("Mean Reciprocal Rank");
+		mainSheet.getRow(0).createCell(1).setCellValue(eva.MAP());
+		mainSheet.getRow(1).createCell(1).setCellValue(eva.MRR());
 		eva.queryListOfSystem().stream().forEach(query -> {
 			
 				HSSFSheet currentSheet = workbook.createSheet(String.valueOf(query.queryID()));
@@ -73,14 +78,14 @@ public class Evaluations {
 				mainRow.createCell(0).setCellValue("P@5");
 				mainRow.createCell(1).setCellValue(getPAtK(query, 5));
 				mainRow.createCell(2).setCellValue("P@20");
-				mainRow.createCell(1).setCellValue(getPAtK(query, 20));
+				mainRow.createCell(3).setCellValue(getPAtK(query, 20));
 				HSSFRow secondMainRow = currentSheet.createRow(1);
 				secondMainRow.createCell(0).setCellValue("Document ID");
 				secondMainRow.createCell(1).setCellValue("Precision");
 				secondMainRow.createCell(2).setCellValue("Recall");
 				query.resultList().stream().forEach(result -> {
 					
-					HSSFRow currentRow = currentSheet.createRow(result.rank() + 2);
+					HSSFRow currentRow = currentSheet.createRow(result.rank() + 1);
 					
 					currentRow.createCell(0).setCellValue(result.docID());
 					currentRow.createCell(1).setCellValue(result.precision());
