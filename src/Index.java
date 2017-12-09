@@ -31,6 +31,7 @@ public class Index {
 	private final String directoryStemmedParsedCorpus = Constants.STEM_PARSED_DIR;
 	private final String directoryRawCorpus = Constants.RAW_CORPUS_DIR; // directory of the raw corpus
 	private final String directoryParsedCorpus = Constants.PARSED_CORPUS_DIR; // directory of the parsed corpus
+	private List<Query> stemmedQueryList;
 	
 	// Results storing  Phase 1 Task1
 	private List<Query> ResultTask1BM25 = null; // query with updated results of BM25
@@ -62,6 +63,7 @@ public class Index {
 		System.out.println("Please wait initializing...");
 		// Read queries from a file and add them to the list
 		queryList = Queries.readQueriesFromFile(fileQuery);
+		stemmedQueryList = Queries.readQueriesFromFile(Constants.STEMMED_QUERY_FILE);
 		//Parse and index raw corpus
 		this.parseAndGenerateIndex(nGram);
 		// Inverted index and document length after removing stop words
@@ -336,14 +338,14 @@ public class Index {
 			
 			case 2:
 				// run bm25 tfidf query likelihood on stemmed
-				this.ResultTask3StemBM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexStem, documentLengthStem);
+				this.ResultTask3StemBM25 = BM25Models.executeBM25ModelOnSystem(stemmedQueryList, invertedIndexStem, documentLengthStem);
 				this.ResultTask3StemBM25.stream().forEach(query -> {
 					query.resultList().stream().forEach(result -> {
 						result.changeModelName(result.modelName() + "Stemmed");
 					});
 				});
 				Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_BM25, ResultTask3StemBM25);
-				this.ResultTask3StemTFIDF = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexStem, documentLengthStem);
+				this.ResultTask3StemTFIDF = TfIdf.executeTfIdfOnSystem(stemmedQueryList, invertedIndexStem, documentLengthStem);
 				this.ResultTask3StemTFIDF.stream().forEach(query -> {
 					query.resultList().stream().forEach(result -> {
 						result.changeModelName(result.modelName() + "Stemmed");
@@ -351,7 +353,7 @@ public class Index {
 				});
 				Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_TFIDF, ResultTask3StemTFIDF);
 				try {
-					this.ResultTask3StemSQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexStem, documentLengthStem);
+					this.ResultTask3StemSQL = QueryLikelihoodModel.executeSQLOnSystem(stemmedQueryList, relevanceInfoList, invertedIndexStem, documentLengthStem);
 					this.ResultTask3StemSQL.stream().forEach(query -> {
 						query.resultList().stream().forEach(result -> {
 							result.changeModelName(result.modelName() + "Stemmed");

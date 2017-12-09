@@ -1,1 +1,0 @@
-12 Q0 stem_2878 parsed_punctuatedStemmed_0.05078186744017153 1 TfIdf

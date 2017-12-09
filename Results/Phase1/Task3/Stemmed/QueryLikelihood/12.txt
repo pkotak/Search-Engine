@@ -1,1 +1,0 @@
-12 Q0 stem_2878 ParsedPunctuatedStemmed_-6.155767598399258 1 QueryLikelihood

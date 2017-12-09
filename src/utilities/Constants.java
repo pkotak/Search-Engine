@@ -63,6 +63,8 @@ public class Constants {
     
     public static final String PHASE3_QUERYREF = RESULTS_DIR + PHASE3 + "QueryRefinements" + File.separator;
     
+    public static final String STEMMED_QUERY_FILE = "ProblemStatement" + File.separator +"cacm_stem.query.txt";
+    
     
 
 }

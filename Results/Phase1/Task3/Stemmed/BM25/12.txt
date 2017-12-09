@@ -1,1 +1,0 @@
-12 Q0 stem_2878 Parsed_punctuatedStemmed_5.0768315186994375 1 BM25
