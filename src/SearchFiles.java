@@ -27,6 +27,7 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 import utilities.Constants;
+import utilities.FileHandler;
 
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -49,6 +50,25 @@ public class SearchFiles {
         return doPagingSearch(searcher, q, query_id);
     }
 
+     String generateFileContent() throws IOException {
+        FileHandler file_reader = new FileHandler(Constants.QUERY_FILE,1);
+        StringBuilder content = new StringBuilder();
+        String currentLine;
+        while((currentLine = file_reader.readLine()) != null) {
+            content.append(currentLine);
+        }
+        return content.toString();
+    }
+     List<String> getProcessedQueryList(String file_content){
+        List<String> query_list = new ArrayList<>();
+        String[] splitByDoc = file_content.split("</DOC>");
+
+        for (String s : splitByDoc) {
+            String query = s.split("</DOCNO>")[1].replace("</DOC>", "");
+            query_list.add(query.replaceAll("(?=[]\\[+&|!(){}^\"~*?:\\\\-])", "\\\\").replaceAll("/", "\\\\/"));
+        }
+        return query_list;
+    }
     /**
      * This demonstrates a typical paging search scenario, where the search engine presents
      * pages of size n to the user. The user can then go to the next page if interested in
@@ -60,6 +80,7 @@ public class SearchFiles {
      *
      */
     public static List<Result> doPagingSearch(IndexSearcher searcher, Query query, int query_id) throws IOException {
+
         TopDocs results = searcher.search(query, 100);
         ScoreDoc[] hits = results.scoreDocs;
         List<Result> resultList = new ArrayList<>();
