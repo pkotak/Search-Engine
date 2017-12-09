@@ -3,6 +3,7 @@ import utilities.Constants;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -26,8 +27,6 @@ public class QueryLikelihoodModel {
 			}
 			
 		});
-		System.out.println("Results of Query likelihood Model will be stored in " + Paths.get(Constants.TASK1_PHASE1_SQL).toAbsolutePath());
-		//TODO Store results
 		return queries;
 	}
 	
@@ -50,7 +49,12 @@ public class QueryLikelihoodModel {
         Get list of relevant documents
          */
         List<String> reldocs;
-        reldocs = query.listOfRelevantDocuments().stream().filter(x -> x.queryId() == qno).map(x -> x.documentID()).collect(Collectors.toList());
+        try {
+        	reldocs = query.listOfRelevantDocuments().stream().filter(x -> x.queryId() == qno).map(x -> x.documentID()).collect(Collectors.toList());
+        }catch(NullPointerException ne) {
+        	
+        	reldocs = new ArrayList<>(Arrays.asList(""));
+        }
 
         /*
         Parsing the query and generating each word from the query;
