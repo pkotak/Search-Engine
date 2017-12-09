@@ -50,7 +50,7 @@ public class Evaluations {
 			try {
 				writer = new FileHandler(filePath + query.queryID() + ".txt", 0);
 				writer.addText("P@5: " + getPAtK(query, 5) + "\n");
-				writer.addText("P@5: " + getPAtK(query, 20) + "\n");
+				writer.addText("P@20: " + getPAtK(query, 20) + "\n");
 				query.resultList().stream().forEach(result -> {
 					try {
 						writer.addText(result.docID() + " " + result.precision() + " " + result.recall() + "\n");
