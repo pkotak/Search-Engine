@@ -23,8 +23,8 @@ public class Result1 implements Result {
         this.score = score;
         this.queryID = queryID;
         this.literal = "Q0";
-        this.systemName = SystemName;
-        this.model_name=model_name;
+        this.systemName = model_name;
+        this.model_name=SystemName ;
     }
 
 
@@ -70,7 +70,7 @@ public class Result1 implements Result {
     @Override
 	public String toString() {
 		
-		return (this.queryID() + " " + this.literal() + " " + this.docID() + " " + this.model_name+"_"+this.Score() + " "
+		return (this.queryID() + " " + this.literal() + " " + this.docID() + " " + this.modelName()+"_"+this.Score() + " "
 		+ this.rank() + " " +  this.systemName());
 	}
 
