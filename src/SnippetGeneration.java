@@ -4,6 +4,7 @@ import java.io.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import utilities.Constants;
+import utilities.FileHandler;
 
 class ValueComparator implements Comparator<String> {
 
@@ -24,8 +25,58 @@ class ValueComparator implements Comparator<String> {
 }
 
 public class SnippetGeneration {
+	
+	private static FileHandler writer;
+	
+	
+	public static void writeSnippetToFile(String filePath, List<Query> queryList) {
+		
+		queryList.stream().forEach(query -> {
+			
+			try {
+				writer = new FileHandler(filePath + query.queryID() + ".html", 0);
+				writer.addText("<html><body>");
+				query.resultList().stream().map(x -> x.snippet()).forEach(snippet -> {
+					
+					try {
+						writer.addText(snippet);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				});
+				writer.addText("</body></html>");
+				writer.closeConnection();
+				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		});
+		
+		System.out.println("Snippets of each query are stored in:" + filePath);
+	}
+	
+	
+	/**
+	 * @param queryList
+	 * @return
+	 */
+	public static List<Query> performSnippetGeneration(List<Query> queryList) {
+		
+		queryList.stream().forEach(query -> {
+			try {
+				GenerateSnippet(query);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		});
+		
+		return queryList;
+	}
 
-    public void GenerateSnippet(Query q) throws IOException {
+    public static void GenerateSnippet(Query q) throws IOException {
 
         String qsplit[]=q.query().split(" ");
         List<String> qlist=Arrays.asList(qsplit);
@@ -173,7 +224,7 @@ public class SnippetGeneration {
 
             }
             // System.out.println();
-            String result="<html> <body> <p> ";
+            String result="<p> ";
             String op[]=x.split(" ");
             for(String op1:op){
                 //System.out.println(op1);
@@ -186,14 +237,14 @@ public class SnippetGeneration {
                     //System.out.print(" " + op1);
                 }
             }
-            result=result+" </p> </body> </html>";
+            result=result+" </p><br/><br/>";
             System.out.println(q.queryID());
             System.out.println(result);
+            r.addSnippet(result);
             System.out.println();
 
         }
         System.out.println();
-
     }
 
     public static TreeMap<String, Double> sortMapByValue(HashMap<String, Double> map) {
@@ -232,7 +283,6 @@ public class SnippetGeneration {
         test.put("CACM-0003",1);
         test.put("CACM-0004",1);
         String query="Extraction Repeated Digital";
-        SnippetGeneration sg=new SnippetGeneration();
         Indexer i = new Indexer(1, Constants.PARSED_CORPUS_DIR);
         List<RelevanceInfo> relList = RelevanceInfos.readRelevanceInfoFromFile(Constants.RELEVANCE_FILE);
         relList = RelevanceInfos.getRelevanceInfoByQueryID(1, relList);
@@ -243,7 +293,7 @@ public class SnippetGeneration {
         for(Query qq:q) {
                 List<Result> r = QueryLikelihoodModel.QueryLikelihood(qq, relList, invertedIndex, documentLength);
                 qq.putResultList(r);
-                sg.GenerateSnippet(qq);
+                GenerateSnippet(qq);
 
         }
 

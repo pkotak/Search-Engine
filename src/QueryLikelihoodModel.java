@@ -2,10 +2,7 @@ import utilities.Constants;
 
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class QueryLikelihoodModel {
@@ -107,7 +104,7 @@ public class QueryLikelihoodModel {
                         Add if it is not  present in the list
                          */
                         if (flag == 0) {
-                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood","Parsed_punctuated"));
+                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood",""));
                         }
                     }
                     /*
@@ -125,7 +122,7 @@ public class QueryLikelihoodModel {
                             }
                         }
                         if (flag == 0) {
-                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood","Parsed_punctuated"));
+                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood"));
                         }
 
                     }

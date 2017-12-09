@@ -27,8 +27,7 @@ public class TfIdf {
     		List<Result> results = getResult(query, invertedIndex1, documentWordTotal1);
 			query.putResultList(results);
 		});
-		System.out.println("Results of TF-IDF Model will be stored in " + Paths.get(Constants.RESULT_TASK1_TFIDF).toAbsolutePath());
-		//TODO Store results
+
 		return queries;
     }
     /**

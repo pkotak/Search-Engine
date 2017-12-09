@@ -4,7 +4,9 @@ import utilities.FileHandler;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map.Entry;
 
 /**
  * Helper class for Indexer
@@ -13,6 +15,8 @@ import java.util.List;
  *
  */
 public class Indexers {
+	
+	private static FileHandler writer;
 
 	/**
 	 * @param nGram (unigram, bigram etc) a word gram
@@ -83,6 +87,67 @@ public class Indexers {
 			});
 		});
 		invertedIndex.keySet().removeAll(stopWordList);
+	}
+	
+	/*
+	 * Writes the inverted index to a file
+	 */
+	/**
+	 * @param filePath
+	 * @param invertedIndex
+	 * @throws IOException
+	 */
+	public static void writeIndextoFile(String filePathName, HashMap<String, List<Posting>> invertedIndex){
+		
+		try {
+			writer = new FileHandler(filePathName , 0);
+		} catch (IOException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		invertedIndex.entrySet().stream().forEach(term -> {
+			try {
+				writer.addText(term.getKey() + " => ");
+			} catch (IOException e1) {
+				
+				e1.printStackTrace();
+			}
+			term.getValue().stream().forEach(posting -> {
+				try {
+					writer.addText(posting.toString());
+				} catch (IOException e) {
+					
+					e.printStackTrace();
+				}
+			});
+			try {
+				writer.addText("\n");
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+		});
+		System.out.println("Index file is stored in: " + filePathName);
+	}
+	
+	public static void writeDocumentLengthToFile(String filePathName, HashMap<String, Integer> documentLength) {
+		
+		try {
+			writer = new FileHandler(filePathName, 0);
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		documentLength.entrySet().stream().forEach(doc -> {
+			try {
+				writer.addText(doc.getKey() + " => " + doc.getValue() + "\n");
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+		});
+		
+		System.out.println("Document Length file is store in: " + filePathName);
 	}
 	
 	public static void main(String[] args) {

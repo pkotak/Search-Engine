@@ -1,7 +1,10 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
+
+import utilities.FileHandler;
 
 public class Results {
 	
@@ -35,4 +38,32 @@ public class Results {
 		
 		return new Result1(docID, score, queryID);
 	}
+	
+	public static void writeResultsToFile(String filePath, List<Query> queryList) {
+
+		queryList.stream().forEach(query -> {
+			try {
+				FileHandler writer = new FileHandler(filePath + query.queryID() + ".txt", 0);
+				query.resultList().stream().forEach(result -> {
+					try {
+						writer.addText(result.toString() + "\n");
+					} catch (IOException e) {
+						
+						e.printStackTrace();
+					}
+				try {
+					writer.closeConnection();
+				} catch (IOException e) {
+					
+					e.printStackTrace();
+				}	
+				});
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+		});	
+		
+		System.out.println("Reuls are stored in: " + filePath);
+}
 }

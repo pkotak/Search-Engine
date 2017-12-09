@@ -30,9 +30,25 @@ public class Constants {
     public static final  String RESULT_SQL = "QueryLikelihood"+File.separator;
     public static final  String RESULT_Lucene = "Lucene"+File.separator;
 
-    public static final String TASK1_PHASE1_BM25=PHASE1+TASK1+RESULT_BM25;
-    public static final String TASK1_PHASE1_SQL=PHASE1+TASK1+RESULT_SQL;
-    public static final String TASK1_PHASE1_Lucne=PHASE1+TASK1+RESULT_Lucene;
-    public static final String TASK1_PHASE1_TFIDF=PHASE1+TASK1+RESULT_TFIDF;
+    public static final String TASK1_PHASE1_BM25=RESULTS_DIR + PHASE1+TASK1+RESULT_BM25;
+    public static final String TASK1_PHASE1_SQL=RESULTS_DIR + PHASE1+TASK1+RESULT_SQL;
+    public static final String TASK1_PHASE1_Lucne= RESULTS_DIR + PHASE1+TASK1+RESULT_Lucene;
+    public static final String TASK1_PHASE1_TFIDF= RESULTS_DIR + PHASE1+TASK1+RESULT_TFIDF;
+    
+    public static final String PHASE1_TASK2_PRF = RESULTS_DIR + PHASE1 + TASK2;
+    
+    public static final String STOPPED = "Stopped" + File.separator;
+    public static final String STEMMED = "Stemmed" + File.separator;
+    
+    public static final String PHASE1_TASK3_STOP_BM25 = RESULTS_DIR + PHASE1 + TASK3 + STOPPED + RESULT_BM25;
+    public static final String PHASE1_TASK3_STOP_TFIDF = RESULTS_DIR + PHASE1 + TASK3 + STOPPED +RESULT_TFIDF;
+    public static final String PHASE1_TASK3_STOP_SQL = RESULTS_DIR + PHASE1 + TASK3 + STOPPED +RESULT_SQL;
+    
+    public static final String PHASE1_TASK3_STEM_BM25 = RESULTS_DIR + PHASE1 + TASK3 + STEMMED + RESULT_BM25;
+    public static final String PHASE1_TASK3_STEM_TFIDF = RESULTS_DIR + PHASE1 + TASK3 + STEMMED +RESULT_TFIDF;
+    public static final String PHASE1_TASK3_STEM_SQL = RESULTS_DIR + PHASE1 + TASK3 + STEMMED +RESULT_SQL;
+    
+    public static final String PHASE2_SNIPPET = RESULTS_DIR + PHASE2;
+    
 
 }

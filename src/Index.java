@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import utilities.Constants;
+import utilities.FileHandler;
 
 /**
  * @author Gaurav Gandhi
@@ -15,10 +16,11 @@ public class Index {
 	private HashMap<String, Integer> documentLengthBase; // basic document lengths
 	private final String directoryPathBase = Constants.PARSED_CORPUS_DIR; // parsed  documents directory (for use in invertedIndexBase and invertedIndexStop
 	private HashMap<String, List<Posting>> invertedIndexStop; // inverted index after removing stop words
-	private HashMap<String, List<Posting>> documentLengthStop; // document length after removing stop words 
+	private HashMap<String, Integer> documentLengthStop; // document length after removing stop words 
 	private HashMap<String, List<Posting>> invertedIndexStem; // inverted index using stemmed docs
-	private HashMap<String, List<Posting>> documentLengthStem; // document length of stemmed docs
-	private String directoryPathStem; //TODO  path of parsed stemmed documents 
+	private HashMap<String, Integer> documentLengthStem; // document length of stemmed docs
+	private String directoryParsedStem = Constants.STEM_PARSED_DIR; //TODO  path of parsed stemmed documents 
+	@SuppressWarnings("rawtypes")
 	private List<HashMap> indexAndDocumentLength; // store inverted index and document length
 	private final String fileRelevanceInfo = Constants.RELEVANCE_FILE; // path of relevance info file
 	private final List<RelevanceInfo> relevanceInfoList = RelevanceInfos.readRelevanceInfoFromFile(fileRelevanceInfo); // list of relevant docs for each query
@@ -30,14 +32,24 @@ public class Index {
 	private final String directoryRawCorpus = Constants.RAW_CORPUS_DIR; // directory of the raw corpus
 	private final String directoryParsedCorpus = Constants.PARSED_CORPUS_DIR; // directory of the parsed corpus
 	
-	// Results storing
+	// Results storing  Phase 1 Task1
 	private List<Query> ResultTask1BM25 = null; // query with updated results of BM25
 	private List<Query> ResultTask1tfIdf = null; // query with updated results of tf-idf
 	private List<Query> ResultTask1SQL = null; // query with updated results of SQL
 	private List<Query> ResultTask1Lucene = null; // query with updated results of Lucene
 	
+	// Results storing Phase 1 Task 2
+	private List<Query> ResulTas2PseudoRelevance = null;
+	
 	
 	Scanner in;
+	private List<Query> ResultTask3STOPBM25;
+	private List<Query> ResultTask3STOPTFIDF;
+	private List<Query> ResultTask3STOPSQL;
+	private List<Query> ResultTask3StemBM25;
+	private List<Query> ResultTask3StemTFIDF;
+	private List<Query> ResultTask3StemSQL;
+	private List<Query> phase2SnippetGeneratedQuery;
 	
 	@SuppressWarnings("unchecked")
 	public Index(int nGram) throws IOException {
@@ -52,12 +64,19 @@ public class Index {
 		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, this.directoryPathBase, true);
 		this.invertedIndexStop = this.indexAndDocumentLength.get(0);
 		this.documentLengthStop = this.indexAndDocumentLength.get(1);
+		//Write to file
+		Indexers.writeIndextoFile(Constants.INDEX_DIR + "InvertedIndexStopped.txt", invertedIndexStop);
+		Indexers.writeDocumentLengthToFile(Constants.DOCUMENT_LENGTH_DIR + "DocumentLengthStopped.txt", documentLengthStop);
 		// Inverted index and document length of stemmed corpus
 		StemDocumentHandlers.generateStemmedDocuments(fileStemmedCorpus, directoryStemmedCorpus);
 		Parser.parseAllFiles(3, directoryStemmedCorpus, directoryStemmedParsedCorpus);
 		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, directoryStemmedParsedCorpus, false);
 		this.invertedIndexStem = this.indexAndDocumentLength.get(0);
 		this.documentLengthStem = this.indexAndDocumentLength.get(1);
+		//Write to file
+		Indexers.writeIndextoFile(Constants.INDEX_DIR + "InvertedIndexStemmed.txt", invertedIndexStem);
+		Indexers.writeDocumentLengthToFile(Constants.DOCUMENT_LENGTH_DIR + "DocumentLengthStemmed.txt", documentLengthStem);
+		System.out.println("Index and document length files are stored in " + Constants.INDEX_DIR);
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -69,9 +88,12 @@ public class Index {
 		this.indexAndDocumentLength = Indexers.getInvertedIndexAndDocumentLength(nGram, this.directoryPathBase, false);
 		this.invertedIndexBase = this.indexAndDocumentLength.get(0);
 		this.documentLengthBase = this.indexAndDocumentLength.get(1);
+		//Write to file
+		Indexers.writeIndextoFile(Constants.INDEX_DIR + "InvertedIndexBasic.txt", invertedIndexBase);
+		Indexers.writeDocumentLengthToFile(Constants.DOCUMENT_LENGTH_DIR + "DocumentLengthBasic.txt", documentLengthBase);
 	}
 	
-	
+
 	public void choosePhase() {
 		
 		while(true) {
@@ -105,12 +127,18 @@ public class Index {
 		}
 	}
 	
+	/**
+	 * Snippet Generation
+	 */
 	private void phase2() {
 		
-		//TODO snippet generation. Choose run
-
+		phase2SnippetGeneratedQuery = SnippetGeneration.performSnippetGeneration(queryList);
+		SnippetGeneration.writeSnippetToFile(Constants.PHASE2_SNIPPET, phase2SnippetGeneratedQuery);
 	}
 	
+	/**
+	 * Evaluation
+	 */
 	private void phase3() {
 		
 		
@@ -205,7 +233,54 @@ public class Index {
 	
 	private void phase1Task3Runs() {
 		
-		//TODO choose 3 runs and generate results
+		while(true) {
+			System.out.println("Choose one of the following:"
+					+ "\n1. Run BM25, Query likelihood and TF-IDF using stop words"
+					+ "\n2. Run BM25, Query likelihood and TF-IDF on stemmed documents"
+					+ "\n9. Go back to the previous menu."
+					+ "\n0. Exit");
+			switch(in.nextInt()) {
+			
+			case 1:
+				// Run bm25 tfidf query likelihood on stopped
+				this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexStop, documentLengthStop);
+				Results.writeResultsToFile(Constants.PHASE1_TASK3_STOP_BM25, ResultTask3STOPBM25);
+				this.ResultTask1tfIdf = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexStop, documentLengthStop);
+				Results.writeResultsToFile(Constants.PHASE1_TASK3_STOP_TFIDF, ResultTask3STOPTFIDF);
+				try {
+					this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexStop, documentLengthStop);
+					Results.writeResultsToFile(Constants.PHASE1_TASK3_STOP_SQL, ResultTask3STOPSQL);
+				} catch (IOException e) {
+					
+					e.printStackTrace();
+				}
+				break;
+			
+			case 2:
+				// run bm25 tfidf query likelihood on stemmed
+				this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexStem, documentLengthStem);
+				Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_BM25, ResultTask3StemBM25);
+				this.ResultTask1tfIdf = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexStem, documentLengthStem);
+				Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_TFIDF, ResultTask3StemTFIDF);
+				try {
+					this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexStem, documentLengthStem);
+					Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_SQL, ResultTask3StemSQL);
+				} catch (IOException e) {
+					
+					e.printStackTrace();
+				}
+				break;
+			default:
+				System.out.println("Invalid Input");
+			case 9: 
+				//GO back to previous menu
+				return;
+			case 0:
+				// Exit
+				System.exit(0);
+				break;
+			}
+		}
 	}
 	
 	private void phase1Task1() {
@@ -222,6 +297,8 @@ public class Index {
 				// Parse and index raw corpus
 				try {
 					this.parseAndGenerateIndex(1); //nGram
+					System.out.println("Parsed documents are stored in " + Constants.PARSED_CORPUS_DIR);
+					System.out.println("Index and document length files are stored in " + Constants.INDEX_DIR);
 				} catch (IOException e) {
 					
 					e.printStackTrace();
@@ -259,23 +336,26 @@ public class Index {
 			case 1:
 				// BM25 retrieval model
 				this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexBase, documentLengthBase);
+				Results.writeResultsToFile(Constants.TASK1_PHASE1_BM25, ResultTask1BM25);
 				break;
 			case 2:
 				// tf-idf retrieval mode
 				this.ResultTask1tfIdf = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexBase, documentLengthBase);
+				Results.writeResultsToFile(Constants.TASK1_PHASE1_TFIDF, ResultTask1tfIdf);
 				break;
 			case 3:
 				// Smoothed Query likelihood model
 				try {
 					this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexBase, documentLengthBase);
+					Results.writeResultsToFile(Constants.TASK1_PHASE1_SQL, ResultTask1SQL);
 				} catch (IOException e) {
 					
 					e.printStackTrace();
 				}
 				break;
 			case 4:
-				// Lucene retrieval model
-				//TODO call lucene model
+				//TODO Lucene retrieval model
+				
 				break;
 			case 9:
 				// Go back to the previous menu
@@ -325,7 +405,21 @@ public class Index {
 	
 	private void phase1Task2() {
 		
-		//TODO Execute Pseudo Relevance feedback, choose run. 
+		try {
+			this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexBase, documentLengthBase);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Results.writeResultsToFile(Constants.TASK1_PHASE1_SQL, ResultTask1SQL);
+		this.ResulTas2PseudoRelevance = PseudoRelevanceFeedback.performPseudoRelevanceFeedback(ResultTask1SQL, invertedIndexBase, documentLengthBase);
+		try {
+			this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexBase, documentLengthBase);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Results.writeResultsToFile(Constants.PHASE1_TASK2_PRF, ResultTask1SQL);
 	}
 	
 	public static void main(String[] args) throws IOException {

@@ -226,7 +226,7 @@ public class Indexer {
 		}
 	}
 	
-	public static void main(String[] args) throws IOException {
+	/*public static void main(String[] args) throws IOException {
 		
 		Indexer r = new Indexer(1, Constants.PARSED_CORPUS_DIR);
 		HashMap<String, List<Posting>> a = r.generateIndex();
@@ -250,5 +250,5 @@ public class Indexer {
 			tr.addText("\n");
 		}
 		tr.closeConnection();
-	}
+	}*/
 }
