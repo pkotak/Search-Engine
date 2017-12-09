@@ -43,6 +43,20 @@ public class Queries {
 		return relInfo;
 	}
 	
+	public static List<Query> readQueriesFromStemmedQueryFile(String filePath) throws IOException {
+		
+		FileHandler reader = new FileHandler(filePath, 1);
+		String currentLine;
+		int queryID = 0;
+		List<Query> queryList = new ArrayList<Query>();
+		while((currentLine = reader.readLine()) != null) {
+			
+			queryList.add(new Query1(queryID++, currentLine, null));
+		}
+		return queryList;
+		
+	}
+	
 	public static void main(String[] args) throws IOException {
 		
 		List<Query> q = readQueriesFromFile(Constants.QUERY_FILE);

@@ -63,7 +63,7 @@ public class Index {
 		System.out.println("Please wait initializing...");
 		// Read queries from a file and add them to the list
 		queryList = Queries.readQueriesFromFile(fileQuery);
-		stemmedQueryList = Queries.readQueriesFromFile(Constants.STEMMED_QUERY_FILE);
+		stemmedQueryList = Queries.readQueriesFromStemmedQueryFile(Constants.STEMMED_QUERY_FILE);
 		//Parse and index raw corpus
 		this.parseAndGenerateIndex(nGram);
 		// Inverted index and document length after removing stop words
@@ -204,7 +204,7 @@ public class Index {
 			System.out.println("Could not perform evaluation on BM25 Run Stopped(Phase 1)");
 		}
 		try {
-			e = Evaluations.getEvaluation(this.ResultTask3StemSQL);
+			e = Evaluations.getEvaluation(this.ResultTask3STOPSQL);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_STOPPED_SQL, e);
 		}catch(NullPointerException ne) {
 			
@@ -212,7 +212,7 @@ public class Index {
 			System.out.println("Could not perform evaluation on Smoother query likelihood Run Stopped(Phase 1)");
 		}
 		try {
-			e = Evaluations.getEvaluation(this.ResultTask3StemTFIDF);
+			e = Evaluations.getEvaluation(this.ResultTask3STOPTFIDF);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_STOPPED_TFIDF, e);
 		}catch(NullPointerException ne) {
 			

@@ -16,6 +16,11 @@ public class Query1 implements Query {
 	private List<RelevanceInfo> listOfRelevantDocuments;
 	private List<Result> resultList;
 	
+	/**
+	 * @param queryID
+	 * @param query
+	 * @param listOfRelevantDocuments
+	 */
 	public Query1(int queryID, String query, List<RelevanceInfo> listOfRelevantDocuments) {
 		
 		this.queryID = queryID;
