@@ -48,7 +48,7 @@ public class Evaluations {
 		
 		eva.queryListOfSystem().stream().forEach(query -> {
 			try {
-				writer = new FileHandler(filePath + query + ".txt", 0);
+				writer = new FileHandler(filePath + query.queryID() + ".txt", 0);
 				writer.addText("P@5: " + getPAtK(query, 5) + "\n");
 				writer.addText("P@5: " + getPAtK(query, 20) + "\n");
 				query.resultList().stream().forEach(result -> {

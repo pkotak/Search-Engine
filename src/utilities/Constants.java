@@ -57,9 +57,9 @@ public class Constants {
     public static final String PHASE3_BASELINE_TFIDF = RESULTS_DIR + PHASE3 + BASELINE + RESULT_TFIDF;
     
     public static final String PHASE3_STOPPED = "RunsUsingStoppedWords" + File.separator;
-    public static final String PHASE3_STOPPED_BM25 = RESULTS_DIR + PHASE3 + STOPPED + RESULT_BM25;
-    public static final String PHASE3_STOPPED_SQL = RESULTS_DIR + PHASE3 + STOPPED + RESULT_SQL;
-    public static final String PHASE3_STOPPED_TFIDF = RESULTS_DIR + PHASE3 + STOPPED + RESULT_TFIDF;
+    public static final String PHASE3_STOPPED_BM25 = RESULTS_DIR + PHASE3 + PHASE3_STOPPED + RESULT_BM25;
+    public static final String PHASE3_STOPPED_SQL = RESULTS_DIR + PHASE3 + PHASE3_STOPPED + RESULT_SQL;
+    public static final String PHASE3_STOPPED_TFIDF = RESULTS_DIR + PHASE3 + PHASE3_STOPPED + RESULT_TFIDF;
     
     public static final String PHASE3_QUERYREF = RESULTS_DIR + PHASE3 + "QueryRefinements" + File.separator;
     

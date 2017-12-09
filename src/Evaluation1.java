@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
@@ -112,23 +113,29 @@ public class Evaluation1 implements Evaluation {
 	 * @return list of reciprocal rank of each query
 	 */
 	private List<Double> calculateRR() {
-		
+
 		List<Double> rrList = new ArrayList<Double>();
 		this.queryList.stream().forEach(query -> {
+			Optional<Result> opt = query.resultList().stream()
+					.filter(result -> query.listOfRelevantDocuments().stream()
+							.anyMatch(rel -> rel.documentID().contains(result.docID())))
+					.findFirst();
+			if(opt.isPresent()) {
 			rrList.add((double) 1 / 
 					(query.resultList().stream()
 							.filter(result -> query.listOfRelevantDocuments().stream()
-							.anyMatch(rel -> rel.documentID().contains(result.docID())))
+									.anyMatch(rel -> rel.documentID().contains(result.docID())))
 							.findFirst().get().rank()));
+			}
 		});;
-		
+
 		return rrList;
 	}
 	
 	
 	/**
 	 * @param query
-	 * @Effects Calculates preicision and recall for each result in the given query
+	 * @Effects Calculates precision and recall for each result in the given query
 	 * @see
 	 * {@link Query Query class}
 	 */
