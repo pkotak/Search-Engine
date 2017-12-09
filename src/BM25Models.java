@@ -55,6 +55,10 @@ public class BM25Models {
 		documentWordTotal = documentWordTotal1;
 		invertedIndex = invertedIndex1;
 		relevantDocuments = query1.listOfRelevantDocuments();
+		boolean relevanceFlag = true;
+		if(relevantDocuments == null)
+			relevanceFlag = false;
+		
 		queryObj = query1;
 		resultList = new ArrayList<Result>();
 		int ri, qfi;
@@ -63,7 +67,10 @@ public class BM25Models {
 		for(String term : queryObj.query().toLowerCase().split(" ")) {
 			try {
 				//System.out.println(term);
-				ri = calculateri(term,invertedIndex.get(term));
+				if(!relevanceFlag)
+					ri = 0;
+				else
+					ri = calculateri(term,invertedIndex.get(term));
 				//ri = 0;
 				qfi = calculateqfi(term);
 				docsOfTerm = new ArrayList<Posting>(invertedIndex.get(term));
@@ -127,7 +134,12 @@ public class BM25Models {
 		double b = 0.75;
 		double k2 = 100;
 		double ri = (double) riint;
-		double R = (double) relevantDocuments.size();
+		double R;
+		try {
+			R = (double) relevantDocuments.size();
+		}catch(NullPointerException ne) {
+			R = 0;
+		}
 		//double R = 0;
 		double K = calculateK(k1, b, docID);
 		double ni = (double) niint;
