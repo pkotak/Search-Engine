@@ -1,5 +1,6 @@
 import utilities.Constants;
 
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ public class TfIdf {
     private static HashMap<String, List<Posting>> invertedIndex;
     private static Query queryObj;
     private static List<Result> results;
-    
+
     /**
      * @param queries
      * @param invertedIndex1
@@ -22,7 +23,7 @@ public class TfIdf {
      */
     public static List<Query> executeTfIdfOnSystem(List<Query> queries, HashMap<String, List<Posting>> invertedIndex1,
                                          HashMap<String, Integer> documentWordTotal1) {
-    	
+
     	queries.stream().forEach(query -> {
     		List<Result> results = getResult(query, invertedIndex1, documentWordTotal1);
 			query.putResultList(results);
@@ -78,8 +79,8 @@ public class TfIdf {
     }
     //TODO: Testing using Indexers new methods.
 //    public static void main(String args[]) throws IOException {
-//        Indexer r = new Indexers(1, Constants.PARSED_CORPUS);
-//        Query q = new Query1(1,"What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?");
+//        Indexer r = new Indexer(1, Constants.PARSED_DOC);
+//        Query q = new Query1(1,"SETL, Very High Level Languages",null);
 //        List<Result> res = getResult(q,r.generateIndex(),r.getWordCountOfDocuments());
 //        for(int i=0; i<100; i++){
 //            System.out.println(res.get(i).docID()+" "+res.get(i).Score());

@@ -86,12 +86,13 @@ public class SearchFiles {
         List<Result> resultList = new ArrayList<>();
         for(int i = 0; i < hits.length; i++ ){
             Document doc = searcher.doc(hits[i].doc);
-            String doc_id = doc.get("path").substring(doc.get("path").lastIndexOf("\\")+1,doc.get("path").length());
+            String html_name = doc.get("path").substring(doc.get("path").lastIndexOf("\\")+1,doc.get("path").length());
+            String doc_id = html_name.replace(".html","");
             if (doc_id != null) {
                 resultList.add(new Result1(doc_id,hits[i].score, query_id, "Lucene", "Parsed_punctuated"));
             }
         }
-        return resultList;
+        return Results.sortResultAndRank(resultList);
     }
 }
 
