@@ -86,7 +86,7 @@ public class Evaluation1 implements Evaluation {
 	 */
 	private void calculateMRR() {
         List<Double> doubles = calculateRR();
-        System.out.println(doubles);
+        //System.out.println(doubles);
         this.mrr = calculateRR().stream().mapToDouble(x -> x).average().getAsDouble();
 	}
 	
@@ -110,7 +110,7 @@ public class Evaluation1 implements Evaluation {
 		List<Double> apList = new ArrayList<Double>();
 		this.queryList.stream().forEach(query -> {
 			apList.add(query.resultList().stream().mapToDouble(result -> result.precision()).average().getAsDouble());
-			System.out.println("---"+apList);
+			//System.out.println("---"+apList);
 		});;
 		
 		return apList;
