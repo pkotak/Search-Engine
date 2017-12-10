@@ -155,15 +155,19 @@ public class Index {
 	private void phase3() {
 		
 		Evaluation e;
-		try {
+		/*try {
+			this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexBase, documentLengthBase);
+			Results.writeResultsToFile(Constants.TASK1_PHASE1_BM25, ResultTask1BM25);
 			e = Evaluations.getEvaluation(this.ResultTask1BM25);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_BASELINE_BM25, e);
 		}catch(NullPointerException ne) {
 			
 			ne.printStackTrace();
 			System.out.println("Could not perform evaluation on BM25 Run(Phase 1)");
-		}
+		}*/
 		try {
+			this.ResultTask1tfIdf = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexBase, documentLengthBase);
+			Results.writeResultsToFile(Constants.TASK1_PHASE1_TFIDF, ResultTask1tfIdf);
 			e = Evaluations.getEvaluation(this.ResultTask1tfIdf);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_BASELINE_TFIDF, e);
 		}catch(NullPointerException ne) {
@@ -172,22 +176,38 @@ public class Index {
 			System.out.println("Could not perform evaluation on TFIDF Run(Phase 1)");
 		}
 		try {
+			this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexBase, documentLengthBase);
+			Results.writeResultsToFile(Constants.TASK1_PHASE1_SQL, ResultTask1SQL);
 			e = Evaluations.getEvaluation(this.ResultTask1SQL);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_BASELINE_SQL, e);
 		}catch(NullPointerException ne) {
 			
 			ne.printStackTrace();
 			System.out.println("Could not perform evaluation on Smoothed query likelihood Run(Phase 1)");
+		} catch (IOException e1) {
+			
+			e1.printStackTrace();
 		}
 		try {
+			IndexFiles.startIndexing(Constants.LUCENE_INDEX_DIR, Constants.RAW_CORPUS_DIR);
+			this.ResultTask1Lucene = LuceneOutputGeneration.outputGeneration(queryList);
+			Results.writeResultsToFile(Constants.TASK1_PHASE1_Lucne, ResultTask1Lucene);
 			e = Evaluations.getEvaluation(this.ResultTask1Lucene);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_BASELINE_lUCENE, e);
 		}catch(NullPointerException ne) {
 			
 			ne.printStackTrace();
 			System.out.println("Could not perform evaluation on Lucene Run(Phase 1)");
+		} catch (IOException e1) {
+			
+			e1.printStackTrace();
+		} catch (Exception e1) {
+			
+			e1.printStackTrace();
 		}
 		try {
+			this.ResultTask2PRF = PseudoRelevanceFeedback.performPseudoRelevanceFeedback(queryList, invertedIndexBase, documentLengthBase);
+			Results.writeResultsToFile(Constants.PHASE1_TASK2_PRF, ResultTask2PRF);
 			e = Evaluations.getEvaluation(this.ResultTask2PRF);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_QUERYREF, e);
 		}catch(NullPointerException ne) {
@@ -196,6 +216,8 @@ public class Index {
 			System.out.println("Could not perform evaluation on Query Likelihood PRF(Phase 2)");
 		}
 		try {
+			this.ResultTask3STOPBM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexStop, documentLengthStop);
+			Results.writeResultsToFile(Constants.PHASE1_TASK3_STOP_BM25, ResultTask3STOPBM25);
 			e = Evaluations.getEvaluation(this.ResultTask3STOPBM25);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_STOPPED_BM25, e);
 		}catch(NullPointerException ne) {
@@ -204,14 +226,21 @@ public class Index {
 			System.out.println("Could not perform evaluation on BM25 Run Stopped(Phase 1)");
 		}
 		try {
+			this.ResultTask3STOPSQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexStop, documentLengthStop);
+			Results.writeResultsToFile(Constants.PHASE1_TASK3_STOP_SQL, ResultTask3STOPSQL);
 			e = Evaluations.getEvaluation(this.ResultTask3STOPSQL);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_STOPPED_SQL, e);
 		}catch(NullPointerException ne) {
 			
 			ne.printStackTrace();
 			System.out.println("Could not perform evaluation on Smoother query likelihood Run Stopped(Phase 1)");
+		} catch (IOException e1) {
+			
+			e1.printStackTrace();
 		}
 		try {
+			this.ResultTask3STOPTFIDF = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexStop, documentLengthStop);
+			Results.writeResultsToFile(Constants.PHASE1_TASK3_STOP_TFIDF, ResultTask3STOPTFIDF);
 			e = Evaluations.getEvaluation(this.ResultTask3STOPTFIDF);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_STOPPED_TFIDF, e);
 		}catch(NullPointerException ne) {
