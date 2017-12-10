@@ -6,6 +6,9 @@ import org.jsoup.nodes.Document;
 import utilities.Constants;
 import utilities.FileHandler;
 
+/*
+Class to sort HashMap
+ */
 class ValueComparator implements Comparator<String> {
 
     HashMap<String, Double> map = new HashMap<String, Double>();
@@ -14,6 +17,9 @@ class ValueComparator implements Comparator<String> {
         this.map.putAll(map);
     }
 
+    /*
+    Function that overrides the function in Comparator Interface
+     */
     @Override
     public int compare(String s1, String s2) {
         if (map.get(s1) >= map.get(s2)) {
@@ -28,7 +34,9 @@ public class SnippetGeneration {
 	
 	private static FileHandler writer;
 	
-	
+	/*
+	Function to write snippet to file with .html format
+	 */
 	public static void writeSnippetToFile(String filePath, List<Query> queryList) {
 		
 		queryList.stream().forEach(query -> {
@@ -62,6 +70,10 @@ public class SnippetGeneration {
 	 * @param queryList
 	 * @return
 	 */
+	/*
+	Function to Perform Snippet Generation for each query
+	from query list
+	 */
 	public static List<Query> performSnippetGeneration(List<Query> queryList) {
 		
 		queryList.stream().forEach(query -> {
@@ -76,16 +88,25 @@ public class SnippetGeneration {
 		return queryList;
 	}
 
+	/*
+	Perform SnippetGeneration
+	 */
     public static void GenerateSnippet(Query q) throws IOException {
 
+        /*
+        Get Each word from Query
+         */
         String qsplit[]=q.query().split(" ");
         List<String> qlist=Arrays.asList(qsplit);
 
-        String common=readFile(Constants.COMMON_WORDS_FILE);
-        String []common_words=common.split("\n");
-        List<String> cwords=Arrays.asList(common_words);
-        //System.out.println(cwords);
+        /*
+        Read Common Words from File
+         */
+        List<String> cwords=ReadCommonWords();
 
+        /*
+        Find term frequency for each query in Documents
+         */
         Iterator<Result> it=q.resultList().iterator();
         while (it.hasNext()){
             Result r=it.next();
@@ -95,47 +116,35 @@ public class SnippetGeneration {
             read=read.replaceAll("[\\p{Punct}&&[^.-]]+", "");
             read=read.replaceAll("\n",". ");
 
-            HashMap<String,Integer> tf=new HashMap<>();
-            //System.out.println("---"+read);
-            String[] wordsindoc=read.split(" ");
-            for(String x:wordsindoc){
-                for(String x2:wordsindoc){
-                    if(x.equals(x2)){
-                        if(tf.containsKey(x)){
-                            int c=tf.get(x);
-                            c=c+1;
-                            tf.remove(x);
-                            tf.put(x,c);
-                        }
-                        else{
-                            tf.put(x,1);
-                        }
-                    }
-
-                }
-            }
             /*
-            use term avg and sentence avg instead of 7 and 25
+            Generate Term Frequency for each query in HashMap
              */
+            HashMap<String,Integer> tf=new HashMap<>();
+            tf=GenerateTermfrequency(read);
 
             HashMap<String,Double> sentencerank=new HashMap<>();
 
-            //System.out.println(tf);
+            /*
+            Generate Sentences from Raw documents
+             */
             String sentencewithspace[]=read.split("\\. ");
-            //System.out.println(sentence[1]);
             List<String> sentence=new ArrayList<>();
             for(String s1:sentencewithspace)
                 if(!s1.isEmpty())
                     sentence.add(s1);
-            //System.out.println(sentence);
 
             Iterator<String> senitr=sentence.iterator();
             int flag=0;
+
             while(senitr.hasNext()){
                 String sen=senitr.next();
                 List<String> significant =new ArrayList<>();
                 HashMap<String,Double> wordscore=new HashMap<>();
                 String []sen_words=sen.split("\\s+");
+                /*
+                Score sentences according to length of Sentence
+                and term Frequency.
+                 */
                 for(String word:sen_words){
                     if(cwords.contains(word))
                         wordscore.put(word,0.0);
@@ -167,18 +176,15 @@ public class SnippetGeneration {
                     }
 
                 }
-                //System.out.println(sen+" "+significant);
-                //break;
-                //System.out.println(wordscore);
-                //System.out.println(sen+" "+significant);
-                //break;
+                /*
+                Sentences get ranked according to Significant Words
+                 */
                 if(!significant.isEmpty())
                 {
                     String span="";
                     String temp = null;
                     try {
-                    	// get first word from sen occurring in significant list
-                    	//String[] spaceSplit = sen.split(" ");
+
                     	int startIndex = sen.length();
                     	int endIndex = 0;
                     	for(String word: significant) {
@@ -192,17 +198,22 @@ public class SnippetGeneration {
                         span = sen.substring(startIndex, endIndex);
                     }catch(Exception e){
                     	e.printStackTrace();
-                    	System.out.println(span);
-                    	System.out.println(sen);
-                    	System.out.println(significant.toString());
-                    	System.exit(1);
+
                     }
+                    /*
+                    Generate Span for each sentence
+                     */
                     span=span+significant.get(significant.size()-1);
-                    //System.out.println(span);
                     double senscore=(double)(significant.size()*significant.size())/span.length();
+                    /*
+                    Rank sentences according to the span
+                     */
                     sentencerank.put(span,senscore);
                 }
             }
+            /*
+            Restrict the snippet sentences to three.
+             */
             if(flag==0){
                 double count=0;
                 for(String ss:sentence){
@@ -212,41 +223,73 @@ public class SnippetGeneration {
                         break;
                 }
             }
+            /*
+            Generate Snippet
+             */
             TreeMap<String, Double> sortedMap = sortMapByValue(sentencerank);
-            //System.out.println(sortedMap);
             String x="";
             for (Map.Entry<String, Double> entry : sortedMap.entrySet()) {
 
                 String key = entry.getKey();
                 double value = entry.getValue();
                 x = x+ key+" ... ";
-                //System.out.print(x);
 
             }
-            // System.out.println();
+            /*
+            Highlight terms that are present in the query.
+             */
             String result="<p> ";
             String op[]=x.split(" ");
             for(String op1:op){
-                //System.out.println(op1);
                 if(qlist.contains(op1)) {
                     result=result+"<b> " + op1+" </b>";
-                    //System.out.print("<b>" + op1+"</b>");
                 }
                 else {
                     result= result+" "+op1;
-                    //System.out.print(" " + op1);
-                }
+                    }
             }
             result=result+" </p><br/><br/>";
-            System.out.println(q.queryID());
-            System.out.println(result);
+
             r.addSnippet(result);
-            System.out.println();
 
         }
-        System.out.println();
     }
 
+    public static HashMap<String,Integer> GenerateTermfrequency(String read){
+        HashMap<String,Integer> tf=new HashMap<>();
+        String[] wordsindoc=read.split(" ");
+        for(String x:wordsindoc){
+            for(String x2:wordsindoc){
+                if(x.equals(x2)){
+                    if(tf.containsKey(x)){
+                        int c=tf.get(x);
+                        c=c+1;
+                        tf.remove(x);
+                        tf.put(x,c);
+                    }
+                    else{
+                        tf.put(x,1);
+                    }
+                }
+
+            }
+        }
+        return tf;
+    }
+
+    /*
+    Read the commonWords from the file
+     */
+    public static List<String> ReadCommonWords() throws FileNotFoundException {
+        String common=readFile(Constants.COMMON_WORDS_FILE);
+        String []common_words=common.split("\n");
+        List<String> cwords=Arrays.asList(common_words);
+        return cwords;
+    }
+
+    /*
+    Sort the HashMap according to values for ranking
+     */
     public static TreeMap<String, Double> sortMapByValue(HashMap<String, Double> map) {
 
         Comparator<String> comparator = new ValueComparator(map);
@@ -255,10 +298,11 @@ public class SnippetGeneration {
         return result;
     }
 
-
+    /*
+    Scan the raw documents
+     */
     public static String scanFile(String name) throws IOException {
-    	//TODO Use FileHandler
-        String s="";
+    	String s="";
         File file=new File(Constants.RAW_CORPUS_DIR + name + ".html");
         Document d=Jsoup.parse(file,"UTF-8","");
         s=d.text();
@@ -276,7 +320,7 @@ public class SnippetGeneration {
         return s;
     }
 
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         LinkedHashMap<String,Integer> test =new LinkedHashMap<>();
         test.put("CACM-0001",1);
         test.put("CACM-0002",1);
@@ -298,6 +342,6 @@ public class SnippetGeneration {
         }
 
         //sg.GenerateSnippet(test,query);
-    }
+    }*/
 
 }
