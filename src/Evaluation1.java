@@ -86,6 +86,8 @@ public class Evaluation1 implements Evaluation {
 	 */
 	private void calculateMRR() {
 		
+		List<Double> rr = calculateRR();
+		System.out.println(rr.toString());
 		this.mrr = calculateRR().stream().mapToDouble(x -> x).average().getAsDouble();
 	}
 	

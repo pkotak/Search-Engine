@@ -46,8 +46,8 @@ public class SearchFiles {
         QueryParser parser = new QueryParser(field, analyzer);
 
         Query q = parser.parse(query);
-        System.out.println("Searching for: " + q.toString(field));
-        return doPagingSearch(searcher, q, query_id);
+        //System.out.println("Searching for: " + q.toString(field));
+        return Results.sortResultAndRank(doPagingSearch(searcher, q, query_id));
     }
 
      String generateFileContent() throws IOException {

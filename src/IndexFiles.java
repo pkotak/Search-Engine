@@ -89,7 +89,7 @@ public class IndexFiles {
 			   
 			   doc.add(new TextField("contents", new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8))));
 			   
-			   System.out.println("Adding: " + file);
+			   //System.out.println("Adding: " + file);
 			   writer.addDocument(doc);
 		   }
 	   }

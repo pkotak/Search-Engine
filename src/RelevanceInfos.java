@@ -20,7 +20,7 @@ public class RelevanceInfos {
 		//System.out.println(f.readLine());
 		while((currentLine = f.readLine()) != null) {
 			
-			System.out.println(currentLine);
+			//System.out.println(currentLine);
 			String[] temp = currentLine.split(" ");
 			relInfo.add(new RelevanceInfo1(Integer.parseInt(temp[0]), temp[2]));
 		}

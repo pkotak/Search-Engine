@@ -155,7 +155,7 @@ public class Index {
 	private void phase3() {
 		
 		Evaluation e;
-		try {
+		/*try {
 			this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexBase, documentLengthBase);
 			Results.writeResultsToFile(Constants.TASK1_PHASE1_BM25, ResultTask1BM25);
 			e = Evaluations.getEvaluation(this.ResultTask1BM25);
@@ -187,7 +187,7 @@ public class Index {
 		} catch (IOException e1) {
 			
 			e1.printStackTrace();
-		}
+		}*/
 		try {
 			IndexFiles.startIndexing(Constants.LUCENE_INDEX_DIR, Constants.RAW_CORPUS_DIR);
 			this.ResultTask1Lucene = LuceneOutputGeneration.outputGeneration(queryList);
