@@ -108,7 +108,7 @@ public class SearchFiles {
             String html_name = doc.get("path").substring(doc.get("path").lastIndexOf("\\")+1,doc.get("path").length());
             String doc_id = html_name.replace(".html","");
             if (doc_id != null) {
-                resultList.add(new Result1(doc_id,hits[i].score, query_id, "Lucene", "Parsed_punctuated"));
+                resultList.add(new Result1(doc_id,hits[i].score, query_id, "Lucene", "CaseFolding_Punctuation"));
             }
         }
         return Results.sortResultAndRank(resultList);

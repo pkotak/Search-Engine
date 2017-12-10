@@ -1,1 +1,0 @@
-equivalence of hough curve detection to template matchingcacm november 1977stockman g c.picture processing pattern recognition curvedetection hough transformation template matching3.63 6.9ca771106 jb december 27 1977 7:23 am2788 4 29102910 4 29102910 4 29102400 5 29102788 5 29102910 5 29102910 5 29102910 5 2910

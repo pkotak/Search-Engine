@@ -7,9 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map.Entry;
 
-import utilities.Constants;
 import utilities.FileHandler;
 
 /** 
@@ -116,7 +114,6 @@ public class Indexer {
 	 */
 	private void generateTerms(String docID, String currentLine) {
 		
-		boolean breakFlag = false;
 		while(!currentLine.isEmpty()) {
 			
 			

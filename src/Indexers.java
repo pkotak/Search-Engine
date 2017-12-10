@@ -4,9 +4,7 @@ import utilities.FileHandler;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map.Entry;
 
 /**
  * Helper class for Indexer
@@ -57,9 +55,9 @@ public class Indexers {
 	 * @return A list of an inverted index and the length of each document in the given corpus
 	 * @throws IOException 
 	 */
+	@SuppressWarnings("rawtypes")
 	public static List<HashMap> getInvertedIndexAndDocumentLength(int nGram, String directoryPath, boolean removeStopWords) throws IOException {
 		
-		@SuppressWarnings("rawtypes")
 		List<HashMap> indexerData = new ArrayList<HashMap>();
 		Indexer i = new Indexer(nGram, directoryPath);
 		HashMap<String, List<Posting>> invertedIndex = i.generateIndex();

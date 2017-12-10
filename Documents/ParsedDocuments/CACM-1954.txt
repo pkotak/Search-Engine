@@ -1,1 +1,0 @@
-eigenvalues and eigenvectors of a realsymmetric matrix algorithm 384 f2)cacm december 1970stewart g w real symmetric matrix eigenvalues eigenvectors qr algorithm5.14ca701209 jb february 9 1978 3:08 pm1954 5 19541954 5 19541954 5 1954

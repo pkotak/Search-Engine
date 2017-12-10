@@ -1,1 +1,0 @@
-multiple-precision binary-to-decimal integerconversion using only addition and subtractioncacm august 1963keyes d f.moore d p.ca630806 jb march 13 1978 8:42 pm792 5 792792 5 792792 5 792

@@ -1,1 +1,0 @@
-method for hyphenating at the end of a printed linea description of a method of hyphenation ispresented as a result of application of several general rules the character sets considered by theroutine and the method are briefly outlined.cacm july 1965rich r p.stone a g.ca650705 jb march 6 1978 9:03 pm1230 5 12301230 5 12301230 5 1230

@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import utilities.Constants;
-import utilities.FileHandler;
 
 /**
  * Main file for running this application
@@ -19,7 +18,6 @@ public class Index {
 	private HashMap<String, Integer> documentLengthStop; // document length after removing stop words 
 	private HashMap<String, List<Posting>> invertedIndexStem; // inverted index using stemmed docs
 	private HashMap<String, Integer> documentLengthStem; // document length of stemmed docs
-	private String directoryParsedStem = Constants.STEM_PARSED_DIR; //path of parsed stemmed documents 
 	@SuppressWarnings("rawtypes")
 	private List<HashMap> indexAndDocumentLength; // store inverted index and document length
 	private final String fileRelevanceInfo = Constants.RELEVANCE_FILE; // path of relevance info file
@@ -39,8 +37,6 @@ public class Index {
 	private List<Query> ResultTask1SQL; // query with updated results of SQL
 	private List<Query> ResultTask1Lucene; // query with updated results of Lucene
 	
-	// Results storing Phase 1 Task 2
-	private List<Query> ResulTas2PseudoRelevance;
 	
 	
 	Scanner in;
@@ -52,7 +48,6 @@ public class Index {
 	private List<Query> ResultTask3StemSQL;
 	private List<Query> phase2SnippetGeneratedQuery;
 	private List<Query> ResultPhase2SQL;
-	private List<Query> PseudoRelevanceUpdatedQueryList;
 	private List<Query> pseudoRelevanceUpdatedQueryList;
 	private List<Query> ResultTask2PRF;
 	
@@ -400,14 +395,14 @@ public class Index {
 				this.ResultTask3StemBM25 = BM25Models.executeBM25ModelOnSystem(stemmedQueryList, invertedIndexStem, documentLengthStem);
 				this.ResultTask3StemBM25.stream().forEach(query -> {
 					query.resultList().stream().forEach(result -> {
-						result.changeModelName(result.modelName() + "Stemmed");
+						result.changeModelName(result.modelName() + "_Stemmed");
 					});
 				});
 				Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_BM25, ResultTask3StemBM25);
 				this.ResultTask3StemTFIDF = TfIdf.executeTfIdfOnSystem(stemmedQueryList, invertedIndexStem, documentLengthStem);
 				this.ResultTask3StemTFIDF.stream().forEach(query -> {
 					query.resultList().stream().forEach(result -> {
-						result.changeModelName(result.modelName() + "Stemmed");
+						result.changeModelName(result.modelName() + "_Stemmed");
 					});
 				});
 				Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_TFIDF, ResultTask3StemTFIDF);
@@ -415,7 +410,7 @@ public class Index {
 					this.ResultTask3StemSQL = QueryLikelihoodModel.executeSQLOnSystem(stemmedQueryList, relevanceInfoList, invertedIndexStem, documentLengthStem);
 					this.ResultTask3StemSQL.stream().forEach(query -> {
 						query.resultList().stream().forEach(result -> {
-							result.changeModelName(result.modelName() + "Stemmed");
+							result.changeModelName(result.modelName() + "_Stemmed");
 						});
 					});
 					Results.writeResultsToFile(Constants.PHASE1_TASK3_STEM_SQL, ResultTask3StemSQL);

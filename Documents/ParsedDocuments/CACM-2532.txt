@@ -1,1 +1,0 @@
-on harrison's substring testing techniquecacm march 1973bookstein a.string substring hashing information storage and retrieval3.74 5.30 5.5ca730307 jb january 24 1978 10:30 am2532 4 25322631 4 25322746 4 25323001 4 25322139 5 25322532 5 25322532 5 25322532 5 25322631 5 25322139 6 25322532 6 2532

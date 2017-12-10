@@ -1,7 +1,6 @@
 import utilities.Constants;
 
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -131,7 +130,7 @@ public class QueryLikelihoodModel {
                         Add if it is not  present in the list
                          */
                         if (flag == 0) {
-                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood","CasefoldedPunctuated"));
+                            scoremap.add(new Result1(p1.docID(), score, qno,"QueryLikelihood","CaseFolding_Punctuation"));
                         }
                     }
                     /*

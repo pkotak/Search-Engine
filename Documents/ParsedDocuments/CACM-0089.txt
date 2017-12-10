@@ -1,1 +1,0 @@
-a routine to find the solution of simultaneouslinear equations with polynomial coefficientscacm april 1959larson e h.marshall d p.ca590403 jb march 22 1978 7:12 pm89 5 8989 5 8989 5 89

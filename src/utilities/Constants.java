@@ -4,7 +4,7 @@ import java.io.File;
 
 public class Constants {
 	
-    public static final String RAW_CORPUS_DIR = "Documents" + File.separator + "cacm" + File.separator;
+    public static final String RAW_CORPUS_DIR = "ProblemStatement" + File.separator + "cacm" + File.separator;
     public static final String RESULTS_DIR ="Results" + File.separator;
     public static final String PHASE1="Phase1"+File.separator;
     public static final String PHASE2="Phase2"+File.separator;

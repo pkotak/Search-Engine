@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,14 +9,12 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
-import utilities.FileHandler;
 
 /**
  * Helper class for Evaluation1
  */
 public class Evaluations {
 	
-	private static FileHandler writer;
 
 	/**
 	 * @param queryList list of queries with their results
@@ -56,7 +53,6 @@ public class Evaluations {
 		
 		String fileName = filePath.substring(0, filePath.lastIndexOf(File.separator));
 		fileName = fileName.substring(fileName.lastIndexOf(File.separator) + 1);
-		@SuppressWarnings("resource")
 		HSSFWorkbook workbook = new HSSFWorkbook();
 		FileOutputStream out = null;
 		try {

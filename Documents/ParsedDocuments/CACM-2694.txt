@@ -1,1 +1,0 @@
-computation of legendre series coefficients c6 algorithm a473)cacm january 1974piessens r.legendre series chebyshev series5.13ca740105 jb january 18 1978 2:21 pm2694 4 26941478 5 26942694 5 26942694 5 26942694 5 2694

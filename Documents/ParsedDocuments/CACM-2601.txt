@@ -1,1 +1,0 @@
-evaluation of the modified bessel functions k0(z)and k1(z for complex arguments s17 algorithm a484)cacm september 1974burrell k h.bessel functions hankel functions modifiedbessel functions gauss-hermite quadrature5.12ca740907 jb january 17 1978 8:47 am2601 5 26012601 5 26012601 5 2601

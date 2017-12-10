@@ -1,1 +1,0 @@
-more on fortran random number generatorscacm november 1969grosenbaugh l r.random number generation monte carlo simulation5.5ca691118 jb february 15 1978 11:57 am1812 5 18121812 5 18121812 5 1812

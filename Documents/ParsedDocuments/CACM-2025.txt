@@ -1,1 +1,0 @@
-student's t-distribution jacobi polynomials;modified romberg quadrature;factorial analysis of variance algorithms 332,344,351,359 cacm july 1970sale a h j.fortran standards4.0 4.22ca700712 jb february 10 1978 4:26 pm1613 4 20251646 4 20251900 4 20251955 4 20252025 4 20252154 4 20252365 4 20252506 4 20253060 4 2025987 5 20252025 5 20252025 5 20252025 5 2025

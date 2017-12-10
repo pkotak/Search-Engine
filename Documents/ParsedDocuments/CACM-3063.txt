@@ -1,1 +1,0 @@
-a note on virtual memory indexesnonecacm september 1978maly k.index b-tree pages file organization,linked representation maintenance costs 3.02 3.50 3.51 3.73 3.74ca780909 dh january 29 1979 6:36 pm3058 4 30633063 4 30632978 5 30633063 5 30633063 5 30633063 5 3063

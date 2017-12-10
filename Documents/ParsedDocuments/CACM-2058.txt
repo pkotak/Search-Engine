@@ -1,1 +1,0 @@
-in-situ transposition of a rectangular matrix algorithm 380 f1)cacm may 1970laflin s.brebner m a.rectangular matrix transpose5.14ca700508 jb february 13 1978 1:21 pm2057 4 20582058 4 20582392 4 20582416 4 20581600 5 20582058 5 20582058 5 20582058 5 20582416 5 20581600 6 20582058 6 2058

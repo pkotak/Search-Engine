@@ -1,1 +1,0 @@
-eigenvalues and eigenvectors of a real general matrix algorithm r343)cacm june 1972niessner h.eigenvalues eigenvectors qr-algorithm,nonsymmetric matrices general matrices 5.14ca720610 jb january 30 1978 4:11 pm1968 4 23352099 4 23352335 4 23351662 5 23352335 5 23352335 5 23352335 5 2335

@@ -1,1 +1,0 @@
-the bmd and bmdp series of statistical computer programscacm october 1976frane j w.analysis of variance cluster analysis contingencytables data analysis discriminant analysis factor analysis graphics outliers regression time series transformations1.3 3.3 4.0 5.5ca761006 jb january 3 1978 4:18 pm2825 4 28252419 5 28252825 5 28252825 5 28252825 5 2825

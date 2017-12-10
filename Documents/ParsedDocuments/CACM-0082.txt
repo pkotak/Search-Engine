@@ -1,1 +1,0 @@
-handling identifiers as internal symbols in language processorssubstitution of computer-oriented symbols forprogrammer-oriented symbols in language processors is examined and a feasible method for doing so is presented.cacm june 1959williams f a.ca590602 jb march 22 1978 6:38 pm222 5 8282 5 8282 5 8282 5 82799 5 82945 6 82399 6 8244 6 8282 6 8282 6 82404 6 82

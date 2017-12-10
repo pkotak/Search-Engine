@@ -1,1 +1,0 @@
-limited bit manipulation using fortran iitechniques are developed for manipulating bitsusing only fortran ii these techniques allow individual bits to be tested certain fields to beshifted and numbers coded in bcd to be converted to binary.cacm december 1964oster c a.ca641210 jb march 9 1978 3:27 pm961 5 961961 5 961961 5 961

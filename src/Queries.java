@@ -72,8 +72,6 @@ public class Queries {
 	
 	public static void main(String[] args) throws IOException {
 		
-		List<Query> q = readQueriesFromFile(Constants.QUERY_FILE);
-		
 		//System.out.println(q.toString());
 		//System.out.println(q.size());
 	}

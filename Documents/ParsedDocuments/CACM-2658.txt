@@ -1,1 +1,0 @@
-an alternative approach to mutual recursionin algol 60 using restricted compilerscacm april 1974balfour a.algol 60 mutual recursion compiler restrictions4.12 4.22ca740412 jb february 1 1978 10:32 am2658 4 26582551 5 26582658 5 26582658 5 26582658 5 2658

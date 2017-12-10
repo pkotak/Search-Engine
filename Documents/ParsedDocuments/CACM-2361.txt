@@ -1,1 +1,0 @@
-a note on cheney's nonrecursive list-compacting algorithmcacm april 1972walden d c.list compacting garbage collection4.19 4.49ca720412 jb january 31 1978 12:32 pm2156 4 23612361 4 23612513 4 23612736 4 23612855 4 23613074 4 23613106 4 23613112 4 23611972 5 23612361 5 23612361 5 23612361 5 2361

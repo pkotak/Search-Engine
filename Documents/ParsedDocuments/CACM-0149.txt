@@ -1,1 +1,0 @@
-a decision rule for improved efficiency in solvinglinear programming problems with the simplex algorithmcacm september 1960dickson j c.frederick f p.ca600908 jb march 20 1978 8:43 pm149 5 149149 5 149149 5 149

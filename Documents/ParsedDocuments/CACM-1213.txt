@@ -1,1 +1,0 @@
-dynamic format specificationsthe use and implementation of two new fortranformat conversions are discussed these format types give the fortran programmer control of input/outputspecifications at execution time.cacm august 1965ranelletti j e.ca650811 jb march 6 1978 8:07 pm1213 5 12131213 5 12131213 5 1213

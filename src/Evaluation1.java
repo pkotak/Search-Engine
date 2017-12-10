@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -75,8 +74,7 @@ public class Evaluation1 implements Evaluation {
 	 * @Effects calculates mean reciprocal rank, assigns it to mrr.
 	 */
 	private void calculateMRR() {
-        List<Double> doubles = calculateRR();
-        //System.out.println(doubles);
+
         this.mrr = calculateRR().stream().mapToDouble(x -> x).average().getAsDouble();
 	}
 	

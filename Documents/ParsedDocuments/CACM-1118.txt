@@ -1,1 +1,0 @@
-fortran subroutines for time series data reduction*cacm march 1964macgowan r a.ca640314 jb march 10 1978 2:39 am1118 4 11181118 4 1118826 4 1118948 4 1118942 5 11181118 5 11181118 5 11181118 5 1118826 5 1118

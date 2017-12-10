@@ -1,1 +1,0 @@
-tridiagonal matrix algorithm 122)cacm september 1962dietzel g f.ca620906 jb march 17 1978 7:36 pm486 5 486486 5 486486 5 486

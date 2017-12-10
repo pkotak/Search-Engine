@@ -1,1 +1,0 @@
-optimal code for serial and parallel computationcacm december 1969fateman r j.code optimization sequencing of operations,detection of common subexpressions4.12ca691217 jb february 15 1978 1:59 pm1795 5 17951795 5 17951795 5 1795

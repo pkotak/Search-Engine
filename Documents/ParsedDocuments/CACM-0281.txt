@@ -1,1 +1,0 @@
-putting a hex on e^xrecent notes on approximate natural antilogyhave not considered indirect formulations for describing e^x in this note we produce a particularfamily of very fast high precision and eminently practical exponential evaluation formulas derived from one such formulation.cacm october 1961feurzeig w.ca610913 jb march 16 1978 1:27 pm281 5 281281 5 281281 5 281

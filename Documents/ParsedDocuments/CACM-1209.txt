@@ -1,1 +1,0 @@
-negative and zero subscripts in fortran ii programming for the ibm 1620cacm august 1965garber m s.ca650815 jb march 6 1978 7:56 pm1209 5 12091209 5 12091209 5 1209

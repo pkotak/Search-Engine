@@ -1,1 +1,0 @@
-what can we do about the unnecessary diversityof notation for syntactic definitions?cacm november 1977wirth n.syntactic description language extended bnf4.20ca771107 jb december 27 1977 7:20 am2909 5 29092909 5 29092909 5 2909

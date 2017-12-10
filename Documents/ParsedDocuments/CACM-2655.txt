@@ -1,1 +1,0 @@
-six subprograms for curve fitting usingsplines under tension e2 algorithm a476)cacm april 1974cline a k.interpolation splines contouring curve fitting5.13 8.2ca740415 jb january 17 1978 4:48 pm2655 4 26552655 5 26552655 5 26552655 5 26552656 5 26552655 6 2655

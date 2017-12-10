@@ -1,1 +1,0 @@
-a machine program for theorem-provingthe program of a proof procedure is discussed inconnection with trial runs and possible improvements.cacm july 1962davis m.logemann g.loveland d.ca620724 jb march 17 1978 8:11 pm537 5 537537 5 537537 5 537

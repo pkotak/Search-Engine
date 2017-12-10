@@ -182,7 +182,6 @@ public class SnippetGeneration {
                 if(!significant.isEmpty())
                 {
                     String span="";
-                    String temp = null;
                     try {
 
                     	int startIndex = sen.length();
@@ -231,7 +230,6 @@ public class SnippetGeneration {
             for (Map.Entry<String, Double> entry : sortedMap.entrySet()) {
 
                 String key = entry.getKey();
-                double value = entry.getValue();
                 x = x+ key+" ... ";
 
             }

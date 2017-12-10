@@ -1,1 +1,0 @@
-newton interpolation with backward divided differencescacm april 1963kahan w.farkas i.ca630411 jb march 14 1978 12:20 pm880 5 880880 5 880880 5 880

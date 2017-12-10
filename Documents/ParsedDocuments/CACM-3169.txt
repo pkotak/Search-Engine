@@ -1,1 +1,0 @@
-note on an optimal evaluation of boolean expressions in an online query system.cacm october 1979gudes e.hoffman a.query boolean expression optimal evaluation information retrieval3.50 3.70 3.74ca791002 db january 16 1980 4:52 pm3168 4 31693169 4 31692965 5 31693169 5 31693169 5 31693169 5 3169

@@ -1,7 +1,4 @@
-import utilities.Constants;
 
-import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -51,7 +48,7 @@ public class TfIdf {
                     double tf = calculateTf(p.docID(), p.termFrequency());
                     double idf = calculateIdf(postings.size());
                     double score = tf * idf;
-                    results.add(new Result1(p.docID(), score, query1.queryID(),"TfIdf","parsed_punctuated"));
+                    results.add(new Result1(p.docID(), score, query1.queryID(),"TfIdf","CaseFolding_Punctuation"));
                 }
             }
         }

@@ -1,1 +1,0 @@
-rapid computation of coefficients of interpolationformulas e1 algorithm 416)cacm december 1971gustafson s.divided differences newton's interpolation formula5.13ca711211 jb february 2 1978 9:36 am2131 4 21322132 4 21322135 5 21322132 5 21322132 5 21322132 5 21322131 6 21322132 6 2132

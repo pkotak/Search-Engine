@@ -1,1 +1,0 @@
-simulations of dynamic sequential search algorithmsnonecacm september 1978tenenbaum a.searching list processing sequentialsearching dynamic reordering simulation 3.74 8.1ca780911 dh january 29 1979 6:30 pm3061 4 30612885 5 30613061 5 30613061 5 30613061 5 3061

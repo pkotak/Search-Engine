@@ -1,1 +1,0 @@
-a comparison of heaps and the tl structure for the simulation event setnonecacm october 1978franta w.maly k.simulation,event set heaps tl structure3.34 4.22 5.5 8.1ca781010 dh january 29 1979 11:51 am2844 4 30512936 4 30513051 4 30513051 4 30513064 4 30513109 4 30513109 4 30512767 5 30512844 5 30513051 5 30513051 5 30513051 5 3051

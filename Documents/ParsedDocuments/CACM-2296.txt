@@ -1,1 +1,0 @@
-compiling fixed-point multiplicationscacm august 1972bernstein h j.compiling multiplications fixed-point arithmetic4.12ca720806 jb january 30 1978 9:42 am2296 4 22962952 4 22962185 5 22962296 5 22962296 5 22962296 5 2296

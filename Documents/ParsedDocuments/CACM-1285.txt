@@ -1,1 +1,0 @@
-eigenvalues and eigenvectors of a real symmetricmatrix by the qr method algorithm 254 f2]cacm april 1965businger p a.ca650406 jb march 7 1978 3:55 pm1285 5 12851285 5 12851285 5 1285

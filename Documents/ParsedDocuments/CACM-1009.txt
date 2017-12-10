@@ -1,1 +1,0 @@
-solution of combinatorial problems using generatingfunctions on a variable-field computerthe utility of generating functions in solvingcombinatorial problems is discussed particular implementation results are presented and evaluated.cacm september 1964weinberg g m.ca640902 jb march 9 1978 6:17 pm1009 5 10091009 5 10091009 5 1009

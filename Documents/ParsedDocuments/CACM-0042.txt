@@ -1,1 +1,0 @@
-a new method of computation of square roots without using divisioncacm november 1959sarafyan d.ca591106 jb march 22 1978 3:50 pm42 5 4242 5 4242 5 42

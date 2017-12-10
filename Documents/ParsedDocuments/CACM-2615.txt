@@ -1,1 +1,0 @@
-procedures for computing smoothing and interpolatingnatural splines e1 algorithm a480)cacm august 1974lyche t.schumaker l l.approximation interpolation spline natural spline spline smoothing5.13ca740809 jb january 17 1978 9:40 am2615 5 26152615 5 26152615 5 2615

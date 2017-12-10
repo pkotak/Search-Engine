@@ -1,1 +1,0 @@
-a gaussian pseudo-random number generator algorithm 488)cacm december 1974brent r p.random numbers pseudo-random numbers,gaussian distribution normal distribution5.39 5.5ca741209 jb january 13 1978 3:57 pm 2349 4 25652565 4 25652565 4 25651716 5 25652276 5 25652565 5 25652565 5 25652565 5 2565

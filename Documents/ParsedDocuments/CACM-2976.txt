@@ -1,1 +1,0 @@
-approximating block accesses in database organizationscacm april 1977yao s b.database inverted file organization database performanceand measurement information retrieval query answering3.70 3.72 4.33ca770406 jb december 29 1977 5:06 am2976 4 29762976 4 29762976 4 29762688 5 29762765 5 29762882 5 29762976 5 29762976 5 29762976 5 2976

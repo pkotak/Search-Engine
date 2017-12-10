@@ -1,1 +1,0 @@
-calculation of a polynomial and its derivativevalues by horner scheme algorithm 337 c1]cacm september 1968pankiewicz w.function evaluation polynomial evaluation,algol procedure horner's scheme5.12 4.22ca680912 jb february 21 1978 4:33 pm1689 5 16891689 5 16891689 5 1689

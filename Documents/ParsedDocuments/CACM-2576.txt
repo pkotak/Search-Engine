@@ -1,1 +1,0 @@
-a simple technique for representing strings in fortran ivcacm november 1974hanson d r.string processing fortran iv string representation,structuredprogramming data structures3.70 4.0 4.19 4.9ca741108 jb january 16 1978 10:12 am2576 5 25762576 5 25762576 5 2576

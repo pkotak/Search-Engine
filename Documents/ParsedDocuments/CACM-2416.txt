@@ -1,1 +1,0 @@
-matrix transposition in place f1 algorithm a467)cacm november 1973brenner n.transposition matrix operations permutations,primitive roots number theory3.15 5.14 5.39ca731110jb january 20 1978 9:58 am2057 4 24162058 4 24162392 4 24162416 4 24162416 4 24161600 5 24162058 5 24162416 5 24162416 5 24162416 5 2416

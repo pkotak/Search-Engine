@@ -7,13 +7,11 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-import org.apache.lucene.document.Field;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 import utilities.Constants;
-import utilities.FileHandler;
 
 public class Results {
 	
@@ -52,7 +50,6 @@ public class Results {
 		
 		String fileName = filePath.substring(0, filePath.lastIndexOf(File.separator));
 		fileName = fileName.substring(fileName.lastIndexOf(File.separator) + 1);
-		@SuppressWarnings("resource")
 		HSSFWorkbook workbook = new HSSFWorkbook();
 		FileOutputStream out = null;
 		try {

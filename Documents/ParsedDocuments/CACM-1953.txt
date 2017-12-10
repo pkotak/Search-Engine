@@ -1,1 +1,0 @@
-exponential integral ei(x algorithms 385 s13)cacm december 1970redish k a.ansi fortran standard4.0 4.22ca701210 jb february 9 1978 3:04 pm1953 5 19531953 5 19531953 5 1953

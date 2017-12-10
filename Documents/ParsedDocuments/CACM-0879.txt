@@ -1,1 +1,0 @@
-newton interpolation with forward divided differences algorithm 169)cacm april 1963kahan w.farkas i.ca630412 jb march 14 1978 12:18 pm1524 5 879879 5 879879 5 879879 5 879879 6 8791197 6 879311 6 879

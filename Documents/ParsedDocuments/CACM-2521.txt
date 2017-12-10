@@ -1,1 +1,0 @@
-ten subroutines for the manipulationof chebyshev series c1 algorithm a446)cacm april 1973broucke r.chebyshev series differentiation integration,curve fitting,approximations negative powers5.12 5.13 5.16ca730407 jb january 24 1978 9:29 am2028 4 25212521 4 25212521 4 25212521 4 25213099 4 25212028 5 25212031 5 25212521 5 25212521 5 25212521 5 25212762 5 25213135 5 25212521 6 2521

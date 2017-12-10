@@ -1,1 +1,0 @@
-gaussian quadrature formulas algorithm 331 d1]cacm june 1968gautschi w.quadrature gaussian quadrature numerical integration,weight function orthogonal polynomials5.16ca680614 jb february 22 1978 3:20 pm1731 5 17311731 5 17311731 5 1731

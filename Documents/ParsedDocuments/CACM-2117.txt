@@ -1,1 +1,0 @@
-representation for calendar date for machine-to-machine data interchange*proposed american national standard)cacm january 1970calendar date machine-to-machine interchange,month year day representation coded3.70 3.73 3.74 3.9ca700114 jb february 14 1978 1:42 pm2117 5 21172117 5 21172117 5 2117

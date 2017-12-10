@@ -1,1 +1,0 @@
-fixed-world-length arrays in variable-word-length computerscacm december 1962sonquist j a.ca621206 jb march 17 1978 5:10 pm433 5 433433 5 433433 5 433

@@ -1,1 +1,0 @@
-floating-point arithmetic in cobolin this paper the basic operations of floating-pointarithmetic are examined and cobol procedures for carrying these out are given along with specificationof working storage the paper concludes with an example in which these procedures are used.cacm may 1962kesner o.ca620509 jb march 20 1978 1:46 pm596 5 596596 5 596596 5 596

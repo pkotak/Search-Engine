@@ -1,1 +1,0 @@
-correction to logical arithmetic on computerswith two's complement binary arithmeticcacm november 1970ehrman j r.binary arithmetic unsigned operand arithmetic maximumsignificance arithmetic full-precision arithmetic3.15 5.11ca701114 jb february 9 1978 4:25 pm1965 4 19652200 4 19651718 5 19651965 5 19651965 5 19651965 5 1965

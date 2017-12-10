@@ -1,1 +1,0 @@
-integrating square rootsdifferential equation of the y'2  f(y are difficult to integrate numerically because of the singularity at points where f(y vanishes a simple trick removes the singularity.cacm september 1970moler c b.solomon l p.quadrature differential equations5.16 5.17ca700904 jb february 10 1978 1:42 pm2001 5 20012001 5 20012001 5 2001

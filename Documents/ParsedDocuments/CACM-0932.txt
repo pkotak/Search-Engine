@@ -1,1 +1,0 @@
-matrix inversion by gauss-jordan inversion ii algorithm 120)cacm january 1963naur p.ca630116 jb march 14 1978 2:27 pm932 5 932932 5 932932 5 932806 5 932932 6 932454 6 932

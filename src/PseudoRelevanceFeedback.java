@@ -3,7 +3,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import utilities.Constants;
@@ -15,7 +14,6 @@ import utilities.Constants;
 public class PseudoRelevanceFeedback {
 	
 	private static HashMap<String, List<Posting>> invertedIndex;
-	private static HashMap<String, Integer> documentLength;
 	private static HashMap<String, Integer> queryVector;
 	private static HashMap<String, Integer> relevantIndex;
 	private static HashMap<String, Integer> nonRelevantIndex;
@@ -26,11 +24,10 @@ public class PseudoRelevanceFeedback {
 	 * @param invertedIndex1
 	 * @param documentLength1
 	 * @return an updated list of queries with refined sets of queries
-	 */
+	 */	
 	public static List<Query> performPseudoRelevanceFeedback(List<Query> system, HashMap<String, List<Posting>> invertedIndex1, HashMap<String, Integer> documentLength1) {
 		
 		invertedIndex = invertedIndex1;
-		documentLength = documentLength1;
 		return system.stream().map(query -> queryPRF(query)).collect(Collectors.toList());
 	}
 	
@@ -171,6 +168,7 @@ public class PseudoRelevanceFeedback {
 		
 		HashMap<String, List<Posting>> invertedIndexBase; // basic inverted index 
 		HashMap<String, Integer> documentLengthBase; // basic document lengths
+		@SuppressWarnings("rawtypes")
 		List<HashMap> indexAndDocumentLength; // store inverted index and document length
 		final String directoryRawCorpus = Constants.RAW_CORPUS_DIR; // directory of the raw corpus
 		final String directoryParsedCorpus = Constants.PARSED_CORPUS_DIR; // directory of the parsed corpus

@@ -1,1 +1,0 @@
-rough and ready error estimates in gaussianintegration of analytic functionscacm may 1969rabinowitz p.numerical integration analytic functions errorestimates gaussian integration tabulated error coefficients computable error coefficients cauchyintegral formula chebyshev polynomials5.11 5.16ca690505 jb february 17 1978 3:44 pm1904 5 19041904 5 19041904 5 1904

@@ -1,1 +1,0 @@
-program structures for parallel processingconstructs for organizing and explicating parallelprogram segments are discussed as extensions to algol 60 the constructs serve as meta-commands andare motivated by equipment having multiprocessing capability.cacm december 1965anderson j p.ca651211 jb march 6 1978 3:39 pm1158 4 11581158 5 11581158 5 11581158 5 11581262 5 1158
