@@ -31,6 +31,7 @@ public class Queries {
 					query = query.substring(1);
 				//TODO removing special characters
 				query = Parser.handlePunctuation(new StringBuilder(query)).toString();
+				query = Parser.performCaseFolding(new StringBuilder(query)).toString();
 				if(query.charAt(query.length() - 1) == ' ')
 					query = query.substring(0, query.length() - 1);
 				//System.out.println(query);

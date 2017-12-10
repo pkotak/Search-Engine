@@ -155,7 +155,7 @@ public class Index {
 	private void phase3() {
 		
 		Evaluation e;
-		/*try {
+		try {
 			this.ResultTask1BM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexBase, documentLengthBase);
 			Results.writeResultsToFile(Constants.TASK1_PHASE1_BM25, ResultTask1BM25);
 			e = Evaluations.getEvaluation(this.ResultTask1BM25);
@@ -164,7 +164,7 @@ public class Index {
 			
 			ne.printStackTrace();
 			System.out.println("Could not perform evaluation on BM25 Run(Phase 1)");
-		}*/
+		}
 		try {
 			this.ResultTask1tfIdf = TfIdf.executeTfIdfOnSystem(queryList, invertedIndexBase, documentLengthBase);
 			Results.writeResultsToFile(Constants.TASK1_PHASE1_TFIDF, ResultTask1tfIdf);
@@ -206,7 +206,10 @@ public class Index {
 			e1.printStackTrace();
 		}
 		try {
-			this.ResultTask2PRF = PseudoRelevanceFeedback.performPseudoRelevanceFeedback(queryList, invertedIndexBase, documentLengthBase);
+			this.ResultTask1SQL = QueryLikelihoodModel.executeSQLOnSystem(queryList, relevanceInfoList, invertedIndexBase, documentLengthBase);
+			Results.writeResultsToFile(Constants.TASK1_PHASE1_SQL, ResultTask1SQL);
+			this.pseudoRelevanceUpdatedQueryList = PseudoRelevanceFeedback.performPseudoRelevanceFeedback(ResultTask1SQL, invertedIndexBase, documentLengthBase);
+			this.ResultTask2PRF = QueryLikelihoodModel.executeSQLOnSystem(pseudoRelevanceUpdatedQueryList, relevanceInfoList, invertedIndexBase, documentLengthBase);
 			Results.writeResultsToFile(Constants.PHASE1_TASK2_PRF, ResultTask2PRF);
 			e = Evaluations.getEvaluation(this.ResultTask2PRF);
 			Evaluations.writeEvaluationToFile(Constants.PHASE3_QUERYREF, e);
@@ -214,6 +217,9 @@ public class Index {
 			
 			ne.printStackTrace();
 			System.out.println("Could not perform evaluation on Query Likelihood PRF(Phase 2)");
+		} catch (IOException e1) {
+			
+			e1.printStackTrace();
 		}
 		try {
 			this.ResultTask3STOPBM25 = BM25Models.executeBM25ModelOnSystem(queryList, invertedIndexStop, documentLengthStop);

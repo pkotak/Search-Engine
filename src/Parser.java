@@ -135,7 +135,7 @@ public class Parser {
 	 * @param parsedText
 	 * @return
 	 */
-	private static String performCaseFolding(StringBuilder parsedText) {
+	public static String performCaseFolding(StringBuilder parsedText) {
 		
 		return parsedText.toString().toLowerCase();
 		
