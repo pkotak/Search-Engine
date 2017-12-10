@@ -6,8 +6,7 @@ import java.util.stream.Stream;
 import utilities.FileHandler;
 
 /**
- * @author Gaurav Gandhi
- *
+ * Implements query interface
  */
 public class Query1 implements Query {
 
@@ -29,12 +28,18 @@ public class Query1 implements Query {
 	}
 	
 	
+	/* (non-Javadoc)
+	 * @see Query#queryID()
+	 */
 	@Override
 	public int queryID() {
 		
 		return this.queryID;
 	}
 
+	/* (non-Javadoc)
+	 * @see Query#query()
+	 */
 	@Override
 	public String query() {
 		
@@ -42,6 +47,9 @@ public class Query1 implements Query {
 	}
 
 
+	/* (non-Javadoc)
+	 * @see Query#listOfRelevantDocuments()
+	 */
 	@Override
 	public List<RelevanceInfo> listOfRelevantDocuments() {
 		
@@ -49,6 +57,9 @@ public class Query1 implements Query {
 	}
 
 
+	/* (non-Javadoc)
+	 * @see Query#resultList()
+	 */
 	@Override
 	public List<Result> resultList() {
 		
@@ -56,6 +67,9 @@ public class Query1 implements Query {
 	}
 
 
+	/* (non-Javadoc)
+	 * @see Query#putResultList(java.util.List)
+	 */
 	@Override
 	public void putResultList(List<Result> resultList) {
 		

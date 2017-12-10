@@ -34,8 +34,19 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Search for results of the given query using lucene retrieval system
+
+ *
+ */
 public class SearchFiles {
 
+    /**
+     * @param query
+     * @param query_id
+     * @return search for results for the given query
+     * @throws Exception
+     */
     public static List<Result> searchQueries(String query, int query_id) throws Exception {
     	query = query.replaceAll("(?=[]\\[+&|!(){}^\"~*?:\\\\-])", "\\\\").replaceAll("/", "\\\\/");
         String index = Constants.LUCENE_INDEX_DIR;
@@ -50,7 +61,11 @@ public class SearchFiles {
         return Results.sortResultAndRank(doPagingSearch(searcher, q, query_id));
     }
 
-     String generateFileContent() throws IOException {
+     /**
+     * @return reads query file
+     * @throws IOException
+     */
+    String generateFileContent() throws IOException {
         FileHandler file_reader = new FileHandler(Constants.QUERY_FILE,1);
         StringBuilder content = new StringBuilder();
         String currentLine;
@@ -59,7 +74,11 @@ public class SearchFiles {
         }
         return content.toString();
     }
-     List<String> getProcessedQueryList(String file_content){
+     /**
+     * @param file_content
+     * @return Cleans the given query
+     */
+    List<String> getProcessedQueryList(String file_content){
         List<String> query_list = new ArrayList<>();
         String[] splitByDoc = file_content.split("</DOC>");
 

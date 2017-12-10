@@ -11,8 +11,6 @@ import java.util.stream.Collectors;
  * <b> Constructor template for Evaluation1
  * new Evaluation1()
  * 
- * @author Gaurav Gandhi
- *
  */
 public class Evaluation1 implements Evaluation {
 	
@@ -20,9 +18,6 @@ public class Evaluation1 implements Evaluation {
 	private double mrr; // represents the mean reciprocal rank of the given system
 	private final List<Query> queryList; // represents the list of list of queries of the given system
 	
-	/**
-	 * 
-	 */
 	/**
 	 * @param queryList
 	 * @Where The queries with no relevant documents are removed
@@ -33,11 +28,6 @@ public class Evaluation1 implements Evaluation {
 	public Evaluation1(List<Query> queryList) {
 		
 		this.queryList = queryList;
-		/*queryList.stream().filter(query -> query.queryID() == 1).forEach(q -> {
-			q.resultList().stream().forEach(r -> {
-				System.out.println(r.toString());
-			});
-		});*/
 		generatePrecisionAndRecall();
 		calculateMAP();
 		calculateMRR();

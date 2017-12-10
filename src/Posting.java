@@ -6,7 +6,6 @@ import java.util.List;
  * <b>termFrequency:</b> number of times the term occurred in the given document</br>
  * <b>termPosition:</b> position(s) of the given term in the document</br>
  * 
- * @author Gaurav Gandhi
  *
  */
 public interface Posting {

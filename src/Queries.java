@@ -5,10 +5,17 @@ import java.util.List;
 import utilities.Constants;
 import utilities.FileHandler;
 
-//TODO implementation to add new queries by the user
 
+/**
+ * Helper class for Query object
+ */
 public class Queries {
 
+	/**
+	 * @param filePath
+	 * @return a list of queries by reading query text file
+	 * @throws IOException
+	 */
 	public static List<Query> readQueriesFromFile(String filePath) throws IOException {
 		
 		List<Query> relInfo = new ArrayList<Query>();
@@ -44,6 +51,11 @@ public class Queries {
 		return relInfo;
 	}
 	
+	/**
+	 * @param filePath
+	 * @return list of queries by reading the stemmed query text file
+	 * @throws IOException
+	 */
 	public static List<Query> readQueriesFromStemmedQueryFile(String filePath) throws IOException {
 		
 		FileHandler reader = new FileHandler(filePath, 1);

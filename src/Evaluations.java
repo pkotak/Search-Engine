@@ -14,8 +14,6 @@ import utilities.FileHandler;
 
 /**
  * Helper class for Evaluation1
- * @author Gaurav Gandhi
- *
  */
 public class Evaluations {
 	
@@ -50,6 +48,9 @@ public class Evaluations {
 	/**
 	 * @param filePath
 	 * @param queryList
+	 * @Effects writes the evaluation data to an excel file. 
+	 * File name is determined by retrieval model used.
+	 * Sheet name is determined by the query ID.
 	 */
 	public static void writeEvaluationToFile(String filePath, Evaluation eva) {
 		

@@ -9,10 +9,22 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Implementation of query likelihood retrieval model
+ * Returns a list of queries with their corresponding results
+ */
 public class QueryLikelihoodModel {
 	
 	
 	
+	/**
+	 * @param queries
+	 * @param qmap
+	 * @param index
+	 * @param documentWordTotal
+	 * @return list of queries with their corresponding result list updated
+	 * @throws IOException
+	 */
 	public static List<Query> executeSQLOnSystem(List<Query> queries, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
             , HashMap<String, Integer> documentWordTotal) throws IOException {             	
 		
@@ -32,6 +44,14 @@ public class QueryLikelihoodModel {
 	
 
 
+    /**
+     * @param query
+     * @param qmap
+     * @param index
+     * @param documentWordTotal
+     * @return list of results for the given query
+     * @throws IOException
+     */
     public static List<Result> QueryLikelihood(Query query, List<RelevanceInfo> qmap, HashMap<String, List<Posting>> index
             , HashMap<String, Integer> documentWordTotal) throws IOException {
 
@@ -149,8 +169,13 @@ public class QueryLikelihoodModel {
 
     }
 
-    /*
-    Function to find the length of collection.
+    /**
+     * @param query
+     * @param qmap
+     * @param plist
+     * @param documentWordTotal
+     * @return returns the length of the collection
+     * @throws IOException
      */
     private static int getCollectionLength(String query, List<RelevanceInfo> qmap,List<Posting> plist,HashMap<String, Integer> documentWordTotal) throws IOException {
         List<String> reldocs;
@@ -165,8 +190,10 @@ public class QueryLikelihoodModel {
         return collection_length;
     }
 
-    /*
-    Functiont that returns the number of that query
+    /**
+     * @param query
+     * @return query number
+     * @throws IOException
      */
     private static int getQueryNumber(String query) throws IOException {
     	/*
@@ -204,8 +231,11 @@ public class QueryLikelihoodModel {
         return qno;
     }
 
-    /*
-    Function that returns a list of relevant documents for that query
+    /**
+     * @param qmap
+     * @param query
+     * @return list of relevant documents corresponding to the given query
+     * @throws IOException
      */
     private static List<String> getRelevantDocuments(List<RelevanceInfo> qmap, String query) throws IOException {
 
@@ -221,8 +251,9 @@ public class QueryLikelihoodModel {
         return reldocs;
     }
 
-    /*
-    Get list of all queries from file
+    /**
+     * @return list of queries
+     * @throws IOException
      */
     private static List<String> getQueryList() throws IOException {
 
@@ -232,8 +263,10 @@ public class QueryLikelihoodModel {
         return processed_query;
     }
 
-    /*
-    Parse the query
+
+    /**
+     * @param s
+     * @return list of parsed string splitting the given string by space
      */
     private static String[] ParseQuery(String s) {
 

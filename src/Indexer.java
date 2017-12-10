@@ -15,8 +15,6 @@ import utilities.FileHandler;
 /** 
  * 
  * Generates a map of inverted index and document length of the corpus
- * @author Gaurav Gandhi
- *
  */
 public class Indexer {
 	

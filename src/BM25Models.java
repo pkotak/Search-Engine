@@ -7,14 +7,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-//TODO Exclude the relevance info while calculating the BM25 score (confirm first)
 /**
  * Implementation of BM25 retrieval model
- * Returns a list of results for the given query by using BM25 model
- * 
- * @author Gaurav Gandhi
- *
- */
+ * Returns a list of queries with results by using BM25 model
+**/
 public class BM25Models {
 	
 	private static HashMap<String, Integer> documentWordTotal;
@@ -26,7 +22,6 @@ public class BM25Models {
 	/**
 	 * @param queries
 	 * @param invertedIndex1
-	 * @param relevantDocuments1
 	 * @param documentWordTotal1
 	 * @return a list of queries with results updated after performing BM25 retrieval model
 	 */

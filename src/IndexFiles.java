@@ -24,6 +24,9 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
+/**
+ * Creates an index to be used by Lucene's retrieval model
+ */
 public class IndexFiles {
 
 	private static IndexWriter writer;
@@ -56,8 +59,13 @@ public class IndexFiles {
 		writer.close();
 	}
 	   
-	   // Loops through each document in a directory to create its index
-	   static void indexDocs(final IndexWriter writer, Path path) throws IOException {
+	   /**
+	 * @param writer
+	 * @param path
+	 * @throws IOException
+	 * Loops through each document in a directory to create its index
+	 */
+	static void indexDocs(final IndexWriter writer, Path path) throws IOException {
 		
 		   if(Files.isDirectory(path)) {
 			   
@@ -77,8 +85,13 @@ public class IndexFiles {
 		   }
 	   }
 	   
-	   // creates index of the current doc
-	   static void indexDoc(IndexWriter writer, Path file) throws IOException {
+	   /**
+	 * @param writer
+	 * @param file
+	 * @throws IOException
+	 * creates index of the current doc
+	 */
+	static void indexDoc(IndexWriter writer, Path file) throws IOException {
 		   
 		   try(InputStream stream = Files.newInputStream(file)) {
 			   

@@ -5,11 +5,16 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- *
- * @author Paarth Kotak
+ * Helper class to read stemmed documents
  */
 public class StemDocumentHandlers {
 
+    /**
+     * @param stemmeDocDir
+     * @param stemOutputDir
+     * @throws IOException
+     * @Effects Creates stemmed documents by reading stemmed document file
+     */
     public static void generateStemmedDocuments(String stemmeDocDir, String stemOutputDir) throws IOException {
         FileHandler reader = new FileHandler(stemmeDocDir, 1);
         String currentLine;

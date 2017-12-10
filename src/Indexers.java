@@ -11,8 +11,6 @@ import java.util.Map.Entry;
 /**
  * Helper class for Indexer
  * 
- * @author Gaurav Gandhi
- *
  */
 public class Indexers {
 	
@@ -89,9 +87,6 @@ public class Indexers {
 		invertedIndex.keySet().removeAll(stopWordList);
 	}
 	
-	/*
-	 * Writes the inverted index to a file
-	 */
 	/**
 	 * @param filePath
 	 * @param invertedIndex

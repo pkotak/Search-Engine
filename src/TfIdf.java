@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @author Paarth Kotak
+ * TF-IDF retrieval model
  */
 public class TfIdf {
     private static HashMap<String, Integer> documentWordTotal;
@@ -19,7 +19,7 @@ public class TfIdf {
      * @param queries
      * @param invertedIndex1
      * @param documentWordTotal1
-     * @return
+     * @return list of queries with their corresponding results 
      */
     public static List<Query> executeTfIdfOnSystem(List<Query> queries, HashMap<String, List<Posting>> invertedIndex1,
                                          HashMap<String, Integer> documentWordTotal1) {

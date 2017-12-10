@@ -3,6 +3,12 @@ import java.util.List;
 
 public class LuceneOutputGeneration {
 
+    /**
+     * @param queryList
+     * @return a list of queries
+     * @throws Exception
+     * Loops through each query and generates results by calling Lucene's retrieval model
+     */
     @SuppressWarnings("static-access")
 	public static List<Query> outputGeneration(List<Query> queryList) throws Exception {
         SearchFiles sf = new SearchFiles();

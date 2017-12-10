@@ -3,8 +3,6 @@ import java.util.List;
 /**
  * Represents the evaluation parameters of any system
  * 
- * @author Gaurav Gandhi
- *
  */
 public interface Evaluation {
 

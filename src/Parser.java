@@ -22,8 +22,8 @@ import utilities.FileHandler;
 import java.io.File;
 
 /**
- *
- * @author Gaurav Gandhi
+ * Class used for parsing through the documents
+ * Cleans the corpus
  */
 public class Parser {
 

@@ -7,8 +7,8 @@ import utilities.Constants;
 import utilities.FileHandler;
 
 /**
- * @author Gaurav Gandhi
- *
+ * Main file for running this application
+ * 
  */
 public class Index {
 
@@ -56,6 +56,11 @@ public class Index {
 	private List<Query> pseudoRelevanceUpdatedQueryList;
 	private List<Query> ResultTask2PRF;
 	
+	/**
+	 * @param nGram
+	 * @throws IOException
+	 * Parse and generate inverted index of raw corpus, using stopped words and of stemmed corpus
+	 */
 	@SuppressWarnings("unchecked")
 	public Index(int nGram) throws IOException {
 		
@@ -85,6 +90,11 @@ public class Index {
 		System.out.println("Index and document length files are stored in " + Constants.INDEX_DIR);
 	}
 	
+	/**
+	 * @param nGram
+	 * @throws IOException
+	 * Parse and generate basic inverted index
+	 */
 	@SuppressWarnings("unchecked")
 	private void parseAndGenerateIndex(int nGram) throws IOException {
 
@@ -100,6 +110,9 @@ public class Index {
 	}
 	
 
+	/**
+	 * Choose a phase for performing various tasks in the given application
+	 */
 	public void choosePhase() {
 		
 		while(true) {
@@ -257,6 +270,10 @@ public class Index {
 		
 	}
 	
+	/**
+	 * Index generation, Run 4 baseline models and perform pseudo relevance feedback using the results 
+	 * of Query likelihood model 
+	 */
 	private void phase1() {
 		
 		while(true) {
@@ -294,6 +311,10 @@ public class Index {
 		}
 	}
 	
+	/**
+	 * Perform tasks using stopped word list or on stemmed corpus
+	 * Run BM25, TF-IDF< or query likelihood models on stopped or stemmed corpus
+	 */
 	@SuppressWarnings("unchecked")
 	private void phase1Task3() {
 		while(true) {
@@ -346,6 +367,9 @@ public class Index {
 		}
 	}
 	
+	/**
+	 * Run BM25, Query likelihood or TF-IDF using either stopped word list of stemmed corpus
+	 */
 	private void phase1Task3Runs() {
 		
 		while(true) {
@@ -414,6 +438,10 @@ public class Index {
 		}
 	}
 	
+	/**
+	 * Parse and index the raw corpus
+	 * Run 4 baseline models on the basic inverted index
+	 */
 	private void phase1Task1() {
 		
 		while(true) {
@@ -452,6 +480,12 @@ public class Index {
 		}
 	}
 	
+	/**
+	 * Choose 1 of the 4 baseline runs for the raw corpus
+	 */
+	/**
+	 * 
+	 */
 	private void phase1Task1BaselineRuns() {
 		
 		while(true) {
@@ -509,38 +543,11 @@ public class Index {
 	}
 	
 	
-	private void phase1Task2Runs() {
-		
-		while(true) {
-			switch(in.nextInt()) {
-			
-			case 1:
-				//BM25 Run
-				break;
-			case 2:
-				//tf-idf Run
-				break;
-			case 3:
-				//Smoothed Query Likelihood
-				break;
-			case 4:
-				//Lucene
-				break;
-			default:
-				System.out.println("Invalid Input");
-				break;
-			case 9: 
-				//GO back to previous menu
-				this.choosePhase();
-				break;
-			case 0:
-				// Exit
-				System.exit(0);
-				break;
-			}
-		}
-	}
-	
+	/**
+	 * Perform pseudo relevance feedback on the results of returned by query likelihood model
+	 * and again perform query likelihood on the updated list of queries given by pseudo relevance feedback
+	 * algorithm
+	 */
 	private void phase1Task2() {
 		
 		try {
@@ -558,6 +565,10 @@ public class Index {
 		Results.writeResultsToFile(Constants.PHASE1_TASK2_PRF, ResultTask2PRF);
 	}
 	
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		
 		Index i = new Index(1); // 1 is the nGram

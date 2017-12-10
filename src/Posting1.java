@@ -9,7 +9,6 @@ import java.util.List;
  * termPosition: List<Integer> represents the position(s) of a term in the document</p></br>
  * 
  * 
- * @author Gaurav Gandhi
  *
  */
 public class Posting1 implements Posting {
