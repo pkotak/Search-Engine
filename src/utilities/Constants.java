@@ -15,7 +15,7 @@ public class Constants {
     public static final String PARSED_DOC="ParsedDocuments"+File.separator;
 
     public static final String QUERY_FILE ="ProblemStatement" + File.separator +  "cacm.query.txt";
-    public static final String LUCENE_INDEX_DIR =RESULTS_DIR+"LuceneIndex"+ File.separator;
+    public static final String LUCENE_INDEX_DIR =RESULTS_DIR+ "Index" + "LuceneIndex" +  File.separator;
     public static final String PARSED_CORPUS_DIR = RESULTS_DIR+ PARSED_DOC +"RawCorpus"+ File.separator;
     public static final String RELEVANCE_FILE = "ProblemStatement" + File.separator +"cacm.rel.txt";
     public static final String INDEX_DIR = RESULTS_DIR+"Index"+File.separator;
