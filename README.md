@@ -1,20 +1,19 @@
-CS6200-Project 
+# CS6200-Project 
 
-===============================================================================
-SETUP:
+## SETUP:
 
-There are two ways to run this application
-1) Execute the runnable JAR file (GauravNGandhi_HardikRShah_PaarthJKotak.jar)<br/>
-  	a) Open command prompt<br/>
-  b) Go inside the folder GauravNGandhi_HardikRShah_PaarthJKotak/ExecutableJAR<br/>
-  c) Execute the jar file (java -jar GauravNGandhi_HardikRShah_PaarthJKotak.jar)<br/>
+There are two ways to run this application :
+* Execute the runnable JAR file (GauravNGandhi_HardikRShah_PaarthJKotak.jar)
+  * Open command prompt
+  * Go inside the folder GauravNGandhi_HardikRShah_PaarthJKotak/ExecutableJAR
+  * Execute the jar file (java -jar GauravNGandhi_HardikRShah_PaarthJKotak.jar)
   
-2) Import the project into one of the IDEs (Eclipse, Intellij) and run Index.java:<br/>
-  a) Import the project CS6200 into your IDE from GauravNGandhi_HardikRShah_PaarthJKotak/EclipseProject<br/>
-  b) Run Index.java as a Java application.<br/>
+* Import the project into one of the IDEs (Eclipse, Intellij) and run Index.java:
+  * Import the project CS6200 into your IDE from GauravNGandhi_HardikRShah_PaarthJKotak/EclipseProject
+  * Run Index.java as a Java application.
 
-===============================================================================
-Flowchart of Index.java<br/>
+
+## Flowchart of Index.java
 <ol>
   <li>Phase 1: Indexing, retrieval systems, Pesudo Relevance Feedback, Baseline runs using stop word list and Stemmed corpus.
     <ol> 
